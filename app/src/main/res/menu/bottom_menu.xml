@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/hero_bio"
+        android:title="Hero Info"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/about">
+    </item>
+    <item
+        android:id="@+id/hero_skill"
+        android:title="Hero Skill"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/question_mark">
+    </item>
+    <item
+        android:id="@+id/item_build"
+        android:title="Item Build"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/skill_editor">
+    </item>
+    <item
+        android:id="@+id/hero_guide"
+        android:title="Hero Guide"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/skill_build">
+    </item>
+
+</menu>

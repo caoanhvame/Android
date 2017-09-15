@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/fragment_item_list_cell2_basic_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/fragment_item_list_cell2_image"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp" />
+
+        <TextView
+            android:id="@+id/fragment_item_list_cell2_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/fragment_item_list_cell2_image"
+            android:gravity="center_vertical"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/fragment_item_list_cell2_gold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_item_list_cell2_name"
+            android:layout_toRightOf="@id/fragment_item_list_cell2_image"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/gold" />
+
+        <TextView
+            android:id="@+id/fragment_item_list_cell2_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_item_list_cell2_name"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/fragment_item_list_cell2_gold"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/fragment_item_list_cell2_cooldown_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_item_list_cell2_name"
+            android:layout_toRightOf="@id/fragment_item_list_cell2_cost"
+            android:paddingLeft="10dp"
+            android:src="@drawable/cooldown" />
+
+        <TextView
+            android:id="@+id/fragment_item_list_cell2_cooldown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_item_list_cell2_name"
+            android:layout_toRightOf="@id/fragment_item_list_cell2_cooldown_icon"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/fragment_item_list_cell2_mana_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_item_list_cell2_name"
+            android:layout_toRightOf="@id/fragment_item_list_cell2_cooldown"
+            android:paddingLeft="10dp"
+            android:src="@drawable/mana" />
+
+        <TextView
+            android:id="@+id/fragment_item_list_cell2_mana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_item_list_cell2_name"
+            android:layout_toRightOf="@id/fragment_item_list_cell2_mana_icon"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" 
+            android:paddingLeft="5dp"
+            android:textColor="#000000"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,103 @@
+{
+  "Image": "hero_lone_druid",
+  "Id": 80,
+  "Name": "Lone DruId",
+  "Fraction": "Radiant",
+  "PrimaryAttribute": "Agility",
+  "Bio": "Long before the first words of the first histories there rose the druidic Bear Clan. Wise and just they were, and focused in their ways to seek an understanding of the natural order. The arch forces of nature saw this, and so sought the most learned among them. Wise old Sylla, clan justiciar and seer, stepped forward for his kin, and to him was given the Seed with these words: 'When all of the world has dimmed, when civilization has left these lands, when the world is slain and wracked by the endless deserts at the end of ages, plant the Seed.' As he grasped his trust, Sylla felt his years recede and his vitality returned. Vast knowledge burst into his mind. He found himself able to project his very will into reality and, with some concentration, alter his own physical form as well. Yet subtle whispers and cruel ears brought word of the Seed and its power to other peoples, and a terrible war crashed upon the Bear Clan. As his ancestral home burned, Sylla took his burden and fled to the wild places. Ages passed, and time and myth forgot the Bear Clan, forgot Sylla and the Seed, forgot wondrous civilizations that rose and fell in Bear Clan's wake. For millenia Sylla has waited, waited for word from his deities, waited for peace to come to the ever warring realms, waited in exile and in secret for the end of all things and for the conclusion of his sacred commitment, preparing himself always to face and destroy whatever would dare threaten his purpose.",
+  "StrengthIni": 17,
+  "AgilityIni": 24,
+  "IntelligenceIni": 13,
+  "StrengthGain": 2.4,
+  "AgilityGain": 2.7,
+  "IntelligenceGain": 1.4,
+  "Speed": 325,
+  "AttackMinIni": 18,
+  "AttackMaxIni": 22,
+  "DefenseIni": 0,
+  "TurnRate": 0.4,
+  "AttackRange": 550,
+  "BAT": 1.7,
+  "Abilities" : [
+    {
+      "id": 5412,
+      "dname": "Summon Spirit Bear",
+      "affects": "ABILITY: <span >No Target</span><br />",
+      "desc": "Summons a powerful Spirit Bear companion that can equip items.  If the bear moves 1100 distance away from the Lone Druid, it cannot attack.  Lone Druid suffers 10% of his max health as backlash damage if the Spirit Bear dies.  As the bear increases in levels, it can learn the Return, Entangling Claws, and Demolish abilities.  Spirit Bear does not benefit from attributes.\nUpgradable by Aghanim's Scepter.",
+      "notes": "Most spells interact with the Spirit Bear in the same way as they do with heroes.<br />You can't resummon the bear if it has taken damage in the past 3 seconds.<br />Using Hand of Midas from Spirit Bear grants the earned XP to Lone Druid.",
+      "dmg": "",
+      "attribute": "BEAR HP: <span >1400 / 1800 / 2300 / 2700</span><br />\nBEAR HP REGEN: <span >2 / 3 / 4 / 5</span><br />\nBEAR BASE ATTACK TIME: <span >1.75 / 1.65 / 1.55 / 1.45</span><br />\nBEAR ARMOR: <span >3 / 4 / 5 / 6</span><br />\nBACKLASH PURE DAMAGE: <span >10%</span><br/>",
+      "cmb": "<img src=\"mana\"/> 75  &emsp <img src=\"cooldown\"/> 120",
+      "lore": "Sylla's lifelong companion is symbiotic with his spirit and heart, coming to aid him in any time of need.",
+      "image": "lone_druid_spirit_bear",
+      "mainSkill": 1
+    },
+    {
+      "id": 5413,
+      "dname": 	"Rabid",
+      "affects": "ABILITY: <span >No Target</span><br />",
+      "desc": "Increases the attack and movement speed of Lone Druid and the Spirit Bear.",
+      "notes": "",
+      "dmg": "",
+      "attribute": "ATTACK SPEED: <span >20 / 30 / 40 / 50</span><br />\nMOVEMENT SPEED: <span >10% / 15% / 20% / 25%</span><br />\nDURATION: <span >25</span><br/>",
+      "cmb": "<img src=\"mana\" /> 50 &emsp <img src=\"cooldown\"/> 35",
+      "lore": "Bears are not commonly seen as being agile creatures, but can actually move rather quickly, especially when enraged.",
+      "image": "lone_druid_rabid",
+      "mainSkill": 1
+    },
+    {
+      "id": 5414,
+      "dname": "Savage Roar",
+      "affects": "ABILITY: <span >No Target</span><br />PIERCES SPELL IMMUNITY: <span >No</span><br />",
+      "desc": "Lone Druid roars fiercely causing nearby enemies to flee towards their base in terror. Their movement speed is increased by 20%.",
+      "notes": "An entangled hero will not be able to move.<br />Cooldown is shared with Spirit Bear.",
+      "dmg": "",
+      "attribute": "RANGE: <span >325</span><br />\nENEMY MOVEMENT SPEED BONUS: <span >20%</span><br />\nDURATION: <span >1.2 / 1.6 / 2 / 2.4</span><br/>",
+      "cmb": "<img src=\"mana\" /> 50 &emsp <img src=\"cooldown\"/> 38/32/26/20",
+      "lore": "Sylla studies and masters the arts of the lost Bear Clan, enhancing his attunement with the wild.",
+      "image": "lone_druid_savage_roar",
+      "mainSkill": 1
+    },
+    {
+      "id": 5415,
+      "dname": "True Form",
+      "affects": "ABILITY: <span >No Target</span><br />",
+      "desc": "Lone Druid learns to morph himself into a raging bear, losing his ranged advantage and some base movement speed, but gaining melee power as well as the Battle Cry ability.  He can morph freely between druid and bear form.\nUpgradable by Aghanim's Scepter.",
+      "notes": "You can dodge stuns during the 2 second duration of transforming.<br />Manta Style's cooldown time will be based on whether Lone Druid was in his ranged or melee form when the item was used.",
+      "dmg": "",
+      "attribute": "BASE ATTACK TIME: <span >1.5 / 1.5 / 1.5</span><br />\nBONUS ARMOR: <span >4 / 6 / 8</span><br />\nBONUS HP: <span >300 / 600 / 900</span><br />\nBASE SPEED LOSS: <span >45</span><br />\nTRANSFORM TIME: <span >1.933</span><br/>",
+      "cmb": "<img src=\"mana\"/> 25 &emsp <img src=\"cooldown\"/> 0",
+      "lore": "The mighty bear is the king of the forest, possessing the throne through raw power.",
+      "image": "lone_druid_true_form",
+      "mainSkill": 1
+    }
+  ,
+    {
+      "id": 5416,
+      "dname": "Druid Form",
+      "affects": "ABILITY: <span >No Target</span><br />",
+      "desc": "Return to Druid form.\nUpgradable by Aghanim's Scepter.",
+      "notes": "",
+      "dmg": "",
+      "attribute": "TRANSFORM TIME: <span >0.8</span><br/>",
+      "cmb": "<img src=\"mana\"/> 25 &emsp <img src=\"cooldown\"/> 0",
+      "lore": "The mighty bear is the king of the forest, possessing the throne through raw power.",
+      "image": "lone_druid_true_form_druid",
+      "mainSkill": 0
+    }
+  ,
+    {
+      "id": 5417,
+      "dname": "Battle Cry",
+      "affects": "ABILITY: <span >No Target</span><br />",
+      "desc": "Adds attack damage and armor to the Lone Druid as well as any nearby units under his control.",
+      "notes": "",
+      "dmg": "",
+      "attribute": "BONUS DAMAGE: <span >70 / 100 / 130</span><br />\nBONUS ARMOR: <span >10 / 15 / 20</span><br />\nDURATION: <span >6</span><br />\nRADIUS: <span >1000</span><br/>",
+      "cmb": "<img src=\"mana\"/> 50 &emsp <img src=\"cooldown\"/> 60",
+      "lore": "When Sylla cries in the forest, the reverberations are felt for a great distance.",
+      "image": "lone_druid_true_form_battle_cry",
+      "mainSkill": 0
+    }
+  ]
+}

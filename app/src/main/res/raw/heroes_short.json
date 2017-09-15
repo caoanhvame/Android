@@ -1,0 +1,800 @@
+{
+"heroes": [
+
+        {
+            "Image": "hero_earthshaker",
+            "Id": 7,
+            "Name": "Earthshaker",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_axe",
+            "Id": 2,
+            "Name": "Axe",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_antimage",
+            "Id": 1,
+            "Name": "Anti-Mage",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_bloodseeker",
+            "Id": 4,
+            "Name": "Bloodseeker",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_crystal_maiden",
+            "Id": 5,
+            "Name": "Crystal MaIden",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_bane",
+            "Id": 3,
+            "Name": "Bane",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_drow_ranger",
+            "Id": 6,
+            "Name": "Drow Ranger",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_juggernaut",
+            "Id": 8,
+            "Name": "Juggernaut",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_mirana",
+            "Id": 9,
+            "Name": "Mirana",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_nevermore",
+            "Id": 11,
+            "Name": "Shadow Fiend",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_morphling",
+            "Id": 10,
+            "Name": "Morphling",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_phantom_lancer",
+            "Id": 12,
+            "Name": "Phantom Lancer",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_puck",
+            "Id": 13,
+            "Name": "Puck",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_pudge",
+            "Id": 14,
+            "Name": "Pudge",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_razor",
+            "Id": 15,
+            "Name": "Razor",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_sand_king",
+            "Id": 16,
+            "Name": "Sand King",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_storm_spirit",
+            "Id": 17,
+            "Name": "Storm Spirit",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_sven",
+            "Id": 18,
+            "Name": "Sven",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_tiny",
+            "Id": 19,
+            "Name": "Tiny",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_vengefulspirit",
+            "Id": 20,
+            "Name": "Vengeful Spirit",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_windrunner",
+            "Id": 21,
+            "Name": "Windranger",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_zuus",
+            "Id": 22,
+            "Name": "Zeus",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_kunkka",
+            "Id": 23,
+            "Name": "Kunkka",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_lina",
+            "Id": 25,
+            "Name": "Lina",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_lich",
+            "Id": 31,
+            "Name": "Lich",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_lion",
+            "Id": 26,
+            "Name": "Lion",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_shadow_shaman",
+            "Id": 27,
+            "Name": "Shadow Shaman",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_slardar",
+            "Id": 28,
+            "Name": "Slardar",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_tidehunter",
+            "Id": 29,
+            "Name": "TIdehunter",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_witch_doctor",
+            "Id": 30,
+            "Name": "Witch Doctor",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_riki",
+            "Id": 32,
+            "Name": "Riki",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_enigma",
+            "Id": 33,
+            "Name": "Enigma",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_tinker",
+            "Id": 34,
+            "Name": "Tinker",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_sniper",
+            "Id": 35,
+            "Name": "Sniper",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_necrolyte",
+            "Id": 36,
+            "Name": "Necrophos",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_warlock",
+            "Id": 37,
+            "Name": "Warlock",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_beastmaster",
+            "Id": 38,
+            "Name": "Beastmaster",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_queenofpain",
+            "Id": 39,
+            "Name": "Queen of Pain",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_venomancer",
+            "Id": 40,
+            "Name": "Venomancer",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_faceless_void",
+            "Id": 41,
+            "Name": "Faceless VoId",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_skeleton_king",
+            "Id": 42,
+            "Name": "Skeleton King",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_death_prophet",
+            "Id": 43,
+            "Name": "Death Prophet",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_phantom_assassin",
+            "Id": 44,
+            "Name": "Phantom Assassin",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_pugna",
+            "Id": 45,
+            "Name": "Pugna",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_templar_assassin",
+            "Id": 46,
+            "Name": "Templar Assassin",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_viper",
+            "Id": 47,
+            "Name": "Viper",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_luna",
+            "Id": 48,
+            "Name": "Luna",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_dragon_knight",
+            "Id": 49,
+            "Name": "Dragon Knight",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_dazzle",
+            "Id": 50,
+            "Name": "Dazzle",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_rattletrap",
+            "Id": 51,
+            "Name": "Clockwerk",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_leshrac",
+            "Id": 52,
+            "Name": "Leshrac",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_furion",
+            "Id": 53,
+            "Name": "Nature's Prophet",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_life_stealer",
+            "Id": 54,
+            "Name": "Lifestealer",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_dark_seer",
+            "Id": 55,
+            "Name": "Dark Seer",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_clinkz",
+            "Id": 56,
+            "Name": "Clinkz",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_omniknight",
+            "Id": 57,
+            "Name": "Omniknight",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_enchantress",
+            "Id": 58,
+            "Name": "Enchantress",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_huskar",
+            "Id": 59,
+            "Name": "Huskar",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_night_stalker",
+            "Id": 60,
+            "Name": "Night Stalker",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_broodmother",
+            "Id": 61,
+            "Name": "Broodmother",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_bounty_hunter",
+            "Id": 62,
+            "Name": "Bounty Hunter",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_weaver",
+            "Id": 63,
+            "Name": "Weaver",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_jakiro",
+            "Id": 64,
+            "Name": "Jakiro",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_batrider",
+            "Id": 65,
+            "Name": "Batrider",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_chen",
+            "Id": 66,
+            "Name": "Chen",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_spectre",
+            "Id": 67,
+            "Name": "Spectre",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_doom_bringer",
+            "Id": 69,
+            "Name": "Doom",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_ancient_apparition",
+            "Id": 68,
+            "Name": "Ancient Apparition",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_ursa",
+            "Id": 70,
+            "Name": "Ursa",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_spirit_breaker",
+            "Id": 71,
+            "Name": "Spirit Breaker",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_gyrocopter",
+            "Id": 72,
+            "Name": "Gyrocopter",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_alchemist",
+            "Id": 73,
+            "Name": "Alchemist",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_invoker",
+            "Id": 74,
+            "Name": "Invoker",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_silencer",
+            "Id": 75,
+            "Name": "Silencer",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_obsidian_destroyer",
+            "Id": 76,
+            "Name": "Outworld Devourer",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_lycan",
+            "Id": 77,
+            "Name": "Lycanthrope",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_brewmaster",
+            "Id": 78,
+            "Name": "Brewmaster",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_shadow_demon",
+            "Id": 79,
+            "Name": "Shadow Demon",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_lone_druid",
+            "Id": 80,
+            "Name": "Lone DruId",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_chaos_knight",
+            "Id": 81,
+            "Name": "Chaos Knight",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_meepo",
+            "Id": 82,
+            "Name": "Meepo",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_treant",
+            "Id": 83,
+            "Name": "Treant Protector",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_ogre_magi",
+            "Id": 84,
+            "Name": "Ogre Magi",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_undying",
+            "Id": 85,
+            "Name": "Undying",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_rubick",
+            "Id": 86,
+            "Name": "Rubick",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_disruptor",
+            "Id": 87,
+            "Name": "Disruptor",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_nyx_assassin",
+            "Id": 88,
+            "Name": "Nyx Assassin",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_naga_siren",
+            "Id": 89,
+            "Name": "Naga Siren",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_keeper_of_the_light",
+            "Id": 90,
+            "Name": "Keeper of the Light",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_wisp",
+            "Id": 91,
+            "Name": "Wisp",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_visage",
+            "Id": 92,
+            "Name": "Visage",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_slark",
+            "Id": 93,
+            "Name": "Slark",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_medusa",
+            "Id": 94,
+            "Name": "Medusa",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_troll_warlord",
+            "Id": 95,
+            "Name": "Troll Warlord",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_centaur",
+            "Id": 96,
+            "Name": "Centaur Warrunner",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_magnataur",
+            "Id": 97,
+            "Name": "Magnus",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_shredder",
+            "Id": 98,
+            "Name": "Timbersaw",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_bristleback",
+            "Id": 99,
+            "Name": "Bristleback",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_tusk",
+            "Id": 100,
+            "Name": "Tusk",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_skywrath_mage",
+            "Id": 101,
+            "Name": "Skywrath Mage",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_abaddon",
+            "Id": 102,
+            "Name": "Abaddon",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_elder_titan",
+            "Id": 103,
+            "Name": "Elder Titan",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_legion_commander",
+            "Id": 104,
+            "Name": "Legion Commander",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_ember_spirit",
+            "Id": 106,
+            "Name": "Ember Spirit",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_earth_spirit",
+            "Id": 107,
+            "Name": "Earth Spirit",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_abyssal_underlord",
+            "Id": 108,
+            "Name": "Abyssal Underlord",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_terrorblade",
+            "Id": 109,
+            "Name": "Terrorblade",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_phoenix",
+            "Id": 110,
+            "Name": "Phoenix",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Strength"
+        },
+        {
+            "Image": "hero_techies",
+            "Id": 105,
+            "Name": "Techies",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_oracle",
+            "Id": 111,
+            "Name": "Oracle",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_winter_wyvern",
+            "Id": 112,
+            "Name": "Winter Wyvern",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_arc_warden",
+            "Id": 113,
+            "Name": "Arc Warden",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_monkey_king",
+            "Id": 114,
+            "Name": "Monkey king",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Agility"
+        }
+  //5723: Jingu Mastery
+  //5716: Boundless Strike
+  //5723:
+  //5716: Wukong's Command
+    ]
+}

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MultiPaneFragment</string>
+    <string name="fragment_list_update_rss">Press to update</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="titles">
+        <item>Home</item>
+        <item>Tutorials</item>
+        <item>My Apps</item>
+        <item>OS Versions</item>
+        <item>Tools</item>
+        <item>About Us</item>
+    </string-array>
+
+    <array name="icons">
+        <item>@drawable/home</item>
+        <item>@drawable/pencil</item>
+        <item>@drawable/app</item>
+        <item>@drawable/os</item>
+        <item>@drawable/tool</item>
+        <item>@drawable/about</item>
+    </array>
+    <string name="upgradeTo">Upgrade To: </string>
+    <string name="upgradeFrom">Upgrade From: </string>
+    <string name="item">Item</string>
+    <string name="hero">Hero</string>
+    <string name="title_activity_hero_bio">Bio</string>
+
+    <string name="menu">Menu</string>
+    <string name="action_search">Search</string>
+    <string name="action_cart">Cart</string>
+    <string name="action_hot_deals">Hot deals</string>
+    <string name="search_fragment">Search Fragment</string>
+    <string name="cart_fragment">Cart Fragment</string>
+    <string name="hot_deals_fragment">Hot Deals Fragment</string>
+</resources>

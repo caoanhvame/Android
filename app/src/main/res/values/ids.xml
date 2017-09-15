@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="upper_layout" type="id"></item>
+    <item name="lower_layout" type="id"></item>
+    <item name="skill_image" type="id"/>
+    <item name="skill_desc" type="id"/>
+    <item name="skil_cd_mana" type="id"></item>
+    <item name="skill_name" type="id"/>
+    <item name="skill_lore" type="id"/>
+    <item name="skill_damage_and_attr" type="id"></item>
+</resources>

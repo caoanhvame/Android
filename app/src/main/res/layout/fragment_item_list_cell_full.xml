@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/fragment_item_list_cell_basic_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/fragment_item_list_cell_image"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp" />
+
+        <TextView
+            android:id="@+id/fragment_item_list_cell_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/fragment_item_list_cell_image"
+            android:gravity="center_vertical"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/fragment_item_list_cell_gold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_item_list_cell_name"
+            android:layout_toRightOf="@id/fragment_item_list_cell_image"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/gold" />
+
+        <TextView
+            android:id="@+id/fragment_item_list_cell_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_item_list_cell_name"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/fragment_item_list_cell_gold"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/fragment_item_list_cell_cooldown_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_item_list_cell_name"
+            android:layout_toRightOf="@id/fragment_item_list_cell_cost"
+            android:paddingLeft="10dp"
+            android:src="@drawable/cooldown" />
+
+        <TextView
+            android:id="@+id/fragment_item_list_cell_cooldown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_item_list_cell_name"
+            android:layout_toRightOf="@id/fragment_item_list_cell_cooldown_icon"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/fragment_item_list_cell_mana_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_item_list_cell_name"
+            android:layout_toRightOf="@id/fragment_item_list_cell_cooldown"
+            android:paddingLeft="10dp"
+            android:src="@drawable/mana" />
+
+        <TextView
+            android:id="@+id/fragment_item_list_cell_mana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_item_list_cell_name"
+            android:layout_toRightOf="@id/fragment_item_list_cell_mana_icon"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:textColor="#000000" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_item_list_advance_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_item_list_cell_basic_info"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp" >
+
+        <TextView
+            android:id="@+id/fragment_item_list_cell_extra_attribute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fragment_item_list_cell_main_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_item_list_cell_extra_attribute"
+            android:textColor="#1E90FF" />
+
+        <TextView
+            android:id="@+id/fragment_item_list_cell_alt_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_item_list_cell_main_description"
+            android:paddingTop="10dp"
+            android:textColor="#00FF00"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/fragment_item_list_cell_lore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_item_list_cell_alt_description"
+            android:paddingTop="10dp"
+            android:textSize="13dp"
+            android:textStyle="italic" />
+
+        <TableLayout
+            android:id="@+id/fragment_item_list_item_progression"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_item_list_cell_lore" >
+
+            <TableRow
+                android:id="@+id/fragment_item_list_item_upgrade"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingBottom="10dp" 
+                android:gravity="center_horizontal">
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/currentItem"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal"
+                android:paddingBottom="10dp" >
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fragment_item_list_item_components"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
