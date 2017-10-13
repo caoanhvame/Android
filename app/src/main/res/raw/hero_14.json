@@ -29,7 +29,7 @@
       "attribute": "RANGE: <span class=\"attribVal\">1000 / 1100 / 1200 / 1300</span><br />\n<span class=\"scepterVal\">SCEPTER COOLDOWN:</span> <span class=\"attribVal\">4</span><br />\n<span class=\"scepterVal\">SCEPTER DAMAGE:</span> <span class=\"attribVal\">180 / 270 / 360 / 450</span><br/>",
       "cmb": "<img src=\"mana\"/> 110/120/130/140  &emsp <img src=\"cooldown\"/> 14/13/12/11",
       "lore": 	"The Butcher's hook is a symbolic nightmare, its curved blade a frightening reminder of his slaughterous intent.",
-      "image": "pudge_meat_hook",
+      "image": "skill_5075",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "RADIUS: <span class=\"attribVal\">250</span><br />\nDAMAGE PER SECOND: 30/60/90/120 \nMOVE SLOW: <span class=\"attribVal\">30%</span><br/>",
       "cmb": "",
       "lore": "A foul odor precedes a toxic, choking gas, emanating from the Butcher's putrid, ever-swelling mass.",
-      "image": "pudge_rot",
+      "image": "skill_5076",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "MAGIC RESISTANCE: <span class=\"attribVal\">6% / 8% / 10% / 12%</span><br />\nSTRENGTH BONUS PER DEATH: 1/1.5/2/2.5 \nRANGE: <span class=\"attribVal\">450</span><br/>",
       "cmb": "",
       "lore": "The Butcher gives new meaning to the words 'meat shield.'",
-      "image": "pudge_flesh_heap",
+      "image": "skill_5074",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "DAMAGE PER SECOND: <span class=\"attribVal\">60 / 90 / 120</span><br />\nSTRENGTH MULTIPLIER: <span class=\"attribVal\">0.3 / 0.45 / 0.6</span><br/>",
       "lore": "'When I'm through with these vermin, they'll be fit for a pie!'",
       "cmb": "<img src=\"mana\"/> 100/130/170 &emsp <img src=\"cooldown\"/> 30/25/20",
-      "image": "pudge_dismember",
+      "image": "skill_5077",
       "mainSkill": 1
     }
   ]

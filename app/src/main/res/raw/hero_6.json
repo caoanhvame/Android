@@ -29,7 +29,7 @@
       "attribute": "MOVEMENT SLOW: <span >16% / 32% / 48% / 64%</span><br />\nHERO DURATION: <span >1.5</span><br />\nCREEP DURATION: <span >7</span><br/>",
       "cmb": "<img src=\"mana\"/> 12  &emsp <img src=\"cooldown\"/> 0",
       "lore": "Ice-encased arrows pierce the silence, chilling their victims to the core.",
-      "image": "drow_ranger_frost_arrows",
+      "image": "skill_5019",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": 	"WIDTH: <span >250</span><br />\nSILENCE DURATION: <span >3 / 4 / 5 / 6</span><br />\nKNOCKBACK DURATION: <span >0.6 / 0.7 / 0.8 / 0.9</span><br/>",
       "cmb": "<img src=\"mana\" /> 90 &emsp <img src=\"cooldown\"/> 16/15/14/13",
       "lore": "Traxex is rather fond of the tranquility of physical combat, calling on her Drow heritage to end the incantations of opposing magi.",
-      "image": "drow_ranger_wave_of_silence",
+      "image": "skill_5632",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "",
       "cmb": "<img src=\"cooldown\"/> 100",
       "lore": "Traxex' time spent alone in the forests of her Drow home has allowed her to teach other archers how to improve their bow skills.",
-      "image": "drow_ranger_trueshot",
+      "image": "skill_5021",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": 	"<font size=\"3\" color=\"#6fe871\">SPLIT COUNT:</font> <span >2</span><br />\nSEARCH RANGE: <span >375</span><br />\n<font size=\"3\" color=\"#6fe871\">DAMAGE REDUCTION:</font> <span >50%</span><br/>",
       "cmb": "",
       "lore": "The Drow Ranger is the epitome of archery prowess.",
-      "image": "drow_ranger_marksmanship",
+      "image": "skill_5022",
       "mainSkill": 1
     }
   ]

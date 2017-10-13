@@ -29,7 +29,7 @@
       "attribute": 	"DAMAGE: <span >75 / 150 / 225 / 300</span><br />\nSCEPTER MOVEMENT SLOW: <span >60%</span><br />\nSCEPTER SLOW DURATION: <span >2</span><br/>",
       "cmb": "<img src=\"mana\"/> 90  &emsp <img src=\"cooldown\"/> 10/9/8/7",
       "lore": "Mt. Joerlak was a somewhat unstable mass, and Magnus has learned to channel its reverberations.",
-      "image": "magnataur_shockwave",
+      "image": "skill_5518",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "DURATION: <span >40</span><br/>CLEAVE DAMAGE: 20%/30%/40%/50%<br/>ATTACK DAMAGE BONUS: 20%/30%/40%/50% <br/>",
       "cmb": "<img src=\"mana\" /> 30/50/70/90 &emsp <img src=\"cooldown\"/> 8",
       "lore": "With a deep bellow, Magnus displays his true power.",
-      "image": "magnataur_empower",
+      "image": "skill_5519",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": 	"SPEED: <span >950</span><br />\nSLOW: <span >25% / 30% / 35% / 40%</span><br />\nSLOW DURATION: <span >2.5 / 2.75 / 3 / 3.25</span><br />\nDAMAGE: <span >70 / 140 / 210 / 280</span><br/>",
       "cmb": "<img src=\"mana\" /> 80 &emsp <img src=\"cooldown\"/> 25",
       "lore": "Magnoceros horns are valuable in direct proportion to their danger to prospective merchants.",
-      "image": "magnataur_skewer",
+      "image": "skill_5520",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "PULL RADIUS: <span >410</span><br />\nDAMAGE: <span >50 / 125 / 200</span><br />\nSTUN DURATION: <span >2.25 / 3 / 3.75</span><br/>",
       "cmb": "<img src=\"mana\"/> 200/250/300 &emsp <img src=\"cooldown\"/> 120",
       "lore": "Magnus fights with the fury of the erupting Mt. Joerlak.",
-      "image": "magnataur_reverse_polarity",
+      "image": "skill_5521",
       "mainSkill": 1
     }
   ]

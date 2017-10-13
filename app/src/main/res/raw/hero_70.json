@@ -29,7 +29,7 @@
       "attribute": "RADIUS: <span >385</span><br />\nSLOW: <span >25% / 35% / 45% / 55%</span><br/>",
       "cmb": "<img src=\"mana\"/> 75  &emsp <img src=\"cooldown\"/> 5",
       "lore": "The very steps of a male ursine shake the ground as well as the resolve of opposing warriors.",
-      "image": "ursa_earthshock",
+      "image": "skill_5357",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "ATTACKS: <span >3 / 4 / 5 / 6</span><br />\nBONUS ATTACK SPEED: <span >400 / 400 / 400 / 400</span><br />\nDURATION: <span >15</span><br/>",
       "cmb": "<img src=\"mana\" /> 45/55/65/75 &emsp <img src=\"cooldown\"/> 10",
       "lore": "For a behemoth of his size, Ursa is deceptively nimble.",
-      "image": "ursa_overpower",
+      "image": "skill_5358",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "RESET TIME: <span >20</span><br />\nRESET TIME (ROSHAN): <span >6</span> <br/> ATTACK DAMAGE PER STACK: 15/20/25/30 <br/>",
       "cmb": "",
       "lore": "In nature, the wounded rarely survive the attacks of hungry predators.",
-      "image": "ursa_fury_swipes",
+      "image": "skill_5359",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "FURY SWIPES MULTIPLIER: <span >1.5 / 1.75 / 2</span><br />\nDAMAGE REDUCTION: <span >80%</span><br />\nDURATION: <span >4</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER COOLDOWN:</font> <span >30 / 24 / 18</span><br/>",
       "cmb": "<img src=\"cooldown\"/> 50/40/30",
       "lore": "Ulfsaar succumbs to his ancient spirit, becoming the most ferocious creature on the battlefield.",
-      "image": "ursa_enrage",
+      "image": "skill_5360",
       "mainSkill": 1
     }
   ]

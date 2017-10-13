@@ -29,7 +29,7 @@
       "attribute": "ATTACK DAMAGE REDUCTION:  30 / 60 / 90 / 120<br/>",
       "cmb": "<img src=\"mana\"/> 95  &emsp <img src=\"cooldown\"/> 8",
       "lore": "Even the mightiest of warriors crumble before the terror of Atropos.",
-      "image": "bane_enfeeble",
+      "image": "skill_5012",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "DAMAGE: 90 / 160 / 230 / 300 <br/> HEAL: 90 / 160 / 230 / 300<br/><font size=\"3\" color=\"#6fe871\">SCEPTER COOLDOWN:</font> <span>1.5</span><br/>",
       "cmb": "<img src=\"mana\" /> 70/100/130/160 &emsp <img src=\"cooldown\"/> 14/13/12/11",
       "lore": "Atropos finds no greater pleasure than to harvest the fear he creates.",
-      "image": "bane_brain_sap",
+      "image": "skill_5011",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "DURATION: <span>4 / 5 / 6 / 7</span><br />\nCAST RANGE: <span>500 / 550 / 600 / 650</span><br/>",
       "cmb": "<img src=\"mana\" /> 165 &emsp <img src=\"cooldown\"/> 2/19/16/13",
       "lore": "A stolen prowess from the goddess Nyctasha is to put his prey into forever sleep.",
-      "image": "bane_nightmare",
+      "image": "skill_5014",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "",
       "cmb": "",
       "lore": "",
-      "image": "bane_nightmare_end",
+      "image": "skill_5523",
       "mainSkill": 0
     },
     {
@@ -81,7 +81,7 @@
       "attribute": "MANA DRAIN: <span>5%</span><br />\nDURATION: <span>5 / 5 / 5</span><br />\nDAMAGE: <span>100 / 155 / 215</span><br/>",
       "cmb": "<img src=\"mana\"/> 200/300/400 &emsp <img src=\"cooldown\"/> 100",
       "lore": "Victims of Atropos are frequently torn apart by vivid conjurations of their own nightmares.",
-      "image": "bane_fiends_grip",
+      "image": "skill_5013",
       "mainSkill": 1
     }
   ]

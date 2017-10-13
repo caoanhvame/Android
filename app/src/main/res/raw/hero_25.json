@@ -29,7 +29,7 @@
       "attribute": "",
       "cmb": "<img src=\"mana\"/> 100/115/130/145  &emsp <img src=\"cooldown\"/> 8",
       "lore": "In the scorched barren of Misrule, Lina learned to manipulate the fiery breath of the Desert Wyrm as a form of entertainment.",
-      "image": "lina_dragon_slave",
+      "image": "skill_5040",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "RADIUS: <span>225</span><br />\nCAST DELAY: <span>0.5</span><br />\nSTUN DURATION: <span>1.6 / 1.9 / 2.2 / 2.5</span><br/>",
       "cmb": "<img src=\"mana\" /> 100/110/120/130 &emsp <img src=\"cooldown\"/> 7",
       "lore": "Lina's essence allows her to focus the sun's energies, causing air to combust at will.",
-      "image": "lina_light_strike_array",
+      "image": "skill_5041",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "MAX STACKS: <span>3</span><br />\nDURATION: <span>10</span><br/>MOVE BONUS PER STACK: 5%/6%/7%/8%<br/>ATTACK SPEED BONUS PER STACK 40/55/70/85<br/>",
       "cmb": "",
       "lore": "Dancing flames embody Lina's playful nature, bringing out her true blazing self.",
-      "image": "lina_fiery_soul",
+      "image": "skill_5042",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "DAMAGE: <span>450 / 650 / 850</span><br/>",
       "cmb": "<img src=\"mana\"/> 280/420/680 &emsp <img src=\"cooldown\"/> 70/60/50",
       "lore": "The air around Lina becomes so intensely torrid that it scorches a foe that comes too close with white-hot lightning.",
-      "image": "lina_laguna_blade",
+      "image": "skill_5043",
       "mainSkill": 1
     }
   ]

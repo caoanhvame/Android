@@ -29,7 +29,7 @@
       "attribute": "DURATION: <span>4 / 6 / 8 / 10</span><br/>ATTACK SPEED BONUS: 130 <br/>",
       "cmb": "<img src=\"mana\"/> 90  &emsp <img src=\"cooldown\"/> 40/35/30/25",
       "lore": "It's hard to say whether the blur around the Bone Fletcher is from his flaming heart or his speed with the quiver.",
-      "image": "clinkz_strafe",
+      "image": "skill_5259",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "",
       "cmb": "<img src=\"mana\" /> 10 &emsp <img src=\"cooldown\"/> 0",
       "lore": "Clinkz simply lights his arrows from his flaming essence for quite the destructive effect.",
-      "image": "clinkz_searing_arrows",
+      "image": "skill_5260",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "DURATION: <span>20 / 25 / 30 / 35</span><br />\nBONUS MOVEMENT SPEED: <span>15% / 25% / 35% / 45%</span><br/>",
       "cmb": "<img src=\"mana\" /> 75 &emsp <img src=\"cooldown\"/> 20/19/18/17",
       "lore": "With a burst of fire and puff of smoke, the Bone Fletcher was nowhere to be seen.",
-      "image": "clinkz_wind_walk",
+      "image": "skill_5261",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "DURATION: <span>65</span><br />\nHEALTH GAIN: <span>50% / 70% / 90%</span><br />\nDAMAGE GAIN: <span>5% / 7% / 9%</span><br/>",
       "cmb": "<img src=\"mana\"/> 100 &emsp <img src=\"cooldown\"/> 85",
       "lore": "Sutherex' bond of life and death has become a part of Clinkz, and his old bones are refreshed with repetition of the pact on lesser beings.",
-      "image": "clinkz_death_pact",
+      "image": "skill_5262",
       "mainSkill": 1
     }
   ]

@@ -29,7 +29,7 @@
       "attribute": "STUN DURATION: <span>0.25 / 0.5 / 0.75 / 1</span><br />\nDAMAGE PER HIT: <span>30 / 50 / 70 / 90</span><br/>",
       "cmb": "<img src=\"mana\"/> 110/130/150/160  &emsp <img src=\"cooldown\"/> 15",
       "lore": "Strange gravities pull at the core of those who would oppose you, holding them in place.",
-      "image": "enigma_malefice",
+      "image": "skill_5146",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "ATTACKS TO MULTIPLY: <span>6 / 6 / 6 / 6</span><br />\nEIDOLON HP: <span>180 / 200 / 220 / 240</span><br />\nEIDOLON DAMAGE: <span>20 / 28 / 38 / 47</span><br />\nDURATION: <span>35</span><br/>",
       "cmb": "<img src=\"mana\" /> 170 &emsp <img src=\"cooldown\"/> 35",
       "lore": "Enigma is capable of drawing aspects of himself from other dimensions - the result is a trio of dark eidolons that hunt the corporeal plane.",
-      "image": "enigma_demonic_conversion",
+      "image": "skill_5147",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "RADIUS: <span>550</span><br />\nDAMAGE PER SECOND: <span>3% / 3.75% / 4.5% / 5.25%</span><br />\nDURATION: <span>11</span><br/>",
       "cmb": "<img src=\"mana\" /> 95/110/125/140 &emsp <img src=\"cooldown\"/> 35",
       "lore": "A section of the world slowly descends into the void.",
-      "image": "enigma_midnight_pulse",
+      "image": "skill_5148",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "DAMAGE PER SECOND: <span>50 / 100 / 150</span><br />\nRADIUS: <span>420</span><br />\nDURATION: <span>4 / 4 / 4</span><br/>",
       "cmb": "<img src=\"mana\"/> 275/325/375 &emsp <img src=\"cooldown\"/> 200/180/160",
       "lore": "The ground trembles as Enigma channels his ultimate vortex of destruction, a singularity with the power to end worlds.",
-      "image": "enigma_black_hole",
+      "image": "skill_5149",
       "mainSkill": 1
     }
   ]

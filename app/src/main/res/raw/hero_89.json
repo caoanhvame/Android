@@ -29,7 +29,7 @@
       "attribute": "IMAGE DURATION: <span>30 / 30 / 30 / 30</span><br />\nIMAGE DAMAGE: <span>25% / 30% / 35% / 40%</span><br />\nIMAGE DAMAGE TAKEN: <span>550% / 500% / 450% / 400%</span><br/>",
       "cmb": "<img src=\"mana\"/> 70/80/90/100  &emsp <img src=\"cooldown\"/> 40",
       "lore": "Slithice, while being strong in her own right, is notoriously hard to track down.",
-      "image": "naga_siren_mirror_image",
+      "image": "skill_5467",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "DURATION: <span>2 / 3 / 4 / 5</span><br/>",
       "cmb": "<img src=\"mana\" /> 100 &emsp <img src=\"cooldown\"/> 12",
       "lore": "The only way to escape the onslaught of a Slithereen is to never oppose one in the first place.",
-      "image": "naga_siren_ensnare",
+      "image": "skill_5468",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "ARMOR REDUCTION: <span>2 / 3 / 4 / 5</span><br />\nDURATION: <span>8 / 8 / 8 / 8</span><br/>",
       "cmb": "<img src=\"mana\" /> 80/90/100/110 &emsp <img src=\"cooldown\"/> 10",
       "lore": "A torrent from the Deep Ones crushes the defenses of the Siren's enemies.",
-      "image": "naga_siren_rip_tide",
+      "image": "skill_5469",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "RADIUS: <span>1000 / 1200 / 1400</span><br />\nDURATION: <span>7 / 7 / 7</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER HEALTH REGEN:</font> <span>10%</span><br/>",
       "cmb": "<img src=\"mana\"/> 100 &emsp <img src=\"cooldown\"/> 160/120/80",
       "lore": "Slithice's powerful voice enchants leagues of opponents, while calling her Slithereen kin in a time of need.",
-      "image": "naga_siren_song_of_the_siren",
+      "image": "skill_5470",
       "mainSkill": 1
     },
     {
@@ -81,7 +81,7 @@
       "attribute": "",
       "cmb": "<img src=\"cooldown\"/> 1",
       "lore": "Slithice's powerful voice enchants leagues of opponents, while calling her Slithereen kin in a time of need.",
-      "image": "naga_siren_song_of_the_siren_cancel",
+      "image": "skill_5478",
       "mainSkill": 0
     }
   ]

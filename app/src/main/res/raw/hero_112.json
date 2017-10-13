@@ -10,5 +10,66 @@
   "IntelligenceIni": 25,
   "StrengthGain": 2.4,
   "AgilityGain": 1.9,
-  "IntelligenceGain": 3.1
+  "IntelligenceGain": 3.1,
+  "Speed": 285,
+  "AttackMinIni": 13,
+  "AttackMaxIni": 20,
+  "DefenseIni": -1,
+  "TurnRate": 0.4,
+  "AttackRange": 425,
+  "BAT": 1.7,
+  "Abilities" : [
+    {
+      "id": 5651,
+      "dname": "Arctic Burn",
+      "affects": "ABILITY: <span class=\"attribVal\">No Target</span><br />DAMAGE TYPE: <span class=\"attribVal\">Magical</span><br />PIERCES SPELL IMMUNITY: <span class=\"attribVal\">No</span><br />",
+      "desc": "Winter Wyvern soars upon an arctic wind, granting her unobstructed movement and allowing her to exhale a blistering chill into each attack. While soaring, her attacks travel further and faster, and slow enemies with a magical freeze that strips them of 9% of their current health each second. Her sight is also hardened against night's chill, granting her 400 additional vision range at night while soaring.\nUpgradable by Aghanim's Scepter.",
+      "notes": "Enemy units can only receive the Arctic Burn debuff once per cast.<br />This ability does not affect Roshan.<br />Reduces Winter Wyvern's attack point to 0.1.",
+      "dmg": "",
+      "attribute": "FLIGHT DURATION: <span class=\"attribVal\">8</span><br />\nBONUS ATTACK RANGE: <span class=\"attribVal\">275 / 375 / 475 / 575</span><br />\nHEALTH BURN: <span class=\"attribVal\">9%</span><br />\nBURN DURATION: <span class=\"attribVal\">5</span><br />\nADDED NIGHT VISION RANGE: <span class=\"attribVal\">400</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER MANA PER SECOND:</font> <span class=\"attribVal\">40</span><br/>",
+      "cmb": "<img src=\"mana\"/> 120/110/100/90  &emsp <img src=\"cooldown\"/> 50/40/30/20",
+      "lore": "The same organ where some dragons stoke their inner flame is, in Auroth, a crucible of unimaginable cold. From deep within her frosty gullet, an exhalation sends enemies into burning agony.",
+      "image": "skill_5651",
+      "mainSkill": 1
+    },
+    {
+      "id": 5652,
+      "dname": 	"Splinter Blast",
+      "affects": "ABILITY: <span class=\"attribVal\">Unit Target</span><br />AFFECTS: <span class=\"attribVal\">Enemy Units</span><br />DAMAGE TYPE: <span class=\"attribVal\">Magical</span><br />PIERCES SPELL IMMUNITY: <span class=\"attribVal\">No</span><br />",
+      "desc": "Launches a ball of brittle ice toward an enemy. The ice shatters on impact, leaving the primary target completely unaffected, while hurling damaging splinters into nearby enemies in a 500 radius. Enemies struck by these splinters are slowed by 25%.",
+      "notes": "The primary projectile moves at 500 movespeed, or reaches the target in 1 second, whichever is faster up to 4000 speed.<br />The primary projectile cannot be disjointed.",
+      "dmg": "DAMAGE: <span class=\"attribVal\">100 / 180 / 260 / 340</span><br />",
+      "attribute": "SHATTER RADIUS: <span class=\"attribVal\">500</span><br />\nMOVEMENT SLOW: <span class=\"attribVal\">25%</span><br />\nSLOW DURATION: <span class=\"attribVal\">4</span><br/>",
+      "cmb": "<img src=\"mana\" /> 120/130/140/150 &emsp <img src=\"cooldown\"/> 7",
+      "lore": "Produced slowly by specialized vesicles in her frozen gullet, Winter Wyvern blast shards of ice at her enemies.",
+      "image": "skill_5652",
+      "mainSkill": 1
+    },
+    {
+      "id": 5653,
+      "dname": "Cold Embrace",
+      "affects": "ABILITY: <span class=\"attribVal\">Unit Target</span><br />AFFECTS: <span class=\"attribVal\">Allied Units</span><br />PIERCES SPELL IMMUNITY: <span class=\"attribVal\"><font color=\"#70EA72\">Yes</font></span><br />",
+      "desc": "Encases an ally in an icy cocoon, freezing them solid while healing a base amount as well as a percentage of their maximum health each second. The cocoon blocks all physical damage.",
+      "notes": "Cannot be dispelled.",
+      "dmg": "",
+      "attribute": "DURATION: <span class=\"attribVal\">4</span><br />\nBASE HEALTH REGEN: <span class=\"attribVal\">25</span><br />\nMAX HEALTH REGEN: <span class=\"attribVal\">3% / 4% / 5% / 6%</span><br/>",
+      "cmb": "<img src=\"mana\" /> 75 &emsp <img src=\"cooldown\"/> 24/21/18/15",
+      "lore": "From winter's heart comes a cold, healing embrace. The ice slows the blood and allows the spell to better work its curative magic.",
+      "image": "skill_5653",
+      "mainSkill": 1
+    },
+    {
+      "id": 5654,
+      "dname": "Winter's Curse",
+      "affects": "ABILITY: <span class=\"attribVal\">Unit Target</span><br />AFFECTS: <span class=\"attribVal\">Enemy Units</span><br />PIERCES SPELL IMMUNITY: <span class=\"attribVal\"><font color=\"#70EA72\">Yes</font></span><br />",
+      "desc": "Winter Wyvern freezes an enemy in place while striking those nearby with a maddening curse which causes them to attack their frozen ally with increased attack speed. The frozen ally and those cursed to attack their ally are immune to all damage from their enemies.",
+      "notes": "If the target dies to its allies, Winter Wyvern will receive credit for the kill.<br />Will only pierce the spell immunity of the primary target, not the target's surrounding allies.",
+      "dmg": "",
+      "attribute": "CURSE RADIUS: <span class=\"attribVal\">500</span><br />\nCURSE DAMAGE REDUCTION: <span class=\"attribVal\">100%</span><br />\nCURSE ATTACK SPEED: <span class=\"attribVal\">85</span><br />\nCURSE DURATION: <span class=\"attribVal\">3.25 / 4 / 4.75</span><br/>",
+      "cmb": "<img src=\"mana\"/> 250 &emsp <img src=\"cooldown\"/> 80",
+      "lore": "The oldest of the bookwurm’s spells, this curse lends truth to the old saw: sometimes the enemy of my enemy is my enemy still.",
+      "image": "skill_5654",
+      "mainSkill": 1
+    }
+  ]
 }

@@ -29,7 +29,7 @@
       "attribute": "START RADIUS: <span>225</span><br />\nEND RADIUS: <span>275</span><br />\nMOVE SLOW: <span>28% / 32% / 36% / 40%</span><br />\nATTACK SLOW: <span>28 / 32 / 36 / 40</span><br />\nDURATION: <span>5</span><br/>",
       "cmb": "<img src=\"mana\"/> 135/140/155/170  &emsp <img src=\"cooldown\"/> 10",
       "lore": "Pyrexae dragons have tremendously dangerous breath for each branch of the species; combining them is unimaginable.",
-      "image": "jakiro_dual_breath",
+      "image": "skill_5297",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "FORMATION DELAY: <span>0.5</span><br />\nRADIUS: <span>150</span><br />\nDAMAGE: <span>50</span><br/> PATH DURATION: 1/1.5/2/2.5 <br/>",
       "cmb": "<img src=\"mana\" /> 90 &emsp <img src=\"cooldown\"/> 12/11/10/9",
       "lore": "Jakiro's cunning right head calls upon its frozen heritage, glazing the earth with blistering cold.",
-      "image": "jakiro_ice_path",
+      "image": "skill_5298",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "ATTACK SLOW: <span>30 / 40 / 50 / 60</span><br />\nRADIUS: <span>300</span><br />\nBURN DAMAGE: <span>12 / 16 / 20 / 24</span><br />\nDURATION: <span>5 / 5 / 5 / 5</span><br/>",
       "cmb": "<img src=\"cooldown\"/> 20/15/10/4",
       "lore": "The left maw of Jakiro opens, laying waste to any in its path.",
-      "image": "jakiro_liquid_fire",
+      "image": "skill_5299",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "DAMAGE PER SECOND: <span>100 / 140 / 180</span><br />\nFLAME LENGTH: <span>1400</span><br />\nFLAME WIDTH: <span>260</span><br />\nDURATION: <span>10</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER DAMAGE PER SECOND:</font> <span>125 / 175 / 225</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER FLAME LENGTH:</font> <span>1800</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER DURATION:</font> <span>30</span><br/>",
       "cmb": "<img src=\"mana\"/> 220/330/440 &emsp <img src=\"cooldown\"/> 60",
       "lore": "Ice and fire combine to rip the battlefield to shreds with extreme temperatures.",
-      "image": "jakiro_macropyre",
+      "image": "skill_5300",
       "mainSkill": 1
     }
   ]

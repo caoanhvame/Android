@@ -29,7 +29,7 @@
       "attribute": "SHACKLE DURATION: <span>1.5 / 2.25 / 3 / 3.75</span><br/>",
       "cmb": "<img src=\"mana\"/> 90/100/110/120  &emsp <img src=\"cooldown\"/> 12",
       "lore": "Windranger's variety of bow skills includes an arrow with thick ropes attached to encumber any escaping target.",
-      "image": "windrunner_shackleshot",
+      "image": "skill_5130",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "RANGE: <span>2600</span><br/>",
       "cmb": "<img src=\"mana\" /> 90/100/110/120 &emsp <img src=\"cooldown\"/> 12/11/10/9",
       "lore": "During her early years of training, Lyralei learned to fire powerful arrows that cleaved even trees to reach their targets.",
-      "image": "windrunner_powershot",
+      "image": "skill_5131",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "MOVE SPEED BONUS: <span>50% / 50% / 50% / 50%</span><br />\nEVASION: <span>100%</span><br />\nENEMY SLOW: <span>15% / 20% / 25% / 30%</span><br />\nENEMY SLOW RADIUS: <span>325</span><br />\nDURATION: <span>3 / 4 / 5 / 6</span><br/>",
       "cmb": "<img src=\"mana\"/> 60 &emsp <img src=\"cooldown\"/> 12",
       "lore": "Lyralei enchants gusts of winds to fight incoming attacks.",
-      "image": "windrunner_windrun",
+      "image": "skill_5132",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "BONUS ATTACK SPEED: <span>500</span><br />\nDAMAGE REDUCTION: <span>50% / 40% / 30%</span><br />\nDURATION: <span>20</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER COOLDOWN:</font> <span>15 / 15 / 15</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER DAMAGE REDUCTION:</font> <span>30% / 15% / -0%</span><br/>",
       "cmb": "<img src=\"mana\"/> 75/100/125 &emsp <img src=\"cooldown\"/> 60",
       "lore": "Lyralei's ability to bombard opponents with a flurry of arrows is unparalleled - even at the expense of accuracy.",
-      "image": "windrunner_focusfire",
+      "image": "skill_5133",
       "mainSkill": 1
     }
   ]

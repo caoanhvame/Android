@@ -130,9 +130,9 @@ public class HeroListFragment extends Fragment implements OnChildClickListener {
 					if(heroInTavern !=null){
 						heroInTavern.add(hero);
 					}else{
-						List<HeroObject> newTarvem = new ArrayList<HeroObject>();
-						newTarvem.add(hero);
-						heroMap.put(tavern, newTarvem);
+						List<HeroObject> newTarven = new ArrayList<HeroObject>();
+						newTarven.add(hero);
+						heroMap.put(tavern, newTarven);
 					}
 				}
 				heroTarven = new ArrayList<String>(heroMap.keySet());

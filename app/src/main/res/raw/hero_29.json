@@ -29,7 +29,7 @@
       "attribute": "SLOW: <span >40% / 40% / 40% / 40%</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER RADIUS:</font> <span >240</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER COOLDOWN:</font> <span >7</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER RANGE:</font> <span >1800</span><br/>",
       "cmb": "<img src=\"mana\"/> 90/100/110/120  &emsp <img src=\"cooldown\"/> 12",
       "lore": "During his championship of the Sunken Isles, Leviathan gained mastery over the open sea.",
-      "image": "tidehunter_gush",
+      "image": "skill_5118",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "DAMAGE BLOCK: <span >12 / 24 / 36 / 48</span><br />\nDAMAGE THRESHOLD: <span >600 / 550 / 500 / 450</span><br />\nTHRESHOLD TIMER: <span >6 / 6 / 6 / 6</span><br/>",
       "cmb": "",
       "lore": "Claddish navymen tell tales of a mighty sea-faring beast that suffered spear and sword but continued to lay waste to the fleet.",
-      "image": "tidehunter_kraken_shell",
+      "image": "skill_5119",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": 	"DAMAGE REDUCTION: <span >45% / 50% / 55% / 60%</span><br />\nDURATION: <span >6 / 6 / 6 / 6</span><br />\nRADIUS: <span >375</span><br/>",
       "cmb": "<img src=\"mana\"/> 30/40/50/60  &emsp <img src=\"cooldown\"/> 7/6/5/4",
       "lore": "Stolen from one of Admiral Kunkka's flagships, Leviathan's heavy anchor proves useful as a melee weapon.",
-      "image": "tidehunter_anchor_smash",
+      "image": "skill_5120",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": 	"RADIUS: <span >1025</span><br />\nDURATION: <span >2 / 2.4 / 2.8</span><br/>",
       "cmb": "<img src=\"mana\"/> 150/225/325 &emsp <img src=\"cooldown\"/> 150",
       "lore": "Calling to the abyssal god Maelrawn has resulted in entire armadas being lost at sea.",
-      "image": "tidehunter_ravage",
+      "image": "skill_5121",
       "mainSkill": 1
     }
   ]

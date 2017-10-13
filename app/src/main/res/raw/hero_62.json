@@ -29,7 +29,7 @@
       "attribute": "TRACK BOUNCE RANGE: <span >1200</span><br/>",
       "cmb": "<img src=\"mana\"/> 120/130/140/150  &emsp <img src=\"cooldown\"/> 10",
       "lore": "While the shuriken may be small, Gondar's precise aim can cause critical damage.",
-      "image": "bounty_hunter_shuriken_toss",
+      "image": "skill_5285",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "CRITICAL DAMAGE: <span >150% / 175% / 200% / 225%</span><br />\nMOVE SLOW: <span >15% / 20% / 25% / 30%</span><br />\nATTACK SLOW: <span >15 / 20 / 25 / 30</span><br />\nDURATION: <span >3 / 3 / 3 / 3</span><br/>",
       "cmb": "<img src=\"cooldown\"/> 12/10/8/6",
       "lore": "Whispering an enchantment he learned from Soruq to his faithful blades, Gondar targets vital tendons and joints to disable his opponents.",
-      "image": "bounty_hunter_jinada",
+      "image": "skill_5286",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "DURATION: <span >20 / 25 / 30 / 35</span><br />\nFADE TIME: <span >1 / 0.75 / 0.5 / 0.25</span><br />\nBONUS DAMAGE: <span >30 / 60 / 90 / 120</span><br/>",
       "cmb": "<img src=\"mana\"/> 65 &emsp <img src=\"cooldown\"/> 15",
       "lore": "The court jesters present during King Goff's assassination can recount no other image than a dancing shadow.",
-      "image": "bounty_hunter_wind_walk",
+      "image": "skill_5287",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "SPEED RADIUS: <span >900 / 900 / 900</span><br />\nBONUS SPEED: <span >16% / 18% / 20%</span><br />\nBONUS GOLD FOR SELF: <span >150 / 250 / 350</span><br />\nBONUS GOLD FOR ALLIES: <span >40 / 80 / 120</span><br />\nDURATION: <span >30 / 30 / 30</span><br />\nCAST RANGE: <span >1200</span><br/>",
       "cmb": "<img src=\"mana\"/> 65 &emsp <img src=\"cooldown\"/> 4",
       "lore": "Using his elevated senses of sight and smell, Gondar's hits have quite a good chance of success.",
-      "image": "bounty_hunter_track",
+      "image": "skill_5288",
       "mainSkill": 1
     }
   ]

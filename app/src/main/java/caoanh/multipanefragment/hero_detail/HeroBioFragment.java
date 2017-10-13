@@ -31,7 +31,6 @@ import java.io.Writer;
 import java.util.ArrayList;
 import java.util.List;
 
-import caoanh.multipanefragment.HeroDetailActivity;
 import caoanh.multipanefragment.R;
 
 
@@ -96,6 +95,7 @@ public class HeroBioFragment extends Fragment {
 
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+
         context = getActivity();
         Bundle bundle = this.getArguments();
         if (bundle != null) {
@@ -197,6 +197,7 @@ public class HeroBioFragment extends Fragment {
         private void parseJson(String jsonString) throws JSONException {
             JSONObject jsonObject = new JSONObject(jsonString);
             heroDetail = new HeroDetailObject();
+            heroDetail.setId(jsonObject.getInt("Id"));
             heroDetail.setBio(jsonObject.getString("Bio"));
             heroDetail.setPrimaryAttribute(jsonObject.getString("PrimaryAttribute"));
             heroDetail.setImage(jsonObject.getString("Image"));
@@ -238,7 +239,7 @@ public class HeroBioFragment extends Fragment {
             ((HeroDetailActivity)getActivity()).heroDetail = heroDetail;
             level = 1;
             lore.setText(heroDetail.getBio());
-            avatar.setImageResource(context.getResources().getIdentifier(heroDetail.getImage(), "drawable", context.getPackageName()));
+            avatar.setImageResource(context.getResources().getIdentifier("hero_" + heroDetail.getId(), "drawable", context.getPackageName()));
             hpText.setText(calculateHP() + " hp");
             manaText.setText(calculateMana() + " mp");
             strength.setText(heroDetail.getStrengthIni() + "");

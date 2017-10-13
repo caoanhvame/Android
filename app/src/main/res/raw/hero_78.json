@@ -29,7 +29,7 @@
       "attribute": "RADIUS: <span >400 / 400 / 400 / 400</span><br />\nDAMAGE: <span >100 / 175 / 250 / 300</span><br />\nMOVEMENT SLOW: <span >25% / 35% / 45% / 55%</span><br />\nATTACK SLOW: <span >25 / 35 / 45 / 55</span><br />\nHERO DURATION: <span >4</span><br />\nCREEP DURATION: <span >8 / 8 / 8 / 8</span><br/>",
       "cmb": "<img src=\"mana\"/> 90/105/130/150  &emsp <img src=\"cooldown\"/> 13",
       "lore": "A slam of Mangix' mighty keg starts the festivities.",
-      "image": "brewmaster_thunder_clap",
+      "image": "skill_5400",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "DURATION: <span >4.5</span><br />\nMOVEMENT SLOW: <span >10% / 20% / 30% / 40%</span><br />\nMISS CHANCE: <span >70%</span><br/>",
       "cmb": "<img src=\"mana\" /> 25 &emsp <img src=\"cooldown\"/> 8/7/6/5",
       "lore": "The Order of the Oyo's solution to all problems - another round!",
-      "image": "brewmaster_drunken_haze",
+      "image": "skill_5401",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "DODGE CHANCE: <span >10% / 15% / 20% / 25%</span><br />\nCRIT CHANCE: <span >10% / 15% / 20% / 25%</span><br />\nCRIT DAMAGE: <span >230%</span><br />\nCERTAIN TRIGGER TIMER: <span >13 / 12 / 11 / 10</span><br/>",
       "cmb": "",
       "lore": "When Mangix won his title as the Brewmaster of the Order of Oyo, he also claimed his place in the mastery of inebriation.",
-      "image": "brewmaster_drunken_brawler",
+      "image": "skill_5402",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": 	"DURATION: <span >16 / 18 / 20</span><br/>",
       "lore": "Tectonic plates crack, mountains fold, and foes are crushed by the Echo Slam.",
       "cmb": "<img src=\"mana\"/> 125/150/175 &emsp <img src=\"cooldown\"/> 140/120/100",
-      "image": "brewmaster_primal_split",
+      "image": "skill_5403",
       "mainSkill": 1
     },
     {

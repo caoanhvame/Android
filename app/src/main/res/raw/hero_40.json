@@ -29,7 +29,7 @@
       "attribute": "DURATION: <span>15 / 15 / 15 / 15</span><br />\nINITIAL DAMAGE: <span>25 / 50 / 75 / 100</span><br />\nDAMAGE PER TICK: <span>10 / 40 / 70 / 100</span><br />\nSLOW: <span>50% / 50% / 50% / 50%</span><br/>",
       "cmb": "<img src=\"mana\"/> 125 &emsp <img src=\"cooldown\"/> 21/20/19/18",
       "lore": "A concoction of various stings, poisons, and toxins gathered from the jungles of Jidi Isle, victims surviving it are rare.",
-      "image": "venomancer_venomous_gale",
+      "image": "skill_5178",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "DURATION: <span>6 / 9 / 12 / 15</span><br />\nDAMAGE PER SECOND: <span>6 / 14 / 22 / 30</span><br />\nSLOW: <span>11% / 12% / 13% / 14%</span><br/>",
       "cmb": "",
       "lore": "The paralytic sting of the creature which caused his transformation now belongs to the Venomancer.",
-      "image": "venomancer_poison_sting",
+      "image": "skill_5179",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "DURATION: <span>40</span><br />\nWARD HP: <span>75 / 200 / 325 / 450</span><br />\nWARD DAMAGE: <span>13 / 22 / 31 / 40</span><br/>",
       "cmb": "<img src=\"mana\"/> 20 &emsp <img src=\"cooldown\"/> 5",
       "lore": "A mixture of his old herbalist talents and newfound toxic mastery creates a living embodiment of plague.",
-      "image": "venomancer_plague_ward",
+      "image": "skill_5180",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "RADIUS: <span>830</span><br />\nDURATION: <span>16</span><br />\nDAMAGE: <span>30 / 55 / 80</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER COOLDOWN:</font> <span>140 / 120 / 60</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER DAMAGE:</font> <span>60 / 85 / 110</span><br/>",
       "cmb": "<img src=\"mana\"/> 200/300/400 &emsp <img src=\"cooldown\"/> 60 / 85 / 110",
       "lore": "In the Acid Jungles, creatures releasing noxious poison to their attackers is common; Venomancer spreads this plague beyond the Jidi Isle.",
-      "image": "venomancer_poison_nova",
+      "image": "skill_5181",
       "mainSkill": 1
     }
   ]

@@ -29,7 +29,7 @@
       "attribute": "RADIUS: <span >300</span><br />\nBONUS ARMOR: <span >40</span><br />\nDURATION: <span >2 / 2.4 / 2.8 / 3.2</span><br/>",
       "cmb": "<img src=\"mana\"/> 80/90/100/110  &emsp <img src=\"cooldown\"/> 16/14/12/10",
       "lore": "Mogul Khan's warcry taunts opponents into engaging in an unconquerable battle with the Axe.",
-      "image": "axe_berserkers_call",
+      "image": "skill_5007",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "DURATION: <span >10</span><br />\nMOVEMENT SLOW: <span >12%</span><br />\nSPEED BONUS: <span >12%</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER DAMAGE REDUCTION:</font> <span >30%</span><br/>",
       "cmb": "<img src=\"mana\" /> 75 &emsp <img src=\"cooldown\"/> 20/15/10/5",
       "lore": "Ordinary heroes cannot withstand Mogul Khan's rage for battle, such that it injures them until it is satisfied.",
-      "image": "axe_battle_hunger",
+      "image": "skill_5008",
       "mainSkill": 1
     },
     {
@@ -55,20 +55,20 @@
       "attribute": "RADIUS: <span >275</span><br />\nCHANCE TO HELIX: <span >20%</span><br/>",
       "cmb": "<img src=\"cooldown\"/> 0.45/0.40/0.35/0.30",
       "lore": "Axe is the only reinforcement this army needs.",
-      "image": "axe_counter_helix",
+      "image": "skill_5009",
       "mainSkill": 1
     },
     {
       "id": 5010,
       "dname": "Culling Blade",
-      "affects": 	"ABILITY: <span >Unit Target</span><br />AFFECTS: <span >Enemy Units</span><br />DAMAGE TYPE: <span >Magical</span><br />PIERCES SPELL IMMUNITY: <span ><font color=\"#70EA72\">Yes</font></span><br />",
+      "affects": "ABILITY: <span >Unit Target</span><br />AFFECTS: <span >Enemy Units</span><br />DAMAGE TYPE: <span >Magical</span><br />PIERCES SPELL IMMUNITY: <span ><font color=\"#70EA72\">Yes</font></span><br />",
       "desc": "Axe spots a weakness and strikes, instantly killing an enemy unit with low health, or dealing moderate damage otherwise. When an enemy hero is killed with Culling Blade, its cooldown is reset, and Axe and nearby allied units gain bonus movement speed.",
       "notes": "",
       "dmg": 	"",
       "attribute": "KILL THRESHOLD: <span >250 / 325 / 400</span><br />\nDAMAGE: <span >150 / 250 / 300</span><br />\nKILL MOVE SPEED BONUS: <span >30%</span><br />\nKILL ATTACK SPEED BONUS: <span >30</span><br />\nKILL SPEED DURATION: <span >6</span><br />\nKILL SPEED RADIUS: <span >900</span><br/>",
       "lore": "Mogul Khan is the embodiment of battle and fury, launching into a gruesome fatality against those who dare engage the Axe in combat.",
       "cmb": "<img src=\"mana\"/> 60/120/180 &emsp <img src=\"cooldown\"/> 75/65/55",
-      "image": "axe_culling_blade",
+      "image": "skill_5010",
       "mainSkill": 1
     }
   ]

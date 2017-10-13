@@ -29,7 +29,7 @@
       "attribute": 	"FADE TIME: <span class=\"attribVal\">7 / 6 / 5 / 3</span><br />\nTREE RADIUS: <span class=\"attribVal\">265</span><br />\nMOVEMENT SPEED: <span class=\"attribVal\">10% / 18% / 26% / 34%</span><br />\nROOT DURATION: <span class=\"attribVal\">0.4 / 1 / 1.6 / 2.2</span><br/>",
       "cmb": "",
       "lore": "The Protectors don't often come into vision; their natural state being nestled within their leafy brethren.",
-      "image": "treant_natures_guise",
+      "image": "skill_5434",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "DAMAGE PER PULSE: <span class=\"attribVal\">15 / 30 / 45 / 60</span><br />\nMOVEMENT SLOW: <span class=\"attribVal\">16% / 20% / 24% / 28%</span><br />\nRADIUS: <span class=\"attribVal\">500</span><br />\nDURATION: <span class=\"attribVal\">4.5</span><br/>",
       "cmb": "<img src=\"mana\" /> 80/95/110/125 &emsp <img src=\"cooldown\"/> 16/13/10/7",
       "lore": "Rooftrellen nurtures the beings under his stewardship, sustained by the lifeforce of trespassers into his sacred ground.",
-      "image": "treant_leech_seed",
+      "image": "skill_5435",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "REGEN: <span class=\"attribVal\">4 / 8 / 12 / 16</span><br />\nBLOCK: <span class=\"attribVal\">20 / 40 / 60 / 80</span><br />\nDURATION: <span class=\"attribVal\">15</span><br/>",
       "cmb": "<img src=\"mana\" /> 50 &emsp <img src=\"cooldown\"/> 30/24/18/12",
       "lore": "The roots and tendrils of the Treant Protectors are far-reaching, stimulating the growth and rejuvenation of all of nature.",
-      "image": "treant_living_armor",
+      "image": "skill_5436",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "TREE VISION RADIUS: <span class=\"attribVal\">800</span><br />\nSCEPTER OVERGROWTH RADIUS: <span class=\"attribVal\">800</span><br />\nSCEPTER OVERGROWTH DAMAGE PER SEC: <span class=\"attribVal\">175</span><br/>",
       "cmb": "<img src=\"mana\" /> 50 &emsp <img src=\"cooldown\"/> 30/24/18/12",
       "lore": "One can never be too certain who, or what, might need protecting.",
-      "image": "treant_eyes_in_the_forest",
+      "image": "skill_5649",
       "mainSkill": 0
     },
     {
@@ -81,7 +81,7 @@
       "attribute": "DURATION: <span class=\"attribVal\">3 / 3.75 / 4.5</span><br />\nRADIUS: <span class=\"attribVal\">800</span>",
       "lore": "Tectonic plates crack, mountains fold, and foes are crushed by the Echo Slam.",
       "cmb": "<img src=\"mana\"/> 150/175/200 &emsp <img src=\"cooldown\"/> 100/85/70",
-      "image": "treant_overgrowth",
+      "image": "skill_5437",
       "mainSkill": 1
     }
   ]

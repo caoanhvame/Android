@@ -29,7 +29,7 @@
       "attribute": "HEALTH REGEN: <span >10</span><br />\nBONUS FROM ATTRIBUTE: <span >5% / 10% / 15% / 20%</span><br />\nBONUS WHEN HURT: <span >20% / 40% / 60% / 80%</span><br/>",
       "cmb": "<img src=\"mana\"/> 170  &emsp <img src=\"cooldown\"/> 22/18/14/10",
       "lore": "While Huskar has little use for magic, this minor enchantment was learned from the Dazzle and the Dezun priests, to be used in times of great injury.",
-      "image": "huskar_inner_vitality",
+      "image": "skill_5271",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "HEALTH COST: <span >15</span><br/>",
       "cmb": "<img src=\"mana\" /> 0 &emsp <img src=\"cooldown\"/> 0",
       "lore": "The Sacred Warrior ignites his weaponry after marking it with his own blood - causing far greater pain than he himself feels.",
-      "image": "huskar_burning_spear",
+      "image": "skill_5272",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": 	"MAX ATTACK SPEED: <span >220 / 260 / 300 / 340</span><br />\nMAX MAGIC RESISTANCE: <span >20% / 30% / 40% / 50%</span><br />\nHP FOR MAX BONUS: <span >10%</span><br/>",
       "cmb": "",
       "lore": 	"After losing his birthright, Huskar gained a lethality in physical combat that is only heightened as his own blood is spilled.",
-      "image": "huskar_berserkers_blood",
+      "image": "skill_5273",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "DAMAGE DEALT: <span >34% / 38% / 42%</span><br />\nMOVEMENT SLOW: <span >40% / 50% / 60%</span><br />\nSLOW DURATION: <span >4 / 5 / 6</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER DAMAGE DEALT:</font> <span >65%</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER COOLDOWN:</font> <span >4</span><br/>",
       "lore": "Tectonic plates crack, mountains fold, and foes are crushed by the Echo Slam.",
       "cmb": "<img src=\"mana\"/> 0 &emsp <img src=\"cooldown\"/> 12",
-      "image": "huskar_life_break",
+      "image": "skill_5274",
       "mainSkill": 1
     }
   ]

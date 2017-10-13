@@ -29,7 +29,7 @@
       "attribute": "DAMAGE: <span>90 / 120 / 150 / 180</span><br />\nMIN STOP DURATION: <span>0.5</span><br />\nMAX STOP DURATION: <span>2.5</span><br />\nRADIUS: <span>300</span><br/>",
       "cmb": "<img src=\"mana\"/> 110  &emsp <img src=\"cooldown\"/> 15/12/9/6",
       "lore": "The astral orb crackles with power while raw energy lances out, temporarily disrupting an enemy's connection to their own body.",
-      "image": "oracle_fortunes_end",
+      "image": "skill_5637",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "DURATION: <span>3 / 3.5 / 4 / 4.5</span><br/>",
       "cmb": "<img src=\"mana\" /> 50 &emsp <img src=\"cooldown\"/> 16/13/10/7",
       "lore": "An unbreakable prophecy resounds: a chosen ally shall briefly suffer no magics.  Other kinds of suffering however...",
-      "image": "oracle_fates_edict",
+      "image": "skill_5638",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "DAMAGE: <span>90 / 180 / 270 / 360</span><br />\nHEAL PER SECOND: <span>11 / 22 / 33 / 44</span><br />\nTOTAL HEAL: <span>99 / 198 / 297 / 396</span><br />\nDURATION: <span>9</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER COOLDOWN:</font> <span>1</span><br/>",
       "cmb": "<img src=\"mana\" /> 80/85/90/95 &emsp <img src=\"cooldown\"/> 2.25",
       "lore": "Like a hall of mirrors might amplify the light of a single candle, the shattered walls of the universe can transform the light of prophecy into a burning torch.",
-      "image": "oracle_purifying_flames",
+      "image": "skill_5639",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "",
       "cmb": "<img src=\"mana\"/> 100 &emsp <img src=\"cooldown\"/> 100/65/30",
       "lore": "Foes and false prophets oft make lies of men's fates.",
-      "image": "oracle_false_promise",
+      "image": "skill_5640",
       "mainSkill": 1
     }
   ]

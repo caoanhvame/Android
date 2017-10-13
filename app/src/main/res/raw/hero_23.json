@@ -29,7 +29,7 @@
       "attribute": 	"MOVE SLOW: <span >35%</span><br />\nSLOW DURATION: <span >1.75 / 2.5 / 3.25 / 4</span><br />\nSTUN DURATION: <span >1.6</span><br />\nDELAY: <span >1.6 / 1.6 / 1.6 / 1.6</span></br>",
       "cmb": 	"<img src=\"mana\" /> 90/100/110/120 &emsp <img src=\"cooldown\" /> 16/14/12/10",
       "lore": "An ancestral rush of water explodes from the center of the world, called upon by the Admiral.",
-      "image": "kunkka_torrent",
+      "image": "skill_5031",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "DAMAGE BONUS: <span >25 / 45 / 65 / 85</span><br/>",
       "cmb": "<img src=\"cooldown\" /> 13/10/7/4",
       "lore": 	"A lost Claddish soul inhabits Kunkka's trusty Tidebringer, empowering it to destroy demons of the Cataract.",
-      "image": "kunkka_tidebringer",
+      "image": "skill_5032",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "ENEMY DELAY: <span >4</span><br />\nALLIED DELAY: <span >8</span><br />\nRANGE: <span >400 / 600 / 800 / 1000</span><br/>",
       "cmb": "<img src=\"mana\" /> 50 &emsp <img src=\"cooldown\" /> 26/20/14/8",
       "lore": "The Admiral's set of arcane abilities includes some that can be used for battle as well as entertainment.",
-      "image": "kunkka_x_marks_the_spot",
+      "image": "skill_5033",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "",
       "cmb": 	"<img src=\"cooldown\" />1",
       "lore": "",
-      "image": "kunkka_x_marks_the_spot",
+      "image": "skill_5033",
       "mainSkill": 0
     },
     {
@@ -81,7 +81,7 @@
       "attribute": "IMPACT DELAY: <span >2.7</span><br />\nRANGE: <span >2000</span><br />\nWIDTH: <span >425 / 425 / 425</span><br />\nRUM BONUS SPEED: <span >10% / 10% / 10%</span><br />\nRUM DURATION: <span >10</span><br />\nSTUN DURATION: <span >1.4 / 1.4 / 1.4</span><br />\nDAMAGE DELAYED: <span >40% / 45% / 50%</span><br/>",
       "cmb": "<img src=\"mana\" /> 125/175/225 &emsp <img src=\"cooldown\" /> 60/50/40",
       "lore": "The final ship of the Claddish Navy is nothing but a phantom, but it is all too real to the enemies of the Admiral.",
-      "image": "kunkka_ghostship",
+      "image": "skill_5035",
       "mainSkill": 1
     }
   ]

@@ -1,7 +1,7 @@
 {
 	"item_clarity": {
 		"ID": "38",
-		"Image": "item_clarity",
+		"Image": "item_38",
 		"Name": "Clarity",
 		"Group": "Consumables",
 		"Cost": "50",
@@ -16,7 +16,7 @@
 	},
 	"item_gauntlets": {
 		"ID": "13",
-		"Image": "item_gauntlets",
+		"Image": "item_13",
 		"Name": "Gauntlets of Strength",
 		"Group": "Attributes",
 		"Cost": "150",
@@ -26,12 +26,12 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 3 Strength",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name" : "item_bracer"},{"name" : "item_urn_of_shadows"}],
+		"CreatedTo": [{"name" : "item_73"},{"name" : "item_urn_of_shadows"}],
 		"Lore": "Studded leather gloves that add brute strength."
 	},
 	"item_blades_of_attack": {
 		"ID": "2",
-		"Image": "item_blades_of_attack",
+		"Image": "item_2",
 		"Name": "Blades of attack",
 		"Group": "Armaments",
 		"Cost": "420",
@@ -46,7 +46,7 @@
 	},
 	"item_blink": {
 		"ID": "1",
-		"Image": "item_blink",
+		"Image": "item_1",
 		"Name": "Blink dagger",
 		"Group": "Arcane",
 		"Cost": "2250",
@@ -61,7 +61,7 @@
 	},
 	"item_magic_wand": {
 		"ID": "36",
-		"Image": "item_magic_wand",
+		"Image": "item_36",
 		"Name": "Magic Wand",
 		"Group": "Common",
 		"Cost": "465",
@@ -70,13 +70,13 @@
 		"MainDescription": "Active: Energy Charge - Instantly restores health and mana based on the number of charges stored. Gains a charge (max 17) whenever a nearby visible enemy uses an ability.",
 		"AlternateDescription": "Gains charges for spells cast by visible enemies in 1200 range. \n Certain abilities and item abilities will not add charges.",
 		"ExtraAttribute": "+ 4 All Attributes \n HEALTH/MANA PER CHARGE: 15",
-		"CreatedFrom": [{"name": "item_magic_stick"},{"name": "item_branches"},{"name": "item_branches"},{"name": "item_circlet"}],
+		"CreatedFrom": [{"name": "item_magic_stick"},{"name": "item_branches"},{"name": "item_branches"},{"name": "item_20"}],
 		"CreatedTo": [],
 		"Lore": "A simple wand used to channel magic energies,it is favored by apprentice wizards and great warlocks alike."
 	},
 	"item_ring_of_basilius": {
 		"ID": "88",
-		"Image": "item_ring_of_basilius",
+		"Image": "item_88",
 		"Name": "Ring of Basilius",
 		"Group": "Support",
 		"Cost": "500",
@@ -91,7 +91,7 @@
 	},
 	"item_glimmer_cape": {
 		"ID": "254",
-		"Image": "item_glimmer_cape",
+		"Image": "item_254",
 		"Name": "Glimmer Cape",
 		"Group": "Caster",
 		"Cost": "1850",
@@ -106,7 +106,7 @@
 	},
 	"item_lesser_crit": {
 		"ID": "149",
-		"Image": "item_lesser_crit",
+		"Image": "item_149",
 		"Name": "Crystalys",
 		"Group": "Weapons",
 		"Cost": "2120",
@@ -121,7 +121,7 @@
 	},
 	"item_hood_of_defiance": {
 		"ID": "131",
-		"Image": "item_hood_of_defiance",
+		"Image": "item_131",
 		"Name": "Hood of Defiance",
 		"Group": "Armor",
 		"Cost": "1725",
@@ -136,7 +136,7 @@
 	},
 	"item_mask_of_madness": {
 		"ID": "172",
-		"Image": "item_mask_of_madness",
+		"Image": "item_172",
 		"Name": "Mask of Madness",
 		"Group": "Artifacts",
 		"Cost": "1800",
@@ -151,7 +151,7 @@
 	},
 	"item_energy_booster": {
 		"ID": "59",
-		"Image": "item_energy_booster",
+		"Image": "item_59",
 		"Name": "Energy Booster",
 		"Group": "Secret Shop",
 		"Cost": "900",
@@ -161,12 +161,12 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 250 Mana",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name" : "item_arcane_boots"},{"name" : "item_soul_booster"},{"name" : "item_aether_lens"},{"name" : "item_lotus_orb"}],
+		"CreatedTo": [{"name" : "item_arcane_boots"},{"name" : "item_129"},{"name" : "item_aether_lens"},{"name" : "item_lotus_orb"}],
 		"Lore": "This lapis gemstone is commonly added to the collection of wizards seeking to improve their presence in combat."
 	},	
 	"item_broadsword": {
 		"ID": "3",
-		"Image": "item_broadsword",
+		"Image": "item_3",
 		"Name": "Broadsword",
 		"Group": "Armaments",
 		"Cost": "1200",
@@ -181,7 +181,7 @@
 	},
 	"item_chainmail": {
 		"ID": "4",
-		"Image": "item_chainmail",
+		"Image": "item_4",
 		"Name": "Chainmail",
 		"Group": "Armaments",
 		"Cost": "550",
@@ -196,7 +196,7 @@
 	},
 	"item_claymore": {
 		"ID": "5",
-		"Image": "item_claymore",
+		"Image": "item_5",
 		"Name": "Claymore",
 		"Group": "Armaments",
 		"Cost": "1200",
@@ -211,7 +211,7 @@
 	},
 	"item_helm_of_iron_will": {
 		"ID": "6",
-		"Image": "item_helm_of_iron_will",
+		"Image": "item_6",
 		"Name": "Helm of Iron Will",
 		"Group": "Armaments",
 		"Cost": "900 ",
@@ -226,7 +226,7 @@
 	},
 	"item_javelin": {
 		"ID": "7",
-		"Image": "item_javelin",
+		"Image": "item_7",
 		"Name": "Javelin",
 		"Group": "Armaments",
 		"Cost": "1500 ",
@@ -241,7 +241,7 @@
 	},
 	"item_mithril_hammer": {
 		"ID": "8",
-		"Image": "item_mithril_hammer",
+		"Image": "item_8",
 		"Name": "Mithril Hammer",
 		"Group": "Armaments",
 		"Cost": "1600 ",
@@ -256,7 +256,7 @@
 	},
 	"item_platemail": {
 		"ID": "9",
-		"Image": "item_platemail",
+		"Image": "item_9",
 		"Name": "Platemail",
 		"Group": "Secret Shop",
 		"Cost": "1400 ",
@@ -271,7 +271,7 @@
 	},
 	"item_quarterstaff": {
 		"ID": "10",
-		"Image": "item_quarterstaff",
+		"Image": "item_10",
 		"Name": "Quarterstaff",
 		"Group": "Armaments",
 		"Cost": "875 ",
@@ -286,7 +286,7 @@
 	},
 	"item_quelling_blade": {
 		"ID": "11",
-		"Image": "item_quelling_blade",
+		"Image": "item_11",
 		"Name": "Quelling Blade",
 		"Group": "Armaments",
 		"Cost": "200 ",
@@ -301,7 +301,7 @@
 	},
 	"item_faerie_fire": {
 		"ID": "237",
-		"Image": "item_faerie_fire",
+		"Image": "item_237",
 		"Name": "Faerie Fire",
 		"Group": "Consumables",
 		"Cost": "75 ",
@@ -316,7 +316,7 @@
 	},
 	"item_infused_raindrop": {
 		"ID": "265",
-		"Image": "item_infused_raindrop",
+		"Image": "item_265",
 		"Name": "Infused Raindrop",
 		"Group": "Consumables",
 		"Cost": "225",
@@ -331,7 +331,7 @@
 	},
 	"item_wind_lace": {
 		"ID": "244",
-		"Image": "item_wind_lace",
+		"Image": "item_244",
 		"Name": "Wind Lace",
 		"Group": "Arcane",
 		"Cost": "235",
@@ -346,7 +346,7 @@
 	},
 	"item_ring_of_protection": {
 		"ID": "12",
-		"Image": "item_ring_of_protection",
+		"Image": "item_12",
 		"Name": "Ring of Protection",
 		"Group": "Armaments",
 		"Cost": "175",
@@ -361,7 +361,7 @@
 	},
 	"item_stout_shield": {
 		"ID": "182",
-		"Image": "item_stout_shield",
+		"Image": "item_182",
 		"Name": "Stout Shield",
 		"Group": "Armaments",
 		"Cost": "200",
@@ -371,12 +371,12 @@
 		"AlternateDescription": "Multiple sources of damage block don't stack.",
 		"ExtraAttribute": "MELEE DAMAGE BLOCK: 16 \n RANGED DAMAGE BLOCK: 8 \n BLOCK CHANCE: 50%",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name" : "item_poor_mans_shield"},{"name" : "item_vanguard"}],
+		"CreatedTo": [{"name" : "item_71"},{"name" : "item_182"}],
 		"Lore": "One man's wine barrel bottom is another man's shield."
 	},
 	"item_moon_shard": {
 		"ID": "247",
-		"Image": "item_moon_shard",
+		"Image": "item_247",
 		"Name": "Moon Shard",
 		"Group": "Common",
 		"Cost": "4000",
@@ -391,7 +391,7 @@
 	},
 	"item_slippers": {
 		"ID": "14",
-		"Image": "item_slippers",
+		"Image": "item_14",
 		"Name": "Slippers of Agility",
 		"Group": "Attributes",
 		"Cost": "150",
@@ -401,12 +401,12 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 3 Agility",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name" : "item_poor_mans_shield"},{"name" : "item_wraith_band"}],
+		"CreatedTo": [{"name" : "item_71"},{"name" : "item_wraith_band"}],
 		"Lore": "Light boots made from spider skin that tingles your senses. "
 	},
 	"item_mantle": {
 		"ID": "15",
-		"Image": "item_mantle",
+		"Image": "item_15",
 		"Name": "Mantle of Intelligence",
 		"Group": "Attributes",
 		"Cost": "150",
@@ -416,12 +416,12 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 3 Intelligence",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_null_talisman"}],
+		"CreatedTo": [{"name": "item_77"}],
 		"Lore": "A beautiful sapphire mantle worn by generations of queens."
 	},
 	"item_branches": {
 		"ID": "16",
-		"Image": "item_branches",
+		"Image": "item_16",
 		"Name": "Iron Branch",
 		"Group": "Attributes",
 		"Cost": "50",
@@ -436,7 +436,7 @@
 	},
 	"item_belt_of_strength": {
 		"ID": "17",
-		"Image": "item_belt_of_strength",
+		"Image": "item_17",
 		"Name": "Belt of Strength",
 		"Group": "Attributes",
 		"Cost": "450",
@@ -451,7 +451,7 @@
 	},
 	"item_boots_of_elves": {
 		"ID": "18",
-		"Image": "item_boots_of_elves",
+		"Image": "item_18",
 		"Name": "Band of Elvenskin",
 		"Group": "Attributes",
 		"Cost": "450",
@@ -466,7 +466,7 @@
 	},
 	"item_robe": {
 		"ID": "19",
-		"Image": "item_robe",
+		"Image": "item_19",
 		"Name": "Robe of the Magi",
 		"Group": "Attributes",
 		"Cost": "450",
@@ -481,7 +481,7 @@
 	},
 	"item_circlet": {
 		"ID": "20",
-		"Image": "item_circlet",
+		"Image": "item_20",
 		"Name": "Circlet",
 		"Group": "Attributes",
 		"Cost": "165",
@@ -491,12 +491,12 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 2 All Attributes",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_bracer"},{"name": "item_null_talisman"},{"name": "item_wraith_band"},{"name": "item_magic_wand"}],
+		"CreatedTo": [{"name": "item_73"},{"name": "item_77"},{"name": "item_wraith_band"},{"name": "item_magic_wand"}],
 		"Lore": "An elegant circlet designed for human princesses."
 	},
 	"item_ogre_axe": {
 		"ID": "21",
-		"Image": "item_ogre_axe",
+		"Image": "item_21",
 		"Name": "Ogre Club",
 		"Group": "Attributes",
 		"Cost": "1000",
@@ -511,7 +511,7 @@
 	},
 	"item_blade_of_alacrity": {
 		"ID": "22",
-		"Image": "item_blade_of_alacrity",
+		"Image": "item_22",
 		"Name": "Blade of Alacrity",
 		"Group": "Attributes",
 		"Cost": "1000",
@@ -526,7 +526,7 @@
 	},
 	"item_staff_of_wizardry": {
 		"ID": "23",
-		"Image": "item_staff_of_wizardry",
+		"Image": "item_23",
 		"Name": "Staff of Wizardry",
 		"Group": "Attributes",
 		"Cost": "1000",
@@ -541,7 +541,7 @@
 	},
 	"item_ultimate_orb": {
 		"ID": "24",
-		"Image": "item_ultimate_orb",
+		"Image": "item_24",
 		"Name": "Ultimate Orb",
 		"Group": "Secret Shop",
 		"Cost": "2100",
@@ -556,7 +556,7 @@
 	},
 	"item_gloves": {
 		"ID": "25",
-		"Image": "item_gloves",
+		"Image": "item_25",
 		"Name": "Gloves of Haste",
 		"Group": "Arcane",
 		"Cost": "500",
@@ -571,7 +571,7 @@
 	},
 	"item_lifesteal": {
 		"ID": "26",
-		"Image": "item_lifesteal",
+		"Image": "item_26",
 		"Name": "Morbid Mask",
 		"Group": "Arcane",
 		"Cost": "900",
@@ -586,7 +586,7 @@
 	},
 	"item_ring_of_regen": {
 		"ID": "27",
-		"Image": "item_ring_of_regen",
+		"Image": "item_27",
 		"Name": "Ring of Regen",
 		"Group": "Arcane",
 		"Cost": "325",
@@ -601,7 +601,7 @@
 	},
 	"item_sobi_mask": {
 		"ID": "28",
-		"Image": "item_sobi_mask",
+		"Image": "item_28",
 		"Name": "Sage's Mask",
 		"Group": "Arcane",
 		"Cost": "325",
@@ -616,7 +616,7 @@
 	},
 	"item_boots": {
 		"ID": "29",
-		"Image": "item_boots",
+		"Image": "item_29",
 		"Name": "Boots of Speed",
 		"Group": "Arcane",
 		"Cost": "400",
@@ -631,7 +631,7 @@
 	},
 	"item_gem": {
 		"ID": "30",
-		"Image": "item_gem",
+		"Image": "item_30",
 		"Name": "Gem of True Sight",
 		"Group": "Arcane",
 		"Cost": "900",
@@ -646,7 +646,7 @@
 	},
 	"item_cloak": {
 		"ID": "31",
-		"Image": "item_cloak",
+		"Image": "item_31",
 		"Name": "Cloak",
 		"Group": "Arcane",
 		"Cost": "550",
@@ -661,7 +661,7 @@
 	},
 	"item_talisman_of_evasion": {
 		"ID": "32",
-		"Image": "item_talisman_of_evasion",
+		"Image": "item_32",
 		"Name": "Talisman of Evasion",
 		"Group": "Secret Shop",
 		"Cost": "1700",
@@ -676,7 +676,7 @@
 	},
 	"item_magic_stick": {
 		"ID": "34",
-		"Image": "item_magic_stick",
+		"Image": "item_34",
 		"Name": "Magic Stick",
 		"Group": "Arcane",
 		"Cost": "200",
@@ -691,7 +691,7 @@
 	},
 	"item_ghost": {
 		"ID": "37",
-		"Image": "item_ghost",
+		"Image": "item_37",
 		"Name": "Ghost Scepter",
 		"Group": "Arcane",
 		"Cost": "1500",
@@ -706,7 +706,7 @@
 	},
 	"item_enchanted_mango": {
 		"ID": "216",
-		"Image": "item_enchanted_mango",
+		"Image": "item_216",
 		"Name": "Enchanted Mango",
 		"Group": "Consumables",
 		"Cost": "125",
@@ -721,7 +721,7 @@
 	},
 	"item_flask": {
 		"ID": "39",
-		"Image": "item_flask",
+		"Image": "item_39",
 		"Name": "Healing Salve",
 		"Group": "Consumables",
 		"Cost": "110",
@@ -736,7 +736,7 @@
 	},
 	"item_dust": {
 		"ID": "40",
-		"Image": "item_dust",
+		"Image": "item_40",
 		"Name": "Dust of Appearance",
 		"Group": "Consumables",
 		"Cost": "180",
@@ -751,7 +751,7 @@
 	},
 	"item_bottle": {
 		"ID": "41",
-		"Image": "item_bottle",
+		"Image": "item_41",
 		"Name": "Bottle",
 		"Group": "Consumables",
 		"Cost": "600",
@@ -766,7 +766,7 @@
 	},
 	"item_ward_observer": {
 		"ID": "42",
-		"Image": "item_ward_observer",
+		"Image": "42",
 		"Name": "Observer Ward",
 		"Group": "Consumables",
 		"Cost": "65",
@@ -781,7 +781,7 @@
 	},
 	"item_ward_sentry": {
 		"ID": "43",
-		"Image": "item_ward_sentry",
+		"Image": "item_43",
 		"Name": "Sentry Ward",
 		"Group": "Consumables",
 		"Cost": "200",
@@ -796,7 +796,7 @@
 	},
 	"item_tango": {
 		"ID": "44",
-		"Image": "item_tango",
+		"Image": "item_44",
 		"Name": "Tango",
 		"Group": "Consumables",
 		"Cost": "125",
@@ -811,7 +811,7 @@
 	},
 	"item_courier": {
 		"ID": "45",
-		"Image": "item_courier",
+		"Image": "item_45",
 		"Name": "Animal Courier",
 		"Group": "Consumables",
 		"Cost": "100",
@@ -826,7 +826,7 @@
 	},
 	"item_tpscroll": {
 		"ID": "46",
-		"Image": "item_tpscroll",
+		"Image": "item_46",
 		"Name": "Town Portal Scroll",
 		"Group": "Consumables",
 		"Cost": "50",
@@ -841,7 +841,7 @@
 	},
 	"item_travel_boots": {
 		"ID": "48",
-		"Image": "item_travel_boots",
+		"Image": "item_48",
 		"Name": "Boots of Travel",
 		"Group": "Common",
 		"Cost": "1400",
@@ -856,7 +856,7 @@
 	},
 	"item_phase_boots": {
 		"ID": "50",
-		"Image": "item_phase_boots",
+		"Image": "item_50",
 		"Name": "Phase Boots",
 		"Group": "Common",
 		"Cost": "1240",
@@ -871,7 +871,7 @@
 	},
 	"item_demon_edge": {
 		"ID": "51",
-		"Image": "item_demon_edge",
+		"Image": "item_51",
 		"Name": "Demon Edge",
 		"Group": "Secret Shop",
 		"Cost": "2400",
@@ -886,7 +886,7 @@
 	},
 	"item_eagle": {
 		"ID": "52",
-		"Image": "item_eagle",
+		"Image": "item_52",
 		"Name": "Eaglesong",
 		"Group": "Secret Shop",
 		"Cost": "3200",
@@ -901,7 +901,7 @@
 	},
 	"item_reaver": {
 		"ID": "53",
-		"Image": "item_reaver",
+		"Image": "item_53",
 		"Name": "Reaver",
 		"Group": "Secret Shop",
 		"Cost": "3000",
@@ -916,7 +916,7 @@
 	},
 	"item_relic": {
 		"ID": "54",
-		"Image": "item_relic",
+		"Image": "item_54",
 		"Name": "Sacred Relic",
 		"Group": "Secret Shop",
 		"Cost": "3800",
@@ -931,7 +931,7 @@
 	},
 	"item_hyperstone": {
 		"ID": "55",
-		"Image": "item_hyperstone",
+		"Image": "item_55",
 		"Name": "Hyperstone",
 		"Group": "Secret Shop",
 		"Cost": "2000",
@@ -946,7 +946,7 @@
 	},
 	"item_ring_of_health": {
 		"ID": "56",
-		"Image": "item_ring_of_health",
+		"Image": "item_56",
 		"Name": "Ring of Health",
 		"Group": "Arcane",
 		"Cost": "850",
@@ -956,12 +956,12 @@
 		"AlternateDescription": "Ring of Health is shareable.",
 		"ExtraAttribute": "+ 6 HP Regeneration",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name" : "item_hood_of_defiance"},{"name" : "item_pers"},{"name" : "item_vanguard"},{"name" : "item_aether_lens"}],
+		"CreatedTo": [{"name" : "item_hood_of_defiance"},{"name" : "item_pers"},{"name" : "item_182"},{"name" : "item_aether_lens"}],
 		"Lore": "A shiny ring found beneath a fat halfling's corpse."
 	},
 	"item_void_stone": {
 		"ID": "57",
-		"Image": "item_void_stone",
+		"Image": "item_57",
 		"Name": "Void Stone",
 		"Group": "Arcane",
 		"Cost": "850",
@@ -976,7 +976,7 @@
 	},
 	"item_mystic_staff": {
 		"ID": "58",
-		"Image": "item_mystic_staff",
+		"Image": "item_58",
 		"Name": "Mystic Staff",
 		"Group": "Secret Shop",
 		"Cost": "2700",
@@ -986,12 +986,12 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 25 Intelligence",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name" : "item_sheepstick"},{"name" : "item_shivas_guard"},{"name" : "item_octarine_core"}],
+		"CreatedTo": [{"name" : "item_sheepstick"},{"name" : "item_shivas_guard"},{"name" : "item_235"}],
 		"Lore": "Enigmatic staff made of only the most expensive crystals."
 	},
 	"item_point_booster": {
 		"ID": "60",
-		"Image": "item_point_booster",
+		"Image": "item_60",
 		"Name": "Point Booster",
 		"Group": "Secret Shop",
 		"Cost": "1200",
@@ -1001,12 +1001,12 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 175 Mana \n + 175 Health",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name" : "item_skadi"},{"name" : "item_soul_booster"},{"name" : "item_ultimate_scepter"}],
+		"CreatedTo": [{"name" : "item_skadi"},{"name" : "item_129"},{"name" : "item_ultimate_scepter"}],
 		"Lore": "A perfectly formed amethyst that nourishes body and mind when held."
 	},
 	"item_vitality_booster": {
 		"ID": "61",
-		"Image": "item_vitality_booster",
+		"Image": "item_61",
 		"Name": "Vitality Booster",
 		"Group": "Secret Shop",
 		"Cost": "1100",
@@ -1016,12 +1016,12 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 250 Health",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name" : "item_vanguard"},{"name" : "item_soul_booster"},{"name" : "item_heart"},{"name" : "item_rod_of_atos"}],
+		"CreatedTo": [{"name" : "item_182"},{"name" : "item_129"},{"name" : "item_heart"},{"name" : "item_rod_of_atos"}],
 		"Lore": "A ruby gemstone that has been passed down through generations of warrior kin."
 	},
 	"item_power_treads": {
 		"ID": "63",
-		"Image": "item_power_treads",
+		"Image": "item_63",
 		"Name": "Power Treads",
 		"Group": "Common",
 		"Cost": "1350",
@@ -1036,7 +1036,7 @@
 	},
 	"item_hand_of_midas": {
 		"ID": "65",
-		"Image": "item_hand_of_midas",
+		"Image": "item_65",
 		"Name": "Hand of Midas",
 		"Group": "Common",
 		"Cost": "2050",
@@ -1051,7 +1051,7 @@
 	},
 	"item_oblivion_staff": {
 		"ID": "67",
-		"Image": "item_oblivion_staff",
+		"Image": "item_67",
 		"Name": "Oblivion Staff",
 		"Group": "Common",
 		"Cost": "1650",
@@ -1066,7 +1066,7 @@
 	},
 	"item_pers": {
 		"ID": "69",
-		"Image": "item_pers",
+		"Image": "item_69",
 		"Name": "Perseverance",
 		"Group": "Common",
 		"Cost": "1700",
@@ -1081,7 +1081,7 @@
 	},
 	"item_poor_mans_shield": {
 		"ID": "71",
-		"Image": "item_poor_mans_shield",
+		"Image": "item_71",
 		"Name": "Poor Man's Shield",
 		"Group": "Common",
 		"Cost": "500",
@@ -1090,13 +1090,13 @@
 		"MainDescription": "Passive: Damage Block - Blocks physical attack damage based on whether the equipped hero is ranged or melee.  Poor Man's Shield will always block attacks from enemy Heroes,but has a 53% chance to block damage from creeps.",
 		"AlternateDescription": "Multiple sources of damage block don't stack.",
 		"ExtraAttribute": "+ 6 Agility \n MELEE DAMAGE BLOCK: 20 \n RANGED DAMAGE BLOCK: 10 \n CREEP BLOCK CHANCE: 53%",
-		"CreatedFrom": [{"name" : "item_stout_shield"},{"name" : "item_slippers"},{"name" : "item_slippers"}],
+		"CreatedFrom": [{"name" : "item_182"},{"name" : "item_slippers"},{"name" : "item_slippers"}],
 		"CreatedTo": [],
 		"Lore": "A busted old shield that seems to block more than it should."
 	},
 	"item_bracer": {
 		"ID": "73",
-		"Image": "item_bracer",
+		"Image": "item_73",
 		"Name": "Bracer",
 		"Group": "Common",
 		"Cost": "525",
@@ -1105,13 +1105,13 @@
 		"MainDescription": "",
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 6 Strength \n + 3 Agility \n + 3 Intelligence \n + 3 Damage",
-		"CreatedFrom": [{"name" : "item_circlet"},{"name" : "item_gauntlets"},{"name" : "item_recipe"}],
+		"CreatedFrom": [{"name" : "item_20"},{"name" : "item_gauntlets"},{"name" : "item_recipe"}],
 		"CreatedTo": [{"name" : "item_ancient_janggo"}],
 		"Lore": "The bracer is a common choice to toughen up defenses and increase longevity."
 	},
 	"item_wraith_band": {
 		"ID": "75",
-		"Image": "item_wraith_band",
+		"Image": "item_75",
 		"Name": "Wraith Band",
 		"Group": "Common",
 		"Cost": "485",
@@ -1120,13 +1120,13 @@
 		"MainDescription": "",
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 3 Strength \n + 6 Agility \n + 3 Intelligence \n + 3 Damage",
-		"CreatedFrom": [{"name" : "item_circlet"},{"name" : "item_slippers"},{"name" : "item_recipe"}],
+		"CreatedFrom": [{"name" : "item_20"},{"name" : "item_slippers"},{"name" : "item_recipe"}],
 		"CreatedTo": [{"name" : "item_ring_of_aquila"}],
 		"Lore": "A circlet with faint whispers echoing about it."
 	},
 	"item_null_talisman": {
 		"ID": "77",
-		"Image": "item_null_talisman",
+		"Image": "item_77",
 		"Name": "Null Talisman",
 		"Group": "Common",
 		"Cost": "470",
@@ -1135,13 +1135,13 @@
 		"MainDescription": "",
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 3 Strength \n + 3 Agility \n + 6 Intelligence \n + 3 Damage",
-		"CreatedFrom": [{"name" : "item_circlet"},{"name" : "item_mantle"},{"name" : "item_recipe"}],
+		"CreatedFrom": [{"name" : "item_20"},{"name" : "item_15"},{"name" : "item_recipe"}],
 		"CreatedTo": [{"name" : "item_dagon"},{"name" : "item_veil_of_discord"}],
 		"Lore": "A small gemstone attached to several chains."
 	},
 	"item_mekansm": {
 		"ID": "79",
-		"Image": "item_mekansm",
+		"Image": "item_79",
 		"Name": "Mekansm",
 		"Group": "Support",
 		"Cost": "2275",
@@ -1156,7 +1156,7 @@
 	},
 	"item_vladmir": {
 		"ID": "81",
-		"Image": "item_vladmir",
+		"Image": "item_81",
 		"Name": "Vladmir's Offering",
 		"Group": "Support",
 		"Cost": "2275",
@@ -1171,7 +1171,7 @@
 	},
 	"item_flying_courier": {
 		"ID": "84",
-		"Image": "item_flying_courier",
+		"Image": "item_84",
 		"Name": "Flying Courier",
 		"Group": "Consumables",
 		"Cost": "150",
@@ -1186,7 +1186,7 @@
 	},
 	"item_buckler": {
 		"ID": "86",
-		"Image": "item_buckler",
+		"Image": "item_86",
 		"Name": "Buckler",
 		"Group": "Support",
 		"Cost": "800",
@@ -1201,7 +1201,7 @@
 	},
 	"item_pipe": {
 		"ID": "90",
-		"Image": "item_pipe",
+		"Image": "item_90",
 		"Name": "Pipe of Insight",
 		"Group": "Support",
 		"Cost": "3100",
@@ -1216,7 +1216,7 @@
 	},
 	"item_urn_of_shadows": {
 		"ID": "92",
-		"Image": "item_urn_of_shadows",
+		"Image": "item_92",
 		"Name": "Urn of Shadows",
 		"Group": "Support",
 		"Cost": "875",
@@ -1231,7 +1231,7 @@
 	},
 	"item_headdress": {
 		"ID": "94",
-		"Image": "item_headdress",
+		"Image": "item_94",
 		"Name": "Headdress",
 		"Group": "Support",
 		"Cost": "575",
@@ -1246,7 +1246,7 @@
 	},
 	"item_sheepstick": {
 		"ID": "96",
-		"Image": "item_sheepstick",
+		"Image": "item_96",
 		"Name": "Scythe of Vyse",
 		"Group": "Caster",
 		"Cost": "5650",
@@ -1261,7 +1261,7 @@
 	},
 	"item_orchid": {
 		"ID": "98",
-		"Image": "item_orchid",
+		"Image": "item_98",
 		"Name": "Orchid Malevolence",
 		"Group": "Caster",
 		"Cost": "4075",
@@ -1276,7 +1276,7 @@
 	},
 	"item_bloodthorn": {
 		"ID": "250",
-		"Image": "item_bloodthorn",
+		"Image": "item_250",
 		"Name": "Bloodthorn",
 		"Group": "Weapons",
 		"Cost": "7195",
@@ -1291,7 +1291,7 @@
 	},
 	"item_echo_sabre": {
 		"ID": "252",
-		"Image": "item_echo_sabre",
+		"Image": "item_252",
 		"Name": "Echo Sabre",
 		"Group": "Artifacts",
 		"Cost": "2650",
@@ -1306,7 +1306,7 @@
 	},
 	"item_cyclone": {
 		"ID": "100",
-		"Image": "item_cyclone",
+		"Image": "item_100",
 		"Name": "Eul's Scepter of Divinity",
 		"Group": "Caster",
 		"Cost": "2735",
@@ -1321,7 +1321,7 @@
 	},
 	"item_aether_lens": {
 		"ID": "232",
-		"Image": "item_aether_lens",
+		"Image": "item_232",
 		"Name": "Aether Lens",
 		"Group": "Caster",
 		"Cost": "2300",
@@ -1336,7 +1336,7 @@
 	},
 	"item_force_staff": {
 		"ID": "102",
-		"Image": "item_force_staff",
+		"Image": "item_102",
 		"Name": "Force Staff",
 		"Group": "Caster",
 		"Cost": "2225",
@@ -1351,7 +1351,7 @@
 	},
 	"item_hurricane_pike": {
 		"ID": "263",
-		"Image": "item_hurricane_pike",
+		"Image": "item_263",
 		"Name": "Hurricane Pike",
 		"Group": "Armor",
 		"Cost": "4375",
@@ -1366,7 +1366,7 @@
 	},
 	"item_dagon": {
 		"ID": "104",
-		"Image": "item_dagon",
+		"Image": "item_104",
 		"Name": "Dagon",
 		"Group": "Caster",
 		"Cost": "2720/3970/5220/6470/7720",
@@ -1375,13 +1375,13 @@
 		"MainDescription": "Active: Energy Burst - Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable.",
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 13/16/19/22/25  Intelligence \n + 3 All Attributes \n + 9 Damage \n BURST DAMAGE: 400/500/600/700/800 \n CAST RANGE: 600/650/700/750/800",
-		"CreatedFrom": [{"name" : "item_staff_of_wizardry"},{"name" : "item_null_talisman"},{"name" : "item_recipe"}],
+		"CreatedFrom": [{"name" : "item_staff_of_wizardry"},{"name" : "item_77"},{"name" : "item_recipe"}],
 		"CreatedTo": [],
 		"Lore": "A lesser wand that grows in power the longer it is used,it brings magic to the fingertips of the user."
 	},
 	"item_necronomicon": {
 		"ID": "106",
-		"Image": "item_necronomicon",
+		"Image": "item_106",
 		"Name": "Necronomicon",
 		"Group": "Caster",
 		"Cost": "2650/3850/5050",
@@ -1396,7 +1396,7 @@
 	},
 	"item_ultimate_scepter": {
 		"ID": "108",
-		"Image": "item_ultimate_scepter",
+		"Image": "item_108",
 		"Name": "Aghanim's Scepter",
 		"Group": "Caster",
 		"Cost": "4200",
@@ -1411,7 +1411,7 @@
 	},
 	"item_refresher": {
 		"ID": "110",
-		"Image": "item_refresher",
+		"Image": "item_110",
 		"Name": "Refresher Orb",
 		"Group": "Caster",
 		"Cost": "5200",
@@ -1426,7 +1426,7 @@
 	},
 	"item_assault": {
 		"ID": "112",
-		"Image": "item_assault",
+		"Image": "item_112",
 		"Name": "Assault Cuirass",
 		"Group": "Armor",
 		"Cost": "5250",
@@ -1441,7 +1441,7 @@
 	},
 	"item_heart": {
 		"ID": "114",
-		"Image": "item_heart",
+		"Image": "item_114",
 		"Name": "Heart of Tarrasque",
 		"Group": "Armor",
 		"Cost": "5500",
@@ -1456,7 +1456,7 @@
 	},
 	"item_black_king_bar": {
 		"ID": "116",
-		"Image": "item_black_king_bar",
+		"Image": "item_116",
 		"Name": "Black King Bar",
 		"Group": "Armor",
 		"Cost": "3975",
@@ -1471,7 +1471,7 @@
 	},
 	"item_shivas_guard": {
 		"ID": "119",
-		"Image": "item_shivas_guard",
+		"Image": "item_119",
 		"Name": "Shiva's Guard",
 		"Group": "Armor",
 		"Cost": "4700",
@@ -1486,7 +1486,7 @@
 	},
 	"item_bloodstone": {
 		"ID": "121",
-		"Image": "item_bloodstone",
+		"Image": "item_121",
 		"Name": "Bloodstone",
 		"Group": "Armor",
 		"Cost": "4875",
@@ -1495,13 +1495,13 @@
 		"MainDescription": "Active: Pocket Deny - Instantly causes you to die. \n Passive: Bloodpact - Begins with 12 charges,and gains a charge each time an enemy hero dies within 1675 range. Each charge grants 1 mana regeneration per second,and reduces respawn time by 3 seconds. If the bearer dies,500 + 30 health per charge is restored to all allies within a 1675 radius,while the Bloodstone loses a third of its charges.",
 		"AlternateDescription": "Only the first Bloodstone will gain charges.",
 		"ExtraAttribute": "+ 475 Health \n + 425 Mana \n + 9 HP Regeneration \n + 200% Mana Regeneration",
-		"CreatedFrom": [{"name" : "item_soul_booster"},{"name" : "item_soul_ring"},{"name" : "item_recipe"}],
+		"CreatedFrom": [{"name" : "item_129"},{"name" : "item_soul_ring"},{"name" : "item_recipe"}],
 		"CreatedTo": [],
 		"Lore": "The Bloodstone's bright ruby color is unmistakable on the battlefield,as the owner seems to have infinite vitality and spirit."
 	},
 	"item_sphere": {
 		"ID": "123",
-		"Image": "item_sphere",
+		"Image": "item_123",
 		"Name": "Linken's Sphere",
 		"Group": "Armor",
 		"Cost": "4800",
@@ -1516,7 +1516,7 @@
 	},
 	"item_lotus_orb": {
 		"ID": "226",
-		"Image": "item_lotus_orb",
+		"Image": "item_226",
 		"Name": "Lotus Orb",
 		"Group": "Armor",
 		"Cost": "4000",
@@ -1529,9 +1529,9 @@
 		"CreatedTo": [],
 		"Lore": "The jewel at its center still reflects a pale image of its creator."
 	},
-	"item_vanguard": {
+	"item_182": {
 		"ID": "125",
-		"Image": "item_vanguard",
+		"Image": "item_125",
 		"Name": "Vanguard",
 		"Group": "Armor",
 		"Cost": "2150",
@@ -1540,13 +1540,13 @@
 		"MainDescription": "Passive: Damage Block - Makes the wielder block damage from each incoming attack based on whether the equipped hero is melee or ranged.",
 		"AlternateDescription": "Multiple sources of damage block don't stack.",
 		"ExtraAttribute": "+ 250 Health \n + 8 HP Regeneration \n BLOCK DAMAGE MELEE: 32 \n BLOCK DAMAGE RANGED: 16",
-		"CreatedFrom": [{"name" : "item_ring_of_health"},{"name" : "item_vitality_booster"},{"name" : "item_stout_shield"}],
+		"CreatedFrom": [{"name" : "item_ring_of_health"},{"name" : "item_vitality_booster"},{"name" : "item_182"}],
 		"CreatedTo": [{"name" : "item_crimson_guard"},{"name" : "item_abyssal_blade"}],
 		"Lore": "A powerful shield that defends its wielder from even the most vicious of attacks."
 	},
 	"item_crimson_guard": {
 		"ID": "242",
-		"Image": "item_crimson_guard",
+		"Image": "item_242",
 		"Name": "Crimson Guard",
 		"Group": "Armor",
 		"Cost": "3550",
@@ -1555,13 +1555,13 @@
 		"MainDescription": "Active: Guard - Grant nearby allied heroes a 100% chance to block 55 damage from each incoming attack,along with 2 armor. Lasts 10 seconds. \n Passive: Damage Block - Makes the wielder block damage from each incoming attack based on whether the equipped hero is melee or ranged.",
 		"AlternateDescription": "Multiple sources of damage block don't stack. \n Guard does not affect units that have been affected by Guard in the last 50 seconds.",
 		"ExtraAttribute": "+ 250 Health \n + 8 HP Regeneration \n + 2 All Attributes \n + 5 Armor \n BLOCK DAMAGE MELEE: 32 \n BLOCK DAMAGE RANGED: 16 \n GUARD ARMOR: 2 \n GUARD DURATION: 10 \n GUARD RADIUS: 900 \n GUARD DAMAGE BLOCK : 55",
-		"CreatedFrom": [{"name" : "item_vanguard"},{"name" : "item_buckler"},{"name" : "item_recipe"}],
+		"CreatedFrom": [{"name" : "item_182"},{"name" : "item_buckler"},{"name" : "item_recipe"}],
 		"CreatedTo": [],
 		"Lore": "A cuirass originally built to protect against the dreaded Year Beast."
 	},
 	"item_blade_mail": {
 		"ID": "127",
-		"Image": "item_blade_mail",
+		"Image": "item_127",
 		"Name": "Blade Mail",
 		"Group": "Armor",
 		"Cost": "2200",
@@ -1574,9 +1574,9 @@
 		"CreatedTo": [],
 		"Lore": "A razor-sharp coat of mail,it is the choice of selfless martyrs in combat."
 	},
-	"item_soul_booster": {
+	"item_129": {
 		"ID": "129",
-		"Image": "item_soul_booster",
+		"Image": "item_129",
 		"Name": "Soul Booster",
 		"Group": "Armor",
 		"Cost": "3200",
@@ -1584,14 +1584,14 @@
 		"ManaCost": "",
 		"MainDescription": "",
 		"AlternateDescription": "",
-		"ExtraAttribute": "+ 425 Health \n + 425 Mana \n + 50% Mana Regeneration",
+		"ExtraAttribute": "+ 425 Health \n + 425 Manaf \n + 50% Mana Regeneration",
 		"CreatedFrom": [{"name" : "item_energy_booster"},{"name" : "item_point_booster"},{"name" : "item_vitality_booster"}],
-		"CreatedTo": [{"name" : "item_bloodstone"},{"name" : "item_octarine_core"}],
+		"CreatedTo": [{"name" : "item_bloodstone"},{"name" : "item_235"}],
 		"Lore": "Regain lost courage."
 	},
 	"item_rapier": {
 		"ID": "133",
-		"Image": "item_rapier",
+		"Image": "item_133",
 		"Name": "Divine Rapier",
 		"Group": "Weapons",
 		"Cost": "6200",
@@ -1606,7 +1606,7 @@
 	},
 	"item_monkey_king_bar": {
 		"ID": "135",
-		"Image": "item_monkey_king_bar",
+		"Image": "item_135",
 		"Name": "Monkey King Bar",
 		"Group": "Weapons",
 		"Cost": "5400",
@@ -1621,7 +1621,7 @@
 	},
 	"item_radiance": {
 		"ID": "137",
-		"Image": "item_radiance",
+		"Image": "item_137",
 		"Name": "Radiance",
 		"Group": "Weapons",
 		"Cost": "5150",
@@ -1636,7 +1636,7 @@
 	},
 	"item_butterfly": {
 		"ID": "139",
-		"Image": "item_butterfly",
+		"Image": "item_139",
 		"Name": "Butterfly",
 		"Group": "Weapons",
 		"Cost": "5775",
@@ -1651,7 +1651,7 @@
 	},
 	"item_greater_crit": {
 		"ID": "141",
-		"Image": "item_greater_crit",
+		"Image": "item_141",
 		"Name": "Daedalus",
 		"Group": "Weapons",
 		"Cost": "5520",
@@ -1666,7 +1666,7 @@
 	},
 	"item_basher": {
 		"ID": "143",
-		"Image": "item_basher",
+		"Image": "item_143",
 		"Name": "Skull Basher",
 		"Group": "Weapons",
 		"Cost": "2700",
@@ -1681,7 +1681,7 @@
 	},
 	"item_bfury": {
 		"ID": "145",
-		"Image": "item_bfury",
+		"Image": "item_145",
 		"Name": "Battle Fury",
 		"Group": "Weapons",
 		"Cost": "4500",
@@ -1696,7 +1696,7 @@
 	},
 	"item_manta": {
 		"ID": "147",
-		"Image": "item_manta",
+		"Image": "item_147",
 		"Name": "Manta Style",
 		"Group": "Armor",
 		"Cost": "4950",
@@ -1711,7 +1711,7 @@
 	},
 	"item_dragon_lance": {
 		"ID": "236",
-		"Image": "item_dragon_lance",
+		"Image": "item_236",
 		"Name": "Dragon Lance",
 		"Group": "Artifacts",
 		"Cost": "1900",
@@ -1726,7 +1726,7 @@
 	},
 	"item_armlet": {
 		"ID": "151",
-		"Image": "item_armlet",
+		"Image": "item_151",
 		"Name": "Armlet of Mordiggian",
 		"Group": "Weapons",
 		"Cost": "2370",
@@ -1741,7 +1741,7 @@
 	},
 	"item_invis_sword": {
 		"ID": "152",
-		"Image": "item_invis_sword",
+		"Image": "item_152",
 		"Name": "Shadow blade",
 		"Group": "Weapons",
 		"Cost": "2700",
@@ -1756,7 +1756,7 @@
 	},
 	"item_silver_edge": {
 		"ID": "249",
-		"Image": "item_silver_edge",
+		"Image": "item_249",
 		"Name": "Silver Edge",
 		"Group": "Weapons",
 		"Cost": "5100",
@@ -1771,7 +1771,7 @@
 	},
 	"item_sange_and_yasha": {
 		"ID": "154",
-		"Image": "item_sange_and_yasha",
+		"Image": "item_154",
 		"Name": "Sange and Yasha",
 		"Group": "Artifacts",
 		"Cost": "4100",
@@ -1786,7 +1786,7 @@
 	},
 	"item_satanic": {
 		"ID": "156",
-		"Image": "item_satanic",
+		"Image": "item_156",
 		"Name": "Satanic",
 		"Group": "Artifacts",
 		"Cost": "5900",
@@ -1801,7 +1801,7 @@
 	},
 	"item_mjollnir": {
 		"ID": "158",
-		"Image": "item_mjollnir",
+		"Image": "item_158",
 		"Name": "Mjollnir",
 		"Group": "Artifacts",
 		"Cost": "5700",
@@ -1816,7 +1816,7 @@
 	},
 	"item_skadi": {
 		"ID": "160",
-		"Image": "item_skadi",
+		"Image": "item_160",
 		"Name": "Eye of Skadi",
 		"Group": "Artifacts",
 		"Cost": "5675",
@@ -1831,7 +1831,7 @@
 	},
 	"item_sange": {
 		"ID": "162",
-		"Image": "item_sange",
+		"Image": "item_162",
 		"Name": "Sange",
 		"Group": "Artifacts",
 		"Cost": "2050",
@@ -1846,7 +1846,7 @@
 	},
 	"item_helm_of_the_dominator": {
 		"ID": "164",
-		"Image": "item_helm_of_the_dominator",
+		"Image": "item_164",
 		"Name": "Helm of the Dominator",
 		"Group": "Artifacts",
 		"Cost": "1800",
@@ -1861,7 +1861,7 @@
 	},
 	"item_maelstrom": {
 		"ID": "166",
-		"Image": "item_maelstrom",
+		"Image": "item_166",
 		"Name": "Maelstrom",
 		"Group": "Artifacts",
 		"Cost": "2800",
@@ -1876,7 +1876,7 @@
 	},
 	"item_desolator": {
 		"ID": "168",
-		"Image": "item_desolator",
+		"Image": "item_168",
 		"Name": "Desolator",
 		"Group": "Artifacts",
 		"Cost": "3500",
@@ -1891,7 +1891,7 @@
 	},
 	"item_yasha": {
 		"ID": "170",
-		"Image": "item_yasha",
+		"Image": "item_170",
 		"Name": "Yasha",
 		"Group": "Artifacts",
 		"Cost": "2050",
@@ -1906,7 +1906,7 @@
 	},
 	"item_diffusal_blade": {
 		"ID": "174",
-		"Image": "item_diffusal_blade",
+		"Image": "item_174",
 		"Name": "Diffusal Blade",
 		"Group": "Artifacts",
 		"Cost": "3150/3850",
@@ -1921,7 +1921,7 @@
 	},
 	"item_ethereal_blade": {
 		"ID": "176",
-		"Image": "item_ethereal_blade",
+		"Image": "item_176",
 		"Name": "Ethereal Blade",
 		"Group": "Weapons",
 		"Cost": "4700",
@@ -1936,7 +1936,7 @@
 	},
 	"item_soul_ring": {
 		"ID": "178",
-		"Image": "item_soul_ring",
+		"Image": "item_178",
 		"Name": "Soul Ring",
 		"Group": "Common",
 		"Cost": "775",
@@ -1951,7 +1951,7 @@
 	},
 	"item_arcane_boots": {
 		"ID": "180",
-		"Image": "item_arcane_boots",
+		"Image": "item_180",
 		"Name": "Arcane Boots",
 		"Group": "Support",
 		"Cost": "1300",
@@ -1964,9 +1964,9 @@
 		"CreatedTo": [{"name": "item_guardian_greaves"}],
 		"Lore": "Magi equipped with these boots are valued in battle."
 	},
-	"item_octarine_core": {
+	"item_235": {
 		"ID": "235",
-		"Image": "item_octarine_core",
+		"Image": "item_235",
 		"Name": "Octarine Core",
 		"Group": "Caster",
 		"Cost": "5900",
@@ -1975,13 +1975,13 @@
 		"MainDescription": "Passive: Cooldown Reduction - Reduces the cooldown time of all spells and item by 25%. \n Passive: Spell Lifesteal - A percentage of damage caused by spells is returned to the caster as health.",
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 25 Intelligence \n + 425 Health \n + 425 Mana \n + 50% Mana Regeneration \n COOLDOWN REDUCTION: 25% \n HERO SPELL LIFESTEAL: 25% \n CREEP SPELL LIFESTEAL: 5%",
-		"CreatedFrom": [{"name": "item_mystic_staff"} ,{"name" : "item_soul_booster"}],
+		"CreatedFrom": [{"name": "item_mystic_staff"} ,{"name" : "item_129"}],
 		"CreatedTo": [],
 		"Lore": "At the core of spellcraft are spectrums only the very gifted can sense."
 	},
 	"item_orb_of_venom": {
 		"ID": "181",
-		"Image": "item_orb_of_venom",
+		"Image": "item_181",
 		"Name": "Orb of Venom",
 		"Group": "Armaments",
 		"Cost": "275",
@@ -1996,7 +1996,7 @@
 	},
 	"item_blight_stone": {
 		"ID": "240",
-		"Image": "item_blight_stone",
+		"Image": "item_240",
 		"Name": "Blight Stone",
 		"Group": "Armaments",
 		"Cost": "300",
@@ -2011,7 +2011,7 @@
 	},
 	"item_ancient_janggo": {
 		"ID": "185",
-		"Image": "item_ancient_janggo",
+		"Image": "item_185",
 		"Name": "Drum of Endurance",
 		"Group": "Support",
 		"Cost": "1785",
@@ -2020,13 +2020,13 @@
 		"MainDescription": "Active: Endurance - Gives bonus +25 attack speed and +13% movement speed to allies in a 900 radius. \n Passive: Swiftness Aura - Gives bonus attack and movement speed to allies in a 900 radius. \n Multiple instances of Swiftness Aura do not stack.",
 		"AlternateDescription": "Re-purchasing the Drum of Endurance recipe will refresh its charges.",
 		"ExtraAttribute": "+ 9 Intelligence \n + 6 Strength \n + 3 Agility \n + 3 Damage \n + 3 HP Regeneration \n AURA ATTACK SPEED: 5 \n AURA MOVE SPEED: 5% \n ENDURANCE ATTACK SPEED: 25 \n ENDURANCE MOVE SPEED: 13% \n ENDURANCE DURATION: 6 \n AURA/ENDURANCE RADIUS: 900",
-		"CreatedFrom": [{"name": "item_bracer"} ,{"name" : "item_ring_of_regen"},{"name": "item_wind_lace"} ,{"name" : "item_recipe"}],
+		"CreatedFrom": [{"name": "item_73"} ,{"name" : "item_ring_of_regen"},{"name": "item_wind_lace"} ,{"name" : "item_recipe"}],
 		"CreatedTo": [],
 		"Lore": "A relic that enchants the bodies of those around it for swifter movement in times of crisis."
 	},
 	"item_medallion_of_courage": {
 		"ID": "187",
-		"Image": "item_medallion_of_courage",
+		"Image": "item_187",
 		"Name": "Medallion of Courage",
 		"Group": "Support",
 		"Cost": "1175",
@@ -2041,7 +2041,7 @@
 	},
 	"item_solar_crest": {
 		"ID": "229",
-		"Image": "item_solar_crest",
+		"Image": "item_229",
 		"Name": "Solar Crest",
 		"Group": "Caster",
 		"Cost": "2875",
@@ -2056,7 +2056,7 @@
 	},
 	"item_smoke_of_deceit": {
 		"ID": "188",
-		"Image": "item_smoke_of_deceit",
+		"Image": "item_188",
 		"Name": "Smoke of Deceit",
 		"Group": "Consumables",
 		"Cost": "50",
@@ -2071,7 +2071,7 @@
 	},
 	"item_tome_of_knowledge": {
 		"ID": "257",
-		"Image": "item_tome_of_knowledge",
+		"Image": "item_257",
 		"Name": "Tome of Knowledge",
 		"Group": "Consumables",
 		"Cost": "150",
@@ -2086,7 +2086,7 @@
 	},
 	"item_veil_of_discord": {
 		"ID": "190",
-		"Image": "item_veil_of_discord",
+		"Image": "item_190",
 		"Name": "Veil of Discord",
 		"Group": "Caster",
 		"Cost": "2240",
@@ -2095,13 +2095,13 @@
 		"MainDescription": "Active: Magic Weakness - Emits a weakening blast that increases the magic damage enemies take. Lasts 16.0 seconds.",
 		"AlternateDescription": "Can be dispelled.",
 		"ExtraAttribute": "+ 6 HP Regeneration \n + 6 Armor \n + 6 Agility \n + 6 Strength \n + 6 Damage \n + 12 Intelligence \n INCREASED MAGIC DAMAGE: 25% \n MAGIC WEAKNESS RADIUS: 600 \n MAGIC WEAKNESS DURATION: 16",
-		"CreatedFrom": [{"name": "item_helm_of_iron_will"} ,{"name" : "item_null_talisman"},{"name": "item_null_talisman"} ,{"name" : "item_recipe"}],
+		"CreatedFrom": [{"name": "item_helm_of_iron_will"} ,{"name" : "item_77"},{"name": "item_77"} ,{"name" : "item_recipe"}],
 		"CreatedTo": [],
 		"Lore": "The headwear of corrupt magi."
 	},
 	"item_guardian_greaves": {
 		"ID": "231",
-		"Image": "item_guardian_greaves",
+		"Image": "item_231",
 		"Name": "Guardian Greaves",
 		"Group": "Support",
 		"Cost": "5275",
@@ -2116,7 +2116,7 @@
 	},
 	"item_rod_of_atos": {
 		"ID": "206",
-		"Image": "item_rod_of_atos",
+		"Image": "item_206",
 		"Name": "Rod of Atos",
 		"Group": "Caster",
 		"Cost": "3100",
@@ -2131,7 +2131,7 @@
 	},
 	"item_iron_talon": {
 		"ID": "239",
-		"Image": "item_iron_talon",
+		"Image": "item_239",
 		"Name": "Iron Talon",
 		"Group": "Support",
 		"Cost": "500",
@@ -2146,7 +2146,7 @@
 	},
 	"item_abyssal_blade": {
 		"ID": "208",
-		"Image": "item_abyssal_blade",
+		"Image": "item_208",
 		"Name": "Abyssal Blade",
 		"Group": "Weapons",
 		"Cost": "6400",
@@ -2155,13 +2155,13 @@
 		"MainDescription": "Active: Overwhelm - Stuns a target enemy unit for 2.0 seconds. Pierces Spell Immunity. \n Passive: Bash - Grants each attack a chance to stun the target for 1.4 seconds and deal 85 bonus damage,based on whether the equipped hero is ranged or melee. \n Passive: Damage Block - Makes the wielder block damage from each incoming attack based on whether the equipped hero is melee or ranged.",
 		"AlternateDescription": "The stun is melee range. \n Doesn't stack with other bashes. \n The following heroes cannot trigger Bash on this item: Spirit Breaker,Faceless Void,Slardar,and Troll Warlord.",
 		"ExtraAttribute": "+ 250 Health \n + 15 HP Regeneration \n BLOCK DAMAGE MELEE: 40 \n BLOCK DAMAGE RANGED: 20 \n + 10 Damage \n + 10 Strength \n BASH MELEE CHANCE: 25% \n BASH RANGED CHANCE: 10% \n BASH STUN DURATION: 1.4 \n BASH BONUS DAMAGE: 85 \n OVERWHELM STUN DURATION: 2",
-		"CreatedFrom": [{"name": "item_vanguard"} ,{"name" : "item_basher"},{"name": "item_recipe"}],
+		"CreatedFrom": [{"name": "item_182"} ,{"name" : "item_basher"},{"name": "item_recipe"}],
 		"CreatedTo": [],
 		"Lore": "The lost blade of the Commander of the Abyss,this edge cuts into an enemy's soul."
 	},
 	"item_heavens_halberd": {
 		"ID": "210",
-		"Image": "item_heavens_halberd",
+		"Image": "item_210",
 		"Name": "Heaven's Halberd",
 		"Group": "Artifacts",
 		"Cost": "3750",
@@ -2176,7 +2176,7 @@
 	},
 	"item_ring_of_aquila": {
 		"ID": "212",
-		"Image": "item_ring_of_aquila",
+		"Image": "item_212",
 		"Name": "Ring of Aquila",
 		"Group": "Support",
 		"Cost": "985",
@@ -2191,7 +2191,7 @@
 	},
 	"item_tranquil_boots": {
 		"ID": "214",
-		"Image": "item_tranquil_boots",
+		"Image": "item_214",
 		"Name": "Tranquil Boots",
 		"Group": "Support",
 		"Cost": "900",
@@ -2206,7 +2206,7 @@
 	},
 	"item_shadows_amulet": {
 		"ID": "215",
-		"Image": "item_shadows_amulet",
+		"Image": "item_215",
 		"Name": "Shadow Amulet",
 		"Group": "Arcane",
 		"Cost": "1300",

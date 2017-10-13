@@ -29,7 +29,7 @@
       "attribute": "MINIMUM STUN: <span >1 / 1 / 1 / 2</span><br />\nMAXIMUM STUN: <span >2 / 3 / 4 / 4</span><br />\nMINIMUM DAMAGE: <span >75 / 100 / 125 / 150</span><br />\nMAXIMUM DAMAGE: <span >200 / 225 / 250 / 275</span><br/>",
       "cmb": "<img src=\"mana\"/> 140  &emsp <img src=\"cooldown\"/> 10",
       "lore":"Even Chaos Knight cannot predict this manifest of unholy energy.",
-      "image": "chaos_knight_chaos_bolt",
+      "image": "skill_5426",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": 	"RANGE: <span >550 / 600 / 650 / 700</span><br />\nARMOR REDUCTION: <span >1 / 3 / 5 / 7</span><br />\nREDUCTION DURATION: <span >8</span><br/>",
       "cmb": "<img src=\"mana\" /> 50 &emsp <img src=\"cooldown\"/> 18/14/10/6",
       "lore": "Armageddon rides between the planes, bringing Chaos Knight to his victim wherever he may hide.",
-      "image": "chaos_knight_reality_rift",
+      "image": "skill_5427",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "CRITICAL CHANCE: <span >12%</span><br />\nCRITICAL DAMAGE: <span >125% / 175% / 225% / 275%</span><br />\nCRITICAL LIFESTEAL: <span >75%</span><br/>",
       "cmb": "",
       "lore": 	"Chaos Knight's unwieldy power bludgeons those who stand before him, crushing the thickest of armors.",
-      "image": "chaos_knight_chaos_strike",
+      "image": "skill_5428",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "NUMBER OF PHANTASMS: <span >1 / 2 / 3</span><br />\nEXTRA PHANTASM CHANCE: <span >50%</span><br />\nPHANTASM DURATION: <span >42</span><br />\nPHANTASM DAMAGE: <span >100% / 100% / 100%</span><br />\nPHANTASM DAMAGE TAKEN: <span >260%</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER COOLDOWN:</span> <span >110</font><br/>",
       "cmb": "<img src=\"mana\"/> 125/200/275 &emsp <img src=\"cooldown\"/> 130",
       "lore": "Drawing on his battles fought across many worlds and many times, phantasms of the Chaos Knight rise up to quell all who oppose him.",
-      "image": "chaos_knight_phantasm",
+      "image": "skill_5429",
       "mainSkill": 1
     }
   ]

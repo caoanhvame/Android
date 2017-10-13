@@ -29,7 +29,7 @@
       "attribute": "BONUS DAMAGE: <span >20 / 40 / 60 / 80</span><br />\nDURATION: <span >17 / 17 / 17 / 17</span><br/>",
       "cmb": "<img src=\"mana\"/> 100  &emsp <img src=\"cooldown\"/> 17",
       "lore": "Manipulating her psionic veil, Lanaya bends nature's law to her will.",
-      "image": "templar_assassin_refraction",
+      "image": "skill_5194",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "BONUS DAMAGE: <span >50 / 100 / 150 / 200</span><br />\nARMOR REDUCTION: <span >2 / 4 / 6 / 8</span><br />\nARMOR REDUCTION DURATION: <span >10</span><br/>",
       "cmb": "<img src=\"mana\" /> 50 &emsp <img src=\"cooldown\"/> 6",
       "lore": "Lanaya is as elusive as her covenant with the Hidden Temple.",
-      "image": "templar_assassin_meld",
+      "image": "skill_5195",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "BONUS ATTACK RANGE: <span >60 / 120 / 180 / 240</span><br />\nSPLIT RANGE: <span >590 / 630 / 670 / 710</span><br/>",
       "cmb": "",
       "lore": "Her blades pierce the skin as much as the mind, furthering her understanding of the mystery that is reality.",
-      "image": "templar_assassin_psi_blades",
+      "image": "skill_5196",
       "mainSkill": 1
     },
     {
@@ -67,8 +67,8 @@
       "dmg": "",
       "attribute": "RADIUS: <span >600</span><br />\nECHO DAMAGE: <span >40 / 55 / 70</span><br/>",
       "cmb": "<img src=\"cooldown\"/> 0.5",
-      "lore": "Tectonic plates crack, mountains fold, and foes are crushed by the Echo Slam.",
-      "image": "templar_assassin_trap",
+      "lore": "",
+      "image": "skill_5198",
       "mainSkill": 0
     },
     {
@@ -81,7 +81,7 @@
       "attribute": "MAX TRAPS: <span >5 / 8 / 11</span><br />\nMIN MOVEMENT SLOW: <span >30%</span><br />\nMAX MOVEMENT SLOW: <span >60%</span><br />\nSLOW DURATION: <span >5</span><br/>",
       "cmb": "<img src=\"mana\" /> 15 &emsp <img src=\"cooldown\"/> 11/8/5",
       "lore": "Calling upon the reach of the Hidden Temple, none escape the eye of the Templar.",
-      "image": "templar_assassin_psionic_trap",
+      "image": "skill_5197",
       "mainSkill": 1
     }
   ]

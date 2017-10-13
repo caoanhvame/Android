@@ -29,7 +29,7 @@
       "attribute": "RADIUS: <span >315</span><br />\nSTOMP DAMAGE: <span >100 / 150 / 200 / 250</span><br/>",
       "cmb": "<img src=\"mana\"/> 130  &emsp <img src=\"cooldown\"/> 13",
       "lore": 	"When the mighty hoof of the Warrunner touches soil, the tremors are felt far and wide.",
-      "image": "centaur_hoof_stomp",
+      "image": "skill_5514",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "",
       "cmb": "<img src=\"mana\" /> 0 &emsp <img src=\"cooldown\"/> 5",
       "lore": "In the spurs of combat, Bradwarden's vicious strikes sometimes cause self-inflicted collateral damage.",
-      "image": "centaur_double_edge",
+      "image": "skill_5515",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "DAMAGE: <span >16 / 18 / 20 / 22</span><br/> STRENGTH AS BONUS DAMAGE: 30%/45%/60%/75% <br/>",
       "cmb": "",
       "lore": "Bradwarden has no need to parry his opponent's attacks; his armor-like hide does it for him.",
-      "image": "centaur_return",
+      "image": "skill_5516",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "STAMPEDE DURATION: <span >4</span><br />\nSTOP DURATION: <span >1.8</span><br />\nTRAMPLE RADIUS: <span >105</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER DAMAGE REDUCTION:</font> <span >40%</span><br/>",
       "lore": "The great belt of Omexe, which labels Bradwarden as the greatest warrior of his kind, incites his fellow gladiators to follow him into barbarous combat.",
       "cmb": "<img src=\"mana\"/> 100 &emsp <img src=\"cooldown\"/> 90/75/60",
-      "image": "centaur_stampede",
+      "image": "skill_5517",
       "mainSkill": 1
     }
   ]

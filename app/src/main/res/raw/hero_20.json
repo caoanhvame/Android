@@ -29,7 +29,7 @@
       "attribute": "STUN DURATION: <span >1.2 / 1.4 / 1.6 / 1.8</span><br/>",
       "cmb": "<img src=\"mana\"/> 110/120/130/140 &emsp <img src=\"cooldown\"/> 13/12/11/10",
       "lore": "A simple Skywrath technique, the magic missile is Shendel's primary tool for vengeance.",
-      "image": "vengefulspirit_magic_missile",
+      "image": "skill_5122",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": 	"ARMOR REDUCTION: <span >3 / 4 / 5 / 6</span><br />\nDEBUFF DURATION: <span >15</span><br />\nVISION DURATION: <span >3 / 3 / 3 / 3</span><br/>",
       "cmb": "<img src=\"mana\" /> 40 &emsp <img src=\"cooldown\"/> 22/20/18/16",
       "lore": "Shendel's haunting voice hints at her approaching vindication.",
-      "image": "vengefulspirit_wave_of_terror",
+      "image": "skill_5124",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "RADIUS: <span >900</span><br/>",
       "cmb": "",
       "lore": "Although they may not share her undying passion for revenge, allies do draw on her fanaticism in combat.",
-      "image": "vengefulspirit_command_aura",
+      "image": "skill_5123",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "RANGE: <span >700 / 950 / 1200</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER COOLDOWN:</font> <span >10</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER ILLUSION DAMAGE DEALT:</font> <span >50%</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER ILLUSION DAMAGE TAKEN:</font> <span >150%</span><br/>",
       "cmb": "<img src=\"mana\"/> 100/150/200 &emsp <img src=\"cooldown\"/> 45",
       "lore": 	"Martyrdom is a small price to pay for vengeance.",
-      "image": "vengefulspirit_nether_swap",
+      "image": "skill_5125",
       "mainSkill": 1
     }
   ]

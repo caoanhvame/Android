@@ -29,7 +29,7 @@
       "attribute": "DAMAGE: <span>50 / 100 / 150 / 200</span><br />\nMOVEMENT SPEED CHANGE: <span>8% / 12% / 16% / 20%</span><br />\nDURATION: <span>7 / 7 / 7 / 7</span><br/>",
       "cmb": "<img src=\"mana\"/> 130/140/150/160  &emsp <img src=\"cooldown\"/> 16",
       "lore": "Mercurial's dagger eclipses the physical plane in shadow, a state in which mortals cower, but spectres thrive.",
-      "image": "spectre_spectral_dagger",
+      "image": "skill_5334",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "BONUS DAMAGE: <span>20 / 35 / 50 / 65</span><br />\nRADIUS: <span>325</span><br/>",
       "cmb": "",
       "lore": "Often times, warriors find themselves alone with a vision of Mercurial - the fated question is if it is the true Spectre.",
-      "image": "spectre_desolate",
+      "image": "skill_5335",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "DAMAGE REFLECTED: <span>10% / 14% / 18% / 22%</span><br />\nMIN RADIUS: <span>300 / 300 / 300 / 300</span><br />\nMAX RADIUS: <span>1000 / 1000 / 1000 / 1000</span><br/>",
       "cmb": "",
       "lore": "A daunting task lies before enemies of Mercurial - killing a shadow with blade and magic.",
-      "image": "spectre_dispersion",
+      "image": "skill_5336",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "HAUNT DURATION: <span>5 / 6 / 7</span><br />\nHAUNT DAMAGE: <span>30%</span><br />\nHAUNT DAMAGE TAKEN: <span>200% / 200% / 200%</span><br/>",
       "cmb": "<img src=\"mana\"/> 150 &emsp <img src=\"cooldown\"/> 180/150/120",
       "lore": "At the height of combat, Mercurial's physical manifestation shatters, and the shadowy pieces haunt those who still cling to life.",
-      "image": "spectre_haunt",
+      "image": "skill_5337",
       "mainSkill": 1
     },
     {
@@ -81,7 +81,7 @@
       "attribute": "",
       "cmb": "",
       "lore": "The scattered shadows unite into the one true Spectre.",
-      "image": "spectre_reality",
+      "image": "skill_5338",
       "mainSkill": 1
     }
   ]

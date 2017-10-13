@@ -24,6 +24,7 @@
     <string name="upgradeFrom">Upgrade From: </string>
     <string name="item">Item</string>
     <string name="hero">Hero</string>
+    <string name="history">History</string>
     <string name="title_activity_hero_bio">Bio</string>
 
     <string name="menu">Menu</string>
@@ -33,4 +34,7 @@
     <string name="search_fragment">Search Fragment</string>
     <string name="cart_fragment">Cart Fragment</string>
     <string name="hot_deals_fragment">Hot Deals Fragment</string>
+    <string name="title_activity_match_detail">Match Detail</string>
+    <string name="radiant">Radiant</string>
+    <string name="dire">Dire</string>
 </resources>

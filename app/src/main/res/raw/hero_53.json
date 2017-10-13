@@ -29,7 +29,7 @@
       "attribute": "DURATION: <span>3 / 4 / 5 / 6</span><br />\nCAST RANGE: <span>625 / 700 / 775 / 850</span><br/>",
       "cmb": "<img src=\"mana\"/> 70/90/110/130  &emsp <img src=\"cooldown\"/> 11/10/9/8",
       "lore": "Verdant overgrowth is a common ailment reported by Nature's Prophet's attackers.",
-      "image": "furion_sprout",
+      "image": "skill_5245",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "",
       "cmb": "<img src=\"mana\" /> 50 &emsp <img src=\"cooldown\"/> 50/40/30/20",
       "lore": "The Prophet keeps his sentinel over the forest, protecting it when in need.",
-      "image": "furion_teleportation",
+      "image": "skill_5246",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "TREANT COUNT: <span>2 / 3 / 4 / 5</span><br />\nTREANT DURATION: <span>60 / 60 / 60 / 60</span><br/>",
       "cmb": "<img src=\"mana\" /> 130/140/150/160 &emsp <img src=\"cooldown\"/> 37",
       "lore": "Verodicia bestowed the Prophet with the ability to summon the Treant Guard, a mythical sentient army of the wild.",
-      "image": "furion_force_of_nature",
+      "image": "skill_5247",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "MAX TARGETS: <span>16 / 16 / 16</span><br />\nDAMAGE: <span>110 / 140 / 170</span><br />\nADDED DAMAGE PER BOUNCE: <span>11%</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER DAMAGE:</font> <span>135 / 170 / 205</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER TREANT SPAWN TIMER:</font> <span>4</span><br/>",
       "cmb": "<img src=\"mana\"/> 175/225/275 &emsp <img src=\"cooldown\"/>  90/75/60",
       "lore": "Nature's Prophet calls Verodicia's fury to strike down those who might ravage the wilderness.",
-      "image": "furion_wrath_of_nature",
+      "image": "skill_5248",
       "mainSkill": 1
     }
   ]

@@ -29,7 +29,7 @@
       "attribute": "DURATION: <span >9 / 10 / 11 / 12</span><br />\nDAMAGE INCREASE: <span >25% / 30% / 35% / 40%</span><br />\nKILL HEAL PERCENTAGE: <span >19% / 21% / 23% / 25%</span><br/>",
       "cmb": "<img src=\"cooldown\"/> 12/10/8/6",
       "lore": "Strygwyr shares his animalistic thirst for bloodshed.",
-      "image": "bloodseeker_bloodrage",
+      "image": "skill_5015",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "RITUAL AREA: <span >600</span><br />\nSILENCE DURATION: <span >3 / 4 / 5 / 6</span><br/>",
       "cmb": "<img src=\"mana\" /> 100 &emsp <img src=\"cooldown\"/> 18/16/14/12",
       "lore": "The Flayed Twins are ever willing to aid those who spill blood upon the field of battle.",
-      "image": "bloodseeker_blood_bath",
+      "image": "skill_5016",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "THIRST HEALTH THRESHHOLD: <span >75%</span><br />\nMAX THIRST MOVE SPEED: <span >16% / 24% / 32% / 40%</span><br />\nMAX THIRST DAMAGE: <span >16 / 24 / 32 / 40</span><br />\nVISIBILITY HEALTH THRESHHOLD: <span >25%</span><br/>",
       "cmb": "",
       "lore": "Strygwyr becomes frenzied when blood is spilled.",
-      "image": "bloodseeker_thirst",
+      "image": "skill_5017",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "DURATION: <span >12</span><br />\nCAST RANGE: <span >1000</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER CHARGES:</font> <span >2</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER REPLENISH TIME:</font> <span >40</span><br/>",
       "cmb": "<img src=\"mana\"/> 150/200/250 &emsp <img src=\"cooldown\"/> 60",
       "lore": "When the Bloodseeker hunts you, injuries become fatalities.",
-      "image": "bloodseeker_rupture",
+      "image": "skill_5018",
       "mainSkill": 1
     }
   ]

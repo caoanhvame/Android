@@ -29,7 +29,7 @@
       "attribute": "RADIUS: <span >260</span><br/>Damage: 90/160/230/300<br/>Heal: 90/160/230/300<br/>",
       "cmb": "<img src=\"mana\"/> 85/100/115/130  &emsp <img src=\"cooldown\"/> 11/10/9/8",
       "lore": "Priests of the Omniscience are adept at removing impurities from fellow warriors.",
-      "image": "omniknight_purification",
+      "image": "skill_5263",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "DURATION: <span >4 / 5 / 6 / 7</span><br/>",
       "cmb": "<img src=\"mana\" /> 50 &emsp <img src=\"cooldown\"/> 30/26/22/18",
       "lore": "When faced with the pit of sacrifice, Purist's resilience to magic was tested and affirmed.",
-      "image": "omniknight_repel",
+      "image": "skill_5264",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "RADIUS: <span >350</span> <br/>Move Speed Slow: 10%/18%/26%/34% <br/> Attack Speed Slow: 10/18/26/34 <br/>",
       "cmb": "",
       "lore": "The holy embodiment of Purist Thunderwrath is enough to weaken those of lesser faith.",
-      "image": "omniknight_degen_aura",
+      "image": "skill_5265",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": 	"DURATION: <span >6 / 7 / 8</span><br />\nRADIUS: <span >600 / 600 / 600</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER DURATION:</font> <span >8 / 9 / 10</span><br/>",
       "lore": "The All Seeing One casts down his protection over those that Purist calls friend.",
       "cmb": "<img src=\"mana\"/> 125/175/250 &emsp <img src=\"cooldown\"/> 160</div>",
-      "image": "omniknight_guardian_angel",
+      "image": "skill_5266",
       "mainSkill": 1
     }
   ]

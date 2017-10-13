@@ -29,7 +29,7 @@
       "attribute": "MAX TETHER DISTANCE: <span class=\"attribVal\">900 / 900 / 900 / 900</span><br />\nMOVEMENT SPEED BONUS: <span class=\"attribVal\">10% / 12% / 14% / 16%</span><br />\nTETHER DURATION: <span class=\"attribVal\">12 / 12 / 12 / 12</span><br />\nENEMY MOVEMENT SLOW: <span class=\"attribVal\">100%</span><br />\nENEMY ATTACK SLOW: <span class=\"attribVal\">100</span><br />\nENEMY SLOW DURATION: <span class=\"attribVal\">0.75 / 1.25 / 1.75 / 2.25</span><br/>",
       "cmb": "<img src=\"mana\"/> 40  &emsp <img src=\"cooldown\"/> 12",
       "lore": "The benevolent touch of Io brings strength from between the planes.",
-      "image": "wisp_tether",
+      "image": "skill_5485",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "",
       "cmb": "",
       "lore": "",
-      "image": "wisp_tether_break",
+      "image": "skill_5489",
       "mainSkill": 0
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "CREEP DAMAGE: <span class=\"attribVal\">8 / 14 / 20 / 26</span><br />\nOSCILLATION RADIUS: <span class=\"attribVal\">875 / 875 / 875 / 875</span><br />\nEXPLOSION RADIUS: <span class=\"attribVal\">300 / 300 / 300 / 300</span><br />\nDURATION: <span class=\"attribVal\">19 / 19 / 19 / 19</span><br/>",
       "cmb": "<img src=\"mana\"/> 150  &emsp <img src=\"cooldown\"/> 20/18/16/14",
       "lore": "Io twists the particles of the universe with its unimaginable capabilities.",
-      "image": "wisp_spirits",
+      "image": "skill_5486",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "",
       "lore": "",
       "cmb": "",
-      "image": "wisp_spirits_in",
+      "image": "skill_5490",
       "mainSkill": 0
     },
     {
@@ -81,7 +81,7 @@
       "attribute": "",
       "lore": "",
       "cmb": "",
-      "image": "wisp_spirits_out",
+      "image": "skill_5493",
       "mainSkill": 0
     },
     {
@@ -94,7 +94,7 @@
       "attribute": "ATTACK SPEED: <span class=\"attribVal\">40 / 50 / 60 / 70</span><br />\nINCOMING DAMAGE REDUCTION: <span class=\"attribVal\">5% / 10% / 15% / 20%</span><br />\nHEALTH/MANA DRAIN: <span class=\"attribVal\">6%</span><br/>",
       "cmb": "<img src=\"cooldown\"/> 2",
       "lore": "Drawing on the energy of matter from all worlds, Io begins the unravelling of time.",
-      "image": "wisp_overcharge",
+      "image": "skill_5487",
       "mainSkill": 1
     },
     {
@@ -107,7 +107,7 @@
       "attribute": "CAST DELAY: <span class=\"attribVal\">2.7 / 2.35 / 2</span><br />\nRETURN TIME: <span class=\"attribVal\">12 / 12 / 12</span><br/>",
       "cmb": "<img src=\"mana\"/> 100  &emsp <img src=\"cooldown\"/> 100/80/60",
       "lore": "Io is the embodiment of the mystery of the universe.",
-      "image": "wisp_relocate",
+      "image": "skill_5488",
       "mainSkill": 1
     }
   ]

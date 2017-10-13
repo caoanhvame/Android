@@ -29,7 +29,7 @@
       "attribute": "STUN DELAY: <span>0.35</span><br />\nRADIUS: <span>150 / 175 / 200 / 225</span><br />\nSTUN DURATION: <span>2</span><br/>",
       "cmb": "<img src=\"mana\"/> 100/125/140/160  &emsp <img src=\"cooldown\"/> 9",
       "lore": "Twisting nature to his vile will, the shifting earth consumes those unlucky enough to cross Leshrac's path.",
-      "image": "leshrac_split_earth",
+      "image": "skill_5241",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "RADIUS: <span>500</span><br/>",
       "cmb": "<img src=\"mana\" /> 95/120/135/155 &emsp <img src=\"cooldown\"/> 22",
       "lore": "Chronoptic energy bursts from one plane to the other, evaporating anything it touches.",
-      "image": "leshrac_diabolic_edict",
+      "image": "skill_5242",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "LIGHTNING STRIKES: <span>4 / 6 / 8 / 10</span><br />\nLIGHTNING JUMP RADIUS: <span>475</span><br />\nMOVEMENT SLOW: <span>75%</span><br />\n<span class=\"scepterVal\">SCEPTER INTERVAL:</span> <span>1.75</span><br />\n<span class=\"scepterVal\">SCEPTER RADIUS:</span> <span>750</span><br/>",
       "cmb": "<img src=\"mana\" /> 90/100/110/120 &emsp <img src=\"cooldown\"/> 4",
       "lore": "The Tormented Soul's mastery of the elements is evident in the massive storms that strike down armies before him.",
-      "image": "leshrac_lightning_storm",
+      "image": "skill_5243",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "MANA/SEC: <span>20 / 40 / 60</span><br />\nRADIUS: <span>450</span><br />\nDAMAGE: <span>100 / 140 / 180</span><br/><font size=\"3\" color=\"#6fe871\">SCEPTER UPGRADE: </font>While Pulse Nova is active, Lightning Storm will hit one random unit in a radius every 1.75 seconds.<br/>",
       "cmb": "<img src=\"mana\"/> 70/90/110 &emsp <img src=\"cooldown\"/> 1",
       "lore": "If necessary, the Tormented Soul can manipulate space time itself, ravaging lesser beings.",
-      "image": "leshrac_pulse_nova",
+      "image": "skill_5244",
       "mainSkill": 1
     }
   ]

@@ -29,7 +29,7 @@
       "attribute": "RADIUS: <span>475</span><br />\nHEAL: <span>60 / 80 / 100 / 120</span><br />\nHEALTH REGEN PER KILL: <span>1 / 3 / 5 / 7</span><br />\nMANA REGEN PER KILL: <span>1 / 3 / 5 / 7</span><br />\nREGEN DURATION: <span>7</span><br />\nHERO KILL REGEN MULTIPLIER: <span>10</span><br/>",
       "cmb": "<img src=\"mana\"/> 125/145/165/185  &emsp <img src=\"cooldown\"/> 8/7/6/5",
       "lore": "Poor souls who succumb to Rotund'jere's plagues are recycled for future use.",
-      "image": "necrolyte_death_pulse",
+      "image": "skill_5158",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "DURATION: <span>3 / 3.5 / 4 / 4.5</span><br />\nRESTORATION AMPLIFICATION: <span>75%</span><br />\nMOVEMENT SLOW: <span>12% / 20% / 28% / 36%</span><br />\nSLOW RADIUS: <span>750</span><br />\nINCREASED MAGIC DAMAGE: <span>25%</span><br/>",
       "cmb": "<img src=\"mana\" /> 50 &emsp <img src=\"cooldown\"/> 28/24/20/16",
       "lore": "Rotund'jere uses the souls of his victims as bridge from life to afterlife.",
-      "image": "necrolyte_sadist",
+      "image": "skill_5160",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "RADIUS: <span>900</span><br />\nHEALTH DECAY: <span>0.6% / 1% / 1.4% / 1.8%</span><br/>",
       "cmb": "",
       "lore": "Those who come within a short distance of Necrophos can feel pestilence and plague in the air.",
-      "image": "necrolyte_heartstopper_aura",
+      "image": "skill_5159",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "DAMAGE PER MISSING HP: <span>0.6 / 0.75 / 0.9</span><br />\nSTUN DURATION: <span>1.5 / 1.5 / 1.5</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER COOLDOWN:</font> <span>55 / 40 / 25</span><br />\nADDED RESPAWN TIME: <span>10 / 20 / 30</span><br/>",
       "cmb": "<img src=\"mana\"/> 175/340/500 &emsp <img src=\"cooldown\"/> 100",
       "lore": "The amount of death and suffering in the air increases the power of Necrophos's plague magic.",
-      "image": "necrolyte_reapers_scythe",
+      "image": "skill_5161",
       "mainSkill": 1
     }
   ]

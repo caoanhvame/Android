@@ -29,7 +29,7 @@
       "attribute": "ATTACK SPEED BONUS: <span >40 / 50 / 60 / 70</span><br/>",
       "cmb": "<img src=\"mana\"/> 75  &emsp <img src=\"cooldown\"/> 16",
       "lore": "The madness and brutality of N'aix makes him a vicious and unrelenting foe in combat.",
-      "image": "life_stealer_rage",
+      "image": "skill_5249",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "LIFE LEECH: <span >4.5% / 5.5% / 6.5% / 7.5%</span><br/>",
       "cmb": "",
       "lore": "After escaping from his cell in Devarque, N'aix subsisted on flesh and bones of those unfortunate to cross his path.",
-      "image": "life_stealer_feast",
+      "image": "skill_5250",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "LIFE LEECH: <span >50%</span><br />\nMAX SLOW: <span >70%</span><br />\nDURATION: <span >8</span><br />\nCAST RANGE: <span >200 / 300 / 400 / 500</span><br/>",
       "cmb": "<img src=\"mana\"/> 140/130/120/110  &emsp <img src=\"cooldown\"/> 24/20/16/12",
       "lore": "Fresh wounds and the scent of blood often draw out the scavengers to finish the job.",
-      "image": "life_stealer_open_wounds",
+      "image": "skill_5251",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "ERUPT DAMAGE: <span >300</span><br />\nERUPT RADIUS: <span >700 / 700 / 700</span><br/>",
       "cmb": "<img src=\"mana\"/> 50 &emsp <img src=\"cooldown\"/> 50",
       "lore": "How can Lifestealer resist the chance to sample an ally?",
-      "image": "life_stealer_assimilate",
+      "image": "skill_5671",
       "mainSkill": 0
     },
     {
@@ -81,7 +81,7 @@
       "attribute": "ERUPT DAMAGE: <span >300</span><br />\nERUPT RADIUS: <span >700 / 700 / 700</span><br/>",
       "cmb": "",
       "lore": "",
-      "image": "life_stealer_assimilate_eject",
+      "image": "skill_5675",
       "mainSkill": 0
     },
     {
@@ -94,7 +94,7 @@
       "attribute": 	"DAMAGE RADIUS: <span >700 / 700 / 700</span><br />\nDAMAGE: <span >150 / 275 / 400</span>",
       "cmb": "<img src=\"mana\"/> 50 &emsp <img src=\"cooldown\"/> 100/75/50",
       "lore": "With this infestation, N'aix consumes the life blood of the host, restoring him back to full unholy power.",
-      "image": "life_stealer_infest",
+      "image": "skill_5252",
       "mainSkill": 1
     },
     {
@@ -107,7 +107,7 @@
       "attribute": "",
       "cmb": "",
       "lore": "",
-      "image": "life_stealer_control",
+      "image": "skill_5655",
       "mainSkill": 0
     },
     {
@@ -120,7 +120,7 @@
       "attribute": "",
       "cmb": "",
       "lore": "",
-      "image": "life_stealer_consume",
+      "image": "skill_5253",
       "mainSkill": 0
     }
   ]

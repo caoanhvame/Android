@@ -29,7 +29,7 @@
       "attribute": "DAMAGE MIN: <span>30 / 50 / 70 / 90</span><br />\nDAMAGE MAX: <span>160 / 230 / 300 / 370</span><br />\nRADIUS: <span>700</span><br/>",
       "cmb": "<img src=\"mana\"/> 125  &emsp <img src=\"cooldown\"/> 14",
       "lore": "The Lightning Revenant rules the Underscape with plasmatic power.",
-      "image": "razor_plasma_field",
+      "image": "skill_5082",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "LINK DURATION: <span>8</span><br />\nBUFF DURATION: <span>18 / 18 / 18 / 18</span><br/>",
       "cmb": "<img src=\"mana\" /> 50 &emsp <img src=\"cooldown\"/> 32/30/28/26",
       "lore": "Razor's polarity channels electricity into his being, draining the power of his opposition.",
-      "image": "razor_static_link",
+      "image": "skill_5083",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "BONUS SPEED: <span>4% / 8% / 12% / 16%</span><br />\nSLOW DURATION: <span>0.5 / 1 / 1.5 / 2</span><br/>",
       "cmb": "",
       "lore": "Attacking the Lightning Revenant is rewarded with shock therapy.",
-      "image": "razor_unstable_current",
+      "image": "skill_5084",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "RADIUS: <span>500 / 500 / 500</span><br />\nDURATION: <span>30</span><br />\nSTRIKE INTERVAL: <span>0.7 / 0.6 / 0.5</span><br />\nARMOR REDUCTION: <span>1 / 1 / 1</span><br />\nDAMAGE: <span>40 / 55 / 70</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER STRIKE INTERVAL:</font> <span>0.6 / 0.5 / 0.4</span><br/>",
       "cmb": "<img src=\"mana\"/> 100/150/200 &emsp <img src=\"cooldown\"/> 80/70/60",
       "lore": "Ride the lightning.",
-      "image": "razor_eye_of_the_storm",
+      "image": "skill_5085",
       "mainSkill": 1
     }
   ]

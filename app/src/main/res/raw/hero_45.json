@@ -29,7 +29,7 @@
       "attribute": "BLAST DELAY: <span>0.9</span><br />\nRADIUS: <span> 400</span><br/>",
       "cmb": "<img src=\"mana\"/> 85/105/125/145  &emsp <img src=\"cooldown\"/> 5",
       "lore": "The Arts of Oblivion include a deafening blast of emerald flames from the Nether Reaches.",
-      "image": "pugna_nether_blast",
+      "image": "skill_5186",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "ALLY INCREASED MAGIC DAMAGE: <span>25%</span><br />\nENEMY INCREASED MAGIC DAMAGE: <span>30% / 40% / 50% / 60%</span><br />\nENEMY MOVE SLOW: <span>30% / 40% / 50% / 60%</span><br />\nDURATION: <span>3.5</span><br/>",
       "cmb": "<img src=\"mana\" /> 60 &emsp <img src=\"cooldown\"/> 15/12/9/6",
       "lore": "A now-mastered relic from his childhood, Pugna delights in banishing others into the Nether Realm, whether for good, evil, or simple enjoyment.",
-      "image": "pugna_decrepify",
+      "image": "skill_5187",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "WARD ATTACK RANGE: <span>1600</span><br />\nDAMAGE PER MANA: <span>1 / 1.25 / 1.5 / 1.75</span><br />\nMANA REGEN REDUCTION: <span>0.25 / 0.5 / 0.75 / 1</span><br />\nATTACKS TO DESTROY: <span>4 / 4 / 4 / 4</span><br />\nWARD DURATION: <span>30</span><br/>",
       "cmb": "<img src=\"mana\" /> 80 &emsp <img src=\"cooldown\"/> 35",
       "lore": "While at the lamasery for the Arts of Oblivion, Pugna learned to dominate his classmates with a simple ward charged with Nether magic.",
-      "image": "pugna_nether_ward",
+      "image": "skill_5188",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "CAST RANGE: <span>800</span><br />\nMAX DURATION: <span>10</span><br/> HEALTH DRAIN PER SECOND: 150/200/250 <font size=\"3\" color=\"#6fe871\">SCEPTER DRAIN</font>180/240/300 <br/>",
       "cmb": "<img src=\"mana\"/> 125/175/225 &emsp <img src=\"cooldown\"/> 22 (<font size=\"3\" color=\"#6fe871\">0</font>)",
       "lore": "Pugna has truly become more powerful than even the grandmaster of Oblivion.",
-      "image": "pugna_life_drain",
+      "image": "skill_5189",
       "mainSkill": 1
     }
   ]

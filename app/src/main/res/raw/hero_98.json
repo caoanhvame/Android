@@ -29,7 +29,7 @@
       "attribute": "RADIUS: <span class=\"attribVal\">300</span><br />\nDAMAGE: <span class=\"attribVal\">100 / 150 / 200 / 250</span><br />\nSTAT LOSS DURATION: <span class=\"attribVal\">14</span><br/>",
       "cmb": "<img src=\"mana\"/> 70  &emsp <img src=\"cooldown\"/> 6",
       "lore": "In the case that Rizzrack gets surrounded by the the vines and plants of his nightmares, he has an immediate chainsaw defense.",
-      "image": "shredder_whirling_death",
+      "image": "skill_5524",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "LATCH RANGE: <span class=\"attribVal\">850 / 1050 / 1250 / 1450</span><br />\nRADIUS: <span class=\"attribVal\">225 / 225 / 225 / 225</span><br />\nSPEED: <span class=\"attribVal\">1600 / 2000 / 2400 / 2800</span><br />\nDAMAGE: <span class=\"attribVal\">100 / 140 / 180 / 220</span><br/>",
       "cmb": "<img src=\"mana\" /> 60/70/80/90 &emsp <img src=\"cooldown\"/> 4",
       "lore": "You never know when you might need to escape from malevolent saplings.",
-      "image": "shredder_timber_chain",
+      "image": "skill_5525",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "BONUS ARMOR: <span class=\"attribVal\">1 / 1.2 / 1.4 / 1.6</span><br />\nBONUS HP REGEN: <span class=\"attribVal\">1 / 1.2 / 1.4 / 1.6</span><br />\nMAX STACKS: <span class=\"attribVal\">5 / 10 / 15 / 20</span><br />\nSTACK DURATION: <span class=\"attribVal\">10 / 13 / 16 / 19</span><br/>",
       "cmb": "",
       "lore": 	"The saw-suit is equipped to react to the slightest touch with fortified defenses.",
-      "image": "shredder_reactive_armor",
+      "image": "skill_5526",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "RADIUS: <span class=\"attribVal\">200</span><br />\nPASS DAMAGE: <span class=\"attribVal\">100 / 140 / 180</span><br />\nDAMAGE PER SECOND: <span class=\"attribVal\">50 / 75 / 100</span><br />\nSLOW: <span class=\"attribVal\">5%</span><br />\nMANA COST PER SECOND: <span class=\"attribVal\">20 / 25 / 30</span><br/>",
       "lore": "The ultimate in anti-flora weaponry.",
       "cmb": "<img src=\"mana\"/> 100/150/200 &emsp <img src=\"cooldown\"/> 8",
-      "image": "shredder_chakram",
+      "image": "skill_5527",
       "mainSkill": 1
     },
     {
@@ -81,7 +81,7 @@
       "attribute": "",
       "lore": "",
       "cmb": "<img src=\"cooldown\"/> 0",
-      "image": "shredder_return_chakram",
+      "image": "skill_5528",
       "mainSkill": 0
     },
     {
@@ -94,7 +94,7 @@
       "attribute": "RADIUS: <span class=\"attribVal\">200</span><br />\nPASS DAMAGE: <span class=\"attribVal\">100 / 140 / 180</span><br />\nDAMAGE PER SECOND: <span class=\"attribVal\">50 / 75 / 100</span><br />\nSLOW: <span class=\"attribVal\">5%</span><br />\nMANA COST PER SECOND: <span class=\"attribVal\">20 / 25 / 30</span><br/>",
       "lore": "Cut cut cut cut cut cut cut cut cut cut cut!",
       "cmb": "<img src=\"mana\"/> 100/150/200 &emsp <img src=\"cooldown\"/> 8",
-      "image": "shredder_chakram_2",
+      "image": "skill_5645",
       "mainSkill": 0
     },
     {
@@ -107,7 +107,7 @@
       "attribute": "",
       "lore": "",
       "cmb": "<img src=\"cooldown\"/> 0",
-      "image": "shredder_return_chakram_2",
+      "image": "skill_5646",
       "mainSkill": 0
     }
   ]

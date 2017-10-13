@@ -38,66 +38,69 @@ public class LandingFragment extends Fragment {
 		layout = (LinearLayout)getActivity().findViewById(R.id.fragment_landing_menu);
 		final int childCount = layout.getChildCount();
 		for(int i = 0 ;i< childCount ; i++){
-			final View child = layout.getChildAt(i);
-			child.setOnTouchListener(new OnTouchListener() {
-				boolean animationCompleted = false;
-				@Override
-				public boolean onTouch(final View v, final MotionEvent event) {
-					Animation animation = AnimationUtils.loadAnimation(getActivity(), R.anim.myanimation);
-					animation.setFillAfter(true);
-					if(event.getAction() == MotionEvent.ACTION_DOWN){
-						child.startAnimation(animation);
-						animation.setAnimationListener(new AnimationListener() {
-							
-							@Override
-							public void onAnimationStart(Animation animation) {
-								
-							}
-							
-							@Override
-							public void onAnimationRepeat(Animation animation) {
-							}
-							
-							@Override
-							public void onAnimationEnd(Animation animation) {
-								//press & release before animation completed
-								if(event.getAction() == MotionEvent.ACTION_UP){
-									String tag = (String)v.getTag();
+			final LinearLayout outerLayout = (LinearLayout)layout.getChildAt(i);
+			for(int j=0; j< outerLayout.getChildCount(); j++) {
+				final View child = outerLayout.getChildAt(j);
+				child.setOnTouchListener(new OnTouchListener() {
+					boolean animationCompleted = false;
+
+					@Override
+					public boolean onTouch(final View v, final MotionEvent event) {
+						Animation animation = AnimationUtils.loadAnimation(getActivity(), R.anim.myanimation);
+						animation.setFillAfter(true);
+						if (event.getAction() == MotionEvent.ACTION_DOWN) {
+							child.startAnimation(animation);
+							animation.setAnimationListener(new AnimationListener() {
+
+								@Override
+								public void onAnimationStart(Animation animation) {
+
+								}
+
+								@Override
+								public void onAnimationRepeat(Animation animation) {
+								}
+
+								@Override
+								public void onAnimationEnd(Animation animation) {
+									//press & release before animation completed
+									if (event.getAction() == MotionEvent.ACTION_UP) {
+										String tag = (String) v.getTag();
+										listener.onMenuClick(tag);
+									}
+									animationCompleted = true;
+								}
+							});
+						} else if (event.getAction() == MotionEvent.ACTION_UP) {
+							animation.setAnimationListener(new AnimationListener() {
+
+								@Override
+								public void onAnimationStart(Animation animation) {
+
+								}
+
+								@Override
+								public void onAnimationRepeat(Animation animation) {
+								}
+
+								@Override
+								public void onAnimationEnd(Animation animation) {
+									//release but wait for animation compleate
+									String tag = (String) v.getTag();
 									listener.onMenuClick(tag);
 								}
-								animationCompleted = true;
-							}
-						});
-					}
-					else if(event.getAction() == MotionEvent.ACTION_UP){
-						animation.setAnimationListener(new AnimationListener() {
-							
-							@Override
-							public void onAnimationStart(Animation animation) {
-								
-							}
-							
-							@Override
-							public void onAnimationRepeat(Animation animation) {
-							}
-							
-							@Override
-							public void onAnimationEnd(Animation animation) {
-								//release but wait for animation compleate
-								String tag = (String)v.getTag();
+							});
+							//press & hold until animation completed and release
+							if (animationCompleted == true) {
+								String tag = (String) v.getTag();
 								listener.onMenuClick(tag);
 							}
-						});
-						//press & hold until animation completed and release
-						if(animationCompleted == true){
-							String tag = (String)v.getTag();
-							listener.onMenuClick(tag);
+							v.performClick();
 						}
-						v.performClick();
+						return true;
 					}
-					return true;
-				}
-			});
+				});
+			}
 		}
 		
 	}

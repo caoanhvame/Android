@@ -29,7 +29,7 @@
       "attribute": "RANGE: <span>810 / 810 / 810 / 810</span><br/>",
       "cmb": "<img src=\"mana\"/> 105/120/140/165  &emsp <img src=\"cooldown\"/> 8/7/6/5",
       "lore": "Krobelus' many trips to the grave gather a flock of the damned.",
-      "image": "death_prophet_carrion_swarm",
+      "image": "skill_5090",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "RADIUS: <span>425</span><br />\nDURATION: <span>3 / 4 / 5 / 6</span><br/>",
       "cmb": "<img src=\"mana\" /> 80 &emsp <img src=\"cooldown\"/> 15/14/13/12",
       "lore": "Peering into the veil of her opponent's demise, Krobelus sees a silent future.",
-      "image": "death_prophet_silence",
+      "image": "skill_5091",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "BASE DAMAGE: <span>14</span><br />\nMAX HP AS DAMAGE: <span>1% / 2.5% / 4% / 5.5%</span><br />\nDURATION: <span>6</span><br />\nENEMY SLOW: <span>5% / 10% / 15% / 20%</span><br />\nMAX CHARGES: <span>1 / 2 / 3 / 4</span><br />\nCHARGE RESTORE TIME: <span>45</span><br/>",
       "cmb": "<img src=\"mana\" /> 70/65/60/55",
       "lore": "The earth trembles beneath the mighty footsteps of Raigor.",
-      "image": "earthshaker_aftershock",
+      "image": "skill_5685",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "RADIUS: <span>700 / 700 / 700</span><br />\nLIFE DRAIN: <span>25% / 25% / 25%</span><br />\nSPIRIT DAMAGE: <span>58</span><br/>",
       "cmb": "<img src=\"mana\"/> 200/300/400 &emsp <img src=\"cooldown\"/> 145",
       "lore": "Over time, the banshee remnants of her previous lives return to haunt the present.",
-      "image": "death_prophet_exorcism",
+      "image": "skill_5093",
       "mainSkill": 1
     }
   ]

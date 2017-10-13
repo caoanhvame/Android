@@ -29,7 +29,7 @@
       "attribute": "DAMAGE REDUCTION: <span >35%</span><br />\nREDUCTION DURATION: <span >11</span><br />",
       "cmb": 	"<img src=\"mana\" /> 100/110/120/130 &emsp <img src=\"cooldown\" /> 14/13/12/11",
       "lore": "Knight Davion's breath has become that of the mighty Eldwurm Slyrak, remembered for burning numerous other knights to a crisp.",
-      "image": "dragon_knight_breathe_fire",
+      "image": "skill_5226",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "STUN DURATION: <span >2.5 / 2.75 / 3 / 3.25</span><br/>",
       "cmb": "<img src=\"mana\" /> 100 &emsp <img src=\"cooldown\" /> 12/11/10/9",
       "lore": "Davion's combination of dragon talents and knightly skills makes him a vicious opponent in melee combat.",
-      "image": "dragon_knight_dragon_tail",
+      "image": "skill_5227",
       "mainSkill": 1
     },
     {
@@ -54,8 +54,8 @@
       "dmg": "",
       "attribute": "Health Regen Bonus: 3/6/9/12 <br/> Armor Bonus: 3/6/9/12 <br />",
       "cmb": "",
-      "lore": 	"Slyrak's blood still courses through Davion's veins, giving him twice the vitality of an ordinary knight.",
-      "image": "dragon_knight_dragon_blood",
+      "lore": "Slyrak's blood still courses through Davion's veins, giving him twice the vitality of an ordinary knight.",
+      "image": "skill_5228",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "DURATION: <span >60</span><br />\nBONUS MOVE SPEED: <span >25 / 25 / 25</span><br />\nBONUS ATTACK RANGE: <span >350</span><br/>",
       "cmb": "<img src=\"mana\" /> 50 &emsp <img src=\"cooldown\" /> 115",
       "lore": "The dormant dragon power springs forth from within Davion, combining the powers of a legendary knight with a legendary Eldwurm.",
-      "image": "dragon_knight_elder_dragon_form",
+      "image": "skill_5229",
       "mainSkill": 1
     }
   ]

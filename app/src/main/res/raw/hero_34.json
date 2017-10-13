@@ -29,7 +29,7 @@
       "attribute": "BLIND MISS RATE: <span class=\"attribVal\">100% / 100% / 100% / 100%</span><br />\nHERO BLIND DURATION: <span class=\"attribVal\">3 / 3.5 / 4 / 4.5</span><br />\nCREEP BLIND DURATION: <span class=\"attribVal\">6 / 6 / 6 / 6</span><br />\nCAST RANGE: <span class=\"attribVal\">650</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER REFRACT RADIUS:</font> <span class=\"attribVal\">650</span><br/>",
       "cmb": "<img src=\"mana\"/> 95/120/145/170  &emsp <img src=\"cooldown\"/> 14",
       "lore": "Boush perfected this rock cutting laser in his subterranean laboratory, never considering its combat utility.",
-      "image": "tinker_laser",
+      "image": "skill_5150",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "TARGETS: <span class=\"attribVal\">2 / 2 / 2 / 2</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER TARGETS:</font> <span class=\"attribVal\">4 / 4 / 4 / 4</span><br/>",
       "cmb": "<img src=\"mana\" /> 120/140/160/180 &emsp <img src=\"cooldown\"/> 25",
       "lore": "The last contraption Boush was able to save was a retrofitted rocket launcher with a homing mechanism.",
-      "image": "tinker_heat_seeking_missile",
+      "image": "skill_5151",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "RADIUS: <span class=\"attribVal\">900</span><br />\nDURATION: <span class=\"attribVal\">6</span><br/>",
       "cmb": "<img src=\"mana\" /> 145/150/165/190 &emsp <img src=\"cooldown\"/> 35",
       "lore": "Even though the laboratory has since been sealed off, the ability to radio in robotic drones is still in working order.",
-      "image": "tinker_march_of_the_machines",
+      "image": "skill_5152",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "TIME TO REARM: <span class=\"attribVal\">3 / 1.5 / 0.75</span><br/>",
       "cmb": "<img src=\"mana\"/> 100/200/300 &emsp <img src=\"cooldown\"/> 0",
       "lore": "A new battery here, another set of rockets there, Boush continually improves on existing technology.",
-      "image": "tinker_rearm",
+      "image": "skill_5153",
       "mainSkill": 1
     }
   ]

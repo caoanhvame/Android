@@ -29,7 +29,7 @@
       "attribute": "STUN DURATION: <span >0.8</span><br/>",
       "cmb": "<img src=\"mana\"/> 90/100/110/120  &emsp <img src=\"cooldown\"/> 6",
       "lore": "Selemene smites those who encroach upon the Nightsilver Woods.",
-      "image": "luna_lucent_beam",
+      "image": "skill_5222",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "BOUNCE RADIUS: <span >500</span><br />\nBOUNCES: <span >1 / 2 / 3 / 6</span><br />\nDAMAGE REDUCTION PER BOUNCE: <span >35%</span><br/>",
       "cmb": "",
       "lore": "Carefully sharpened, Luna's boomerang-like weapon cuts a wide swath through enemy numbers.",
-      "image": "luna_moon_glaive",
+      "image": "skill_5223",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "BLESSING RADIUS: <span >900 / 900 / 900 / 900</span><br />\nBONUS DAMAGE: <span >14 / 22 / 30 / 38</span><br />\nBONUS NIGHT VISION: <span >250 / 500 / 750 / 1000</span><br/>",
       "cmb": "",
       "lore": "The Goddess of the Moon smiles upon her kin.",
-      "image": "luna_lunar_blessing",
+      "image": "skill_5224",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "TOTAL BEAMS: <span >5 / 8 / 11</span><br />\nMAX BEAMS PER UNIT: <span >5</span><br />\nECLIPSE DURATION: <span >2.4 / 4.2 / 6</span><br />\nRADIUS: <span >675 / 675 / 675</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER TOTAL BEAMS:</font> <span >6 / 12 / 18</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER DURATION:</font> <span >1.8 / 3.6 / 5.4</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER CAST RANGE:</font> <span >2500</span><br/>",
       "cmb": "<img src=\"mana\"/> 150/200/250 &emsp <img src=\"cooldown\"/> 140",
       "lore": "In times of great need, Selemene herself descends into the world, blocking out the light and hope of the opposed.",
-      "image": "luna_eclipse",
+      "image": "skill_5225",
       "mainSkill": 1
     }
   ]

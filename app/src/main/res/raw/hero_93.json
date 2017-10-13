@@ -29,7 +29,7 @@
       "attribute": "DELAY: <span>1.5</span><br />\nRADIUS: <span>325</span><br />\nDAMAGE: <span>75 / 150 / 225 / 300</span><br/>",
       "cmb": "<img src=\"mana\"/> 55/50/45/40  &emsp <img src=\"cooldown\"/> 9/8/7/6",
       "lore": "Slithereen are capable of quickly regrowing appendages, in case of critical injury, to save their own lives.",
-      "image": "slark_dark_pact",
+      "image": "skill_5494",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "DISTANCE: <span>700</span><br />\nPOUNCE DAMAGE: <span>40 / 80 / 120 / 160</span><br />\nLEASH RADIUS: <span>325</span><br/>",
       "cmb": "<img src=\"mana\" /> 75 &emsp <img src=\"cooldown\"/> 20/16/12/8",
       "lore": "Time in the Dark Reef made Slark a dangerous assassin; aggressive and fearless.",
-      "image": "slark_pounce",
+      "image": "skill_5495",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "AGILITY GAINED: <span>3</span><br />\nALL ATTRIBUTE LOSS: <span>1</span><br />\nDURATION: <span>15 / 30 / 60 / 120</span><br/>",
       "cmb": "",
       "lore": "With each strike at his adversaries, Slark's knowledge of their weaknesses improves.",
-      "image": "slark_essence_shift",
+      "image": "skill_5496",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "DURATION: <span>4</span><br />\nBONUS MOVEMENT SPEED: <span>30% / 35% / 40%</span><br />\nHEALTH GAINED PER SECOND: <span>3% / 5% / 7%</span><br />\nSCEPTER RADIUS: <span>325</span><br/>",
       "cmb": "<img src=\"mana\"/> 120 &emsp <img src=\"cooldown\"/> 60",
       "lore": "The hidden Thirteenth is a slippery foe.",
-      "image": "slark_shadow_dance",
+      "image": "skill_5497",
       "mainSkill": 1
     }
   ]

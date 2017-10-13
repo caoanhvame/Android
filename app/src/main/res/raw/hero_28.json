@@ -20,7 +20,7 @@
   "BAT": 1.7,
   "Abilities" : [
     {
-      "id": 5023,
+      "id": 5114,
       "dname": "Guardian Sprint",
       "affects": "ABILITY: <span >No Target</span><br />",
       "desc": 	"Slardar slithers ahead, moving significantly faster and passing through units, though becoming more vulnerable to damage.",
@@ -29,7 +29,7 @@
       "attribute": "BONUS MOVE SPEED: <span >20% / 28% / 36% / 44%</span><br />\nADDED DAMAGE TAKEN: <span >15%</span><br />\nDURATION: <span >12</span><br/>",
       "cmb": "<img src=\"cooldown\"/> 17",
       "lore": "As Slardar has made the transition from the Deeps, it has been necessary to use his powerful tail for sprinting instead of swimming.",
-      "image": "slardar_sprint",
+      "image": "skill_5114",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "RADIUS: <span >350</span><br />\nMOVEMENT SLOW: <span >20%</span><br />\nATTACK SLOW: <span >20</span><br />\nSLOW DURATION: <span >2</span><br />\nSTUN DURATION: <span >1.25 / 1.5 / 1.75 / 2</span><br/>",
       "cmb": "<img src=\"mana\" /> 80/95/105/115 &emsp <img src=\"cooldown\"/> 8",
       "lore": "A swift crush of might and water breaks even the toughest of defenses.",
-      "image": "slardar_slithereen_crush",
+      "image": "skill_5115",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "BONUS DAMAGE: <span >60 / 80 / 100 / 120</span><br />\nDURATION: <span >1</span><br/>",
       "cmb": "",
       "lore": "Thieves of the wealth of the Deep Ones meet the brutality of the Slithereen Guard in melee combat.",
-      "image": "slardar_bash",
+      "image": "skill_5116",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "ARMOR REDUCTION: <span >10 / 15 / 20</span><br />\nDURATION: <span >18</span><br/>",
       "cmb": "<img src=\"mana\"/> 25 &emsp <img src=\"cooldown\"/> 5",
       "lore": "Even the strongest armor counts for little when left to the brine of the sea.",
-      "image": "slardar_amplify_damage",
+      "image": "skill_5117",
       "mainSkill": 1
     }
   ]

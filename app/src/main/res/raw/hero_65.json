@@ -29,7 +29,7 @@
       "attribute": "RADIUS: <span>375 </span><br />\nDURATION: <span>8 </span><br />\nMOVEMENT SLOW: <span>3% / 5% / 7% / 9%</span><br />\nTURN RATE SLOW: <span>70%</span><br/>HERO DAMAGE PER STACK: 10 / 15 / 20 / 25 <br/>CREEP DAMAGE PER STACK: 5 / 7.5 / 10 / 12.5 </br>",
       "cmb": "<img src=\"mana\"/> 20  &emsp <img src=\"cooldown\"/> 3",
       "lore": "It's not uncommon to hear the Rider cackle while he increases the flammability of his opponents.",
-      "image": "batrider_sticky_napalm",
+      "image": "skill_5320",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "DAMAGE PER SECOND: <span>25 / 30 / 35 / 40</span><br />\nTOTAL DAMAGE: <span>100 / 150 / 210 / 280</span><br/>",
       "cmb": "<img src=\"mana\" /> 110/120/130/140 &emsp <img src=\"cooldown\"/> 17",
       "lore": "A molotov cocktail is the weapon of choice for Batrider.",
-      "image": "batrider_flamebreak",
+      "image": "skill_5321",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "DAMAGE PER SECOND: <span>10 / 30 / 50 / 70</span><br />\nRADIUS: <span>200</span><br/>",
       "cmb": "<img src=\"mana\" /> 125 &emsp <img src=\"cooldown\"/> 40",
       "lore": "When an enemy escapes into the Yama Raskav Jungle, most would cut through the brush to find the fugitive.  Batrider just chooses to destroy the jungle along with his foes.",
-      "image": "batrider_firefly",
+      "image": "skill_5322",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "DURATION: <span>3 / 3.5 / 4</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER TETHER RANGE:</font> <span>400</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER DAMAGE PER SECOND:</font> <span>100</span><br/>",
       "cmb": "<img src=\"mana\"/> 225 &emsp <img src=\"cooldown\"/> 100/80/60",
       "lore": "Few dare to ask to ride on the bat, as Batrider gives them free of charge.",
-      "image": "batrider_flaming_lasso",
+      "image": "skill_5323",
       "mainSkill": 1
     }
   ]

@@ -29,7 +29,7 @@
       "attribute": "DURATION: <span>8</span><br />\nMOVEMENT SLOW: <span>18% / 24% / 30% / 36%</span><br />\nBONUS DAMAGE: <span>18% / 24% / 30% / 36%</span><br/>",
       "cmb": "<img src=\"mana\"/> 70  &emsp <img src=\"cooldown\"/> 14/13/12/11",
       "lore": "Although Chen's brand of animal enthrallment isn't quite strong enough to control the minds of enemy heroes, it still tests their resolve in combat.",
-      "image": "chen_penitence",
+      "image": "skill_5328",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "DAMAGE MIN: <span>50 / 100 / 150 / 200</span><br />\nDAMAGE MAX: <span>100 / 200 / 300 / 400</span><br/>",
       "cmb": "<img src=\"mana\" /> 90/100/110/120 &emsp <img src=\"cooldown\"/> 16",
       "lore": "Knights of the Fold possess a fanatical form of magic that is considered quite unwieldy by most other users of arcane arts.",
-      "image": "chen_test_of_faith",
+      "image": "skill_5329",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "HERO/SELF TP DELAY: <span>6 / 5 / 4 / 3</span><br/>",
       "cmb": "<img src=\"mana\" /> 200 &emsp <img src=\"cooldown\"/> 24",
       "lore": "The earth trembles beneath the mighty footsteps of Raigor.",
-      "image": "chen_test_of_faith_teleport",
+      "image": "skill_5522",
       "mainSkill": 0
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "",
       "cmb": "<img src=\"mana\"/> 100 &emsp <img src=\"cooldown\"/> 10",
       "lore": "Although they may not be knights, Chen incorporates beasts into the Fold in the same way he himself was converted.",
-      "image": "chen_holy_persuasion",
+      "image": "skill_5330",
       "mainSkill": 1
     },
     {
@@ -81,7 +81,7 @@
       "attribute": "<font size=\"3\" color=\"#6fe871\">SCEPTER HOLY PERSUASION ANCIENTS:</font> <span>1 / 2 / 3</span>",
       "cmb": "<img src=\"mana\"/> 200/300/400 &emsp <img src=\"cooldown\"/> 160/140/120",
       "lore": "Using the mental link with his thralls, Chen calls down restoration and well-being to those who share his fanaticism.",
-      "image": "chen_hand_of_god",
+      "image": "skill_5331",
       "mainSkill": 1
     }
   ]

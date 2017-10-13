@@ -29,7 +29,7 @@
       "attribute": "BACKTRACK DURATION: <span>2</span><br/>",
       "cmb": "<img src=\"mana\"/> 40  &emsp <img src=\"cooldown\"/> 24/18/12/6",
       "lore": "Darkterror tears a hole in time, passing through Claszureme, and appearing back in an instant.",
-      "image": "faceless_void_time_walk",
+      "image": "skill_5182",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "RADIUS: <span>725</span><br />\nDURATION: <span>6 / 8 / 10 / 12</span><br />\nSLOW PER COOLDOWN: <span>14%</span><br/>",
       "cmb": "<img src=\"mana\" /> 75 &emsp <img src=\"cooldown\"/> 40/34/28/22",
       "lore": "",
-      "image": "faceless_void_time_dilation",
+      "image": "skill_5691",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "DURATION: <span>1</span><br />\nCHANCE: <span>10% / 15% / 20% / 25%</span><br />\nBONUS DAMAGE: <span>50 / 75 / 100 / 125</span><br/>",
       "cmb": "",
       "lore": "The strike of the Faceless Void lands with dimension shifting force.",
-      "image": "faceless_void_time_lock",
+      "image": "skill_5184",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "RADIUS: <span>425</span><br />\nDURATION: <span>4 / 4.5 / 5</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER COOLDOWN:</font> <span>60</span><br/>",
       "cmb": "<img src=\"mana\"/> 150/225/300 &emsp <img src=\"cooldown\"/>140/125/110",
       "lore": "When a rift opens to Claszureme, all poor souls caught within will likely never return.",
-      "image": "faceless_void_chronosphere",
+      "image": "skill_5185",
       "mainSkill": 1
     }
   ]

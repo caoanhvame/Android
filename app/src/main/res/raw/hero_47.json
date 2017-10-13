@@ -29,7 +29,7 @@
       "attribute": "DURATION: <span>2 / 2 / 2 / 2</span><br />\nDAMAGE PER SECOND: <span>10 / 16 / 22 / 28</span><br />\nMOVE SLOW: <span>10% / 20% / 30% / 40%</span><br />\nATTACK SLOW: <span>10 / 20 / 30 / 40</span><br/>",
       "cmb": "<img src=\"mana\"/> 20  &emsp <img src=\"cooldown\"/> 0",
       "lore": "The Netherdrake's inborn toxic breath quickly drains the vitality of its afflicted.",
-      "image": "viper_poison_attack",
+      "image": "skill_5218",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "BASE BONUS DAMAGE: <span>3 / 6 / 9 / 12</span><br />\nNON-HERO DAMAGE: <span>50% / 50% / 50% / 50%</span><br />\nMAX BONUS DAMAGE: <span>48 / 96 / 144 / 192</span><br/>",
       "cmb": "",
       "lore": "Poison from the Nether Reaches turns wounds into fatalities, and fatigue into death.",
-      "image": "viper_nethertoxin",
+      "image": "skill_5219",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "DURATION: <span>4</span><br />\nMOVE SLOW: <span>10% / 15% / 20% / 25%</span><br />\nATTACK SLOW: <span>10 / 15 / 20 / 25</span><br />\nMAGIC RESISTANCE: <span>10% / 15% / 20% / 25%</span><br />\nDAMAGE PER SECOND: <span>10 / 15 / 20 / 25</span><br />\nMAX RANGE RADIUS: <span>1400</span><br/>",
       "cmb": "",
       "lore": "It is not unusual for sword and shield alike to corrode in the very hands of those who attack the Netherdrake.",
-      "image": "viper_corrosive_skin",
+      "image": "skill_5220",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "DURATION: <span>5</span><br />\nMOVE SLOW: <span>40% / 60% / 80%</span><br />\nATTACK SLOW: <span>40 / 60 / 80</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER MANA COST:</font> <span>125 / 125 / 125</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER COOLDOWN:</font> <span>10</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER CAST RANGE:</font> <span>900</span><br/>",
       "cmb": "<img src=\"mana\"/> 125/175/250 &emsp <img src=\"cooldown\"/>50/40/30",
       "lore": "Once used to slay his sadistic summoner, the most powerful of Netherdrake infections spreads through the veins of those foolish enough to cross Viper.",
-      "image": "viper_viper_strike",
+      "image": "skill_5221",
       "mainSkill": 1
     }
   ]

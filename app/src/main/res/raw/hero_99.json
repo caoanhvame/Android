@@ -29,7 +29,7 @@
       "attribute": "DURATION: <span >5</span><br />\nARMOR LOSS: <span >1 / 1.4 / 1.8 / 2.2</span><br />\nBASE MOVEMENT SLOW: <span >20%</span><br />\nMOVE SLOW PER STACK: <span >3% / 6% / 9% / 12%</span><br />\nSTACK LIMIT: <span >4</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER RADIUS:</font> <span >750</span><br/>",
       "cmb": "<img src=\"mana\"/> 25  &emsp <img src=\"cooldown\"/> 1.5",
       "lore": "Having caught a cold while stuck in the snow, Bristleback turns it to his advantage.",
-      "image": "bristleback_viscous_nasal_goo",
+      "image": "skill_5548",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "RADIUS: <span >700</span><br />\nQUILL BASE DAMAGE: <span >20 / 40 / 60 / 80</span><br />\nQUILL STACK DAMAGE: <span >30 / 32 / 34 / 36</span><br />\nMAX DAMAGE: <span >550</span><br/>",
       "cmb": "<img src=\"mana\" /> 35 &emsp <img src=\"cooldown\"/> 3",
       "lore": "An enforcer's honor can be a prickly thing.  So can his quills.",
-      "image": "bristleback_quill_spray",
+      "image": "skill_5549",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "SIDE DAMAGE REDUCTION: <span >8% / 12% / 16% / 20%</span><br />\nBACK DAMAGE REDUCTION: <span >16% / 24% / 32% / 40%</span><br />\nDAMAGE THRESHOLD: <span >210</span><br/>",
       "cmb": "",
       "lore": "Turning his back to a fight might be just the thing.",
-      "image": "bristleback_bristleback",
+      "image": "skill_5550",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "DAMAGE PER STACK: <span >18 / 24 / 30</span><br />\nMOVEMENT PER STACK: <span >3% / 4% / 5%</span><br />\nSTACK DURATION: <span >14</span><br />\nMAX STACKS: <span >5 / 7 / 9</span><br/>",
       "lore": "'Temper, temper,' his mum always chided.  But in a fight, a temper can come in handy.",
       "cmb": "",
-      "image": "bristleback_warpath",
+      "image": "skill_5551",
       "mainSkill": 1
     }
   ]

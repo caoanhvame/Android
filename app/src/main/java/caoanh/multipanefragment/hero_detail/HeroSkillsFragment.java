@@ -1,7 +1,6 @@
 package caoanh.multipanefragment.hero_detail;
 
 
-import android.app.Activity;
 import android.content.Context;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
@@ -19,7 +18,6 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import caoanh.multipanefragment.HeroDetailActivity;
 import caoanh.multipanefragment.R;
 
 

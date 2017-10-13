@@ -29,7 +29,7 @@
       "attribute": "DAMAGE PER SECOND CHANNELED: <span>100 / 100 / 100 / 100</span><br />\nMAX CHANNEL TIME: <span>2 / 3 / 4 / 5</span><br />\nWIDTH: <span>375</span><br />\nRANGE: <span>1550</span><br/>",
       "cmb": "<img src=\"mana\"/> 150/160/170/180  &emsp <img src=\"cooldown\"/> 10",
       "lore": "Ezalor's hidden light reveals itself in marvelous fashion.",
-      "image": "keeper_of_the_light_illuminate",
+      "image": "skill_5471",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "LEAK DURATION: <span>4 / 5 / 6 / 7</span><br />\nMANA LEAK PERCENT: <span>5%</span><br />\nSTUN DURATION: <span>1.5 / 2 / 2.5 / 3</span><br />\nCAST RANGE: <span>550 / 700 / 850 / 1000</span><br/>",
       "cmb": "<img src=\"mana\" /> 160 &emsp <img src=\"cooldown\"/> 16/14/12/10",
       "lore": "Ezalor disrupts Primordial harmony, draining magical energy from those with poor constitution.",
-      "image": "keeper_of_the_light_mana_leak",
+      "image": "skill_5472",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "ALLY COOLDOWN REDUCTION: <span>3 / 4 / 5 / 6</span><br />\nCOOLDOWN REDUCTION DURATION: <span>15</span><br/>",
       "cmb": "<img src=\"mana\" /> 25/35/45/55 &emsp <img src=\"cooldown\"/> 17/16/15/14",
       "lore": "In the same vein, Ezalor bestows his harmony among others.",
-      "image": "keeper_of_the_light_chakra_magic",
+      "image": "skill_5473",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "DURATION: <span>40 / 40 / 40</span><br/>",
       "cmb": "<img src=\"mana\"/> 100 &emsp <img src=\"cooldown\"/> 80/70/60",
       "lore": "In a flash of light, Ezalor reveals his true nature.",
-      "image": "keeper_of_the_light_spirit_form",
+      "image": "skill_5474",
       "mainSkill": 1
     },
     {
@@ -81,7 +81,7 @@
       "attribute": "TELEPORT DELAY: <span>5 / 4 / 3</span><br/>",
       "cmb": "<img src=\"mana\"/> 100 &emsp <img src=\"cooldown\"/> 15",
       "lore": "Walk towards the light.",
-      "image": "keeper_of_the_light_recall",
+      "image": "skill_5475",
       "mainSkill": 0
     },
     {
@@ -94,7 +94,7 @@
       "attribute": "RADIUS: <span>675 / 675 / 675</span><br />\nDURATION: <span>4 / 5 / 6</span><br />\nMISS CHANCE: <span>80% / 80% / 80%</span><br />\nKNOCKBACK DISTANCE: <span>525</span><br/>",
       "cmb": "<img src=\"mana\"/> 50 &emsp <img src=\"cooldown\"/> 20/16/12",
       "lore": "The Primordial light turns the tides of battle in favor of Ezalor and his allies.",
-      "image": "keeper_of_the_light_blinding_light",
+      "image": "skill_5476",
       "mainSkill": 0
     }
   ]

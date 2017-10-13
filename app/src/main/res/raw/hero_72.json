@@ -29,7 +29,7 @@
       "attribute": "RADIUS: <span >400</span><br />\nROCKETS PER SECOND: <span >10</span><br/>",
       "cmb": "<img src=\"mana\"/> 90  &emsp <img src=\"cooldown\"/> 7/6.50/6/5.50",
       "lore": "Aurel's new craft has an increased payload for rockets, enhancing their rapid-fire capabilities.",
-      "image": "gyrocopter_rocket_barrage",
+      "image": "skill_5361",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "HITS TO DESTROY: <span >3 / 3 / 4 / 5</span><br />\nTOWER HITS TO DESTROY: <span >6 / 6 / 8 / 10</span><br />\nSTUN DURATION: <span >2.25 / 2.5 / 2.75 / 3</span><br />\nMINIMUM DAMAGE: <span >50</span><br/>",
       "cmb": "<img src=\"mana\" /> 120/130/140/150 &emsp <img src=\"cooldown\"/> 20/17/14/11",
       "lore": "The biggest missile Aurel could possibly attach to his craft, The Bomb&trade; has carefully calculated aerodynamics and explosives for maximum impact.",
-      "image": "gyrocopter_homing_missile",
+      "image": "skill_5362",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "RADIUS: <span >1250</span><br/>",
       "cmb": "<img src=\"mana\" /> 50 &emsp <img src=\"cooldown\"/> 30",
       "lore": "This newly revamped Gyrocopter has attached enough armaments to assault in a 360 degree radius.",
-      "image": "gyrocopter_flak_cannon",
+      "image": "skill_5363",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "MISSILE ONE DAMAGE: <span >200 / 275 / 350</span><br />\nMISSILE TWO DAMAGE: <span >100 / 150 / 200</span><br />\nMISSILE ONE SLOW: <span >30%</span><br />\nMISSILE TWO SLOW: <span >60%</span><br />\nRADIUS: <span >600</span><br/><font size=\"3\" color=\"#6fe871\">SCEPTER UPGRADE:</font><span>Adds a Side Gunner that at random attacks enemy units within a 600 radius every 1.1 seconds.</span><br/>",
       "cmb": "<img src=\"mana\"/> 125 &emsp <img src=\"cooldown\"/> 55/50/45",
       "lore": "'Bombs Away!'",
-      "image": "gyrocopter_call_down",
+      "image": "skill_5364",
       "mainSkill": 1
     }
   ]

@@ -29,7 +29,7 @@
       "attribute": "RADIUS: <span>260</span><br />\nDAMAGE: <span>140 / 180 / 220 / 260</span><br/>",
       "cmb": "<img src=\"mana\"/> 100  &emsp <img src=\"cooldown\"/> 3.5",
       "lore": "Raijin Thunderkeg's duality allows him to admire himself in shocking fashion.",
-      "image": "storm_spirit_static_remnant",
+      "image": "skill_5098",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "SELF SLOW: <span>50%</span><br />\nSELF SLOW DURATION: <span>3.000000</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER RADIUS:</font> <span>475</span><br/>",
       "cmb": "<img src=\"mana\" /> 85 &emsp <img src=\"cooldown\"/> 21/20/19/18",
       "lore": "Raijin's thunderous, boisterous energy often draws others into an electrifying situation.",
-      "image": "storm_spirit_electric_vortex",
+      "image": "skill_5099",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "RADIUS: <span>300</span><br />\nMOVEMENT SLOW: <span>80%</span><br />\nATTACK SLOW: <span>50</span><br />\nDURATION: <span>0.6 / 0.6 / 0.6 / 0.6</span><br/>",
       "cmb": "",
       "lore": "Pow!  Zip!  Zap!",
-      "image": "storm_spirit_overload",
+      "image": "skill_5100",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "SPEED: <span>1250 / 1875 / 2500</span><br />\nRADIUS: <span>125 / 200 / 275</span><br />\nMANA DRAIN PER UNIT: <span>0.7%</span><br/>",
       "cmb": "<img src=\"mana\"/> 30",
       "lore": "The Storm is coming in.",
-      "image": "storm_spirit_ball_lightning",
+      "image": "skill_5101",
       "mainSkill": 1
     }
   ]

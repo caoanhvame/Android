@@ -29,7 +29,7 @@
       "attribute": "RADIUS: <span >250</span><br/>",
       "cmb": "<img src=\"mana\"/> 120/110/100/90  &emsp <img src=\"cooldown\"/> 42/34/26/18",
       "lore": "Yurnero's renowned katana techniques are feared by warriors and sorcerors alike.",
-      "image": "juggernaut_blade_fury",
+      "image": "skill_5028",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "MAX HEALTH PER SECOND: <span >2% / 3% / 4% / 5%</span><br/>",
       "cmb": "<img src=\"mana\" /> 140 &emsp <img src=\"cooldown\"/> 60",
       "lore": "Of the rituals learned at the Isle of Masks, tending wounds with a bit of voodoo magic has proven to be quite useful.",
-      "image": "juggernaut_healing_ward",
+      "image": "skill_5029",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "CRITICAL DAMAGE: <span >200%</span><br />\nCRITICAL CHANCE: <span >20% / 25% / 30% / 35%</span><br/>",
       "cmb": "",
       "lore": "The last remnant of his heritage's commitment to bladework, Yurnero ensures that the style is remembered.",
-      "image": "juggernaut_blade_dance",
+      "image": "skill_5027",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "SLASHES: <span >3 / 6 / 9</span><br />\nSLASH JUMP RADIUS: <span >425</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER SLASHES:</font> <span >6 / 9 / 12</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER COOLDOWN:</font> <span >70</span><br/>",
       "cmb": "<img src=\"mana\"/> 200/275/350 &emsp <img src=\"cooldown\"/> 130/120/110",
       "lore": 	"'The fruits of discipline; with practice comes strength.'",
-      "image": "juggernaut_omni_slash",
+      "image": "skill_5030",
       "mainSkill": 1
     }
   ]

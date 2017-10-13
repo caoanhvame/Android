@@ -29,7 +29,7 @@
       "attribute": "RANGE: <span >200</span><br/>",
       "cmb": "<img src=\"mana\"/> 90  &emsp <img src=\"cooldown\"/> 10",
       "lore": "Nevermore's trademark for harvesting souls.",
-      "image": "nevermore_shadowraze1",
+      "image": "skill_5059",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "MAX SOULS: <span >18 / 24 / 30 / 36</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER MAX SOULS:</font> <span >22 / 30 / 38 / 46</span><br/>",
       "cmb": "",
       "lore": "Harvested souls swirl in and out of the Abysm, empowering the Shadow Fiend to increase the size of his collection.",
-      "image": "nevermore_necromastery",
+      "image": "skill_5062",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "REDUCTION: <span >3 / 4 / 5 / 6</span><br />\nRADIUS: <span >900</span><br/>",
       "cmb": "",
       "lore": "Even being near Nevermore eats away at one's soul.",
-      "image": "nevermore_dark_lord",
+      "image": "skill_5063",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "CAST DELAY: <span >1.67</span><br />\nMOVEMENT REDUCTION: <span >25%</span><br />\nDAMAGE REDUCTION: <span >50%</span><br />\nREDUCTION DURATION: <span >5.000000</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER HEAL ON RETURN:</font> <span >100%</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER DAMAGE ON RETURN:</font> <span >40%</span><br/>",
       "cmb": "<img src=\"mana\"/> 150/175/200 &emsp <img src=\"cooldown\"/> 120/110/100",
       "lore": "The captured souls of those past slain are released to ravage their former allies.",
-      "image": "nevermore_requiem",
+      "image": "skill_5064",
       "mainSkill": 1
     }
   ]

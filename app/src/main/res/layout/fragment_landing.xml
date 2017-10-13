@@ -5,30 +5,53 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     android:gravity="center"
-    android:orientation="horizontal" >
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/fragment_landing_item"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/icon_item"
+            android:gravity="center"
+            android:tag="@string/item"
+            android:text="@string/item"
+            android:textSize="20sp" />
 
+        <TextView
+            android:id="@+id/fragment_landing_hero"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:drawableTop="@drawable/icon_hero"
+            android:gravity="center"
+            android:tag="@string/hero"
+            android:text="@string/hero"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
     <TextView
-        android:id="@+id/fragment_landing_item"
+        android:id="@+id/fragment_landing_history"
         android:layout_width="65dp"
-        android:layout_height="105dp"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:drawablePadding="2dp"
-        android:drawableTop="@drawable/icon_item"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        android:drawableTop="@drawable/icon_history"
         android:gravity="center"
-        android:tag="@string/item"
-        android:text="@string/item"
+        android:tag="@string/history"
+        android:text="@string/history"
         android:textSize="20sp" />
-
-    <TextView
-        android:id="@+id/fragment_landing_hero"
-        android:layout_width="65dp"
-        android:layout_height="104dp"
-        android:layout_weight="1"
-        android:drawablePadding="2dp"
-        android:drawableTop="@drawable/icon_hero"
-        android:gravity="center"
-        android:tag="@string/hero"
-        android:text="@string/hero"
-        android:textSize="20sp" />
-
+    </LinearLayout>
 </LinearLayout>

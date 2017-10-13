@@ -29,7 +29,7 @@
       "attribute": "SLOW TIME: <span>3</span><br />\nDAMAGE DURATION: <span>10</span><br/>",
       "cmb": "<img src=\"mana\"/> 70  &emsp <img src=\"cooldown\"/> 15/13/11/7",
       "lore": "One of the few Dezun rites used for offensive purposes, the paralytic enchantment often proves useful.",
-      "image": "dazzle_poison_touch",
+      "image": "skill_5233",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "DURATION: <span> 5</span><br />\nRANGE: <span>550 / 700 / 850 / 1000</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER RADIUS: </font><span>450</span><br/>",
       "cmb": "<img src=\"mana\" /> 150 &emsp <img src=\"cooldown\"/> 60/45/30/15",
       "lore": "Only a seasoned acolyte of the Shadow can properly perform the rite of preventing death.",
-      "image": "dazzle_shallow_grave",
+      "image": "skill_5234",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "HEAL ARC RADIUS: <span>475</span><br />\nDAMAGE RADIUS: <span>185</span><br />\nMAX HEAL TARGETS: <span>4 / 5 / 6 / 7</span><br/>",
       "cmb": "<img src=\"mana\" /> 90/100/110/120 &emsp <img src=\"cooldown\"/> 12/10/8/6",
       "lore": "While it is a simplistic and routine rite among Shadow Priests, the Shadow Wave is also the most critical for success.",
-      "image": "dazzle_shadow_wave",
+      "image": "skill_5235",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "RADIUS: <span>575 / 575 / 575</span><br />\nARMOR PER SECOND: <span>0.75 / 1 / 1.25</span><br />\nDURATION: <span>24</span><br/>",
       "cmb": "<img src=\"mana\"/> 100 &emsp <img src=\"cooldown\"/> 40",
       "lore": "His ethereal journey into the Nothl realm has allowed Dazzle to mend together the powers of light and dark, creating shifting waves of enchantments.",
-      "image": "dazzle_weave",
+      "image": "skill_5236",
       "mainSkill": 1
     }
   ]

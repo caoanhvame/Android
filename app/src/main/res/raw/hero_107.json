@@ -29,7 +29,7 @@
       "attribute": "REMNANT SMASH RADIUS: <span >200</span><br />\nDAMAGE: <span >50 / 100 / 150 / 200</span><br />\nSTUN DURATION: <span >0.75 / 1.25 / 1.75 / 2.25</span><br />\nTRAVEL SPEED: <span >900</span><br />\nDISTANCE: <span >500 / 600 / 700 / 800</span><br />\nDISTANCE (REMNANT): <span >2000</span><br/>",
       "cmb": "<img src=\"mana\"/> 100  &emsp <img src=\"cooldown\"/> 22/18/14/10",
       "lore": "It is with the power of a mountain that Earth Spirit strikes his enemies.",
-      "image": "earth_spirit_boulder_smash",
+      "image": "skill_5608",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": 	"SPEED: <span >800</span><br />\nSPEED (REMNANT): <span >1600</span><br />\nDISTANCE: <span >800</span><br />\nDISTANCE (REMNANT): <span >1600</span><br />\nMOVEMENT SLOW: <span >80%</span><br />\nSLOW DURATION: <span >0.8 / 1.2 / 1.6 / 2</span><br/>",
       "cmb": "<img src=\"mana\" /> 50 &emsp <img src=\"cooldown\"/> 16/12/8/4",
       "lore": 	"Calling upon his connection to the land, the Earth Spirit draws loose stone to him, which forms a protective ball that he can use to roll short distances.",
-      "image": "earth_spirit_rolling_boulder",
+      "image": "skill_5609",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "SILENCE DURATION: <span >2.5 / 3 / 3.5 / 4</span><br />\nHERO PULL SPEED: <span >600</span><br />\nREMNANT DAMAGE: <span >50 / 100 / 150 / 200</span><br />\nREMNANT PULL SPEED: <span >1000</span><br/>",
       "cmb": "<img src=\"mana\" /> 100 &emsp <img src=\"cooldown\"/> 13",
       "lore": 	"Like calls to like. Even the minerals found in the blood and bones of living beings are not immune to the call of the Earth Spirit.",
-      "image": "earth_spirit_geomagnetic_grip",
+      "image": "skill_5610",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "MAX CHARGES: <span >6</span><br />\nCHARGE RESTORE TIME: <span >30</span><br />\nDURATION: <span >120</span><br/>",
       "lore": "Earth Spirit calls forth a remnant of his stone army, long buried with him in the dark embrace of the Earth.",
       "cmb": "<img src=\"cooldown\"/> 0",
-      "image": "earth_spirit_stone_caller",
+      "image": "skill_5611",
       "mainSkill": 0
     },
     {
@@ -81,7 +81,7 @@
       "attribute": "REMNANT DURATION: <span >3</span><br />\nSHATTER DAMAGE: <span >300</span><br />\nSHATTER RADIUS: <span >300</span><br/>",
       "cmb": "<img src=\"mana\" /> 150 &emsp <img src=\"cooldown\"/> 45",
       "lore": "Kaolin uses the elemental power of the Earth to temporarily petrify living beings, so that they might be conscripted into his stone funerary army.",
-      "image": "earth_spirit_petrify",
+      "image": "skill_5648",
       "mainSkill": 0
     },
     {
@@ -94,7 +94,7 @@
       "attribute": "RADIUS: <span >300</span><br />\nDAMAGE PER SECOND: <span >50 / 75 / 100</span><br />\nMAGNETIZE DURATION: <span >6</span><br />\nREMNANT REFRESH RADIUS: <span >400</span><br />\nREMNANT EXPLOSION RADIUS: <span >600</span><br/>",
       "cmb": "<img src=\"mana\" /> 100 &emsp <img src=\"cooldown\"/> 100/90/80",
       "lore": "At the Earth Spirit's call, the minerals in the blood and bones of his enemies rebel against the bodies they find themselves in.",
-      "image": "earth_spirit_magnetize",
+      "image": "skill_5612",
       "mainSkill": 1
     }
   ]

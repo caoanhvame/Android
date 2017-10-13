@@ -29,7 +29,7 @@
       "attribute": "HP COST: <span >15%</span><br />\nDIVE LENGTH: <span >1400</span><br />\nBURN DURATION: <span >4</span><br />\nDAMAGE PER SECOND: <span >10 / 30 / 50 / 70</span><br />\nMOVE SLOW: <span >28%</span><br/>",
       "cmb": "<img src=\"cooldown\"/> 36",
       "lore": "Though no stranger to travelling the cosmic void, soaring within an atmosphere offers unique pleasures.",
-      "image": "phoenix_icarus_dive",
+      "image": "skill_5623",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "",
       "cmb": "",
       "lore": "SCREE!",
-      "image": "phoenix_icarus_dive_stop",
+      "image": "skill_5624",
       "mainSkill": 0
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "HP COST: <span >20%</span><br />\nSPIRIT DURATION: <span >20</span><br />\nRADIUS: <span >175 / 175 / 175 / 175</span><br />\nBURN DURATION: <span >4</span><br />\nATTACK SPEED SLOW: <span >80 / 100 / 120 / 140</span><br />\nDAMAGE PER SECOND: <span >10 / 30 / 50 / 70</span><br/>",
       "cmb": "<img src=\"mana\"/> 80/90/100/110 &emsp <img src=\"cooldown\"/> 45/40/35/30",
       "lore": 	"The ever-collapsing core of Phoenix often emits short-lived bursts of conscious light.",
-      "image": "phoenix_fire_spirits",
+      "image": "skill_5625",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "HP COST: <span >20%</span><br />\nSPIRIT DURATION: <span >16 / 16 / 16 / 16</span><br />\nRADIUS: <span >175 / 175 / 175 / 175</span><br />\nBURN DURATION: <span >4</span><br />\nATTACK SPEED SLOW: <span >80 / 100 / 120 / 140</span><br />\nDAMAGE PER SECOND: <span >10 / 30 / 50 / 70</span><br/>",
       "lore": "PKAWW! BOOM",
       "cmb": "",
-      "image": "phoenix_launch_fire_spirit",
+      "image": "skill_5631",
       "mainSkill": 0
     },
     {
@@ -81,20 +81,20 @@
       "attribute": 	"HEALTH COST PER SECOND: <span >6%</span><br />\nBASE DAMAGE PER SECOND: <span >14 / 20 / 26 / 32</span><br />\nMAX DAMAGE: <span >1.5% / 3.25% / 5% / 6.75%</span><br />\nBASE HEAL PER SECOND: <span >7 / 10 / 13 / 16</span><br />\nMAX HEAL: <span >0.625% / 1.25% / 1.875% / 2.5%</span><br />\nDURATION: <span >6</span><br/>",
       "cmb": "<img src=\"mana\"/> 100 &emsp <img src=\"cooldown\"/> 26",
       "lore": 	"The vent through which such stellar energy flows is mere atoms wide.",
-      "image": "phoenix_sun_ray",
+      "image": "skill_5626",
       "mainSkill": 1
     },
     {
       "id": 5627,
       "dname": "Stop Sun Ray",
-      "affects": 	"ABILITY: <span >No Target</span><br />",
+      "affects": "ABILITY: <span >No Target</span><br />",
       "desc": 	"Immediately stops the Sun Ray.",
       "notes": "",
       "dmg": 	"",
       "attribute": "",
       "lore": "CHIRP!",
       "cmb": "",
-      "image": "phoenix_sun_ray_stop",
+      "image": "skill_5627",
       "mainSkill": 0
     },
     {
@@ -107,7 +107,7 @@
       "attribute": "",
       "lore": "SQAWRK!",
       "cmb": "",
-      "image": "phoenix_sun_ray_toggle_move",
+      "image": "skill_5628",
       "mainSkill": 0
     },
     {
@@ -120,7 +120,7 @@
       "attribute": "RADIUS: <span >1000 / 1000 / 1000</span><br />\nDAMAGE PER SECOND: <span >60 / 90 / 120</span><br />\nDURATION: <span >6</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER CAST RANGE:</font> <span >500</span><br/>",
       "cmb": "<img src=\"mana\"/> 200 &emsp <img src=\"cooldown\"/> 110",
       "lore": "The solar crucible of a Supernova may be fatal, yet from its flames arise new beacons to wander infinity.",
-      "image": "phoenix_supernova",
+      "image": "skill_5630",
       "mainSkill": 1
     }
   ]

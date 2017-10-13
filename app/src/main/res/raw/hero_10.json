@@ -29,7 +29,7 @@
       "attribute": "",
       "cmb": "<img src=\"mana\"/> 140/155/160/165  &emsp <img src=\"cooldown\"/> 11",
       "lore": "A torrential flood takes enemies by force.",
-      "image": "morphling_waveform",
+      "image": "skill_5052",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": 	"BASE DAMAGE: <span >100</span><br />\nDAMAGE MIN AGI MULTIPLIER: <span >0.25 / 0.25 / 0.25 / 0.25</span><br />\nDAMAGE MAX AGI MULTIPLIER: <span >0.5 / 1 / 1.5 / 2</span><br />\nSTUN MIN: <span >0.25 / 0.25 / 0.25 / 0.25</span><br />\nSTUN MAX: <span >1.25 / 2.25 / 3.25 / 4.25</span><br />\nCAST RANGE: <span >600 / 700 / 800 / 900</span><br/>",
       "cmb": "<img src=\"mana\" /> 80 &emsp <img src=\"cooldown\"/> 10",
       "lore": 	"The Morphling calls upon his elements to crush his opponents with waves.",
-      "image": "morphling_adaptive_strike",
+      "image": "skill_5053",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": 	"MANA PER SECOND: <span >30 / 30 / 30 / 30</span><br />\nPOINTS PER SHIFT: <span >1</span><br />\nSHIFT RATE: <span >0.5 / 0.25 / 0.125 / 0.0625</span><br />\nBONUS AGILITY: <span >3 / 4 / 5 / 6</span><br/>",
       "cmb": "<img src=\"cooldown\"/> 0",
       "lore": "Shifting water makes it difficult to discern the nature of Morphling.",
-      "image": "morphling_morph_agi",
+      "image": "skill_5055",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "MANA PER SECOND: <span >30 / 30 / 30 / 30</span><br />\nPOINTS PER SHIFT: <span >1</span><br />\nSHIFT RATE: <span >0.5 / 0.25 / 0.125 / 0.0625</span><br />\nBONUS STRENGTH: <span >3 / 4 / 5 / 6</span>",
       "cmb": "<img src=\"cooldown\"/> 0",
       "lore": "Shifting water makes it difficult to discern the nature of Morphling.",
-      "image": "morphling_morph_str",
+      "image": "skill_5056",
       "mainSkill": 0
     },
     {
@@ -81,7 +81,7 @@
       "attribute": "DURATION: <span >30 / 45 / 60</span><br />\nREPLICATE DAMAGE TAKEN: <span >100% / 100% / 100%</span><br />\nCAST RANGE: <span >700 / 1100 / 1500</span><br/>",
       "cmb": "<img src=\"mana\"/> 25 &emsp <img src=\"cooldown\"/> 80",
       "lore": "Staring into Morphling produces a reflection that mimics the beholder.",
-      "image": "morphling_replicate",
+      "image": "skill_5057",
       "mainSkill": 1
     },
     {
@@ -93,8 +93,8 @@
       "dmg": "",
       "attribute": "",
       "cmb": "<img src=\"mana\"/> 150",
-      "lore": "Tectonic plates crack, mountains fold, and foes are crushed by the Echo Slam.",
-      "image": "morphling_morph_replicate",
+      "lore": "",
+      "image": "skill_5058",
       "mainSkill": 0
     },
     {
@@ -107,7 +107,7 @@
       "attribute": 	"DURATION: <span >20</span><br/>",
       "cmb": "<img src=\"mana\"/> 200 &emsp <img src=\"cooldown\"/> 60",
       "lore": "",
-      "image": "morphling_hybrid",
+      "image": "skill_5674",
       "mainSkill": 0
     }
   ]

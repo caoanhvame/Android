@@ -1,4 +1,4 @@
-package caoanh.multipanefragment;
+package caoanh.multipanefragment.hero_detail;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -13,6 +13,7 @@ import android.view.MenuItem;
 import java.util.HashMap;
 import java.util.Map;
 
+import caoanh.multipanefragment.R;
 import caoanh.multipanefragment.hero_detail.HeroBioFragment;
 import caoanh.multipanefragment.hero_detail.HeroDetailObject;
 import caoanh.multipanefragment.hero_detail.HeroSkillsFragment;

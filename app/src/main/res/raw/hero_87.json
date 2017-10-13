@@ -29,7 +29,7 @@
       "attribute": "RADIUS: <span>240 / 240 / 240 / 240</span><br />\nSTRIKE INTERVAL: <span>2 / 2 / 2 / 2</span><br/>",
       "cmb": "<img src=\"mana\"/> 130  &emsp <img src=\"cooldown\"/> 12/11/10/9",
       "lore": "Disruptor's charged coils occasionally overload, and a singed armor plate or tuft of fur is the enemy's result.",
-      "image": "disruptor_thunder_strike",
+      "image": "skill_5458",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "CAST RANGE: <span>600 / 1000 / 1400 / 1800</span><br/>",
       "cmb": "<img src=\"mana\" /> 100 &emsp <img src=\"cooldown\"/> 60/46/32/18",
       "lore": "Playing with electricity can have unexpected results.",
-      "image": "disruptor_glimpse",
+      "image": "skill_5459",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute":"RADIUS: <span>340</span><br />\nFORMATION DELAY: <span>1.2 / 1.2 / 1.2 / 1.2</span><br />\nDURATION: <span>2.6 / 3.2 / 3.8 / 4.4</span><br/>",
       "cmb": "<img src=\"mana\" /> 70 &emsp <img src=\"cooldown\"/> 13/12/11/10",
       "lore": "The stryder is immune to the gale-force winds that will consume its adversaries.",
-      "image": "disruptor_kinetic_field",
+      "image": "skill_5460",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "RADIUS: <span>450</span><br />\nPULSES: <span>20</span><br />\nMAX DAMAGE PER SECOND: <span>200 / 250 / 300</span><br />\nDURATION: <span>5</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER DURATION:</font> <span>7</span><br /><br/>",
       "cmb": "<img src=\"mana\"/> 125/175/225 &emsp <img src=\"cooldown\"/> 90/80/70",
       "lore": "A summer squall in Druud is a hardship that only an Oglodi can survive.",
-      "image": "disruptor_static_storm",
+      "image": "skill_5461",
       "mainSkill": 1
     }
   ]

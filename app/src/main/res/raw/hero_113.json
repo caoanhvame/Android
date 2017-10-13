@@ -29,7 +29,7 @@
       "attribute": "DURATION: <span>6</span><br />\nDAMAGE PER SECOND: <span>15 / 30 / 45 / 60</span><br />\nALLY SEARCH RADIUS: <span>225</span><br />\nMOVEMENT SPEED SLOW: <span>20% / 30% / 40% / 50%</span><br />\nCAST RANGE: <span>600 / 700 / 800 / 900</span><br/>",
       "cmb": "<img src=\"mana\"/> 75  &emsp <img src=\"cooldown\"/> 18",
       "lore": "An infinitesimal fraction of the power which imprisoned the Ancients.",
-      "image": "arc_warden_flux",
+      "image": "skill_5677",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "RADIUS: <span>275</span><br />\nDURATION: <span>3.5 / 4.5 / 5.5 / 6.5</span><br />\nATTACK SPEED BONUS: <span>50 / 60 / 70 / 80</span><br />\nEVASION BONUS: <span>100%</span><br/>",
       "cmb": "<img src=\"mana\" /> 80/90/100/110 &emsp <img src=\"cooldown\"/> 35/30/25/20",
       "lore": "Time and space are of little consequence to one as old as Zet.",
-      "image": "arc_warden_magnetic_field",
+      "image": "skill_5678",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "SEARCH RADIUS: <span>375</span><br />\nACTIVATION DELAY: <span>2</span><br />\nDURATION: <span>50</span><br />\nWRAITH SPEED: <span>400</span><br />\nPURGE DURATION: <span>0.4 / 0.5 / 0.6 / 0.7</span><br/>",
       "cmb": "<img src=\"mana\"/> 80  &emsp <img src=\"cooldown\"/> 4",
       "lore": "Lesser fragments of Zet's original self.",
-      "image": "arc_warden_spark_wraith",
+      "image": "skill_5679",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "DURATION: <span>14 / 16 / 18</span><br/>",
       "cmb": "<img src=\"cooldown\"/> 60/50/40",
       "lore": "Warped by the power of its peers, Arc Warden becomes what it despises most: disharmony.",
-      "image": "arc_warden_tempest_double",
+      "image": "skill_5683",
       "mainSkill": 1
     }
   ]

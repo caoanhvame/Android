@@ -29,7 +29,7 @@
       "attribute": "STUN DURATION: <span>0.4 / 0.8 / 1.2 / 1.6</span><br />\nDISTANCE: <span>1200</span><br/>",
       "cmb": "<img src=\"mana\"/> 100  &emsp <img src=\"cooldown\"/> 22",
       "lore": "The legendary Jingu Bang grows to match its master's will, ensuring no enemy can escape the Monkey King's reach.",
-      "image": "monkey_king_boundless_strike",
+      "image": "skill_5716",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "DISTANCE: <span>1000</span><br />\nDAMAGE COOLDOWN: <span>3</span><br />\nPRIMAL SPRING DAMAGE: <span>140 / 210 / 280 / 350</span><br />\nPRIMAL SPRING SLOW: <span>20% / 40% / 60% / 80%</span><br/>",
       "cmb": "<img src=\"cooldown\"/> 1.2",
       "lore": "Sun Wukong dances nimbly along the treetop canopy, always just out of arm's reach.",
-      "image": "monkey_king_tree_dance",
+      "image": "skill_5721",
       "mainSkill": 0
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "DAMAGE: <span>140 / 210 / 280 / 350</span><br />\nMOVEMENT SLOW: <span>20% / 40% / 60% / 80%</span><br />\nSLOW DURATION: <span>4</span><br />\nMAX DISTANCE: <span>1000</span><br/>",
       "cmb": "<img src=\"mana\"/> 130/120/110/100  &emsp <img src=\"cooldown\"/> 19/17/15/13",
       "lore": "Leaping from the safety of cover into the midst of his enemies, Sun Wukong attacks without mercy.",
-      "image": "monkey_king_primal_spring",
+      "image": "skill_5724",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "REQUIRED HITS: <span>4</span><br />\nCOUNTER DURATION: <span>10</span><br />\nCHARGES: <span>4</span><br />\nBONUS DAMAGE: <span>75 / 100 / 125 / 150</span><br />\nBONUS LIFESTEAL: <span>15% / 30% / 45% / 60%</span><br/>",
       "cmb": "",
       "lore": "Always sensitive to the moods of its master, the Jingu Bang radiates power when Sun Wukong's combat fervor is on full display.",
-      "image": "monkey_king_jingu_mastery",
+      "image": "skill_5723",
       "mainSkill": 1
     },
     {
@@ -81,7 +81,7 @@
       "attribute": "MOVESPEED: <span>200</span><br/>",
       "cmb": "<img src=\"mana\"/> 0  &emsp <img src=\"cooldown\"/> 3",
       "lore": "Watch out for that tree.",
-      "image": "monkey_king_mischief",
+      "image": "skill_5719",
       "mainSkill": 0
     },
     {
@@ -94,7 +94,7 @@
       "attribute": "REQUIRED HITS: <span>4</span><br />\nCOUNTER DURATION: <span>10</span><br />\nCHARGES: <span>4</span><br />\nBONUS DAMAGE: <span>75 / 100 / 125 / 150</span><br />\nBONUS LIFESTEAL: <span>15% / 30% / 45% / 60%</span><br/>",
       "cmb": "<img src=\"mana\"/> 0  &emsp <img src=\"cooldown\"/> 1",
       "lore": "Always sensitive to the moods of its master, the Jingu Bang radiates power when Sun Wukong's combat fervor is on full display.",
-      "image": "monkey_king_untransform",
+      "image": "skill_5722",
       "mainSkill": 0
     },
     {
@@ -107,7 +107,7 @@
       "attribute": "BONUS ARMOR: <span>8 / 14 / 20</span><br />\nSOLDIER ATK SPEED: <span>1.4</span><br />\nDURATION: <span>13</span><br/>",
       "cmb": "<img src=\"mana\"/> 100  &emsp <img src=\"cooldown\"/> 130/110/90",
       "lore": "Monkey King rips out a tuft of fur to blow at his enemies, charging each strand to transform into a copy of himself.",
-      "image": "monkey_king_wukongs_command",
+      "image": "skill_5725",
       "mainSkill": 1
     }
   ]

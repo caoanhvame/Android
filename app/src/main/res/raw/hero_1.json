@@ -29,7 +29,7 @@
       "attribute": "MANA BURNED PER HIT: <span >28 / 40 / 52 / 64</span><br/>",
       "cmb": "",
       "lore": "A modified technique of the Turstarkuri monks' peaceful ways is to turn magical energies on their owner.",
-      "image": "antimage_mana_break",
+      "image": "skill_5003",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "RANGE: <span >925 / 1000 / 1075 / 1150</span><br/>",
       "cmb": "<img src=\"mana\" /> 60 &emsp <img src=\"cooldown\"/> 12/9/7/5",
       "lore": "In his encounter with the Dead Gods, Anti-Mage learned the value of being elusive.",
-      "image": "antimage_blink",
+      "image": "skill_5004",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "RESISTANCE: <span >26% / 34% / 42% / 50%</span><br/>",
       "cmb": "",
       "lore": "Years of meditation and obsession with revenge have hardened Anti-Mage's skin against mystical opponents.",
-      "image": "antimage_spell_shield",
+      "image": "skill_5005",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute":"DAMAGE: <span >0.6 / 0.85 / 1.1</span><br />\nSTUN DURATION: <span >0.3</span><br />\nRADIUS: <span >500</span><br/>",
       "cmb": "<img src=\"mana\"/> 125/200/275 &emsp <img src=\"cooldown\"/> 70",
       "lore": "After bringing enemies to their knees, Anti-Mage punishes them for their use of the arcane arts.",
-      "image": "antimage_mana_void",
+      "image": "skill_5006",
       "mainSkill": 1
     }
   ]

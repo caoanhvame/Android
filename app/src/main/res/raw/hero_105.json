@@ -29,7 +29,7 @@
       "attribute": "RADIUS: <span>400</span><br />\nDAMAGE: <span>150 / 350 / 550 / 750</span><br />\nBUILDING DAMAGE: <span>25%</span><br />\nACTIVATION DELAY: <span>1.75</span><br/>",
       "cmb": "<img src=\"mana\"/> 110/130/150/170  &emsp <img src=\"cooldown\"/> 12",
       "lore": "The bane of Toterin!",
-      "image": "techies_land_mines",
+      "image": "skill_5599",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "TRIGGER RADIUS: <span>400</span><br />\nROOT RADIUS: <span>600</span><br />\nROOT DURATION: <span>2 / 3 / 4 / 5</span><br />\nTRAP FADE TIME: <span>2</span><br/>",
       "cmb": "<img src=\"mana\" /> 80/110/140/160 &emsp <img src=\"cooldown\"/> 20/16/13/10",
       "lore": "The scourge of Trapper Town!",
-      "image": "techies_stasis_trap",
+      "image": "skill_5600",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "RADIUS: <span>400</span><br />\nSILENCE DURATION: <span>4 / 5 / 6 / 7</span><br />\nMAX HP SELF DAMAGE: <span>50%</span><br/>",
       "cmb": "<img src=\"mana\" /> 100/125/150/175 &emsp <img src=\"cooldown\"/> 35",
       "lore": "Where we going?",
-      "image": "techies_suicide",
+      "image": "skil_5601",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "RADIUS: <span>700</span><br/>",
       "cmb": "<img src=\"cooldown\"/> 1",
       "lore": "Why light one fuse when you can light them all?",
-      "image": "techies_focused_detonate",
+      "image": "skill_5635",
       "mainSkill": 1
     },
     {
@@ -81,7 +81,7 @@
       "attribute": "SIGN DURATION: <span>180</span><br/>",
       "cmb": "<img src=\"cooldown\"/> 360",
       "lore": "Watch your step!",
-      "image": "techies_minefield_sign",
+      "image": "skill_5644",
       "mainSkill": 1
     },
     {
@@ -94,7 +94,7 @@
       "attribute": "DAMAGE: <span>300 / 450 / 600</span><br />\nEXPLOSION RADIUS: <span>425</span><br />\nMINE DURATION: <span>600</span><br />\nFADE TIME: <span>2</span><br />\nCAST RANGE: <span>500</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER DAMAGE:</font> <span>450 / 600 / 750</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER CAST RANGE:</font> <span>700</span><br/>",
       "cmb": "<img src=\"mana\"/> 200/240/300 &emsp <img src=\"cooldown\"/> 10",
       "lore": "The downfall of Dredger's Bight!",
-      "image": "techies_remote_mines",
+      "image": "skill_5602",
       "mainSkill": 1
     }
   ]

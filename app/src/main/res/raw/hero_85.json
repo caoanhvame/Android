@@ -29,7 +29,7 @@
       "attribute": "BASE DAMAGE: <span >20 / 60 / 100 / 140</span><br />\nSTRENGTH STEAL: <span >4</span><br />\nSTEAL DURATION: <span >45</span><br />\nRADIUS: <span >325</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER STRENGTH STEAL:</font> <span >10</span><br/>",
       "cmb": "<img src=\"mana\"/> 70/90/110/130  &emsp <img src=\"cooldown\"/> 10/8/6/4",
       "lore": "The strength of the living is simply borrowed from the strength of the dead.",
-      "image": "undying_decay",
+      "image": "skill_5442",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "DAMAGE/HEAL PER UNIT: <span >18 / 22 / 26 / 30</span><br />\nMAX UNITS: <span >10 / 12 / 14 / 16</span><br />\nRIP RADIUS: <span >1300</span><br />\nTOMBSTONE HEAL: <span >2 / 4 / 6 / 8</span><br/>",
       "cmb": "<img src=\"mana\" /> 100/110/120/130 &emsp <img src=\"cooldown\"/> 24/18/12/6",
       "lore": 	"Even allies feel despair in Undying's presence.",
-      "image": "undying_soul_rip",
+      "image": "skill_5443",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "ATTACKS TO DESTROY: <span >3 / 4 / 5 / 7</span><br />\nTOMBSTONE DURATION: <span >15 / 20 / 25 / 30</span><br />\nZOMBIE SPAWN RADIUS: <span >600 / 800 / 1000 / 1200</span><br />\nDEATHLUST FLAT HEALTH THRESHOLD: <span >100 / 200 / 300 / 400</span><br />\nDEATHLUST PCT HEALTH THRESHOLD: <span >20% / 25% / 30% / 35%</span><br />\nZOMBIE SPAWN INTERVAL: <span >3</span><br/>",
       "cmb": "<img src=\"mana\" /> 120/130/140/150 &emsp <img src=\"cooldown\"/> 70",
       "lore": "Dirge calls on his fallen brothers to fight for the Dead God.",
-      "image": "undying_tombstone",
+      "image": "skill_5444",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "DURATION: <span >30</span><br />\nMAX DAMAGE AMP: <span >20% / 25% / 30%</span><br />\nMIN DAMAGE AMP: <span >1%</span><br />\nMAX MOVE SLOW: <span >20%</span><br />\nMIN MOVE SLOW: <span >1%</span><br />\nDEATH HEAL (HEROES): <span >10%</span><br />\nDEATH HEAL (CREEPS): <span >2%</span><br/>",
       "cmb": "<img src=\"mana\"/> 100 &emsp <img src=\"cooldown\"/> 75",
       "lore": "The flesh of the recently dead add to the power of Dirge's plague.",
-      "image": "undying_flesh_golem",
+      "image": "skill_5447",
       "mainSkill": 1
     }
   ]

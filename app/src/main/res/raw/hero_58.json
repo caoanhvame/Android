@@ -29,7 +29,7 @@
       "attribute": "ATTACK SPEED SLOW: 40/70/100/130<br/>",
       "cmb": "",
       "lore": "After attacking Aiushtha, most opponents are overwhelmed with guilt having attacked such a natural beauty.",
-      "image": "enchantress_untouchable",
+      "image": "skill_5267",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "CREEP ENCHANT DURATION: <span>80</span><br />\nHERO MOVE SLOW: <span>55%</span><br />\nHERO SLOW DURATION: <span>2.25 / 3.5 / 4.75 / 6</span><br/>",
       "cmb": "<img src=\"mana\" /> 65 &emsp <img src=\"cooldown\"/> 30/24/18/12",
       "lore": "A true steward of the forest, Aiushtha befriends all within it - from lowly trolls to powerful centaurs.",
-      "image": "enchantress_enchant",
+      "image": "skill_5268",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "HEAL PER SECOND PER WISP: <span>10 / 10 / 10 / 10</span><br />NUMBER OF WISPS: <span>4 / 6 / 8 / 10 </span><br/>RADIUS: <span>275 / 275 / 275 / 275</span><br/>",
       "cmb": "<img src=\"mana\" /> 125 &emsp <img src=\"cooldown\"/> 45",
       "lore": "Whimsical spirits of the woods possess a healing power that is quite subtle, but gains strength in numbers.",
-      "image": "enchantress_natures_attendants",
+      "image": "skill_5269",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "DISTANCE AS DAMAGE: 14%/18%/22% <br/><font size=\"3\" color=\"#6fe871\">SCEPTER BONUS RANGE:</font> <span>190</span><br/>",
       "cmb": "<img src=\"mana\"/> 55/60/65 &emsp <img src=\"cooldown\"/> 0",
       "lore": "While Aiushtha favors peaceful means, she is capable of a magical onslaught from a distance, her spears gaining energy from the natural life around her.",
-      "image": "enchantress_impetus",
+      "image": "skill_5270",
       "mainSkill": 1
     }
   ]

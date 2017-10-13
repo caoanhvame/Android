@@ -29,7 +29,7 @@
       "attribute": "DURATION: <span >55 / 55 / 55 / 55</span><br />\nBASE ATTACK TIME: <span >1.25 / 1.2 / 1.15 / 1.1</span><br />\nDAMAGE: <span >18 / 29 / 37 / 46</span><br />\nHP: <span >200 / 240 / 280 / 320</span><br/>",
       "cmb": "<img src=\"mana\"/> 145  &emsp <img src=\"cooldown\"/> 30",
       "lore": 	"The very enchantment that twisted his being also summons canine familiars.",
-      "image": "lycan_summon_wolves",
+      "image": "skill_5395",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "DURATION: <span >13</span><br />\nHERO BONUS DAMAGE: <span >10 / 15 / 20 / 25</span><br />\nMINION BONUS DAMAGE: <span >4 / 6 / 8 / 10</span><br />\nHERO BONUS HEALTH: <span >50 / 100 / 150 / 200</span><br />\nMINION BONUS HEALTH: <span >25 / 50 / 75 / 100</span><br/>",
       "cmb": "<img src=\"mana\" /> 40 &emsp <img src=\"cooldown\"/> 60/55/50/45",
       "lore": "Blood-curdling wolf cries signal to opponents that Banehallow is among them.",
-      "image": "lycan_howl",
+      "image": "skill_5396",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "RADIUS: <span >900 / 900 / 900 / 900</span><br />\nBONUS DAMAGE: <span >15% / 26% / 37% / 48%</span><br/>",
       "cmb": "",
       "lore": "His animalistic symbiosis with canine kind gives Banehallow enhanced reflexes and hunting capabilities.",
-      "image": "lycan_feral_impulse",
+      "image": "skill_5397",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "SHAPESHIFT MOVE SPEED: <span >650</span><br />\nBONUS NIGHT VISION: <span >1000</span><br />\nTRANSFORM TIME: <span >1.5</span><br />\nCRITICAL CHANCE: <span >40%</span><br />\nCRITICAL DAMAGE: <span >160% / 180% / 200%</span><br/>",
       "cmb": "<img src=\"mana\"/> 100 &emsp <img src=\"cooldown\"/> 120/90/60",
       "lore": 	"Forever a slave to his lycanthropy, Banehallow has come to accept his curse, and embrace his own savagery.",
-      "image": "lycan_shapeshift",
+      "image": "skill_5398",
       "mainSkill": 1
     }
   ]

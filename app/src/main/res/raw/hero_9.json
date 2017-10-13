@@ -29,7 +29,7 @@
       "attribute": 	"RADIUS: <span >650</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER INTERVAL:</font> <span >10</span><br/>",
       "cmb": "<img src=\"mana\"/> 100/120/140/160  &emsp <img src=\"cooldown\"/> 12",
       "lore": "The Goddess breaks the strata to empower her Princess in the time of need.",
-      "image": "mirana_starfall",
+      "image": "skill_5051",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": 	"RANGE: <span >3000</span><br />\nMINIMUM STUN: <span >0.01</span><br />\nMAXIMUM STUN: <span >5</span><br />\nMAXIMUM BONUS DAMAGE: <span >140</span><br/>",
       "cmb": "<img src=\"mana\" /> 100 &emsp <img src=\"cooldown\"/> 17",
       "lore": "Lunar energies make the Princess of the Moon's arrows more deadly than most.",
-      "image": "mirana_arrow",
+      "image": "skill_5048",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "DISTANCE: <span >600 / 700 / 800 / 900</span><br />\nMOVEMENT BONUS: <span >8% / 12% / 16% / 20%</span>",
       "cmb": "<img src=\"mana\" /> 40/35/30/20 &emsp <img src=\"cooldown\"/> 30/26/22/18",
       "lore": "Both friend and foe alike recognize Mirana's iconic white beast in the heat of battle.",
-      "image": "mirana_leap",
+      "image": "skill_5050",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "FADE DELAY: <span >2.5 / 2 / 1.5</span><br />\nDURATION: <span >15</span><br/>",
       "cmb": "<img src=\"mana\"/> 75 &emsp <img src=\"cooldown\"/> 140/120/100",
       "lore": "Her tenure with Selemene allows Mirana to eclipse the ground, wrapping her allies in a cloak of shadows.",
-      "image": "mirana_invis",
+      "image": "skill_5049",
       "mainSkill": 1
     }
   ]

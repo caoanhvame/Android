@@ -29,7 +29,7 @@
       "attribute": "RADIUS: <span>400</span><br />\nDAMAGE PER SECOND: <span>80 / 60 / 120 / 100</span><br />\nTOTAL DAMAGE: <span>80 / 120 / 240 / 300</span><br />\nUNIT COUNT: <span>2</span><br/>",
       "cmb": "<img src=\"mana\"/> 110  &emsp <img src=\"cooldown\"/> 14/12/10/8",
       "lore": "Xin's harshest lessons often employed the use of red-hot chains.",
-      "image": "ember_spirit_searing_chains",
+      "image": "skill_5603",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": 	"RADIUS: <span>250 / 350 / 450 / 550</span><br />\nATTACK INTERVAL: <span>0.2</span><br/>",
       "cmb": "<img src=\"mana\" /> 50 &emsp <img src=\"cooldown\"/> 30/22/14/6",
       "lore": "The studied warrior must whip and weave through its enemies, burning each without pause.",
-      "image": "ember_spirit_sleight_of_fist",
+      "image": "skill_5604",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "DURATION: <span>8 / 12 / 16 / 20</span><br />\nRADIUS: <span>400</span><br />\nDAMAGE PER SECOND: <span>30 / 40 / 50 / 60</span><br/>",
       "cmb": "<img src=\"mana\" /> 80/90/100/110 &emsp <img src=\"cooldown\"/> 35",
       "lore": "An enemy should never be allowed to approach without difficulty.",
-      "image": "ember_spirit_flame_guard",
+      "image": "skill_5605",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "MAX CHARGES: <span>3</span><br />\nCHARGE RESTORE TIME: <span>35</span><br />\nDAMAGE: <span>100 / 200 / 300</span><br />\nRADIUS: <span>450</span><br />\nDURATION: <span>45</span><br/>",
       "cmb": "<img src=\"cooldown\"/> 0",
       "lore": "By the spirit's power are Xin's teachings spread anew.",
-      "image": "ember_spirit_fire_remnant",
+      "image": "skill_5606",
       "mainSkill": 1
     },
     {
@@ -81,7 +81,7 @@
       "attribute": "",
       "cmb": "<img src=\"mana\" /> 150 &emsp <img src=\"cooldown\"/> 0",
       "lore": "By the spirit's power are Xin's teachings spread anew.",
-      "image": "ember_spirit_activate_fire_remnant",
+      "image": "skill_5607",
       "mainSkill": 0
     }
   ]

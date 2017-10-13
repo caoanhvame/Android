@@ -29,7 +29,7 @@
       "attribute": "DAMAGE PER TICK: <span>30 / 50 / 70 / 90</span><br />\nBREAK DISTANCE: <span>740</span><br />\nSTUN DURATION: <span>2 / 2.5 / 3 / 3.5</span><br />\nCAST RANGE: <span>700 / 800 / 900 / 1000</span><br/>",
       "cmb": "<img src=\"mana\"/> 125  &emsp <img src=\"cooldown\"/> 10/9/8/7",
       "lore": "Kaldr's presence draws those around him into a frozen void, threatening to lock them in an icy prison for eternity.",
-      "image": "ancient_apparition_cold_feet",
+      "image": "skill_5345",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "RADIUS: <span>275 / 275 / 275 / 275</span><br />\nSLOW: <span>15% / 20% / 25% / 30%</span><br />\nINCREASED MAGIC DAMAGE: <span>15% / 20% / 25% / 30%</span><br/>",
       "cmb": "<img src=\"mana\" /> 80/90/100/110 &emsp <img src=\"cooldown\"/> 4",
       "lore": "Frozen, caustic winds are at the whim of Kaldr, chilling the field of battle.",
-      "image": "ancient_apparition_ice_vortex",
+      "image": "skill_5346",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "RADIUS: <span>525</span><br />\nMAX ATTACKS: <span>3 / 4 / 5 / 6</span><br />\nATTACK SPEED: <span>20</span><br/>",
       "cmb": "<img src=\"mana\" /> 110/120/130/140 &emsp <img src=\"cooldown\"/> 50/42/34/26",
       "lore": "The Ancient Apparition's eternal knowledge brings a frigid enchantment to his allies.",
-      "image": "ancient_apparition_chilling_touch",
+      "image": "skill_5347",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "FROSTBITTEN DURATION: <span>8 / 9 / 10</span><br />\nFROSTBITTEN DAMAGE PER SECOND: <span>12.5 / 20 / 32</span><br />\nSHATTER HEALTH THRESHOLD: <span>10% / 11% / 12%</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER FROSTBITTEN DURATION:</font> <span>17</span><br/>",
       "cmb": "<img src=\"mana\"/> 150 &emsp <img src=\"cooldown\"/> 40",
       "lore": "Ice storms from ages past flow through Kaldr's frosty limbs, crashing into the world and turning its inhabitants into monuments to his eternal power.",
-      "image": "ancient_apparition_ice_blast",
+      "image": "skill_5348",
       "mainSkill": 1
     }
   ]

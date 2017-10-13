@@ -29,7 +29,7 @@
       "attribute": "STUN DURATION: <span>1.4 / 1.8 / 2.2 / 2.6</span><br/>",
       "cmb": "<img src=\"mana\"/> 100/120/140/160  &emsp <img src=\"cooldown\"/> 12",
       "lore": "The Demon Witch exercises his demonic covenant, opening a fissure from hell.",
-      "image": "lion_impale",
+      "image": "skill_5044",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "DURATION: <span>2.5 / 3 / 3.5 / 4</span><br/>",
       "cmb": "<img src=\"mana\" /> 125/150/175/200 &emsp <img src=\"cooldown\"/> 30/24/18/12",
       "lore": "Lion is compelled to share his transfiguration, twisting the essence of those who oppose him.",
-      "image": "lion_voodoo",
+      "image": "skill_5045",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "CHANNEL TIME: <span>5</span><br />\nMANA PER SECOND: <span>20 / 40 / 60 / 120</span><br />\nBREAK DISTANCE: <span>1200</span><br/>",
       "cmb": "<img src=\"mana\" /> 10 &emsp <img src=\"cooldown\"/> 16/12/8/4",
       "lore": "Lesser magi are nothing more than a source of magical restoration for the Demon Witch.",
-      "image": "lion_mana_drain",
+      "image": "skill_5046",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "<font size=\"3\" color=\"#6fe871\">SCEPTER DAMAGE </font> 725 / 875 / 1025<font size=\"3\" color=\"#6fe871\">SCEPTER MANA COST:</font> <span>200 / 420 / 625</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER COOLDOWN:</font> <span>100 / 60 / 20</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER AREA OF EFFECT:</font> <span>325</span><br/>",
       "cmb": "<img src=\"mana\"/> 200/420/650 &emsp <img src=\"cooldown\"/> 160/100/40",
       "lore": "Lion's disfigured hand is also the source of his greatest power, capable of flooding victims with malefic force.",
-      "image": "lion_finger_of_death",
+      "image": "skill_5047",
       "mainSkill": 1
     }
   ]

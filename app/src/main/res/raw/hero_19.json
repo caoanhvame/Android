@@ -29,7 +29,7 @@
       "attribute": 	"RADIUS: <span >275 / 275 / 275 / 275</span><br />\nSTUN DURATION: <span >1</span></br>",
       "cmb": 	"<img src=\"mana\" /> 120/120/120/120 &emsp <img src=\"cooldown\" /> 17",
       "lore": "Inanimate rock becomes animate when called by the Stone Giant.",
-      "image": "tiny_avalanche",
+      "image": "skill_5106",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": 	"RADIUS: <span >275</span><br />\nRANGE: <span >1300</span><br />\nDAMAGE: <span >75 / 150 / 225 / 300</span><br/>",
       "cmb": "<img src=\"mana\"/> 120/120/120/120 &emsp <img src=\"cooldown\" /> 8",
       "lore": 	"Tiny's gargantuan stature allows him to catapult even the sturdiest of warriors.",
-      "image": "tiny_toss",
+      "image": "skill_5107",
       "mainSkill": 1
     },
     {
@@ -55,20 +55,20 @@
       "attribute": 	"CHANCE TO STUN: <span >25%</span><br />\nSTUN DURATION: <span >0.5 / 1 / 1.5 / 2</span><br />\nARMOR: <span >3 / 4 / 5 / 6</span><br />\nDAMAGE: <span >60 / 80 / 100 / 120</span><br/>",
       "cmb": "",
       "lore": "Melee warriors tend to find attacking the Stone Giant largely ineffective.",
-      "image": "tiny_craggy_exterior",
+      "image": "skill_5108",
       "mainSkill": 1
     },
     {
       "id": 5109,
-      "dname": 	"Grow",
-      "affects": 	"ABILITY: <span >Passive</span><br />",
-      "desc": 	"Tiny gains craggy mass that increases his power at the cost of his attack speed. Increases Tossed unit damage and improves movement speed, and improves Craggy Exterior proc chance.\r\n\r\nUpgradable by Aghanim's Scepter.",
+      "dname": "Grow",
+      "affects":"ABILITY: <span >Passive</span><br />",
+      "desc": "Tiny gains craggy mass that increases his power at the cost of his attack speed. Increases Tossed unit damage and improves movement speed, and improves Craggy Exterior proc chance.\r\n\r\nUpgradable by Aghanim's Scepter.",
       "notes": "Cleave damage is reduced by armor type but not by armor value.<br />Cleave damage goes through spell immunity.<br />Scepter bonus damage does not affect buildings under backdoor protection.",
-      "dmg": 	"",
+      "dmg": "",
       "attribute": "BONUS DAMAGE: <span >50 / 100 / 150</span><br />\nATTACK SPEED LOSS: <span >20 / 35 / 50</span><br />\nADDED MOVE SPEED: <span >40 / 50 / 60</span><br />\nTOSS BONUS: <span >35% / 50% / 65%</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER BONUS RANGE:</fint> <span >85</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER CLEAVE DAMAGE:</font> <span >50%</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER BONUS BUILDING DAMAGE:</font> <span >75%</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER TOSS BONUS:</font> <span >50% / 65% / 80%</span><br/>",
-      "cmb": 	"",
+      "cmb": "",
       "lore": "Watching a hill become a mountain is awe-inspiring - especially if the mountain begins laying waste to adversaries.",
-      "image": "tiny_grow",
+      "image": "skill_5109",
       "mainSkill": 1
     }
   ]

@@ -29,7 +29,7 @@
       "attribute": "OUTGOING DAMAGE: <span>80%</span><br />\nRANGE: <span>700</span><br/>BONUS ATTACK TARGETS: 1/2/3/4 <br/>",
       "cmb": "<img src=\"mana\"/> 125/140/155/170  &emsp <img src=\"cooldown\"/> 15",
       "lore": "All who encounter the cursed Gorgon will feel her rage.",
-      "image": "medusa_split_shot",
+      "image": "skill_5504",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "JUMP RADIUS: <span>475 / 475 / 475 / 475</span><br />\nJUMPS: <span>3 / 4 / 5 / 6</span><br />\nDAMAGE: <span>80 / 120 / 160 / 200</span><br />\nMANA STEAL: <span>11% / 14% / 17% / 20%</span><br />\nDAMAGE INCREASE PER JUMP: <span>35%</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER BASE DURATION:</font> <span>1</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER DURATION BOUNCE INCREASE:</font> <span>0.3</span><br/>",
       "cmb": "<img src=\"mana\" /> 140/150/160/170 &emsp <img src=\"cooldown\"/> 11",
       "lore": "The Gorgon's curse is her greatest strength.",
-      "image": "medusa_mystic_snake",
+      "image": "skill_5505",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "DAMAGE PER MANA: <span>1.6 / 1.9 / 2.2 / 2.5</span><br/>",
       "cmb": "",
       "lore": "While Medusa was not gifted with eternal life upon birth, her curse bestowed her with impressive defensive powers.",
-      "image": "medusa_mana_shield",
+      "image": "skil_5506",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "RADIUS: <span>1000 / 1000 / 1000</span><br />\nDURATION: <span>5 / 6 / 7</span><br />\nSLOW: <span>35%</span><br />\nBONUS PHYSICAL DAMAGE: <span>50%</span><br/>",
       "cmb": "<img src=\"mana\"/> 200 &emsp <img src=\"cooldown\"/> 90",
       "lore": "The beauty of Medusa is legendary.",
-      "image": "medusa_stone_gaze",
+      "image": "skill_5507",
       "mainSkill": 1
     }
   ]

@@ -29,7 +29,7 @@
       "attribute": "ATTACK DAMAGE: <span>14 / 16 / 18 / 20</span><br />\nATTACK FREQUENCY: <span>1.25 / 1.1 / 0.95 / 0.8</span><br />\nCOUNT: <span>12 / 12 / 12 / 12</span><br />\nARMOR REDUCTION: <span>1 / 1 / 1 / 1</span><br />\nDURATION: <span>16</span><br />\nATTACKS TO DESTROY: <span>8 / 8 / 8 / 8</span><br/>",
       "cmb": "<img src=\"mana\"/> 70/80/90/100  &emsp <img src=\"cooldown\"/> 35/30/25/20",
       "lore": "Skitskurr opens a gap in the space time fabric, allowing young Weavers to slip through and aid him in combat.",
-      "image": "weaver_the_swarm",
+      "image": "skill_5289",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "DAMAGE: <span>75 / 100 / 125 / 150</span><br />\nRADIUS: <span>175 / 175 / 175 / 175</span><br />\nFADE TIME: <span>0.25 / 0.25 / 0.25 / 0.25</span><br />\nDURATION: <span>4 / 4 / 4 / 4</span><br/>",
       "cmb": "<img src=\"mana\" />60  &emsp <img src=\"cooldown\"/> 12/10/8/6",
       "lore": "As the Weavers worked in the fabric of creation, small wormholes allowed them to slip through time to better work their craft.",
-      "image": "weaver_shukuchi",
+      "image": "skill_5290",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "RADIUS: <span >300</span><br />\nDURATION: <span >0.6 / 0.9 / 1.2 / 1.5</span><br/>",
       "cmb": "<img src=\"cooldown\"/> 7/6/5/3",
       "lore": "Skitskurr's relationship with time is somewhat variable, causing his actions to be witnessed - and felt - more than once.",
-      "image": "weaver_geminate_attack",
+      "image": "skill_5291",
       "mainSkill": 1
     },
     {
@@ -65,10 +65,10 @@
       "desc": "Weaver warps backward to whatever position it was in five seconds earlier--regaining the HP and mana from that time. No effect on cooldown, gold or experience.\nUpgradable by Aghanim's Scepter.\nDISPEL TYPE: Strong Dispel",
       "notes": "Removes most negative buffs from Weaver.<br />Time Lapse disjoints projectiles.",
       "dmg": "",
-      "attribute": "<font size=\"3\" color=\"#6fe871\">SCEPTER COOLDOWN:</font> <span>16</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER ALLY CAST RANGE:</font> <span>1000</span>"<br/>",
+      "attribute": "<font size=\"3\" color=\"#6fe871\">SCEPTER COOLDOWN:</font> <span>16</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER ALLY CAST RANGE:</font> <span>1000</span><br/>",
       "cmb": "<img src=\"mana\"/> 150/75/0 &emsp <img src=\"cooldown\"/> 60/50/40",
       "lore": "If Skitskurr does not deem the current reality of the world to fit his desires, he simply crawls back in time to right what was wronged.",
-      "image": "weaver_time_lapse",
+      "image": "skill_5292",
       "mainSkill": 1
     }
   ]

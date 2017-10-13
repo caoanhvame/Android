@@ -29,7 +29,7 @@
       "attribute": "CAST TIME: <span >1.7</span><br />\nRADIUS: <span >500</span><br />\nSLEEP DURATION: <span >2 / 3 / 4 / 5</span><br />\nSTOMP DAMAGE: <span >70 / 100 / 130 / 160</span><br/>",
       "cmb": "<img src=\"mana\"/> 100  &emsp <img src=\"cooldown\"/> 14/13/12/11",
       "lore": "The force of creation still echoes in the stomp of the Titan.",
-      "image": "elder_titan_echo_stomp",
+      "image": "skill_5589",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "RADIUS: <span >275</span><br />\nDAMAGE: <span >60 / 90 / 120 / 150</span><br />\nDURATION: <span >8</span><br />\nBUFF DURATION: <span >9</span><br />\nBONUS SPEED(CREEPS): <span >1%</span><br />\nBONUS SPEED(HEROES): <span >5%</span><br/>",
       "cmb": "<img src=\"mana\" /> 80/90/100/110 &emsp <img src=\"cooldown\"/> 16",
       "lore": "Like the four fundamentals, Elder Titan exists across all planes at once and can draw other aspects of himself to assist in times of need.",
-      "image": "elder_titan_ancestral_spirit",
+      "image": "skill_5591",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "",
       "cmb": "",
       "lore": "",
-      "image": "elder_titan_return_spirit",
+      "image": "skill_5592",
       "mainSkill": 0
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "RADIUS: <span >350</span><br />\nBASE ARMOR REDUCTION: <span >40% / 60% / 80% / 100%</span><br />\nBASE RESIST REDUCTION: <span >40% / 60% / 80% / 100%</span><br/>",
       "lore": "As it was at the beginning, Elder Titan makes it so again.",
       "cmb": "",
-      "image": "elder_titan_natural_order",
+      "image": "skill_5593",
       "mainSkill": 1
     },
     {
@@ -81,7 +81,7 @@
       "attribute": "EXPLODE DELAY: <span >3.14</span><br />\nCRACK WIDTH: <span >315</span><br />\nCRACK LENGTH: <span >2400</span><br />\nMOVEMENT SLOW: <span >30% / 40% / 50%</span><br />\nSLOW DURATION: <span >3 / 4 / 5</span><br />\nMAX HP AS DAMAGE: <span >30% / 40% / 50%</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER SLOW/DISARM DURATION:</font> <span >4 / 5 / 6</span><br/>",
       "cmb": "<img src=\"mana\" /> 125/175/225 &emsp <img src=\"cooldown\"/> 100",
       "lore": 	"That which he created, the titan tears asunder.",
-      "image": "elder_titan_earth_splitter",
+      "image": "skill_5594",
       "mainSkill": 1
     }
   ]

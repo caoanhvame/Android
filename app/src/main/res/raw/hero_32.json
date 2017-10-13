@@ -29,7 +29,7 @@
       "attribute": "RADIUS: <span >250 / 275 / 300 / 325</span><br />\nMISS RATE: <span >40% / 50% / 60% / 70%</span><br />\nMOVEMENT SLOW: <span >10% / 15% / 20% / 25%</span><br />\nDURATION: <span >6</span><br/>",
       "cmb": "<img src=\"mana\"/> 90  &emsp <img src=\"cooldown\"/> 11",
       "lore": "Since his escape during the night of his betrayal, Riki has valued the use of a simple smoke screen to confuse his opponents.",
-      "image": "riki_smoke_screen",
+      "image": "skill_5142",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "RANGE: <span >700</span><br />\nBONUS DAMAGE: <span >55 / 70 / 85 / 100</span><br/>",
       "cmb": "<img src=\"mana\" /> 50 &emsp <img src=\"cooldown\"/> 16/12/8/4",
       "lore": "The Stealth Assassin's agile movement makes him impossible to escape.",
-      "image": "riki_blink_strike",
+      "image": "skill_5143",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": 	"AGI DAMAGE MULT: <span >0.5 / 0.75 / 1 / 1.25</span><br />\nFADE DELAY: <span >6 / 5 / 4 / 3</span><br/>",
       "cmb": "",
       "lore": "Riki comes for you.",
-      "image": "riki_permanent_invisibility",
+      "image": "skill_5144",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "RADIUS: <span >500</span><br />\nMAX ATTACKS PER UNIT: <span >4 / 5 / 6</span><br />\nSCEPTER BONUS DURATION: <span >4</span><br/>",
       "cmb": "<img src=\"mana\"/> 75 &emsp <img src=\"cooldown\"/> 40/35/30",
       "lore": "The Stealth Assassin is not afraid to fight dirty, and specializes in attacking his opponents from behind.",
-      "image": "riki_tricks_of_the_trade",
+      "image": "skill_5145",
       "mainSkill": 1
     }
   ]

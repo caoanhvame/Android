@@ -29,7 +29,7 @@
       "attribute": "MOVEMENT SLOW: <span >15% / 20% / 25% / 30%</span><br />\nRADIUS: <span >450</span><br />\nDURATION: <span >10</span><br/>",
       "cmb": "<img src=\"mana\"/> 50",
       "lore": "Kardel's modular rifle also fires incendiary rounds, useful for assaulting entrenched locations.",
-      "image": "sniper_shrapnel",
+      "image": "skill_5154",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": 	"CHANCE: <span >40%</span><br/>",
       "cmb": "",
       "lore": "Taking potshots at steepstalkers in his childhood has been thoroughly refined into perfect leads on enemy combatants.",
-      "image": "sniper_headshot",
+      "image": "skill_5155",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "BONUS RANGE: <span >100 / 200 / 300 / 400</span><br/>",
       "cmb": "",
       "lore": "Kardel always takes it upon himself to stay as far from harm as he can while still performing his role - taking perfect aim.",
-      "image": "sniper_take_aim",
+      "image": "skill_5156",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": 	"RANGE: <span >2000 / 2500 / 3000</span><br />\nSCEPTER RADIUS: <span >400</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER CRITICAL DAMAGE:</font> <span >280%</span><br/>",
       "cmb": "<img src=\"mana\"/> 175/275/375 &emsp <img src=\"cooldown\"/> 20/15/10",
       "lore": "In order to fulfill the prophecy and return to his home town, Kardel must make another shot as perfect as the one on the day of his ancient test.",
-      "image": "sniper_assassinate",
+      "image": "skill_5157",
       "mainSkill": 1
     }
   ]

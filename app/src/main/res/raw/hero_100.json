@@ -29,7 +29,7 @@
       "attribute": "RADIUS: <span class=\"attribVal\">200</span><br />\nSHARD DAMAGE: <span class=\"attribVal\">60 / 120 / 180 / 240</span><br />\nSHARD DURATION: <span class=\"attribVal\">7</span><br />\nCAST RANGE: <span class=\"attribVal\">1800</span><br/>",
       "cmb": "<img src=\"mana\"/> 100/105/110/115  &emsp <img src=\"cooldown\"/> 19/16/13/10",
       "lore": "In the frozen tundra near the Barrier, after the last sun of autumn has set, ice can form with alarming speed.",
-      "image": "tusk_ice_shards",
+      "image": "skill_5565",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "BASE DAMAGE: <span class=\"attribVal\">80 / 120 / 160 / 200</span><br />\nBONUS DAMAGE PER ALLY: <span class=\"attribVal\">20 / 30 / 40 / 50</span><br />\nSTUN DURATION: <span class=\"attribVal\">0.5 / 0.75 / 1 / 1.25</span><br />\nGATHER RADIUS: <span class=\"attribVal\">100</span><br />\nLAUNCH TIME: <span class=\"attribVal\">3</span><br/>",
       "cmb": "<img src=\"mana\" /> 75 &emsp <img src=\"cooldown\"/> 21/20/19/18",
       "lore": "Tales are still told of the wild feat that ended the grand brawl at White Fields.",
-      "image": "tusk_snowball",
+      "image": "skill_5566",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "",
       "cmb": "",
       "lore": "Into the great wide white!",
-      "image": "tusk_snowball",
+      "image": "skill_5566",
       "mainSkill": 0
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "AURA RADIUS: <span class=\"attribVal\">600</span><br />\nDURATION: <span class=\"attribVal\">30</span><br />\nMOVEMENT SLOW: <span class=\"attribVal\">10% / 15% / 20% / 25%</span><br />\nATTACK SLOW: <span class=\"attribVal\">30 / 40 / 50 / 60</span><br/>",
       "lore": 	"The chill of home!",
       "cmb": "<img src=\"mana\"/> 75 &emsp <img src=\"cooldown\"/> 50",
-      "image": "tusk_frozen_sigil",
+      "image": "skill_5567",
       "mainSkill": 1
     },
     {
@@ -81,7 +81,7 @@
       "attribute": "AIR TIME: <span class=\"attribVal\">1</span><br />\nSLOW DURATION: <span class=\"attribVal\">2 / 3 / 4</span><br />\nMOVEMENT SLOW: <span class=\"attribVal\">40%</span><br/>",
       "lore": "It never matters who throws the first punch, only who throws the last.",
       "cmb": "<img src=\"mana\"/> 50/75/100 &emsp <img src=\"cooldown\"/> 36/24/12",
-      "image": "tusk_walrus_punch",
+      "image": "skill_5568",
       "mainSkill": 1
     },
     {
@@ -94,7 +94,7 @@
       "attribute": "KICK PUSH DISTANCE: <span class=\"attribVal\">1400</span><br />\nMOVE SLOW: <span class=\"attribVal\">40%</span><br />\nSLOW DURATION: <span class=\"attribVal\">4</span><br />\nDAMAGE: <span class=\"attribVal\">350</span><br/>",
       "lore": 	"",
       "cmb": "<img src=\"mana\"/> 100 &emsp <img src=\"cooldown\"/> 8",
-      "image": "tusk_walrus_kick",
+      "image": "skill_5672",
       "mainSkill": 0
     }
   ]

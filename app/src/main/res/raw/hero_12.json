@@ -29,7 +29,7 @@
       "attribute": 	"SLOW DURATION: <span >3.25</span><br />\nMOVEMENT SLOW: <span >10% / 20% / 30% / 40%</span><br />\nILLUSION DURATION: <span >2 / 4 / 6 / 8</span><br />\nILLUSION DAMAGE: <span >20%</span><br />\nILLUSION DAMAGE TAKEN: <span >400% / 400% / 400% / 400%</span><br />\nSCEPTER BOUNCE RADIUS: <span >400</span><br />\nSCEPTER BOUNCES: <span >5</span><br/>",
       "cmb": "<img src=\"mana\"/> 125/130/135/140  &emsp <img src=\"cooldown\"/> 7",
       "lore": "Azwraith's proficiency at spearing his family's meal of fish is proving quite useful in the battlefield.",
-      "image": "phantom_lancer_spirit_lance",
+      "image": "skill_5065",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "TARGET AREA SIZE: <span >325</span><br />\nILLUSION GATHER RANGE: <span >900</span><br />\nREAPPEAR DELAY: <span >1</span><br />\nDOPPELGANGER DURATION: <span >8</span><br/>",
       "cmb": "<img src=\"mana\" /> 50 &emsp <img src=\"cooldown\"/> 25/20/15/10",
       "lore": "Dread Magus Vorn's death imbued the Phantom Lancer with the ability to bend and fracture all spectrums of light.",
-      "image": "phantom_lancer_doppelwalk",
+      "image": "skill_5066",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "MIN RUSH DISTANCE: <span >250</span><br />\nBONUS AGILITY: <span >6 / 14 / 22 / 30</span><br/>",
       "cmb": "<img src=\"cooldown\"/>16/12/8/4",
       "lore": "Azwraith knows that on the field of battle, speed can mean everything.",
-      "image": "phantom_lancer_phantom_edge",
+      "image": "skill_5068",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": 	"MAX ILLUSIONS: <span >6 / 8 / 10</span><br />\nHERO TRIGGER CHANCE: <span >40% / 45% / 50%</span><br />\nILLUSION TRIGGER CHANCE: <span >8%</span><br />\nILLUSION DAMAGE: <span >16%</span><br />\nILLUSION DAMAGE TAKEN: <span >500%</span><br/>",
       "cmb": "",
       "lore": "Each of Azwraith's lance attacks feels like two from a normal warrior; or three; or four...",
-      "image": "phantom_lancer_juxtapose",
+      "image": "skill_5067",
       "mainSkill": 1
     }
   ]

@@ -29,7 +29,7 @@
       "attribute": "LIFETIME: <span>60 / 60 / 60 / 60</span><br />\nCOUNT: <span>1 / 2 / 3 / 4</span><br/>",
       "cmb": "<img src=\"mana\"/> 120  &emsp <img src=\"cooldown\"/> 10",
       "lore": "Black Arachnia continues to raise her young, even amidst the field of combat.  The brood quickly learns how to support their mother.",
-      "image": "broodmother_spawn_spiderlings",
+      "image": "skill_5279",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "HEALTH REGEN: <span>3 / 5 / 7 / 9</span><br />\nMOVE INCREASE: <span>40% / 50% / 60% / 70%</span><br />\nMAX WEB CHARGES: <span>1 / 2 / 3 / 4</span><br />\nCHARGE RESTORE TIME: <span>40</span><br/>",
       "cmb": "<img src=\"mana\" />50 &emsp <img src=\"cooldown\"/> 0",
       "lore": "Weaving a bed of silken fibers, Arachnia's web both protects her and her offspring, as well as giving advancing opponents a sense of forboding.",
-      "image": "broodmother_spin_web",
+      "image": "skill_5280",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "MISS CHANCE: <span>30% / 40% / 50% / 60%</span><br />\nMOVE SLOW: <span>16% / 26% / 36% / 46%</span><br />\nDURATION: <span>2 / 2 / 2 / 2</span><br/>",
       "cmb": "",
       "lore": "Paralytic toxins come from Black Arachnia's fangs, causing a slow and painful death to those who intrude on her webs.",
-      "image": "broodmother_incapacitating_bite",
+      "image": "skill_5281",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "BONUS DAMAGE: <span>60 / 100 / 140</span><br />\nLIFESTEAL: <span>60% / 100% / 140%</span><br />\nDURATION: <span>14 / 14 / 14</span><br/>",
       "cmb": "<img src=\"mana\"/> 100 &emsp <img src=\"cooldown\"/> 45",
       "lore": "While most of her prey is wrapped in silken cocoons and saved for her young, the Broodmother herself has a taste for wandering heroes.",
-      "image": "broodmother_insatiable_hunger",
+      "image": "skill_5282",
       "mainSkill": 1
     }
   ]

@@ -29,7 +29,7 @@
       "attribute": "LIFT DURATION: <span>1.5 / 1.75 / 2 / 2.25</span><br />\nSTUN DURATION: <span>1 / 1.25 / 1.5 / 1.75</span><br />\nIMPACT RADIUS: <span>325 / 325 / 325 / 325</span><br />\nCAST RANGE: <span>550 / 575 / 600 / 625</span><br/>",
       "cmb": "<img src=\"mana\"/> 125  &emsp <img src=\"cooldown\"/> 22",
       "lore": "Even the Grandest Magus may use his powers for enjoyment.",
-      "image": "rubick_telekinesis",
+      "image": "skill_5448",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "",
       "cmb": "",
       "lore": "",
-      "image": "rubick_telekinesis_land",
+      "image": "skill_5449",
       "mainSkill": 0
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "DAMAGE: <span>80 / 160 / 240 / 320</span><br />\nDEBUFF DURATION: <span>10 / 10 / 10 / 10</span><br/>",
       "cmb": "<img src=\"mana\" /> 120/130/140/150 &emsp <img src=\"cooldown\"/> 16/14/12/10",
       "lore": "Rubick's favorite spell for dispatching would-be assassins is a rather simple conjuration.",
-      "image": "rubick_fade_bolt",
+      "image": "skill_5450",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "MAGIC RESISTANCE: <span>10% / 14% / 18% / 22%</span><br />\nRADIUS: <span>900</span><br/>",
       "cmb": "",
       "lore": "Not every magus can be a Grand Magus...",
-      "image": "rubick_null_field",
+      "image": "skill_5451",
       "mainSkill": 1
     },
     {
@@ -81,7 +81,7 @@
       "attribute": "DURATION: <span>180 / 240 / 300</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER COOLDOWN:</font> <span>2</span><br/>",
       "cmb": "<img src=\"mana\"/> 25 &emsp <img src=\"cooldown\"/> 20/18/16",
       "lore": "...but even their lesser magics can be a source of much utility.",
-      "image": "rubick_spell_steal",
+      "image": "skill_5452",
       "mainSkill": 1
     }
   ]

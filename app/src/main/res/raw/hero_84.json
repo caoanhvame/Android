@@ -29,7 +29,7 @@
       "attribute": "STUN DURATION: <span>1.5</span>",
       "cmb": "<img src=\"mana\"/> 75/85/95/105  &emsp <img src=\"cooldown\"/> 12",
       "lore": "The Ogre Magi is easily amused, entertained for hours by playing with fire.",
-      "image": "ogre_magi_fireblast",
+      "image": "skill_5438",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "STUN DURATION: <span>1.5</span>",
       "cmb": "<img src=\"mana\" /> 60% current mana &emsp <img src=\"cooldown\"/> 6",
       "lore": "The 'who-casts-spell-first' argument between himself is solved simply by both casting at once.",
-      "image": "ogre_magi_unrefined_fireblast",
+      "image": "skill_5466",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "DURATION: <span>5 / 6 / 7 / 8</span><br />\nBURN DAMAGE: <span>26 / 34 / 42 / 50</span><br />\nSLOW: <span>20% / 22% / 24% / 26%</span><br/>",
       "cmb": "<img src=\"mana\" /> 90 &emsp <img src=\"cooldown\"/> 15",
       "lore": "Batter up!",
-      "image": "ogre_magi_ignite",
+      "image": "skill_5439",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "BONUS MOVE SPEED: <span>10% / 12% / 14% / 16%</span><br /> BONUS ATTACK SPEED: 30 / 40 / 50 / 60 <br/> DURATION: <span>30</span><br/>",
       "cmb": "<img src=\"mana\"/> 65 &emsp <img src=\"cooldown\"/> 20",
       "lore": "'Running's not as fun as hitting... Not one bit fun.'",
-      "image": "ogre_magi_bloodlust",
+      "image": "skill_5440",
       "mainSkill": 1
     },
     {
@@ -81,7 +81,7 @@
       "attribute": "FIREBLAST MANA INCREASE: <span>20 / 40 / 60</span><br />\nFIREBLAST COOLDOWN REDUCTION: <span>2 / 4 / 6</span><br />\nIGNITE RADIUS: <span>150 / 300 / 450</span><br />\nIGNITE CAST RANGE INCREASE: <span>150 / 300 / 450</span><br />\nBLOODLUST RADIUS: <span>575</span><br />\nBLOODLUST COOLDOWN REDUCTION: <span>5 / 10 / 15</span><br />\n2X CAST CHANCE: <span>40% / 50% / 60%</span><br />\n3X CAST CHANCE: <span>0% / 20% / 25%</span><br />\n4X CAST CHANCE: <span>0% / 0% / 12.5%</span><br/>",
       "cmb": "",
       "lore": "Despite being largely incapacitated by his IQ, the Ogre Magi's success in battle is attributed to pure skill.",
-      "image": "ogre_magi_multicast",
+      "image": "skill_5441",
       "mainSkill": 1
     }
   ]

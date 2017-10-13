@@ -29,7 +29,7 @@
       "attribute": "HERO STUN DURATION: <span>1 / 1 / 1 / 1</span><br />\nCREEP STUN DURATION: <span>5 / 5 / 5 / 5</span><br />\nHERO DAMAGE: <span>50 / 50 / 50 / 50</span><br />\nBOUNCES: <span>2 / 4 / 6 / 8</span><br/>",
       "cmb": "<img src=\"mana\"/> 110/120/130/140  &emsp <img src=\"cooldown\"/> 20/18/16/14",
       "lore": "The Witch Doctor recycles the bones of fallen friends and foes, using the powder as part of his arsenal of charms and alchemy.",
-      "image": "witch_doctor_paralyzing_cask",
+      "image": "skill_5138",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "MANA PER SEC: <span>8 / 12 / 16 / 20</span><br /><HEAL PER SEC:  16 / 24 / 32 / 40<br/>RADIUS: <span>500</span><br/>",
       "cmb": "<img src=\"mana\" /> 20/30/40/50 &emsp <img src=\"cooldown\"/> 0",
       "lore": "Zharvakko's hocus pocus is not limited only to hexxing his opponents and is quite adept at curing ailments.",
-      "image": "witch_doctor_voodoo_restoration",
+      "image": "skill_5139",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "RADIUS: <span>180</span><br />\nDURATION: <span>12</span><br />\nLOST HEALTH BURST DAMAGE: <span>16% / 24% / 32% / 40%</span><br/>",
       "cmb": "<img src=\"mana\" /> 105/110/115/120 &emsp <img src=\"cooldown\"/> 20",
       "lore": "Certain voodoo magics can make an enemy regret engaging the Witch Doctor.",
-      "image": "witch_doctor_maledict",
+      "image": "skill_5140",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "DAMAGE: <span>60 / 105 / 150</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER BOUNCES:</font> <span>4 / 4 / 4</span><br/>",
       "cmb": "<img src=\"mana\"/>200 &emsp <img src=\"cooldown\"/> 80",
       "lore": "Witch Doctor performs a ritualistic dance, one that haunts the dreams of those who live to recount it.",
-      "image": "witch_doctor_death_ward",
+      "image": "skill_5141",
       "mainSkill": 1
     }
   ]

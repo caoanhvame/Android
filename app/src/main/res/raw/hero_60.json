@@ -29,7 +29,7 @@
       "attribute": 	"DAY DURATION: <span >1.25</span><br />\nNIGHT DURATION: <span >2.5 / 3 / 3.5 / 4</span><br />\nMOVE SLOW: <span >50% / 50% / 50% / 50%</span><br />\nATTACK SLOW: <span >50 / 50 / 50 / 50</span><br/>",
       "cmb": "<img src=\"mana\"/> 80/90/100/110  &emsp <img src=\"cooldown\"/> 8",
       "lore": "Balanar creates a vortex of infinite night, tearing opponents violently into the eternal darkness that once was.",
-      "image": "night_stalker_void",
+      "image": "skill_5275",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": 	"DAY DURATION: <span >3 / 3 / 3 / 3</span><br />\nNIGHT DURATION: <span >5 / 6 / 7 / 8</span><br />\nDAY CHANCE TO MISS: <span >10% / 10% / 10% / 10%</span><br />\nNIGHT CHANCE TO MISS: <span >50%</span><br/>",
       "cmb": "<img src=\"mana\" /> 50 &emsp <img src=\"cooldown\"/> 12",
       "lore": "A vision of the twisted maw of Balanar etches itself into the minds of the poor souls unlucky enough to cross his path.",
-      "image": "night_stalker_crippling_fear",
+      "image": "skill_5276",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "MOVE SPEED: <span >20% / 25% / 30% / 35%</span><br />\nATTACK SPEED: <span >45 / 60 / 75 / 90</span><br/>",
       "cmb":  "<img src=\"mana\" /> 80 &emsp <img src=\"cooldown\"/> 30/26/22/18",
       "lore": "The hunting prowess of Balanar improves as the night beckons.",
-      "image": "night_stalker_hunter_in_the_night",
+      "image": "skill_5277",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "DURATION: <span >50</span><br />\nENEMY VISION RANGE: <span >675</span><br/>",
       "cmb": "<img src=\"mana\"/> 0 &emsp <img src=\"cooldown\"/> 160/120/80",
       "lore": "It is a humbling sight to see when the mightiest of warriors become afraid of the dark.",
-      "image": "night_stalker_darkness",
+      "image": "skill_5278",
       "mainSkill": 1
     }
   ]

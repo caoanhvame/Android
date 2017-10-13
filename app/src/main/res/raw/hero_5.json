@@ -29,7 +29,7 @@
       "attribute": "RADIUS: <span>425</span><br />\nMOVEMENT SLOW: <span>20% / 30% / 40% / 50%</span><br />\nATTACK SLOW: <span>20 / 30 / 40 / 50</span><br />\nDURATION: <span>4.5</span><br/>",
       "cmb": "<img src=\"mana\"/> 100/120/140/160  &emsp <img src=\"cooldown\"/> 12/11/10/9",
       "lore": "The air temperature around Rylai drops rapidly, chilling all around her to the core.",
-      "image": "crystal_maiden_crystal_nova",
+      "image": "skill_5126",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "DAMAGE PER HALF-SECOND: <span>50</span><br />\nHERO TOTAL DAMAGE: <span>150 / 200 / 250 / 300</span><br />\nCREEP DURATION: <span>10 / 10 / 10 / 10</span><br />\nCREEP TOTAL DAMAGE: <span>1000</span><br/>",
       "cmb": "<img src=\"mana\" /> 140/145/150/155 &emsp <img src=\"cooldown\"/> 9/8/7/6",
       "lore": "Rylai channels winds from the Blueheart Glacier, imprisoning attackers in thick blocks of ice.",
-      "image": "crystal_maiden_frostbite",
+      "image": "skill_5127",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "ALLY MANA REGEN: <span>1 / 1.5 / 2 / 3</span><br />\nSELF MANA REGEN: <span>2 / 3 / 4 / 8</span><br/>",
       "cmb": "",
       "lore": "Cold temperatures promote the essence of magic, causing Rylai's presence to allow spell usage in abundance.",
-      "image": "crystal_maiden_brilliance_aura",
+      "image": "skill_5128",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "RADIUS: <span>835</span><br />\nEXPLOSION RADIUS: <span>300</span><br />\nMOVEMENT SLOW: <span>30%</span><br />\nATTACK SLOW: <span>30</span><br/>",
       "cmb": "<img src=\"mana\"/> 200/400/600 &emsp <img src=\"cooldown\"/> 110/100/90",
       "lore": "Once the place of her exile, Icewrack has become an anchor for Rylai's frigid onslaught.",
-      "image": "crystal_maiden_freezing_field",
+      "image": "skill_5129",
       "mainSkill": 1
     }
   ]

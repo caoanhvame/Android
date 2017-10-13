@@ -29,7 +29,7 @@
       "attribute": 	"STUN DURATION: <span >1.2 / 1.6 / 2 / 2.4</span><br/>",
       "cmb": "<img src=\"mana\"/> 100  &emsp <img src=\"cooldown\"/> 12",
       "lore": "Barathrum erupts from the darkness with unwieldy force.",
-      "image": "spirit_breaker_charge_of_darkness",
+      "image": "skill_5353",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute":"BONUS MOVE SPEED: <span >6% / 10% / 14% / 18%</span><br />\nAURA RADIUS: <span >900 / 900 / 900 / 900</span><br />\nCAST ADDED BONUS SPEED: <span >3% / 5% / 7% / 9%</span><br />\nCAST ADDED SPEED DURATION: <span >6</span><br/>",
       "cmb": "<img src=\"cooldown\"/> 12",
       "lore": "Aspiring heroes gain speed and power from simply observing the Spirit Breaker's dominance on the battle field.",
-      "image": "spirit_breaker_empowering_haste",
+      "image": "skill_5354",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "MOVESPEED AS DAMAGE: <span >22% / 30% / 38% / 46%</span><br />\nSTUN DURATION: <span >1 / 1.2 / 1.4 / 1.6</span><br />\nKNOCKBACK DURATION: <span >0.5 / 0.5 / 0.5 / 0.5</span><br />\nBONUS MOVE SPEED: <span >15% / 15% / 15% / 15%</span><br />\nSPEED DURATION: <span >3 / 3 / 3 / 3</span><br/>",
       "cmb": "<img src=\"cooldown\"/> 1.5",
       "lore": "The signature strike of Barathrum's ghostly ball and chain.",
-      "image": "spirit_breaker_greater_bash",
+      "image": "skill_5355",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "BONUS DAMAGE: <span >150 / 250 / 350</span><br />\nRANGE: <span >700</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER RANGE:</font> <span >850</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER BASH RADIUS:</font> <span >250 / 250 / 250</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER COOLDOWN:</font> <span >20 / 20 / 20</span><br/>",
       "cmb": "<img src=\"mana\"/> 125/150/175 &emsp <img src=\"cooldown\"/> 80/70/60",
       "lore": 	"Barathrum temporarily returns to the realm from where he came, bringing with him the retribution of both worlds.",
-      "image": "spirit_breaker_nether_strike",
+      "image": "skill_5356",
       "mainSkill": 1
     }
   ]

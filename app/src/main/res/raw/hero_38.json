@@ -29,7 +29,7 @@
       "attribute": "RANGE: <span class=\"attribVal\">1500</span></br>",
       "cmb": 	"<img src=\"mana\" /> 105/110/115/120 &emsp <img src=\"cooldown\" /> 13",
       "lore": "While learning to maneuver in nature alone, the Beastmaster also mastered the use of a pair of tomahawks, adept at cutting down trees as well as adversaries.",
-      "image": "beastmaster_wild_axes",
+      "image": "skill_5168",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "HAWK HEALTH: <span class=\"attribVal\">40 / 60 / 80 / 100</span><br />\nHAWK MOVEMENT SPEED: <span class=\"attribVal\">250 / 275 / 300 / 325</span><br />\nHAWK DAY SIGHT RANGE: <span class=\"attribVal\">500 / 750 / 1000 / 1250</span><br />\nHAWK NIGHT SIGHT RANGE: <span class=\"attribVal\">500 / 650 / 800 / 950</span><br />\nHAWK DURATION: <span class=\"attribVal\">60 / 60 / 60 / 60</span><br/>",
       "cmb": "<img src=\"mana\" /> 25 &emsp <img src=\"cooldown\" /> 42/38/34/30",
       "lore": "After befriending the strange beast of his childhood, Beastmaster has learned to call to animals in times of need.",
-      "image": "beastmaster_call_of_the_wild",
+      "image": "skill_5169",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "BOAR HEALTH: <span class=\"attribVal\">200/300/400/500 </span><br />\nHAWK MOVEMENT SPEED: <span class=\"attribVal\">350</span><br />\nBOAR DAY SIGHT RANGE: <span class=\"attribVal\">1400</span><br />\nBOAR NIGHT SIGHT RANGE: <span class=\"attribVal\">800</span><br />\nBOAR DURATION: <span class=\"attribVal\">60</span><br/>",
       "cmb": "<img src=\"mana\" /> 25 &emsp <img src=\"cooldown\" /> 42/38/34/30",
       "lore": "After befriending the strange beast of his childhood, Beastmaster has learned to call to animals in times of need.",
-      "image": "beastmaster_call_of_the_wild_boar",
+      "image": "skill_5580",
       "mainSkill": 0
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "RADIUS: <span class=\"attribVal\">900</span><br />\nBONUS ATTACK SPEED: <span class=\"attribVal\">15 / 25 / 35 / 45</span><br/>",
       "cmb": "",
       "lore": "eastmaster's ability to incite the innate strength of animals was seen in the mauling of the king of Slom.",
-      "image": "beastmaster_inner_beast",
+      "image": "skill_5172",
       "mainSkill": 1
     },
     {
@@ -81,7 +81,7 @@
       "attribute": "STUN DURATION: <span class=\"attribVal\">3 / 3.5 / 4</span><br />\nDAMAGE: <span class=\"attribVal\">150 / 225 / 300</span><br />\nSHOUT WIDTH: <span class=\"attribVal\">300</span><br />\nMOVEMENT SLOW: <span class=\"attribVal\">50% / 50% / 50%</span><br />\nATTACK SLOW: <span class=\"attribVal\">50 / 50 / 50</span><br />\nSLOW DURATION: <span class=\"attribVal\">2 / 3 / 4</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER CAST RANGE:</font> <span class=\"attribVal\">950 / 950 / 950</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER COOLDOWN:</font> <span class=\"attribVal\">45 / 45 / 45</span><br/>",
       "cmb": "<img src=\"mana\" /> 150/175/200 &emsp <img src=\"cooldown\" /> 80/75/70",
       "lore": "The Beastmaster has learned to channel his primal instincts into an animalistic roar, causing devastation in the ranks of enemies.",
-      "image": "beastmaster_primal_roar",
+      "image": "skill_5177",
       "mainSkill": 1
     }
   ]

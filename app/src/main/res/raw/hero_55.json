@@ -29,7 +29,7 @@
       "attribute": "",
       "cmb": "<img src=\"mana\"/> 100/130/160/190  &emsp <img src=\"cooldown\"/> 32",
       "lore": "Ish'Kafel modifies the center of gravity to a place of his choosing.",
-      "image": "dark_seer_vacuum",
+      "image": "skill_5255",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "RADIUS: <span>250</span><br />\nDURATION: <span>25</span><br/>DAMAGE PER SECOND: 30 / 50 / 70 / 90 <br/>",
       "cmb": "<img src=\"mana\" /> 100/110/120/130 &emsp <img src=\"cooldown\"/> 9",
       "lore": "The Dark Seer slices holes into the 'Land Behind the Wall,' causing prismatic energy to seep forth.",
-      "image": "dark_seer_ion_shell",
+      "image": "skill_5256",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "DURATION: <span>3 / 4.5 / 6 / 7.5</span><br/>",
       "cmb": "<img src=\"mana\" /> 50 &emsp <img src=\"cooldown\"/> 13/12/11/10",
       "lore": "Ish'Kafel once used his speed of mind to navigate the maze between the walls.",
-      "image": "dark_seer_surge",
+      "image": "skill_5257",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "WALL DURATION: <span>45</span><br />\nREPLICA DAMAGE: <span>60% / 75% / 90%</span><br />\nCAST RANGE: <span>500 / 900 / 1300</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER REPLICA DAMAGE:</font> <span>100% / 120% / 140%</span><br />\nMOVEMENT SLOW: <span>75%</span><br />\nSLOW DURATION: <span>0.5 / 0.75 / 1</span><br/>",
       "cmb": "<img src=\"mana\"/> 125/250/375 &emsp <img src=\"cooldown\"/> 100",
       "lore": "The Dark Seer, while unable to return to his natural realm, can channel part of the prismatic wall with powerful strength of mind, sowing confusion amongst enemy ranks.",
-      "image": "dark_seer_wall_of_replica",
+      "image": "skill_5258",
       "mainSkill": 1
     }
   ]

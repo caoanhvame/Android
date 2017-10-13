@@ -29,7 +29,7 @@
       "attribute": "RADIUS: <span>200 / 200 / 200 / 200</span><br />\nMOVEMENT SLOW: <span>30% / 30% / 30% / 30%</span><br />\nATTACK SLOW: <span>20 / 20 / 20 / 20</span><br />\nAREA DAMAGE: <span>75 / 100 / 125 / 150</span><br/>",
       "cmb": "<img src=\"mana\"/> 125/150/170/190  &emsp <img src=\"cooldown\"/> 8",
       "lore": "Frost-mage Ethreain has not forgotten even the simplest of ice manipulation.",
-      "image": "lich_frost_nova",
+      "image": "skill_5134",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "ALLY ARMOR BONUS: <span>3 / 5 / 7 / 9</span><br />\nSLOW DURATION: <span>2 / 2 / 2 / 2</span><br />\nENEMY MOVE SLOW: <span>24% / 26% / 28% / 30%</span><br />\nENEMY ATTACK SLOW: <span>24 / 26 / 28 / 30</span><br/>",
       "cmb": "<img src=\"mana\" /> 50 &emsp <img src=\"cooldown\"/> 5",
       "lore": "Originally crafted during his ambush for self-defense, the Lich is capable of enchanting others with a formidable defense of frost magic.",
-      "image": "lich_frost_armor",
+      "image": "skill_5135",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "HEALTH CONVERSION: <span>30% / 50% / 70% / 90%</span><br/>",
       "cmb": "<img src=\"mana\" /> 25 &emsp <img src=\"cooldown\"/> 60/46/32/18",
       "lore": "It was not unheard of Ethreain to make examples out of those who contested his rule during his human life.",
-      "image": "lich_dark_ritual",
+      "image": "skill_5136",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "DAMAGE EACH BOUNCE: <span>280 / 370 / 460</span><br />\nBOUNCES: <span>10  <font size=\"3\" color=\"#6fe871\">SCEPTER BOUNCE: </font> UNLIMITED</span><br />\nBOUNCE RANGE: <span>600</span><br />\nMOVEMENT SLOW: <span>65%</span><br />\nATTACK SLOW: <span>65</span><br />\nSLOW DURATION: <span>2.5</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER DAMAGE:</font> <span>370 / 460 / 550</span><br/>",
       "cmb": "<img src=\"mana\"/> 200/325/500 &emsp <img src=\"cooldown\"/> 100/80/60",
       "lore": "Almost universally considered the ultimate in frost magic, Ethreain's orb of frozen death strikes fear into those who dare stand against him.",
-      "image": "lich_chain_frost",
+      "image": "skill_5137",
       "mainSkill": 1
     }
   ]

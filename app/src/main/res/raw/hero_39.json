@@ -29,7 +29,7 @@
       "attribute": "INITIAL DAMAGE: <span>50 / 75 / 100 / 125</span><br />\nDAMAGE PER TICK: <span>30 / 45 / 60 / 75</span><br />\nMOVEMENT SLOW: <span>20% / 30% / 40% / 50%</span><br />\nCAST RANGE: <span>450 / 500 / 550 / 600</span><br />\nDURATION: <span>15</span><br/>",
       "cmb": "<img src=\"mana\"/> 110  &emsp <img src=\"cooldown\"/> 16/12/8/4",
       "lore": "Akasha's envenomed dagger allows her to delight in the drawn out suffering of her victims.",
-      "image": "queenofpain_shadow_strike",
+      "image": "skill_5173",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "RANGE: <span>1300</span><br/>",
       "cmb": "<img src=\"mana\" /> 60 &emsp <img src=\"cooldown\"/> 15/12/9/6",
       "lore": "The Secret Queen lives up to her title, making her pain impossible to escape.",
-      "image": "queenofpain_blink",
+      "image": "skill_5174",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "RADIUS: <span>475</span><br/>",
       "cmb": "<img src=\"mana\" /> 110/120/130/140 &emsp <img src=\"cooldown\"/>7",
       "lore": "The sultry voice of Akasha beckons her opponents while stealing their souls.",
-      "image": "queenofpain_scream_of_pain",
+      "image": "skill_5175",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "WAVE MAX RADIUS: <span>450</span><br />\nDAMAGE: <span>290 / 380 / 470</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER COOLDOWN:</font> <span>40</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER DAMAGE:</font> <span>325 / 440 / 555</span><br/>",
       "cmb": "<img src=\"mana\"/> 250/360/500 &emsp <img src=\"cooldown\"/> 135",
       "lore": "Her most exquisite of all of torments, Akasha's Sonic Wave puts her poor foes out of their misery.",
-      "image": "queenofpain_sonic_wave",
+      "image": "skill_5176",
       "mainSkill": 1
     }
   ]

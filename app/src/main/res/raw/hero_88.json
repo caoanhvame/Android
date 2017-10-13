@@ -29,7 +29,7 @@
       "attribute": "STUN DURATION: <span>1.6 / 2 / 2.4 / 2.8</span><br/>",
       "cmb": "<img src=\"mana\"/> 95/115/135/155  &emsp <img src=\"cooldown\"/> 14",
       "lore": "All zealot scarabs possess intimate knowledge of underground pathways, using them to their advantage.",
-      "image": "nyx_assassin_impale",
+      "image": "skill_5462",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "INTELLIGENCE MULTIPLIER: <span>3.5 / 4 / 4.5 / 5</span><br/>",
       "cmb": "<img src=\"mana\" /> 100 &emsp <img src=\"cooldown\"/> 28/20/12/4",
       "lore": "The tome in Ultimyr describes one scarab with the ability eat away at the mind of lesser beings.",
-      "image": "nyx_assassin_mana_burn",
+      "image": "skill_5463",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "REFLECT DURATION: <span>2.25</span><br />\nSTUN DURATION: <span>0.6 / 1.2 / 1.8 / 2.4</span><br/>",
       "cmb": "<img src=\"mana\" /> 40 &emsp <img src=\"cooldown\"/> 25/20/15/10",
       "lore": "While their carapace is relatively thin, it's guarded by a retractable field of razor-sharp spikes.",
-      "image": "nyx_assassin_spiked_carapace",
+      "image": "skill_5464",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "DURATION: <span>40 / 50 / 60</span><br />\nMOVEMENT SPEED: <span>16% / 18% / 20%</span><br />\nBONUS DAMAGE: <span>250 / 400 / 550</span><br/>",
       "cmb": "<img src=\"mana\"/> 160/210/260 &emsp <img src=\"cooldown\"/> 70/60/50",
       "lore": "The scarab kills for the glory of his queen.",
-      "image": "nyx_assassin_vendetta",
+      "image": "skill_5465",
       "mainSkill": 1
     },{
       "id": 5666,
@@ -80,7 +80,7 @@
       "attribute": "BURROW HEALTH/MANA REGEN: <span>1.5%</span><br />\nBURROW DAMAGE REDUCTION: <span>40%</span><br />\nBURROW MANA BURN RANGE: <span>1050</span><br />\nBURROW IMPALE RANGE: <span>1225</span><br />\nBURROW IMPALE COOLDOWN: <span>7</span><br />\nBURROW SPIKED CARAPACE RANGE: <span>300</span><br/>",
       "cmb": "",
       "lore": "Some castes of zealot scarab are known to create small burrows to lie in wait, ready to ambush their prey.",
-      "image": "nyx_assassin_burrow",
+      "image": "skill_5666",
       "mainSkill": 0
     },{
       "id": 5673,
@@ -92,7 +92,7 @@
       "attribute": "",
       "cmb": "<img src=\"mana\"/> 0 &emsp <img src=\"cooldown\"/> 0",
       "lore": "Some castes of zealot scarab are known to create small burrows to lie in wait, ready to ambush their prey.",
-      "image": "nyx_assassin_unburrow",
+      "image": "skill_5673",
       "mainSkill": 0
     }
   ]

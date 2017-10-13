@@ -29,7 +29,7 @@
       "attribute": 	"RADIUS: <span class=\"attribVal\">400</span><br />\nWAVE COUNT: <span class=\"attribVal\">6</span><br />\nWAVE DAMAGE: <span class=\"attribVal\">25 / 40 / 55 / 70</span><br />\nWAVE INTERVAL <span class=\"attribVal\">1</span><br />\nBURN DURATION: <span class=\"attribVal\">2</span><br/>",
       "cmb": "<img src=\"mana\"/> 100/110/120/130  &emsp <img src=\"cooldown\"/> 12",
       "lore": 	"The flames of conquest blaze forth from the darkest depths of the abyss.",
-      "image": "abyssal_underlord_firestorm",
+      "image": "skill_5613",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "RADIUS: <span class=\"attribVal\">375</span><br />\nPIT DURATION: <span class=\"attribVal\">12</span><br />\nDISABLE INTERVAL: <span class=\"attribVal\">3.6</span><br/>",
       "cmb": "<img src=\"mana\" /> 100/115/130/145 &emsp <img src=\"cooldown\"/> 32/28/24/20",
       "lore": "Twisting into the seams of reality itself, Vrogros' manifest hatred paralyzes those who defy his will.",
-      "image": "abyssal_underlord_pit_of_malice",
+      "image": "skill_5614",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "RADIUS: <span class=\"attribVal\">900</span><br />\nDAMAGE REDUCTION: <span class=\"attribVal\">7% / 18% / 29% / 40%</span><br />\nBONUS DAMAGE(CREEP): <span class=\"attribVal\">5</span><br />\nBONUS DAMAGE(HERO): <span class=\"attribVal\">30 / 35 / 40 / 45</span><br />\nDURATION: <span class=\"attribVal\">30 / 40 / 50 / 60</span><br/>",
       "cmb": "",
       "lore": 	"To merely stand in the presence of the Underlord is to feel the conviction of battle sapped from one's soul.",
-      "image": "abyssal_underlord_atrophy_aura",
+      "image": "skill_5615",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "TELEPORT RADIUS: <span class=\"attribVal\">600</span><br />\nTELEPORT DELAY: <span class=\"attribVal\">6 / 5 / 4</span><br/>",
       "cmb": "<img src=\"mana\"/> 75/150/225 &emsp <img src=\"cooldown\"/> 130/120/110",
       "lore": "They come without warning, leaving fire and blood where kingdoms once flourished.",
-      "image": "abyssal_underlord_dark_rift",
+      "image": "skill_5616",
       "mainSkill": 1
     },
     {
@@ -81,7 +81,7 @@
       "attribute": "",
       "cmb": "",
       "lore": "",
-      "image": "abyssal_underlord_cancel_dark_rift",
+      "image": "skill_5617",
       "mainSkill": 0
     }
   ]

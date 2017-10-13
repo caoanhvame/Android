@@ -29,7 +29,7 @@
       "attribute": "DAMAGE: <span>14 / 22 / 30 / 38</span><br />\nRADIUS: <span>425</span><br />\nBASE DURATION: <span>6</span><br />\nPENALTY DURATION: <span>4</span>",
       "cmb": "<img src=\"mana\"/> 75/95/115/135  &emsp <img src=\"cooldown\"/> 20/18/16/14",
       "lore": "Nortrom's lack of incantations is less of a problem for him than it is for his adversaries.",
-      "image": "silencer_curse_of_the_silent",
+      "image": "skill_5377",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "INT TO DAMAGE: <span>35% / 50% / 65% / 80%</span><br/><font size=\"3\" color=\"#6fe871\">Causes Glaives to pierce Spell Immunity and deal 100% more damage against silenced units.</font><br/>",
       "cmb": "<img src=\"mana\" /> 15 &emsp <img src=\"cooldown\"/> 0",
       "lore": "Although lacking in traditional incantations, Nortrom's pedigree of the Aeol Drias gives him uncanny wisdom, which he applies to physical combat.",
-      "image": "silencer_glaives_of_wisdom",
+      "image": "skill_5378",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "DAMAGE: <span>150 / 200 / 250 / 300</span><br />\nENEMY CAST TIMER: <span>4</span><br />\nSILENCE DURATION: <span>3 / 4 / 5 / 6</span><br/>",
       "cmb": "<img src=\"mana\" /> 115 &emsp <img src=\"cooldown\"/> 30/24/18/12",
       "lore": "Nortrom ensures that spells uttered by his opponents will be their last.",
-      "image": "silencer_last_word",
+      "image": "skill_5379",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "DURATION: <span>4 / 5 / 6</span><br/>",
       "cmb": "<img src=\"mana\"/> 250/375/500 &emsp <img src=\"cooldown\"/> 130",
       "lore": "With a shock to the ground, all magic and sound pauses, and Nortrom fulfills his prophecy.",
-      "image": "silencer_global_silence",
+      "image": "skill_5380",
       "mainSkill": 1
     }
   ]

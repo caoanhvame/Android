@@ -29,7 +29,7 @@
       "attribute": "BASE DAMAGE: <span>60 / 80 / 100 / 120</span><br/>",
       "cmb": "<img src=\"mana\"/> 70  &emsp <img src=\"cooldown\"/> 5/4/3/2",
       "lore": "Within the Ghastly Eyrie's endless intrigue, only the clever and calm can hope to survive.",
-      "image": "skywrath_mage_arcane_bolt",
+      "image": "skill_5581",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "SHOT RANGE: <span>1600</span><br />\nDAMAGE RADIUS: <span>250</span><br />\nDAMAGE: <span>70 / 140 / 210 / 280</span><br />\nSLOW DURATION: <span>4</span><br />\nSLOW: <span>30% / 35% / 40% / 45%</span><br/>",
       "cmb": "<img src=\"mana\" /> 95 &emsp <img src=\"cooldown\"/> 18/16/14/12",
       "lore": "Those who serve the court of the Ghastly Eyrie are ever locked in covert war. One must always know where danger lurks nearest.",
-      "image": "skywrath_mage_concussive_shot",
+      "image": "skill_5582",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "INCREASED MAGIC DAMAGE: <span>30% / 35% / 40% / 45%</span><br />\nDURATION: <span>3 / 4 / 5 / 6</span><br/>",
       "cmb": "<img src=\"mana\" /> 80/90/100/110 &emsp <img src=\"cooldown\"/> 14",
       "lore": "A holy incantation, whosoever finds themselves touched by Avilliva's sigil must suffer in penitent silence.",
-      "image": "skywrath_mage_ancient_seal",
+      "image": "skill_5583",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "RADIUS: <span>170</span><br />\nDURATION: <span>2.4</span><br />\nDAMAGE: <span>600 / 1000 / 1400</span><br/>",
       "cmb": "<img src=\"mana\"/> 300/550/800 &emsp <img src=\"cooldown\"/> 60/40/20",
       "lore": "Only the most practiced of Skywrath sorcerers could hope to shape the skies into such a storm.",
-      "image": "skywrath_mage_mystic_flare",
+      "image": "skill_5584",
       "mainSkill": 1
     }
   ]

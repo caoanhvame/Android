@@ -29,7 +29,7 @@
       "attribute": 	"SELF DAMAGE: <span >75 / 100 / 125 / 150</span><br />\nDAMAGE/HEAL: <span >100 / 150 / 200 / 250</span><br/>",
       "cmb": "<img src=\"mana\"/> 50/60/70/80  &emsp <img src=\"cooldown\"/> 4.5",
       "lore": "A mysterious vapor from the Font of Avernus now infuses the breath of Abaddon, who releases it at will.",
-      "image": "abaddon_death_coil",
+      "image": "skill_5585",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "DURATION: <span >15</span><br />\nBURST RADIUS: <span >675</span><br/>",
       "cmb": "<img src=\"mana\" /> 115 &emsp <img src=\"cooldown\"/> 12/10/8/6",
       "lore": "The powers of the black mist rise to absorb attacks like the black mist absorbs light.",
-      "image": "abaddon_aphotic_shield",
+      "image": "skill_5586",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "DEBUFF DURATION: <span >2.5</span><br />\nBUFF DURATION: <span >4.5</span><br />\nMOVEMENT SLOW: <span >8% / 12% / 16% / 20%</span><br />\nATTACK SLOW: <span >8 / 12 / 16 / 20</span><br />\nMOVE SPEED BONUS: <span >15%</span><br />\nATTACK SPEED BONUS: <span >10 / 20 / 30 / 40</span><br/>",
       "cmb": "",
       "lore": "The curse that slows an enemy, speeds an ally.",
-      "image": "abaddon_frostmourne",
+      "image": "skill_5587",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "HEALTH THRESHOLD: <span >400</span><br />\nDURATION: <span >4 / 5 / 6</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER DURATION:</font> <span >5 / 6 / 7</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER DAMAGE REDIRECT:</font> <span >50%</span><br />\n<font size=\"3\" color=\"#6fe871\">SCEPTER REDIRECT RANGE:</font> <span >900</span><br/>",
       "cmb": "<img src=\"cooldown\"/> 60/50/40",
       "lore": "The most unnatural of all the gifts of the Font of Avernus, this power defies mortal understanding.  What should hurt, instead heals; and what should kill gives strength anew.",
-      "image": "abaddon_borrowed_time",
+      "image": "skill_5588",
       "mainSkill": 1
     }
   ]

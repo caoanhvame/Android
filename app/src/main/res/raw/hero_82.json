@@ -29,7 +29,7 @@
       "attribute": "DURATION: <span >2</span><br />\nRADIUS: <span >220</span><br />\nRANGE: <span >500 / 750 / 1000 / 1250</span><br/>",
       "cmb": "<img src=\"mana\"/> 100  &emsp <img src=\"cooldown\"/> 20/16/12/8",
       "lore": "Catching dinner in the Riftshadow Ruins can be quite the task.",
-      "image": "meepo_earthbind",
+      "image": "skill_5430",
       "mainSkill": 1
     },
     {
@@ -42,7 +42,7 @@
       "attribute": "RADIUS: <span >375</span><br/>",
       "cmb": "<img src=\"mana\" /> 80 &emsp <img src=\"cooldown\"/> 12/10/8/6",
       "lore": "Sometimes breaking one of the Riftshadow Crystals can be just the trick for getting yourself out of a bind.  Or your other self.",
-      "image": "meepo_poof",
+      "image": "skill_5431",
       "mainSkill": 1
     },
     {
@@ -55,7 +55,7 @@
       "attribute": "MOVE SLOW: <span >5% / 10% / 15% / 20%</span><br />\nDURATION: <span >2</span><br/>",
       "cmb": "",
       "lore": "Keeping your pack light and having few but versatile tools is the best bet for survival.",
-      "image": "meepo_geostrike",
+      "image": "skill_5432",
       "mainSkill": 1
     },
     {
@@ -68,7 +68,7 @@
       "attribute": "NUMBER OF MEEPOES: <span >1 / 2 / 3</span><br/>",
       "cmb": "",
       "lore": "Do I know you?",
-      "image": "meepo_divided_we_stand",
+      "image": "skill_5433",
       "mainSkill": 1
     }
   ]
