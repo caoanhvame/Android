@@ -137,6 +137,7 @@ public class ItemListFragment extends Fragment implements OnChildClickListener {
 				String objectKey = iterator.next();
 				JSONObject itemJsonObject = allItems.getJSONObject(objectKey);
 				ItemObject item = new ItemObject();
+				item.setItemKey(objectKey);
 				item.setID(itemJsonObject.getString("ID"));
 				item.setImage(itemJsonObject.getString("Image"));
 				item.setName(itemJsonObject.getString("Name"));

@@ -23,6 +23,7 @@
     <string name="upgradeTo">Upgrade To: </string>
     <string name="upgradeFrom">Upgrade From: </string>
     <string name="item">Item</string>
+    <string name="skill_build">Skill build</string>
     <string name="hero">Hero</string>
     <string name="history">History</string>
     <string name="title_activity_hero_bio">Bio</string>

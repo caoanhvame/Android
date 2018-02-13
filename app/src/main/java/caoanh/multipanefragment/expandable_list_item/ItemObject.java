@@ -7,6 +7,7 @@ import java.util.ArrayList;
  */
 
 public class ItemObject {
+    private String itemKey;
     private String ID;
     private String image;
     private String name;
@@ -25,7 +26,8 @@ public class ItemObject {
 
     }
 
-    public ItemObject(String ID, String image, String name, String cost, String manaCost, String coolDown, String mainDescription, String alternateDescription, String extraAttribute, ArrayList<String> createdFrom, ArrayList<String> createdTo, String lore) {
+    public ItemObject(String itemKey, String ID, String image, String name, String cost, String manaCost, String coolDown, String mainDescription, String alternateDescription, String extraAttribute, ArrayList<String> createdFrom, ArrayList<String> createdTo, String lore) {
+        this.itemKey = itemKey;
         this.ID = ID;
         this.image = image;
         this.name = name;
@@ -40,7 +42,15 @@ public class ItemObject {
         this.lore = lore;
     }
 
-	public boolean isExpand() {
+    public String getItemKey() {
+        return itemKey;
+    }
+
+    public void setItemKey(String itemKey) {
+        this.itemKey = itemKey;
+    }
+
+    public boolean isExpand() {
 		return isExpand;
 	}
 
