@@ -1,6 +1,8 @@
 package caoanh.multipanefragment.expandable_list_item;
 
-import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 /**
  * Created by Cao Anh on 30/10/2016.
@@ -17,29 +19,14 @@ public class ItemObject {
     private String mainDescription;
     private String alternateDescription;
     private String extraAttribute;
-    private ArrayList<String> createdFrom;
-    private ArrayList<String> createdTo;
+    private List<String> createdFrom;
+    private Set<String> createdTo;
     private String lore;
     private boolean isExpand;
+    private String group;
 
-    public ItemObject(){
+    public ItemObject() {
 
-    }
-
-    public ItemObject(String itemKey, String ID, String image, String name, String cost, String manaCost, String coolDown, String mainDescription, String alternateDescription, String extraAttribute, ArrayList<String> createdFrom, ArrayList<String> createdTo, String lore) {
-        this.itemKey = itemKey;
-        this.ID = ID;
-        this.image = image;
-        this.name = name;
-        this.cost = cost;
-        this.manaCost = manaCost;
-        this.coolDown = coolDown;
-        this.mainDescription = mainDescription;
-        this.alternateDescription = alternateDescription;
-        this.extraAttribute = extraAttribute;
-        this.createdFrom = createdFrom;
-        this.createdTo = createdTo;
-        this.lore = lore;
     }
 
     public String getItemKey() {
@@ -51,22 +38,22 @@ public class ItemObject {
     }
 
     public boolean isExpand() {
-		return isExpand;
-	}
+        return isExpand;
+    }
 
-	public void setExpand(boolean isExpand) {
-		this.isExpand = isExpand;
-	}
+    public void setExpand(boolean isExpand) {
+        this.isExpand = isExpand;
+    }
 
-	public String getCoolDown() {
-		return coolDown;
-	}
+    public String getCoolDown() {
+        return coolDown;
+    }
 
-	public void setCoolDown(String coolDown) {
-		this.coolDown = coolDown;
-	}
+    public void setCoolDown(String coolDown) {
+        this.coolDown = coolDown;
+    }
 
-	public String getID() {
+    public String getID() {
         return ID;
     }
 
@@ -130,20 +117,27 @@ public class ItemObject {
         this.extraAttribute = extraAttribute;
     }
 
-    public ArrayList<String> getCreatedFrom() {
+    public List<String> getCreatedFrom() {
         return createdFrom;
     }
 
-    public void setCreatedFrom(ArrayList<String> createdFrom) {
+    public void setCreatedFrom(List<String> createdFrom) {
         this.createdFrom = createdFrom;
     }
 
-    public ArrayList<String> getCreatedTo() {
-        return createdTo;
+    public Set<String> getCreatedTo() {
+        return createdTo != null ? createdTo : new HashSet<>();
     }
 
-    public void setCreatedTo(ArrayList<String> createdTo) {
+    public void setCreatedTo(Set<String> createdTo) {
         this.createdTo = createdTo;
+    }
+
+    public void addCreatedTo(String createdTo) {
+        if (this.createdTo == null) {
+            this.createdTo = new HashSet<>();
+        }
+        this.createdTo.add(createdTo);
     }
 
     public String getLore() {
@@ -152,5 +146,13 @@ public class ItemObject {
 
     public void setLore(String lore) {
         this.lore = lore;
+    }
+
+    public String getGroup() {
+        return group;
+    }
+
+    public void setGroup(String group) {
+        this.group = group;
     }
 }

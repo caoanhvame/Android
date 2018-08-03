@@ -5,13 +5,12 @@
 		"Name": "Blink dagger",
 		"Group": "Arcane",
 		"Cost": "2250",
-		"Cooldown": "12",
+		"Cooldown": "15",
 		"ManaCost": "",
 		"MainDescription": "Active: Blink - Teleport to a target point up to 1200 units away. If damage is taken,Blink Dagger cannot be used for 3.0 seconds.",
 		"AlternateDescription": "Self-casting will cause you to teleport in the direction of your team's fountain. If you used Blink to teleport to a distance over the maximum range,you'll be teleported 4/5 of the maximum range instead.",
 		"ExtraAttribute": "",
 		"CreatedFrom": [],
-		"CreatedTo": [],
 		"Lore": "The fabled dagger used by the fastest assassin ever to walk the lands."
 	},
 	"item_blades_of_attack": {
@@ -19,14 +18,13 @@
 		"Image": "item_2",
 		"Name": "Blades of attack",
 		"Group": "Armaments",
-		"Cost": "420",
+		"Cost": "430",
 		"Cooldown": "",
 		"ManaCost": "",
 		"MainDescription": "",
 		"AlternateDescription": "",
 		"ExtraAttribute": "+9 damage",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_armlet"},{"name": "item_lesser_crit"},{"name" : "item_phase_boots"}],
 		"Lore": "The damage of these small,concealable blades should not be underestimated. "
 	},
 	"item_broadsword": {
@@ -41,7 +39,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 18 Damage ",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_lesser_crit"},{"name": "item_blade_mail"}],
 		"Lore": "The classic weapon of choice for knights,this blade is sturdy and reliable for slaying enemies. "
 	},
 	"item_chainmail": {
@@ -56,7 +53,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 5 Armor",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_assault"},{"name": "item_blade_mail"},{"name": "item_medallion_of_courage"},{"name": "item_buckler"}],
 		"Lore": "A medium weave of metal chains."
 	},
 	"item_claymore": {
@@ -64,14 +60,13 @@
 		"Image": "item_5",
 		"Name": "Claymore",
 		"Group": "Armaments",
-		"Cost": "1200",
+		"Cost": "1400",
 		"Cooldown": "",
 		"ManaCost": "",
 		"MainDescription": "",
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 21 Damage",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_satanic"},{"name": "item_invis_sword"}],
 		"Lore": "A sword that can cut through armor,it's a commonly chosen first weapon for budding swordsmen."
 	},
 	"item_helm_of_iron_will": {
@@ -86,7 +81,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 5 Armor \n + 3 HP Regeneration",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_armlet"},{"name": "item_nullifier"},{"name": "item_veil_of_discord"},{"name" : "item_nullifier"}],
 		"Lore": "The helmet of a legendary warrior who fell in battle."
 	},
 	"item_javelin": {
@@ -101,7 +95,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_basher"},{"name": "item_monkey_king_bar"}],
 		"Lore": "A rather typical spear that can sometimes pierce through an enemy's armor when used to attack."
 	},
 	"item_mithril_hammer": {
@@ -116,7 +109,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 24 Damage",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_black_king_bar"},{"name": "item_maelstrom"},{"name": "item_desolator"}],
 		"Lore": "A hammer forged of pure mithril."
 	},
 	"item_platemail": {
@@ -131,7 +123,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+10 Armor",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_assault"},{"name": "item_shivas_guard"},{"name": "item_lotus_orb"}],
 		"Lore": "Thick metal plates that protect the entire upper body. Avoid dropping on feet."
 	},
 	"item_quarterstaff": {
@@ -146,7 +137,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+10 Attack damage \n +10 Attack speed",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_oblivion_staff"},{"name": "item_butterfly"}, {"name": "item_mask_of_madness"}],
 		"Lore": "A basic staff that allows you to strike quickly."
 	},
 	"item_quelling_blade": {
@@ -161,7 +151,6 @@
 		"AlternateDescription": "Cannot carry more than one. Chop can be used to destroy Techies' Land Mines and Remote Mines.",
 		"ExtraAttribute": "QUELL MELEE DAMAGE: 140% \n QUELL RANGED DAMAGE: 115% \n CHOP TREE CAST RANGE: 350 \n CHOP WARD CAST RANGE: 450 ",
 		"CreatedFrom": [{"name": "item_bfury"},{"name": "item_iron_talon"}],
-		"CreatedTo": [],
 		"Lore": "The axe of a fallen gnome,it allows you to effectively maneuver the forest."
 	},
 	"item_faerie_fire": {
@@ -172,11 +161,10 @@
 		"Cost": "70 ",
 		"Cooldown": "5",
 		"ManaCost": "",
-		"MainDescription": "Use: Consume the Faerie Fire to instantly restore 75 HP",
+		"MainDescription": "Use: Consume the Faerie Fire to instantly restore 85 HP",
 		"AlternateDescription": "",
-		"ExtraAttribute": "+ 2 Damage \n HEALTH RESTORED: 75",
+		"ExtraAttribute": "+ 2 Damage \n HEALTH RESTORED: 85",
 		"CreatedFrom": [],
-		"CreatedTo": [],
 		"Lore": "The ethereal flames from the ever-burning ruins of Kindertree ignite across realities"
 	},
 	"item_infused_raindrop": {
@@ -185,13 +173,12 @@
 		"Name": "Infused Raindrops",
 		"Group": "Consumables",
 		"Cost": "225",
-		"Cooldown": "6",
+		"Cooldown": "7",
 		"ManaCost": "",
 		"MainDescription": "Passive: Consumes a charge to block 120 magic damage from damage instances over 50 damage. Comes with 5 charges. When the charges are gone,the item disappears.",
 		"AlternateDescription": "Uses at most one charge per damage instance.",
-		"ExtraAttribute": "MANA REGEN: 0.85 \n MAGIC DAMAGE BLOCK: 120 \n INITIAL CHARGES: 5 ",
+		"ExtraAttribute": "MANA REGEN: 0.5 \n MAGIC DAMAGE BLOCK: 120 \n INITIAL CHARGES: 5 ",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name" : "item_urn_of_shadows"}],
 		"Lore": "Elemental protection from magical assaults."
 	},
 	"item_wind_lace": {
@@ -199,14 +186,13 @@
 		"Image": "item_244",
 		"Name": "Wind Lace",
 		"Group": "Arcane",
-		"Cost": "235",
+		"Cost": "250",
 		"Cooldown": "",
 		"ManaCost": "",
 		"MainDescription": "Passive: Gives increased movement speed.",
 		"AlternateDescription": "Multiple instances do not stack.",
 		"ExtraAttribute": "+ 20 Movement Speed ",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name" : "item_ancient_janggo"},{"name" : "item_cyclone"} , {"name" : "item_tranquil_boots"}, {"name" : "item_spirit_vessel"}],
 		"Lore": "Hasten to battle on wind-touched heels "
 	},
 	"item_ring_of_protection": {
@@ -221,7 +207,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 2 Armor",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name" : "item_ring_of_basilius"} ,{"name" : "item_iron_talon"}, {"name" : "item_urn_of_shadows"}],
 		"Lore": "A glimmering ring that defends its bearer."
 	},
 	"item_stout_shield": {
@@ -234,9 +219,8 @@
 		"ManaCost": "",
 		"MainDescription": "Passive: Damage Block - Gives a chance to block damage based on whether the equipped hero is melee or ranged.",
 		"AlternateDescription": "Multiple sources of damage block don't stack.",
-		"ExtraAttribute": "MELEE DAMAGE BLOCK: 16 \n RANGED DAMAGE BLOCK: 8 \n BLOCK CHANCE: 50%",
+		"ExtraAttribute": "MELEE DAMAGE BLOCK: 18 \n RANGED DAMAGE BLOCK: 9 \n BLOCK CHANCE: 50%",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name" : "item_poor_mans_shield"},{"name" : "item_stout_shield"}],
 		"Lore": "One man's wine barrel bottom is another man's shield."
 	},
 	"item_moon_shard": {
@@ -249,9 +233,8 @@
 		"ManaCost": "",
 		"MainDescription": "Use: Consume the Moon Shard to permanently gain 60 attack speed. Does not stack. \n Passive: Shade Sight - Grants 250 bonus night vision.",
 		"AlternateDescription": "The bonus night vision works during Night Stalker's Darkness ability.",
-		"ExtraAttribute": "+ 120 Attack Speed \n SHADE BONUS NIGHT VISION: 250 \n CONSUME ATTACK SPEED: 60 ",
+		"ExtraAttribute": "+ 140 Attack Speed \n SHADE BONUS NIGHT VISION: 250 \n CONSUME ATTACK SPEED: 60 ",
 		"CreatedFrom": [{"name" : "item_hyperstone"},{"name" : "item_hyperstone"}],
-		"CreatedTo": [],
 		"Lore": "Said to be a tear from the lunar goddess Selemene."
 	},
 	"item_gauntlets": {
@@ -266,7 +249,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 3 Strength",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name" : "item_bracer"}, {"name" : "item_soul_ring"}],
 		"Lore": "Studded leather gloves that add brute strength."
 	},
 	"item_slippers": {
@@ -281,7 +263,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 3 Agility",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name" : "item_poor_mans_shield"},{"name" : "item_wraith_band"}],
 		"Lore": "Light boots made from spider skin that tingles your senses. "
 	},
 	"item_mantle": {
@@ -296,7 +277,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 3 Intelligence",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_null_talisman"}],
 		"Lore": "A beautiful sapphire mantle worn by generations of queens."
 	},
 	"item_branches": {
@@ -311,7 +291,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 1 All Attributes",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_headdress"},{"name": "item_magic_wand"},{"name": "item_buckler"}],
 		"Lore": "A seemingly ordinary branch,its ironlike qualities are bestowed upon the bearer."
 	},
 	"item_belt_of_strength": {
@@ -326,7 +305,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 6 Strength",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_basher"},{"name": "item_necronomicon"},{"name": "item_power_treads"},{"name": "item_sange"}],
 		"Lore": "A valued accessory for improving vitality."
 	},
 	"item_boots_of_elves": {
@@ -341,7 +319,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 6 Agility",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_yasha"},{"name": "item_dragon_lance"},{"name": "item_power_treads"}],
 		"Lore": "A tensile fabric often used for its light weight and ease of movement."
 	},
 	"item_robe": {
@@ -356,7 +333,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 6 Intelligence",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_blade_mail"},{"name": "item_diffusal_blade"},{"name": "item_power_treads"},{"name": "item_oblivion_staff"} , {"name" : "item_kaya"}],
 		"Lore": "This robe corrupts the soul of the user,but provides wisdom in return."
 	},
 	"item_circlet": {
@@ -371,7 +347,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 2 All Attributes",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_bracer"},{"name": "item_null_talisman"},{"name": "item_wraith_band"}, {"name" : "item_urn_of_shadows"}],
 		"Lore": "An elegant circlet designed for human princesses."
 	},
 	"item_ogre_axe": {
@@ -386,7 +361,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 10 Strength",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_ultimate_scepter"},{"name": "item_black_king_bar"},{"name": "item_sange"},{"name": "item_dragon_lance"},{"name": "item_echo_sabre"}, {"name": "item_meteor_hammer"}],
 		"Lore": "You grow stronger just by holding it."
 	},
 	"item_blade_of_alacrity": {
@@ -401,7 +375,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 10 Agility",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_ultimate_scepter"},{"name": "item_yasha"},{"name": "item_diffusal_blade"}],
 		"Lore": "A long blade imbued with time magic."
 	},
 	"item_staff_of_wizardry": {
@@ -416,7 +389,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 10 Intelligence",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_ultimate_scepter"},{"name": "item_dagon"},{"name": "item_cyclone"},{"name": "item_force_staff"},{"name": "item_rod_of_atos"}, {"name": "item_meteor_hammer"} , {"name" : "item_kaya"}],
 		"Lore": "A staff of magical powers passed down from the eldest mages."
 	},
 	"item_ultimate_orb": {
@@ -424,14 +396,13 @@
 		"Image": "item_24",
 		"Name": "Ultimate Orb",
 		"Group": "Secret Shop",
-		"Cost": "2100",
+		"Cost": "2150  ",
 		"Cooldown": "",
 		"ManaCost": "",
 		"MainDescription": "",
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 10 All Attributes",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_skadi"},{"name": "item_sphere"},{"name": "item_sheepstick"},{"name": "item_manta"},{"name": "item_silver_edge"}],
 		"Lore": "A mystical orb containing the essence of life."
 	},
 	"item_gloves": {
@@ -446,7 +417,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 20 Attack Speed",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_armlet"},{"name": "item_65"},{"name": "item_maelstrom"},{"name": "item_power_treads"} , {"name" : "item_helm_of_the_dominator"}],
 		"Lore": "A pair of magical gloves that seems to render weapons weightless."
 	},
 	"item_lifesteal": {
@@ -454,14 +424,13 @@
 		"Image": "item_26",
 		"Name": "Morbid Mask",
 		"Group": "Arcane",
-		"Cost": "900",
+		"Cost": "1100",
 		"Cooldown": "",
 		"ManaCost": "",
 		"MainDescription": "Passive: Lifesteal - Heals the attacker for a percentage of attack damage dealt. \n Morbid Mask is a Unique Attack Modifier,and does not stack with other Unique Attack Modifiers.",
 		"AlternateDescription": "",
-		"ExtraAttribute": "LIFESTEAL: 15%",
+		"ExtraAttribute": "LIFESTEAL: 15% \n +10 Damage",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_mask_of_madness"},{"name": "item_vladmir"}],
 		"Lore": "A mask that drains the energy of those caught in its gaze."
 	},
 	"item_ring_of_regen": {
@@ -469,14 +438,13 @@
 		"Image": "item_27",
 		"Name": "Ring of Regen",
 		"Group": "Arcane",
-		"Cost": "325",
+		"Cost": "300",
 		"Cooldown": "",
 		"ManaCost": "",
 		"MainDescription": "",
 		"AlternateDescription": "Ring of Regen is shareable.",
-		"ExtraAttribute": "+2 HP Regeneration",
+		"ExtraAttribute": "+1.5 HP Regeneration",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_headdress"},{"name": "item_hood_of_defiance"},{"name": "item_tranquil_boots"},{"name": "item_soul_ring"},{"name": "item_ancient_janggo"} , {"name": "item_meteor_hammer"}],
 		"Lore": "This ring is considered a good luck charm among the Gnomes."
 	},
 	"item_sobi_mask": {
@@ -489,9 +457,8 @@
 		"ManaCost": "",
 		"MainDescription": "",
 		"AlternateDescription": "Sage's Mask is shareable.",
-		"ExtraAttribute": "+ 50% Mana Regeneration",
+		"ExtraAttribute": "+ 0.5 Mana Regeneration",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_medallion_of_courage"},{"name": "item_oblivion_staff"},{"name": "item_ring_of_basilius"},{"name": "item_urn_of_shadows"}, {"name": "item_ancient_janggo"}, {"name": "item_meteor_hammer"}],
 		"Lore": "A mask commonly used by mages and warlocks for various rituals."
 	},
 	"item_boots": {
@@ -499,14 +466,13 @@
 		"Image": "item_29",
 		"Name": "Boots of Speed",
 		"Group": "Arcane",
-		"Cost": "400",
+		"Cost": "500",
 		"Cooldown": "",
 		"ManaCost": "",
 		"MainDescription": "Flat movement speed bonuses from multiple pairs of boots do not stack.",
 		"AlternateDescription": "",
-		"ExtraAttribute": "+ 45 Movement Speed",
+		"ExtraAttribute": "+ 50 Movement Speed",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_arcane_boots"},{"name": "item_travel_boots"},{"name": "item_tranquil_boots"},{"name": "item_50"},{"name": "item_power_treads"}],
 		"Lore": "Fleet footwear,increasing movement."
 	},
 	"item_gem": {
@@ -521,7 +487,6 @@
 		"AlternateDescription": "Disabled while on a courier.",
 		"ExtraAttribute": "TRUE SIGHT RADIUS: 900",
 		"CreatedFrom": [],
-		"CreatedTo": [],
 		"Lore": "Not one thrall creature of the depths,Nor spirit bound in drowning's keep,Nor Maelrawn the Tentacular,Shall rest till seas,gem comes to sleep."
 	},
 	"item_cloak": {
@@ -536,7 +501,6 @@
 		"AlternateDescription": "Stacks multiplicatively with other sources of spell resistance.",
 		"ExtraAttribute": "+ 15% Spell Resistance",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_hood_of_defiance"},{"name": "item_glimmer_cape"}],
 		"Lore": "A cloak made of a magical material that works to dispel any magic cast on it."
 	},
 	"item_talisman_of_evasion": {
@@ -544,14 +508,13 @@
 		"Image": "item_32",
 		"Name": "Talisman of Evasion",
 		"Group": "Secret Shop",
-		"Cost": "1700",
+		"Cost": "1400",
 		"Cooldown": "",
 		"ManaCost": "",
 		"MainDescription": "Stacks diminishingly with other sources of Evasion.",
 		"AlternateDescription": "",
-		"ExtraAttribute": "+ 25% Evasion",
+		"ExtraAttribute": "+ 15% Evasion",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_butterfly"},{"name": "item_heavens_halberd"},{"name": "item_solar_crest"}],
 		"Lore": "A necklace that allows you to anticipate enemy attacks."
 	},
 	"item_magic_stick": {
@@ -566,7 +529,6 @@
 		"AlternateDescription": "Gains charges for spells cast by visible enemies in 1200 range. \n Certain abilities and item abilities will not add charges.",
 		"ExtraAttribute": "HEALTH/MANA PER CHARGE: 15",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_magic_wand"}],
 		"Lore": "A simple wand used to channel magic energies,it is favored by apprentice wizards and great warlocks alike."
 	},
 	"item_magic_wand": {
@@ -574,14 +536,13 @@
 		"Image": "item_36",
 		"Name": "Magic Wand",
 		"Group": "Common",
-		"Cost": "465",
+		"Cost": "450",
 		"Cooldown": "13",
 		"ManaCost": "",
 		"MainDescription": "Active: Energy Charge - Instantly restores health and mana based on the number of charges stored. Gains a charge (max 17) whenever a nearby visible enemy uses an ability.",
 		"AlternateDescription": "Gains charges for spells cast by visible enemies in 1200 range. \n Certain abilities and item abilities will not add charges.",
-		"ExtraAttribute": "+ 4 All Attributes \n HEALTH/MANA PER CHARGE: 15",
-		"CreatedFrom": [{"name": "item_magic_stick"},{"name": "item_branches"},{"name": "item_branches"},{"name": "item_enchanted_mango"}],
-		"CreatedTo": [],
+		"ExtraAttribute": "+ 3 All Attributes \n HEALTH/MANA PER CHARGE: 15",
+		"CreatedFrom": [{"name": "item_magic_stick"},{"name": "item_branches"},{"name": "item_branches"},{"name": "item_recipe"}],
 		"Lore": "A simple wand used to channel magic energies,it is favored by apprentice wizards and great warlocks alike."
 	},
 	"item_ghost": {
@@ -596,7 +557,6 @@
 		"AlternateDescription": "Ends if you become Spell Immune,and will have no effect if you are already Spell Immune. \n Shares cooldown with Ethereal Blade.",
 		"ExtraAttribute": "+ 5 All Attributes \n GHOST DURATION: 4 \n GHOST ADDED MAGIC DAMAGE: 40%",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_ethereal_blade"}],
 		"Lore": "Imbues the wielder with a ghostly presence,allowing them to evade physical damage."
 	},
 	"item_clarity": {
@@ -609,9 +569,8 @@
 		"ManaCost": "",
 		"MainDescription": "Use: Restores mana to the target unit over time.  If the unit is attacked,the effect is lost.",
 		"AlternateDescription": "",
-		"ExtraAttribute": "TOTAL MANA RESTORED: 190 \n DURATION: 50",
+		"ExtraAttribute": "MANA PER SEC: 3 \n DURATION: 50",
 		"CreatedFrom": [],
-		"CreatedTo": [],
 		"Lore": "Clear water that enhances the ability to meditate."
 	},
 	"item_enchanted_mango": {
@@ -619,14 +578,13 @@
 		"Image": "item_216",
 		"Name": "Enchanted Mango",
 		"Group": "Consumables",
-		"Cost": "125",
+		"Cost": "70",
 		"Cooldown": "",
 		"ManaCost": "",
-		"MainDescription": "Use: Consume the mango to instantly restore 150 mana. \n Hold Control to use Enchanted Mango on an allied hero.",
+		"MainDescription": "Use: Consume the mango to instantly restore 125 mana. \n Hold Control to use Enchanted Mango on an allied hero.",
 		"AlternateDescription": "",
-		"ExtraAttribute": "+ 1 HP Regeneration",
+		"ExtraAttribute": "+ 0.5 HP Regeneration",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name" : "item_magic_wand"}],
 		"Lore": "The bittersweet flavors of Jidi Isle are irresistible to amphibians."
 	},
 	"item_flask": {
@@ -639,9 +597,8 @@
 		"ManaCost": "",
 		"MainDescription": "Use: Restores health to the target unit over time.  If the unit is attacked,the effect is lost.",
 		"AlternateDescription": "",
-		"ExtraAttribute": "DURATION: 8 \n HEALTH RESTORED: 400",
+		"ExtraAttribute": "DURATION: 8 \n HEALTH REGEN PER SEC: 50",
 		"CreatedFrom": [],
-		"CreatedTo": [],
 		"Lore": "A magical salve that can quickly mend even the deepest of wounds."
 	},
 	"item_dust": {
@@ -656,7 +613,6 @@
 		"AlternateDescription": "Places a buff on enemy units in the area that prevents them from becoming invisible.",
 		"ExtraAttribute": "DURATION: 12 \n RADIUS: 1050 \n SLOW: 20%",
 		"CreatedFrom": [],
-		"CreatedTo": [],
 		"Lore": "One may hide visage,but never volume."
 	},
 	"item_bottle": {
@@ -664,14 +620,13 @@
 		"Image": "item_41",
 		"Name": "Bottle",
 		"Group": "Consumables",
-		"Cost": "600",
+		"Cost": "650",
 		"Cooldown": "",
 		"ManaCost": "",
 		"MainDescription": "Use: Regenerate - Consumes a charge to restore Health and Mana over time. Healing stops if attacked.  Bottle can be refilled at your team's fountain.  Runes can be stored in the Bottle for later use,and are activated automatically after 2 minutes.  If Bottle does not have full charges and is placed on a courier,the courier will move 30% slower. \n Hold Control to use Regenerate on an allied hero.  Stored runes cannot be shared.",
 		"AlternateDescription": "Bottle is shareable.",
-		"ExtraAttribute": "HEALTH RESTORED: 90 \n MANA RESTORED: 60 \n DURATION: 2.5",
+		"ExtraAttribute": "HEALTH RESTORED: 100 \n MANA RESTORED: 50 \n DURATION: 2.5",
 		"CreatedFrom": [],
-		"CreatedTo": [],
 		"Lore": "An old bottle that survived the ages,the contents placed inside become enchanted."
 	},
 	"item_ward_observer": {
@@ -686,7 +641,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "VISION RANGE: 1600 \n DURATION (MINUTES): 6",
 		"CreatedFrom": [],
-		"CreatedTo": [],
 		"Lore": "A form of half-sentient plant,often cultivated by apprentice wizards."
 	},
 	"item_ward_sentry": {
@@ -701,7 +655,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "TRUE SIGHT RANGE: 850 \n DURATION (MINUTES): 4",
 		"CreatedFrom": [],
-		"CreatedTo": [],
 		"Lore": "A form of plant originally grown in the garden of a fearful king."
 	},
 	"ward_dispenser": {
@@ -716,7 +669,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "OBSERVER VISION RANGE: 1600 \n OBSERVER DURATION (MINUTES):6 \n SENTRY TRUE SIGHT RANGE: 850 \n SENTRY DURATION (MINUTES): 4",
 		"CreatedFrom": [],
-		"CreatedTo": [],
 		"Lore": "Advancements in stacking efficiency have made wards easier to carry than ever."
 	},
 	"item_tango": {
@@ -724,14 +676,13 @@
 		"Image": "item_44",
 		"Name": "Tango",
 		"Group": "Consumables",
-		"Cost": "150",
+		"Cost": "90",
 		"Cooldown": "",
 		"ManaCost": "",
-		"MainDescription": "Use: Eat a Tree or Ward - Consume a target tree or ward to gradually restore health. \n Comes with 4 charges.  Can be used on an allied hero to give them one Tango.",
+		"MainDescription": "Use: Eat a Tree or Ward - Consume a target tree or ward to gradually restore health. \n Comes with 3 charges.  Can be used on an allied hero to give them one Tango.",
 		"AlternateDescription": "Heals for double duration when used on a Ironwood Tree or Wards.",
-		"ExtraAttribute": "EAT TREE HEALTH RESTORED: 115 \n EAT WARD HEALTH RESTORED: 230 \n EAT WARD CAST RANGE: 450 \n HEAL DURATION: 16",
+		"ExtraAttribute": "HEALTH PER SEC: 7.1 \n EAT WARD HEALTH RESTORED: 14.2 \n EAT WARD CAST RANGE: 450 \n HEAL DURATION: 16",
 		"CreatedFrom": [],
-		"CreatedTo": [],
 		"Lore": "Forage to survive on the battlefield."
 	},
 	"item_tango_single": {
@@ -746,7 +697,6 @@
 		"AlternateDescription": "Heals for double duration when used on a Ironwood Tree or Wards.",
 		"ExtraAttribute": "EAT TREE HEALTH RESTORED: 115 \n EAT WARD HEALTH RESTORED: 230 \n EAT WARD CAST RANGE: 450 \n HEAL DURATION: 16",
 		"CreatedFrom": [],
-		"CreatedTo": [],
 		"Lore": "Om nom nom."
 	},
 	"item_courier": {
@@ -754,14 +704,13 @@
 		"Image": "item_45",
 		"Name": "Animal Courier",
 		"Group": "Consumables",
-		"Cost": "100",
+		"Cost": "50",
 		"Cooldown": "",
 		"ManaCost": "",
 		"MainDescription": "Use: Deploy Courier - Deploys a creature to carry item to and from your team's base.",
 		"AlternateDescription": "",
 		"ExtraAttribute": "",
 		"CreatedFrom": [],
-		"CreatedTo": [],
 		"Lore": "Losing the courier is punishable by death."
 	},
 	"item_tpscroll": {
@@ -770,13 +719,12 @@
 		"Name": "Town Portal Scroll",
 		"Group": "Consumables",
 		"Cost": "50",
-		"Cooldown": "70",
+		"Cooldown": "80",
 		"ManaCost": "75",
 		"MainDescription": "Use: Teleport - Teleports you to a target friendly building. Double-click to teleport to your team's base fountain.",
 		"AlternateDescription": "If multiple heroes teleport to the same location in succession,the channeling time will be increased for each successive hero.",
 		"ExtraAttribute": "",
 		"CreatedFrom": [],
-		"CreatedTo": [],
 		"Lore": "What a hero truly needs."
 	},
 	"item_travel_boots": {
@@ -784,14 +732,13 @@
 		"Image": "item_48",
 		"Name": "Boots of Travel",
 		"Group": "Common",
-		"Cost": "1400",
+		"Cost": "2500",
 		"Cooldown": "45",
 		"ManaCost": "75",
 		"MainDescription": "Active: Teleport - Teleports you to an allied non-hero unit or structure. Double-click to teleport to your team's base fountain. Upgradable to allow you to teleport to allied heroes. \n Flat movement speed bonuses from multiple pairs of boots do not stack.",
 		"AlternateDescription": "Shares cooldown with Town Portal Scrolls.",
 		"ExtraAttribute": "+ 100 Movement Speed",
 		"CreatedFrom": [{"name" : "item_boots"} ,{"name": "item_recipe"}],
-		"CreatedTo": [{"name" : "item_travel_boots_2"}],
 		"Lore": "Winged boots that grant omnipresence."
 	},
 	"item_travel_boots_2": {
@@ -799,14 +746,13 @@
 		"Image": "item_220",
 		"Name": "Boots of Travel2",
 		"Group": "Common",
-		"Cost": "1400",
+		"Cost": "4500",
 		"Cooldown": "45",
 		"ManaCost": "75",
 		"MainDescription": "Active: Teleport - Teleports you to any allied structure or unit, including heroes. Teleporting to a unit is interrupted if the target unit dies.Shares a cooldown with Town Portal Scroll.Flat movement speed bonuses from multiple pairs of boots do not stack.",
 		"AlternateDescription": "Shares cooldown with Town Portal Scrolls.",
 		"ExtraAttribute": "+ 100 Movement Speed",
 		"CreatedFrom": [{"name" : "item_travel_boots"} ,{"name": "item_recipe"}],
-		"CreatedTo": [],
 		"Lore": "Winged boots that grant omnipresence."
 	},
 	"item_phase_boots": {
@@ -814,14 +760,13 @@
 		"Image": "item_50",
 		"Name": "Phase Boots",
 		"Group": "Common",
-		"Cost": "1240",
+		"Cost": "1360",
 		"Cooldown": "8",
 		"ManaCost": "",
 		"MainDescription": "Active: Phase - Gives increased movement speed and lets you move through units.  The increased movement speed is based on whether the equipped hero is melee or ranged. \n Flat movement speed bonuses from multiple pairs of boots do not stack.",
 		"AlternateDescription": "",
-		"ExtraAttribute": "+ 45 Movement Speed \n + 24 Damage \n PHASE MOVE BOOST MELEE: 24% \n PHASE MOVE BOOST RANGED: 20% \n PHASE DURATION: 2.5",
+		"ExtraAttribute": "+ 50 Movement Speed \n + 24 Damage \n PHASE MOVE BOOST MELEE: 24% \n PHASE MOVE BOOST RANGED: 20% \n PHASE DURATION: 2.5",
 		"CreatedFrom": [{"name" : "item_boots"},{"name" : "item_blades_of_attack"},{"name" : "item_blades_of_attack"}],
-		"CreatedTo": [],
 		"Lore": "Boots that allow the wearer to travel between the ether."
 	},
 	"item_demon_edge": {
@@ -836,7 +781,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 42 Damage",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name" : "item_greater_crit"},{"name" : "item_rapier"}],
 		"Lore": "One of the oldest weapons forged by the Demon-Smith Abzidian,it killed its maker when he tested its edge."
 	},
 	"item_eagle": {
@@ -851,7 +795,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 25 Agility",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name" : "item_ethereal_blade"},{"name" : "item_butterfly"}],
 		"Lore": "Capturing the majestic call of an eagle,this mystical horn brings limitless dexterity to those who hear it."
 	},
 	"item_reaver": {
@@ -866,7 +809,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 25 Strength",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name" : "item_heart"},{"name" : "item_satanic"}],
 		"Lore": "A massive axe capable of tearing whole mountains down."
 	},
 	"item_relic": {
@@ -881,7 +823,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name" : "item_rapier"},{"name" : "item_radiance"} , {"name" : "item_nullifier"}],
 		"Lore": "An ancient weapon that often turns the tides of war."
 	},
 	"item_hyperstone": {
@@ -896,7 +837,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 55 Attack Speed",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name" : "item_assault"},{"name" : "item_mjollnir"},{"name" : "item_moon_shard"}],
 		"Lore": "A mystical,carved stone that boosts the fervor of the holder."
 	},
 	"item_ring_of_health": {
@@ -909,9 +849,8 @@
 		"ManaCost": "",
 		"MainDescription": "",
 		"AlternateDescription": "Ring of Health is shareable.",
-		"ExtraAttribute": "+ 6 HP Regeneration",
+		"ExtraAttribute": "+ 5 HP Regeneration",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name" : "item_hood_of_defiance"},{"name" : "item_pers"},{"name" : "item_force_staff"},{"name" : "item_aether_lens"}, {"name" : "item_helm_of_the_dominator"}],
 		"Lore": "A shiny ring found beneath a fat halfling's corpse."
 	},
 	"item_void_stone": {
@@ -924,9 +863,8 @@
 		"ManaCost": "",
 		"MainDescription": "",
 		"AlternateDescription": "Void Stone is shareable.",
-		"ExtraAttribute": "+ 100% Mana Regeneration",
+		"ExtraAttribute": "+ 1 Mana Regeneration",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name" : "item_cyclone"},{"name" : "item_sheepstick"},{"name" : "item_pers"}],
 		"Lore": "Jewelry that was once used to channel nether realm magic,this ring pulses with energy."
 	},
 	"item_mystic_staff": {
@@ -941,7 +879,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 25 Intelligence",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name" : "item_sheepstick"},{"name" : "item_shivas_guard"},{"name" : "item_octarine_core"}],
 		"Lore": "Enigmatic staff made of only the most expensive crystals."
 	},
 	"item_energy_booster": {
@@ -956,7 +893,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 250 Mana",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name" : "item_arcane_boots"},{"name" : "item_soul_booster"},{"name" : "item_aether_lens"},{"name" : "item_lotus_orb"} , {"name" : "item_aeon_disk"}],
 		"Lore": "This lapis gemstone is commonly added to the collection of wizards seeking to improve their presence in combat."
 	},
 	"item_point_booster": {
@@ -971,7 +907,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 175 Mana \n + 175 Health",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name" : "item_skadi"},{"name" : "item_soul_booster"},{"name" : "item_ultimate_scepter"}],
 		"Lore": "A perfectly formed amethyst that nourishes body and mind when held."
 	},
 	"item_vitality_booster": {
@@ -986,7 +921,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 250 Health",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name" : "item_stout_shield"},{"name" : "item_soul_booster"},{"name" : "item_heart"},{"name" : "item_rod_of_atos"} , {"name" : "item_aeon_disk"} , {"name" : "item_spirit_vessel"}],
 		"Lore": "A ruby gemstone that has been passed down through generations of warrior kin."
 	},
 	"item_power_treads": {
@@ -994,14 +928,13 @@
 		"Image": "item_63",
 		"Name": "Power Treads",
 		"Group": "Common",
-		"Cost": "1350",
+		"Cost": "1450",
 		"Cooldown": "",
 		"ManaCost": "",
 		"MainDescription": "Active: Switch Attribute - Changes selected attribute between Strength,Agility and Intelligence. \n Power Treads can be built using a Belt of Strength,Band of Elvenskin,or a Robe of the Magi.  Flat movement speed bonuses from multiple pairs of boots do not stack,nor does the attack speed bonus from multiple Power Treads.",
 		"AlternateDescription": "",
-		"ExtraAttribute": "+ 45 Movement Speed \n + 9 Selected Attribute \n + 25 Attack Speed",
+		"ExtraAttribute": "+ 50 Movement Speed \n + 9 Selected Attribute \n + 25 Attack Speed",
 		"CreatedFrom": [{"name" : "item_boots"},{"name" : "item_gloves"},{"name" : "item_belt_of_strength"}],
-		"CreatedTo": [],
 		"Lore": "A pair of tough-skinned boots that change to meet the demands of the wearer."
 	},
 	"item_hand_of_midas": {
@@ -1009,14 +942,13 @@
 		"Image": "item_65",
 		"Name": "Hand of Midas",
 		"Group": "Common",
-		"Cost": "2050",
-		"Cooldown": "100",
+		"Cost": "2150",
+		"Cooldown": "90",
 		"ManaCost": "",
-		"MainDescription": "Active: Transmute - Kills a non-hero target for 190 gold and 2.5x experience.  Cannot be used on Ancient Creeps.",
+		"MainDescription": "Active: Transmute - Kills a non-hero target for 200 gold and 1.85x experience.  Cannot be used on Ancient Creeps.",
 		"AlternateDescription": "The gold given is reliable gold (you do not get the normal creep bounty). \n Experience gained by using Transmute is not shared.",
 		"ExtraAttribute": "+ 30 Attack Speed \n TRANSMUTE CAST RANGE: 600",
 		"CreatedFrom": [{"name" : "item_gloves"},{"name" : "item_recipe"}],
-		"CreatedTo": [],
 		"Lore": "Preserved through unknown magical means,the Hand of Midas is a weapon of greed,sacrificing animals to line the owner's pockets."
 	},
 	"item_oblivion_staff": {
@@ -1029,9 +961,8 @@
 		"ManaCost": "",
 		"MainDescription": "",
 		"AlternateDescription": "",
-		"ExtraAttribute": "+ 6 Intelligence \n + 10 Attack Speed \n + 15 Damage \n + 75% Mana Regeneration",
+		"ExtraAttribute": "+ 10 Intelligence \n + 10 Attack Speed \n + 10 Damage \n + 0.75 Mana Regeneration",
 		"CreatedFrom": [{"name" : "item_quarterstaff"},{"name" : "item_robe"},{"name" : "item_sobi_mask"}],
-		"CreatedTo": [{"name" : "item_echo_sabre"},{"name" : "item_orchid"}],
 		"Lore": "Deceptively hidden as an ordinary quarterstaff,it is actually very powerful,much like the Eldritch who originally possessed it."
 	},
 	"item_pers": {
@@ -1044,9 +975,8 @@
 		"ManaCost": "",
 		"MainDescription": "",
 		"AlternateDescription": "Perseverance is shareable.",
-		"ExtraAttribute": "+ 6 HP Regeneration \n + 125% Mana Regeneration \n + 10 Damage",
+		"ExtraAttribute": "+ 5.5 HP Regeneration \n + 1.1% Mana Regeneration",
 		"CreatedFrom": [{"name" : "item_ring_of_health"},{"name" : "item_void_stone"}],
-		"CreatedTo": [{"name" : "item_bfury"},{"name" : "item_sphere"},{"name" : "item_refresher"},{"name" : "item_lotus_orb"}],
 		"Lore": "A gem that grants heart to the bearer."
 	},
 	"item_poor_mans_shield": {
@@ -1061,7 +991,6 @@
 		"AlternateDescription": "Multiple sources of damage block don't stack.",
 		"ExtraAttribute": "+ 6 Agility \n MELEE DAMAGE BLOCK: 20 \n RANGED DAMAGE BLOCK: 10 \n CREEP BLOCK CHANCE: 53%",
 		"CreatedFrom": [{"name" : "item_stout_shield"},{"name" : "item_slippers"},{"name" : "item_slippers"}],
-		"CreatedTo": [],
 		"Lore": "A busted old shield that seems to block more than it should."
 	},
 	"item_bracer": {
@@ -1076,7 +1005,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 7 Strength \n + 3 Agility \n + 3 Intelligence",
 		"CreatedFrom": [{"name" : "item_circlet"},{"name" : "item_gauntlets"},{"name" : "item_recipe"}],
-		"CreatedTo": [{"name" : "item_ancient_janggo"}, {"name" : "item_rod_of_atos"}],
 		"Lore": "The bracer is a common choice to toughen up defenses and increase longevity."
 	},
 	"item_wraith_band": {
@@ -1091,7 +1019,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 3 Strength \n + 7 Agility \n + 3 Intelligence",
 		"CreatedFrom": [{"name" : "item_circlet"},{"name" : "item_slippers"},{"name" : "item_recipe"}],
-		"CreatedTo": [{"name" : "item_ring_of_aquila"}],
 		"Lore": "A circlet with faint whispers echoing about it."
 	},
 	"item_null_talisman": {
@@ -1106,7 +1033,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 3 Strength \n + 3 Agility \n + 7 Intelligence",
 		"CreatedFrom": [{"name" : "item_circlet"},{"name" : "item_mantle"},{"name" : "item_recipe"}],
-		"CreatedTo": [{"name" : "item_dagon"},{"name" : "item_veil_of_discord"}],
 		"Lore": "A small gemstone attached to several chains."
 	},
 	"item_mekansm": {
@@ -1114,14 +1040,13 @@
 		"Image": "item_79",
 		"Name": "Mekansm",
 		"Group": "Support",
-		"Cost": "2275",
+		"Cost": "2350",
 		"Cooldown": "65",
 		"ManaCost": "225",
 		"MainDescription": "Active: Restore - Heals 250 health and gives +2 armor to allied units in a 900 radius. \n Passive: Mekansm Aura - Grants 4 health regeneration to allied units in a 900 radius. \n Multiple instances of Mekansm Aura do not stack.",
 		"AlternateDescription": "Restore does not affect units that have been affected by Restore in the last 25 seconds.",
 		"ExtraAttribute": "+ 5 All Attributes \n + 5 Armor \n AURA HEALTH REGEN: 4 \n RESTORE HEAL: 250 \n RESTORE ARMOR: 2 \n RESTORE ARMOR DURATION: 25 \n AURA/RESTORE RADIUS: 900",
 		"CreatedFrom": [{"name" : "item_buckler"},{"name" : "item_headdress"},{"name" : "item_recipe"}],
-		"CreatedTo": [{"name": "item_guardian_greaves"}],
 		"Lore": "A glowing jewel formed out of assorted parts that somehow fit together perfectly."
 	},
 	"item_vladmir": {
@@ -1129,14 +1054,13 @@
 		"Image": "item_81",
 		"Name": "Vladmir's Offering",
 		"Group": "Support",
-		"Cost": "2275",
+		"Cost": "2250",
 		"Cooldown": "",
 		"ManaCost": "",
 		"MainDescription": "Passive: Vladmir's Aura - Grants lifesteal,health regeneration,mana regeneration,bonus attack damage,and armor to allies in a 900 radius.  The lifesteal percentage is based on whether the hero affected by the aura is melee or ranged. \n Multiple instances of Vladmir's Aura do not stack.",
 		"AlternateDescription": "Does not stack with armor auras from Ring of Basilius,Ring of Aquila,or Vladmir's Offering.",
-		"ExtraAttribute": "+ 2 All Attributes \n AURA HEALTH REGEN: 3 \n AURA MANA REGEN: 0.8 \n AURA BONUS ARMOR: 4 \n AURA BONUS ATTACK DAMAGE: 15% \n AURA MELEE LIFESTEAL: 15% \n AURA RANGED LIFESTEAL: 10% \n AURA RADIUS: 900",
-		"CreatedFrom": [{"name" : "item_lifesteal"},{"name" : "item_ring_of_basilius"},{"name" : "item_headdress"},{"name" : "item_recipe"}],
-		"CreatedTo": [],
+		"ExtraAttribute": "+ 2 All Attributes \n AURA HEALTH REGEN: 2.5 \n AURA MANA REGEN: 1 \n AURA BONUS ARMOR: 4 \n AURA BONUS ATTACK DAMAGE: 15% \n AURA MELEE LIFESTEAL: 15% \n AURA RANGED LIFESTEAL: 10% \n AURA RADIUS: 900",
+		"CreatedFrom": [{"name" : "item_lifesteal"},{"name" : "item_ring_of_basilius"},{"name" : "item_headdress"}],
 		"Lore": "An eerie mask that is haunted with the malice of a fallen vampire."
 	},
 	"item_buckler": {
@@ -1151,7 +1075,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 5 Armor \n + 2 All Attributes \n ARMOR CAST RADIUS: 900",
 		"CreatedFrom": [{"name" : "item_chainmail"},{"name" : "item_branches"},{"name" : "item_recipe"}],
-		"CreatedTo": [{"name" : "item_mekansm"},{"name" : "item_crimson_guard"}],
 		"Lore": "A powerful shield that imbues the bearer with the strength of heroes past,it is capable of protecting entire armies in battle."
 	},
 	"item_ring_of_basilius": {
@@ -1166,7 +1089,6 @@
 		"AlternateDescription": "Does not stack with armor auras from Ring of Basilius,Ring of Aquila,or Vladmir's Offering.",
 		"ExtraAttribute": "+ 7 Damage \n AURA MANA REGEN: 0.65 \n AURA BONUS ARMOR: 2",
 		"CreatedFrom": [{"name" : "item_sobi_mask"},{"name" : "item_ring_of_protection"}],
-		"CreatedTo": [{"name" : "item_vladmir"},{"name" : "item_ring_of_aquila"}],
 		"Lore": "Ring given as a reward to the greatest mages."
 	},
 	"item_pipe": {
@@ -1174,14 +1096,13 @@
 		"Image": "item_90",
 		"Name": "Pipe of Insight",
 		"Group": "Support",
-		"Cost": "3100",
+		"Cost": "3150",
 		"Cooldown": "60",
 		"ManaCost": "100",
 		"MainDescription": "Active: Barrier - Gives a shield that blocks 400 spell damage to all allies in a 900 radius. \n Passive: Insight Aura - Gives allied units 4 health regeneration and 10% magic resistance in a 900 radius.",
 		"AlternateDescription": "Multiple instances of Barrier do not stack. \n Stacks multiplicatively with other sources of spell resistance.",
-		"ExtraAttribute": "+ 8 HP Regeneration \n + 30% Spell Resistance \n AURA HEALTH REGEN: 4 \n AURA MAGIC RESISTANCE: 10% \n AURA RADIUS: 900 \n BARRIER SPELL BLOCK: 400 \n BARRIER DURATION: 12 \n BARRIER CAST RADIUS: 900",
+		"ExtraAttribute": "+ 6.5 HP Regeneration \n + 30% Spell Resistance \n AURA HEALTH REGEN: 4 \n AURA MAGIC RESISTANCE: 10% \n AURA RADIUS: 900 \n BARRIER SPELL BLOCK: 400 \n BARRIER DURATION: 12 \n BARRIER CAST RADIUS: 900",
 		"CreatedFrom": [{"name" : "item_hood_of_defiance"},{"name" : "item_headdress"},{"name" : "item_recipe"}],
-		"CreatedTo": [],
 		"Lore": "A powerful artifact of mysterious origin,it creates barriers against magical forces."
 	},
 	"item_urn_of_shadows": {
@@ -1194,9 +1115,8 @@
 		"ManaCost": "",
 		"MainDescription": "Active: Soul Release - Heals health over time to friendly units,but deals pure damage over time to enemy units.  The healing effect is lost if the affected ally takes damage from an enemy hero or tower. \n Gains charges every time an enemy hero dies within 1400 units.  Only the closest Urn to the dying hero will gain a charge.",
 		"AlternateDescription": "Empty urns gain 2 charges. \n If used on a hero with Soul Release already active on them,it will refresh its duration.",
-		"ExtraAttribute": "+ 50% Mana Regeneration \n + 6 Strength \n RELEASE ALLY TOTAL HEAL: 400 \n RELEASE ENEMY TOTAL DAMAGE: 150 \n SOUL RELEASE DURATION: 8 \n SOUL RELEASE CAST RANGE: 950",
+		"ExtraAttribute": "+ 1 Mana Regeneration \n + 2 All Attribute \n + 2 Armor \n RELEASE ALLY TOTAL HEAL: 400 \n RELEASE ENEMY TOTAL DAMAGE: 150 \n SOUL RELEASE DURATION: 8 \n SOUL RELEASE CAST RANGE: 950",
 		"CreatedFrom": [{"name" : "item_infused_raindrop"},{"name" : "item_circlet"},{"name" : "item_ring_of_protection"}],
-		"CreatedTo": [{"name" : "item_spirit_vessel"}],
 		"Lore": "Contains the ashes of powerful demons."
 	},
 	"item_headdress": {
@@ -1211,7 +1131,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 2 All Attributes \n AURA HEALTH REGEN: 3 \n AURA REGEN RADIUS: 900",
 		"CreatedFrom": [{"name" : "item_ring_of_regen"},{"name" : "item_branches"},{"name" : "item_recipe"}],
-		"CreatedTo": [{"name" : "item_pipe"},{"name" : "item_mekansm"},{"name" : "item_vladmir"},{"name" : "item_helm_of_the_dominator"}],
 		"Lore": "Creates a soothing aura that restores allies in battle."
 	},
 	"item_sheepstick": {
@@ -1219,14 +1138,13 @@
 		"Image": "item_96",
 		"Name": "Scythe of Vyse",
 		"Group": "Caster",
-		"Cost": "5650",
-		"Cooldown": "25",
+		"Cost": "5700",
+		"Cooldown": "22",
 		"ManaCost": "100",
 		"MainDescription": "Active: Hex - Turns a target unit into a harmless critter for 3.5 seconds. Instantly destroys illusions.",
 		"AlternateDescription": "The target will have a base movement speed of 140,but buffs granting maximum movement speed won't be disabled.",
 		"ExtraAttribute": "+ 10 Strength \n +10 Agility \n + 35 Intelligence \n + 150% Mana Regeneration \n HEX DURATION: 3.5",
 		"CreatedFrom": [{"name" : "item_mystic_staff"},{"name" : "item_ultimate_orb"},{"name" : "item_void_stone"}],
-		"CreatedTo": [],
 		"Lore": "The most guarded relic among the cult of Vyse,it is the most coveted weapon among magi."
 	},
 	"item_orchid": {
@@ -1239,9 +1157,8 @@
 		"ManaCost": "100",
 		"MainDescription": "Active: Soul Burn - Silences the target unit for 5.0 seconds. At the end of the silence,30.0% of the damage received while silenced is inflicted as bonus magical damage.",
 		"AlternateDescription": "Amplified damage is dealt at the end of the duration as magical damage.",
-		"ExtraAttribute": "+ 25 Intelligence \n + 30 Attack Speed \n + 30 Damage \n + 150% Mana Regeneration \n SOUL BURN INCREASED DAMAGE: 30% \n SOUL BURN DURATION: 5",
+		"ExtraAttribute": "+ 25 Intelligence \n + 30 Attack Speed \n + 30 Damage \n + 2.25 Mana Regeneration \n SOUL BURN INCREASED DAMAGE: 30% \n SOUL BURN DURATION: 5",
 		"CreatedFrom": [{"name" : "item_oblivion_staff"},{"name" : "item_oblivion_staff"},{"name" : "item_recipe"}],
-		"CreatedTo": [{"name" : "item_bloodthorn"}],
 		"Lore": "A garnet rod constructed from the essence of a fire demon."
 	},
 	"item_bloodthorn": {
@@ -1249,14 +1166,13 @@
 		"Image": "item_250",
 		"Name": "Bloodthorn",
 		"Group": "Weapons",
-		"Cost": "7195",
+		"Cost": "7205",
 		"Cooldown": "11",
 		"ManaCost": "100",
 		"MainDescription": "Active: Silences a target for 5.0 seconds and amplifies the damage it takes by 30.0%. All attacks on the silenced target will have True Strike and land a crit on impact. \n Passive: Critical Strike - Grants each attack a chance to deal additional damage. Critical Strike does not work against buildings.",
 		"AlternateDescription": "Amplified damage is dealt at the end of the duration as magical damage.",
-		"ExtraAttribute": "+ 25 Intelligence \n + 30 Attack Speed \n + 60 Damage \n + 150% Mana Regeneration \n CRITICAL CHANCE: 20% \n CRITICAL DAMAGE: 175% \n SILENCE INCREASED DAMAGE: 30% \n SILENCE DURATION: 5 \n SILENCE CRITICAL DAMAGE: 145%",
+		"ExtraAttribute": "+ 25 Intelligence \n + 30 Attack Speed \n + 60 Damage \n + 2.25 Mana Regeneration \n CRITICAL CHANCE: 20% \n CRITICAL DAMAGE: 175% \n SILENCE INCREASED DAMAGE: 30% \n SILENCE DURATION: 5 \n SILENCE CRITICAL DAMAGE: 145%",
 		"CreatedFrom": [{"name" : "item_orchid"},{"name" : "item_lesser_crit"},{"name" : "item_recipe"}],
-		"CreatedTo": [],
 		"Lore": "A reviled blade that bites deeper with each wriggle of its victim's final throes."
 	},
 	"item_echo_sabre": {
@@ -1269,9 +1185,8 @@
 		"ManaCost": "",
 		"MainDescription": "Passive: Causes melee attacks to attack twice in quick succession. The double attacks apply a 0.6 second 100% movement and attack speed slow on each strike.",
 		"AlternateDescription": "",
-		"ExtraAttribute": "+ 10 Intelligence \n +10 Strength \n + 10 Attack Speed \n + 15 Damage \n + 75% Mana Regeneration \n MOVEMENT SLOW: 100% \n ATTACK SLOW: 100% \n SLOW DURATION: 0.6",
+		"ExtraAttribute": "+ 10 Intelligence \n +12 Strength \n + 10 Attack Speed \n + 12 Damage \n + 0.75 Mana Regeneration \n MOVEMENT SLOW: 100% \n SLOW DURATION: 0.6",
 		"CreatedFrom": [{"name" : "item_ogre_axe"},{"name" : "item_oblivion_staff"}],
-		"CreatedTo": [],
 		"Lore": "A deceptively swift blade imbued with resonant magic."
 	},
 	"item_cyclone": {
@@ -1279,14 +1194,13 @@
 		"Image": "item_100",
 		"Name": "Eul's Scepter of Divinity",
 		"Group": "Caster",
-		"Cost": "2735",
+		"Cost": "2750",
 		"Cooldown": "23",
 		"ManaCost": "175",
 		"MainDescription": "Active: Cyclone - Sweeps a target unit up into cyclone,making them invulnerable for 2.5 seconds. Cyclone can be cast on yourself. Enemy units take 50 magical damage upon landing.",
 		"AlternateDescription": "You cannot cyclone allies. \n Cyclones cast on yourself go through spell immunity. \n Cyclone can purge some buffs and debuffs.",
-		"ExtraAttribute": "+ 10 Intelligence \n + 150% Mana Regeneration \n + 40 Movement Speed \n CYCLONE DURATION: 2.5 \n CYCLONE CAST RANGE: 575",
+		"ExtraAttribute": "+ 10 Intelligence \n + 2.25 Mana Regeneration \n + 30 Movement Speed \n CYCLONE DURATION: 2.5 \n CYCLONE CAST RANGE: 575",
 		"CreatedFrom": [{"name" : "item_staff_of_wizardry"},{"name" : "item_wind_lace"},{"name" : "item_void_stone"},{"name" : "item_recipe"}],
-		"CreatedTo": [],
 		"Lore": "A mysterious scepter passed down through the ages,its disruptive winds can be used for good or evil."
 	},
 	"item_aether_lens": {
@@ -1294,14 +1208,13 @@
 		"Image": "item_232",
 		"Name": "Aether Lens",
 		"Group": "Caster",
-		"Cost": "2300",
+		"Cost": "2350",
 		"Cooldown": "",
 		"ManaCost": "",
 		"MainDescription": "Passive: Increases spell cast range by 200 and spell damage output by 5%",
 		"AlternateDescription": "",
-		"ExtraAttribute": "+ 250 Mana \n + 8 HP Regeneration \n + 200 Cast Range \n SPELL DAMAGE AMP: 5%",
-		"CreatedFrom": [{"name" : "item_energy_booster"},{"name" : "item_ring_of_health"},{"name" : "item_recipe"}],
-		"CreatedTo": [],
+		"ExtraAttribute": "+ 450 Mana \n + 1.25 Mana Regeneration \n + 250 Cast Range",
+		"CreatedFrom": [{"name" : "item_energy_booster"},{"name" : "item_void_stone"},{"name" : "item_recipe"}],
 		"Lore": "Polished with the incantation of his final breath,the gift of a dying mage to his sickly son."
 	},
 	"item_force_staff": {
@@ -1309,14 +1222,13 @@
 		"Image": "item_102",
 		"Name": "Force Staff",
 		"Group": "Caster",
-		"Cost": "2225",
-		"Cooldown": "20",
-		"ManaCost": "25",
+		"Cost": "2250",
+		"Cooldown": "23",
+		"ManaCost": "100",
 		"MainDescription": "Active: Force - Pushes any target unit 600 units in the direction it is facing.  Double click to instantly cast Force on yourself.",
 		"AlternateDescription": "Self-cast will cause you to use Force on yourself. \n Force Staff doesn't interrupt the target's actions. \n Will not work on a unit inside Chronosphere,Duel,or Black Hole.",
-		"ExtraAttribute": "+ 10 Intelligence \n + 4 HP Regeneration",
+		"ExtraAttribute": "+ 10 Intelligence \n + 2 HP Regeneration",
 		"CreatedFrom": [{"name" : "item_staff_of_wizardry"},{"name" : "item_ring_of_health"},{"name" : "item_recipe"}],
-		"CreatedTo": [{"name" : "item_hurricane_pike"}],
 		"Lore": "Allows you to manipulate others,for good or evil."
 	},
 	"item_hurricane_pike": {
@@ -1324,14 +1236,13 @@
 		"Image": "item_263",
 		"Name": "Hurricane Pike",
 		"Group": "Armor",
-		"Cost": "4375",
+		"Cost": "4615",
 		"Cooldown": "14",
 		"ManaCost": "25",
 		"MainDescription": "Active: When used on an enemy,it pushes you both away from each other 450 units each,and allows you to attack the target without range restrictions for 4 attacks for a maximum of 5.0 seconds. Grants 100 Attack Speed during the attacks. Works like Force Staff when used on self or allies. \n Passive: Increases attack range of ranged heroes by 140.",
 		"AlternateDescription": "Self-cast will use Hurricane Pike on yourself. \n Hurricane Pike doesn't interrupt the target's actions. \n Will not work on a unit inside Chronosphere,Duel,or Black Hole.",
-		"ExtraAttribute": "+ 10 Intelligence \n +4 HP Regeneration \n + 20 Agility \n + 15 Strength \n + 140 Range \n UNLIMITED RANGE DURATION: 5 \n CAST RANGE ON ENEMY: 400 \n UNLIMITED RANGE ATTACKS: 4",
-		"CreatedFrom": [{"name" : "item_force_staff"},{"name" : "item_dragon_lance"},{"name" : "item_recipe"}],
-		"CreatedTo": [],
+		"ExtraAttribute": "+ 13 Intelligence \n +2 HP Regeneration \n + 20 Agility \n + 15 Strength \n + 140 Range \n UNLIMITED RANGE DURATION: 5 \n CAST RANGE ON ENEMY: 400 \n UNLIMITED RANGE ATTACKS: 4",
+		"CreatedFrom": [{"name" : "item_force_staff"},{"name" : "item_dragon_lance"},{"name" : "item_wraith_band"}],
 		"Lore": "A legendary pike once held as royal sigil of the ancient wyvern riders."
 	},
 	"item_dagon": {
@@ -1339,14 +1250,13 @@
 		"Image": "item_104",
 		"Name": "Dagon",
 		"Group": "Caster",
-		"Cost": "2720/3970/5220/6470/7720",
-		"Cooldown": "35/30/25/20/15",
-		"ManaCost": "180",
+		"Cost": "2715/3965/5215/6465/7715",
+		"Cooldown": "35",
+		"ManaCost": "120/140/160/180/200",
 		"MainDescription": "Active: Energy Burst - Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable.",
 		"AlternateDescription": "",
-		"ExtraAttribute": "+ 13/16/19/22/25  Intelligence \n + 3 All Attributes \n + 9 Damage \n BURST DAMAGE: 400/500/600/700/800 \n CAST RANGE: 600/650/700/750/800",
+		"ExtraAttribute": "+ 18/21/24/27/30  Intelligence \n + 3 All Attributes \n + 9 Damage \n BURST DAMAGE: 400/500/600/700/800 \n CAST RANGE: 600/650/700/750/800",
 		"CreatedFrom": [{"name" : "item_staff_of_wizardry"},{"name" : "item_null_talisman"},{"name" : "item_recipe"}],
-		"CreatedTo": [],
 		"Lore": "A lesser wand that grows in power the longer it is used,it brings magic to the fingertips of the user."
 	},
 	"item_necronomicon": {
@@ -1354,14 +1264,13 @@
 		"Image": "item_106",
 		"Name": "Necronomicon",
 		"Group": "Caster",
-		"Cost": "2650/3850/5050",
-		"Cooldown": "95",
+		"Cost": "2400/3700/5000",
+		"Cooldown": "90",
 		"ManaCost": "50",
 		"MainDescription": "Active: Demonic Summoning - Summons a Warrior and an Archer to fight for you for 40 seconds,whose strength and abilities increase as Necronomicon is upgraded. Warrior gains True Sight at level 3. Upgradable.",
 		"AlternateDescription": "",
-		"ExtraAttribute": "+ 15/21/24  Intelligence \n + 8/12/16  Strength \n WARRIOR HEALTH: 700/800/900 \n WARRIOR DAMAGE: 45/60/75 \n WARRIOR MANA BREAK: 25/50/75 \n WARRIOR LAST WILL DMG: 550/675/800 \n ARCHER HEALTH: 700/800/900 \n ARCHER DAMAGE: 60/90/120 \n ARCHER MANA BURN: 125/175/225 \n ARCHER AURA SPEED: 5%/7%/9%",
-		"CreatedFrom": [{"name" : "item_staff_of_wizardry"},{"name" : "item_belt_of_strength"},{"name" : "item_recipe"}],
-		"CreatedTo": [],
+		"ExtraAttribute": "+ 1/1.25/1.5  Intelligence \n + 10/15/20  Strength \n WARRIOR HEALTH: 700/800/900 \n WARRIOR DAMAGE: 45/60/75 \n WARRIOR MANA BREAK: 25/50/75 \n WARRIOR LAST WILL DMG: 550/675/800 \n ARCHER HEALTH: 700/800/900 \n ARCHER DAMAGE: 60/90/120 \n ARCHER MANA BURN: 125/175/225 \n ARCHER AURA SPEED: 5%/7%/9%",
+		"CreatedFrom": [{"name" : "item_sobi_mask"},{"name" : "item_sobi_mask"},{"name" : "item_belt_of_strength"},{"name" : "item_recipe"}],
 		"Lore": "Considered the ultimate in necromancy and demonology,a powerful malefic force is locked within its pages."
 	},
 	"item_ultimate_scepter": {
@@ -1376,7 +1285,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 10 All Attributes \n + 175 Health \n + 175 Mana",
 		"CreatedFrom": [{"name" : "item_point_booster"},{"name" : "item_ogre_axe"},{"name" : "item_staff_of_wizardry"},{"name" : "item_blade_of_alacrity"}],
-		"CreatedTo": [],
 		"Lore": "The scepter of a wizard with demigod-like powers."
 	},
 	"item_refresher": {
@@ -1384,14 +1292,13 @@
 		"Image": "item_110",
 		"Name": "Refresher Orb",
 		"Group": "Caster",
-		"Cost": "5200",
+		"Cost": "5100",
 		"Cooldown": "195",
 		"ManaCost": "375",
 		"MainDescription": "Active: Reset Cooldowns - Resets the cooldowns of all your item and abilities.",
 		"AlternateDescription": "",
-		"ExtraAttribute": "+ 12 HP Regeneration \n + 250% Mana Regeneration \n + 20 Damage",
+		"ExtraAttribute": "+ 11 HP Regeneration \n + 5 Mana Regeneration",
 		"CreatedFrom": [{"name" : "item_pers"},{"name" : "item_pers"},{"name" : "item_recipe"}],
-		"CreatedTo": [],
 		"Lore": "A powerful artifact created for wizards."
 	},
 	"item_assault": {
@@ -1404,24 +1311,22 @@
 		"ManaCost": "",
 		"MainDescription": "Passive: Assault Aura - Grants attack speed and armor to nearby allied units and structures,and decreases the armor of nearby enemies. \n Multiple instances of Assault Aura do not stack.",
 		"AlternateDescription": "",
-		"ExtraAttribute": "+ 35 Attack Speed \n + 10 Armor \n AURA ATTACK SPEED: 20 \n AURA ALLY BONUS ARMOR: 5 \n AURA ENEMY ARMOR REDUCTION: 5",
+		"ExtraAttribute": "+ 30 Attack Speed \n + 10 Armor \n AURA ATTACK SPEED: 25 \n AURA ALLY BONUS ARMOR: 5 \n AURA ENEMY ARMOR REDUCTION: 5",
 		"CreatedFrom": [{"name" : "item_platemail"},{"name" : "item_hyperstone"},{"name" : "item_chainmail"},{"name" : "item_blade_of_alacrity"}],
-		"CreatedTo": [],
 		"Lore": "Forged in the depths of the nether reaches,this hellish mail provides an army with increased armor and attack speed."
 	},
 	"item_heart": {
 		"ID": "114",
-		"Image": "item_heart",
+		"Image": "item_114",
 		"Name": "Heart of Tarrasque",
 		"Group": "Armor",
-		"Cost": "5500",
+		"Cost": "5200",
 		"Cooldown": "",
 		"ManaCost": "",
 		"MainDescription": "Passive: Health Regeneration - Restores a percentage of max health per second. If damage is taken from an enemy hero or Roshan,this ability is disabled for 5 seconds for melee heroes,or 7 seconds for ranged heroes.",
 		"AlternateDescription": "",
-		"ExtraAttribute": "+ 45 Strength \n + 250 Health \n HEALTH RESTORED PER SECOND: 4.75%",
+		"ExtraAttribute": "+ 45 Strength \n + 500 Health \n HEALTH RESTORED PER SECOND: 7%",
 		"CreatedFrom": [{"name" : "item_reaver"},{"name" : "item_vitality_booster"},{"name" : "item_vitality_booster"}],
-		"CreatedTo": [],
 		"Lore": "Preserved heart of an extinct monster,it bolsters the bearer's fortitude."
 	},
 	"item_black_king_bar": {
@@ -1436,7 +1341,6 @@
 		"AlternateDescription": "Purchasing another Black King Bar will not reset its immunity duration. \n Using Black King Bar may remove some positive buffs.",
 		"ExtraAttribute": "+ 10 Strength \n + 24 Damage \n AVATAR DURATION: 10/9/8/7/6/5",
 		"CreatedFrom": [{"name" : "item_mithril_hammer"},{"name" : "item_ogre_axe"},{"name" : "item_recipe"}],
-		"CreatedTo": [],
 		"Lore": "A powerful staff imbued with the strength of giants."
 	},
 	"item_shivas_guard": {
@@ -1444,14 +1348,13 @@
 		"Image": "item_119",
 		"Name": "Shiva's Guard",
 		"Group": "Armor",
-		"Cost": "4700",
+		"Cost": "4750",
 		"Cooldown": "30",
 		"ManaCost": "100",
 		"MainDescription": "Active: Arctic Blast - Emits a freezing wave that deals 200 magical damage to enemies and slows their movement by -40% for 4.0 seconds. \n Passive: Freezing Aura - Reduces the attack speed of all enemies in a 900 radius. \n Multiple instances of Freezing Aura do not stack.",
 		"AlternateDescription": "The wave extends at a speed of 350 to a max size of 900. \n The Arctic Blast follows its caster.",
 		"ExtraAttribute": "+ 30 Intelligence \n + 15 Armor \n AURA ATTACK SLOW: 45 \n BLAST DAMAGE: 200 \n BLAST MOVEMENT SLOW: 40% \n BLAST SLOW DURATION: 4 \n BLAST RADIUS: 900",
 		"CreatedFrom": [{"name" : "item_mystic_staff"},{"name" : "item_platemail"},{"name" : "item_recipe"}],
-		"CreatedTo": [],
 		"Lore": "Said to have belonged to a goddess,today it retains much of its former power."
 	},
 	"item_bloodstone": {
@@ -1459,14 +1362,13 @@
 		"Image": "item_121",
 		"Name": "Bloodstone",
 		"Group": "Armor",
-		"Cost": "4875",
+		"Cost": "4900",
 		"Cooldown": "300",
 		"ManaCost": "",
 		"MainDescription": "Active: Pocket Deny - Instantly causes you to die. \n Passive: Bloodpact - Begins with 12 charges,and gains a charge each time an enemy hero dies within 1675 range. Each charge grants 1 mana regeneration per second,and reduces respawn time by 3 seconds. If the bearer dies,500 + 30 health per charge is restored to all allies within a 1675 radius,while the Bloodstone loses a third of its charges.",
 		"AlternateDescription": "Only the first Bloodstone will gain charges.",
-		"ExtraAttribute": "+ 475 Health \n + 425 Mana \n + 9 HP Regeneration \n + 200% Mana Regeneration",
+		"ExtraAttribute": "+ 475 Health \n + 425 Mana \n + 7 HP Regeneration \n + 2 Mana Regeneration",
 		"CreatedFrom": [{"name" : "item_soul_booster"},{"name" : "item_pers"}],
-		"CreatedTo": [],
 		"Lore": "The Bloodstone's bright ruby color is unmistakable on the battlefield,as the owner seems to have infinite vitality and spirit."
 	},
 	"item_sphere": {
@@ -1474,14 +1376,13 @@
 		"Image": "item_123",
 		"Name": "Linken's Sphere",
 		"Group": "Armor",
-		"Cost": "4800",
+		"Cost": "5050",
 		"Cooldown": "13",
 		"ManaCost": "",
 		"MainDescription": "Passive: Spellblock - Blocks most targeted spells once every 13.0 seconds. \n Active: Transfer Spellblock - Temporarily removes Spellblock from the item's owner and transfers it to an allied unit.",
 		"AlternateDescription": "",
-		"ExtraAttribute": "+ 15 All Attributes \n + 6 HP Regeneration \n + 150% Mana Regeneration \n + 15 Damage",
+		"ExtraAttribute": "+ 13 All Attributes \n + 5.5 HP Regeneration \n + 2.25 Mana Regeneration \n + 15 Damage",
 		"CreatedFrom": [{"name" : "item_pers"},{"name" : "item_ultimate_orb"},{"name" : "item_recipe"}],
-		"CreatedTo": [],
 		"Lore": "This magical sphere once protected one of the most famous heroes in history."
 	},
 	"item_lotus_orb": {
@@ -1494,9 +1395,8 @@
 		"ManaCost": "75",
 		"MainDescription": "Active: Echo Shell - Applies a shield to the target unit which re-casts most targeted spells back to their caster. The shielded unit will still take damage from the spell. Dispels negative buffs when applied.",
 		"AlternateDescription": "",
-		"ExtraAttribute": "+ 10 Damage \n + 10 Armor \n + 6 HP Regeneration \n + 125% Mana Regeneration \n + 250 Mana \n ECHO DURATION: 6 \n ECHO CAST RANGE: 900",
+		"ExtraAttribute": "+ 10 Armor \n + 5.5 HP Regeneration \n + 1.75 Mana Regeneration \n + 250 Mana \n ECHO DURATION: 6 \n ECHO CAST RANGE: 900",
 		"CreatedFrom": [{"name" : "item_pers"},{"name" : "item_platemail"},{"name" : "item_energy_booster"}],
-		"CreatedTo": [],
 		"Lore": "The jewel at its center still reflects a pale image of its creator."
 	},
 	"item_meteor_hammer": {
@@ -1504,14 +1404,13 @@
 		"Image": "item_223",
 		"Name": "Meteor Hammer",
 		"Group": "Weapons",
-		"Cost": "4000",
-		"Cooldown": "40",
+		"Cost": "2625",
+		"Cooldown": "28",
 		"ManaCost": "125",
 		"MainDescription": "Active: Meteor Hammer CHANNELED - After a successful channel, summons a meteor that strikes a 300 AoE, stunning enemies for 2 seconds and dealing impact damage. Continues to deal damage over time to enemies units and buildings for 6 seconds.<BR><BR>Building Impact Damage: 75 Building Over Time Damage: 50 Non-Building Impact Damage: 150 Non-Building Over Time Damage: 90 Channel Duration: 2.5 seconds.<BR>Landing Time: 0.5 seconds.",
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 12 Strength \n + 12 Intelligence \n+ 4 HP Regeneration \n + 1.5 Mana Regeneration",
 		"CreatedFrom": [{"name" : "item_ogre_axe"},{"name" : "item_staff_of_wizardry"},{"name" : "item_ring_of_regen"}, {"name" : "item_sobi_mask"}],
-		"CreatedTo": [],
 		"Lore": "An enchanted hammer forged of metals discovered in the ruins of a village destroyed by a great star storm."
 	},
 	"item_nullifier": {
@@ -1526,7 +1425,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 65 Damage \n+ 5 Armor \n+ 5 HP Regeneration",
 		"CreatedFrom": [{"name" : "item_relic"},{"name" : "item_helm_of_iron_will"}],
-		"CreatedTo": [],
 		"Lore": "A dangerous weapon pilfered from an inverse dimension."
 	},
 	"item_aeon_disk": {
@@ -1541,7 +1439,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 250 Health \n+ 250 Mana",
 		"CreatedFrom": [{"name" : "item_vitality_booster"},{"name" : "item_energy_booster"}, {"name" : "item_recipe"}],
-		"CreatedTo": [],
 		"Lore": "A powerful artifact long ago smuggled out of the Ivory Incubarium. Or so many believe."
 	},
 	"item_kaya": {
@@ -1556,7 +1453,6 @@
 		"AlternateDescription": "Multiple instances of this item do not stack.",
 		"ExtraAttribute": "+ 16 Intelligence \n + 10% Spell damage \n + 10% Mana loss reduction",
 		"CreatedFrom": [{"name" : "item_staff_of_wizardry"},{"name" : "item_robe"},{"name" : "item_recipe"}],
-		"CreatedTo": [],
 		"Lore": "The staff of a renowned sorceress, lost for countless millennia."
 	},
 	"item_refresher_shard": {
@@ -1571,7 +1467,6 @@
 		"AlternateDescription": "Refresher Shard is shareable.",
 		"ExtraAttribute": "",
 		"CreatedFrom": [],
-		"CreatedTo": [],
 		"Lore":"Across an epoch of endless battle, the Immortal's will to triumph never faltered."
 	},
 	"item_spirit_vessel": {
@@ -1579,14 +1474,13 @@
 		"Image": "item_267",
 		"Name": "Spirit Vessel",
 		"Group": "Support",
-		"Cost": "2825",
+		"Cost": "2975",
 		"Cooldown": "7",
 		"ManaCost": "",
 		"MainDescription": "Active: Soul Release - When used against enemies, it reduces health by 3% of current health per second, and reduces HP regeneration and healing by 70%. Deals 20 damage per second. When used on allies, it increases health by 1% of current health per second, and increases HP regeneration and healing by 20%. Provides 35 health regeneration per second. Lasts 8 seconds.Gains charges every time an enemy hero dies within 1400 units. Only the closest Spirit Vessel to the dying hero will gain a charge. Cast Range: 950",
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 250 Health \n + 30 Movement Speed \n + 1 Mana Regeneration \n + 2 All Attributes \n + 2 Armor",
 		"CreatedFrom": [{"name" : "item_urn_of_shadows"}, {"name" : "item_vitality_booster"}, {"name" : "item_wind_lace"}, {"name" : "item_recipe"}],
-		"CreatedTo": [],
 		"Lore": "Forged by a god to entrap the soul of another."
 	},
 	"item_vanguard": {
@@ -1601,7 +1495,6 @@
 		"AlternateDescription": "Multiple sources of damage block don't stack.",
 		"ExtraAttribute": "+ 250 Health \n + 5.5 HP Regeneration",
 		"CreatedFrom": [{"name" : "item_ring_of_health"},{"name" : "item_vitality_booster"},{"name" : "item_stout_shield"}],
-		"CreatedTo": [{"name" : "item_crimson_guard"},{"name" : "item_abyssal_blade"}],
 		"Lore": "A powerful shield that defends its wielder from even the most vicious of attacks."
 	},
 	"item_crimson_guard": {
@@ -1614,9 +1507,8 @@
 		"ManaCost": "",
 		"MainDescription": "Active: Guard - Grant nearby allied heroes a 100% chance to block 55 damage from each incoming attack,along with 2 armor. Lasts 10 seconds. \n Passive: Damage Block - Grants a 50% chance to block 70 damage on melee heroes, and 35 damage on ranged.",
 		"AlternateDescription": "Multiple sources of damage block don't stack. \n Guard does not affect units that have been affected by Guard in the last 50 seconds.",
-		"ExtraAttribute": "+ 250 Health \n + 8 HP Regeneration \n + 2 All Attributes \n + 5 Armor \n GUARD ARMOR: 2 \n GUARD DURATION: 10 \n GUARD RADIUS: 900 \n GUARD DAMAGE BLOCK : 55",
+		"ExtraAttribute": "+ 250 Health \n + 6 HP Regeneration \n + 2 All Attributes \n + 5 Armor \n GUARD ARMOR: 2 \n GUARD DURATION: 10 \n GUARD RADIUS: 900 \n GUARD DAMAGE BLOCK : 55",
 		"CreatedFrom": [{"name" : "item_vanguard"},{"name" : "item_buckler"},{"name" : "item_recipe"}],
-		"CreatedTo": [],
 		"Lore": "A cuirass originally built to protect against the dreaded Year Beast."
 	},
 	"item_blade_mail": {
@@ -1631,7 +1523,6 @@
 		"AlternateDescription": "Damage Return is calculated before any kind of reduction. \n Damage Return doesn't reflect damage from other forms of Blademail. \n Returned damage type is the same as it was received. \n Can pierce Spell Immunity if the original damage type does.",
 		"ExtraAttribute": "+ 22 Damage \n + 6 Armor \n + 10 Intelligence \n DAMAGE RETURN DURATION: 4.5",
 		"CreatedFrom": [{"name" : "item_broadsword"},{"name" : "item_chainmail"},{"name" : "item_robe"}],
-		"CreatedTo": [],
 		"Lore": "A razor-sharp coat of mail,it is the choice of selfless martyrs in combat."
 	},
 	"item_soul_booster": {
@@ -1646,7 +1537,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 425 Health \n + 425 Mana",
 		"CreatedFrom": [{"name" : "item_energy_booster"},{"name" : "item_point_booster"},{"name" : "item_vitality_booster"}],
-		"CreatedTo": [{"name" : "item_bloodstone"},{"name" : "item_octarine_core"}],
 		"Lore": "Regain lost courage."
 	},
 	"item_hood_of_defiance": {
@@ -1661,7 +1551,6 @@
 		"AlternateDescription": "Stacks multiplicatively with other sources of spell resistance.",
 		"ExtraAttribute": "+ 6.5 HP Regeneration \n + 25% Spell Resistance ",
 		"CreatedFrom": [{"name" : "item_ring_of_health"},{"name" : "item_cloak"},{"name" : "item_ring_of_regen"}],
-		"CreatedTo": [],
 		"Lore": "A furred,magic resistant headpiece that is feared by wizards."
 	},
 	"item_rapier": {
@@ -1676,7 +1565,6 @@
 		"AlternateDescription": "If Divine Rapier is dropped and picked up by an enemy of its original owner,it cannot be dropped again except by death.",
 		"ExtraAttribute": "+ 330 Damage",
 		"CreatedFrom": [{"name" : "item_relic"},{"name" : "item_demon_edge"}],
-		"CreatedTo": [],
 		"Lore": "So powerful,it cannot have a single owner."
 	},
 	"item_monkey_king_bar": {
@@ -1684,14 +1572,13 @@
 		"Image": "item_135",
 		"Name": "Monkey King Bar",
 		"Group": "Weapons",
-		"Cost": "4200",
+		"Cost": "4175",
 		"Cooldown": "",
 		"ManaCost": "",
-		"MainDescription": "Passive: Pierce - Grants each attack a 75% chance to pierce through evasion and deal 60 bonus pure damage.",
+		"MainDescription": "Passive: Pierce - Grants each attack a 75% chance to pierce through evasion and deal 100 bonus magical damage.",
 		"AlternateDescription": "",
-		"ExtraAttribute": "+ 60 Attack speed",
-		"CreatedFrom": [{"name" : "item_hyperstone"},{"name" : "item_javelin"},{"name" : "item_javelin"}],
-		"CreatedTo": [],
+		"ExtraAttribute": "+ 10 Attack speed \n 52 Attack Damage",
+		"CreatedFrom": [{"name" : "item_demon_edge"},{"name" : "item_javelin"},{"name" : "item_quarterstaff"}],
 		"Lore": "A powerful staff used by a master warrior."
 	},
 	"item_radiance": {
@@ -1704,9 +1591,8 @@
 		"ManaCost": "",
 		"MainDescription": "Active: Toggle Burn - When active,scorches nearby enemies for 60 damage per second and blinds them,causing them to miss 17% of their attacks.",
 		"AlternateDescription": "",
-		"ExtraAttribute": "+ 65 Damage",
+		"ExtraAttribute": "+ 65 Damage ",
 		"CreatedFrom": [{"name" : "item_relic"},{"name" : "item_recipe"}],
-		"CreatedTo": [],
 		"Lore": "A divine weapon that causes damage and a bright burning effect that lays waste to nearby enemies."
 	},
 	"item_butterfly": {
@@ -1714,14 +1600,13 @@
 		"Image": "item_139",
 		"Name": "Butterfly",
 		"Group": "Weapons",
-		"Cost": "5525",
+		"Cost": "5475",
 		"Cooldown": "25",
 		"ManaCost": "",
 		"MainDescription": "Active: Flutter - Grant 35% additional movement speed for 4.0 seconds.",
 		"AlternateDescription": "Stacks diminishingly with other sources of Evasion.",
 		"ExtraAttribute": "+ 35 Agility \n + 25 Damage \n + 35% Evasion \n + 30 Attack Speed",
 		"CreatedFrom": [{"name" : "item_eagle"},{"name" : "item_talisman_of_evasion"},{"name" : "item_quarterstaff"}],
-		"CreatedTo": [],
 		"Lore": "Only the mightiest and most experienced of warriors can wield the Butterfly,but it provides incredible dexterity in combat."
 	},
 	"item_greater_crit": {
@@ -1729,14 +1614,13 @@
 		"Image": "item_141",
 		"Name": "Daedalus",
 		"Group": "Weapons",
-		"Cost": "5320",
+		"Cost": "5330",
 		"Cooldown": "",
 		"ManaCost": "",
 		"MainDescription": "Passive: Critical Strike - Grants each attack a 30% chance to deal 235% damage.",
 		"AlternateDescription": "Critical Strike does not work against buildings.",
 		"ExtraAttribute": "+ 80 Damage",
 		"CreatedFrom": [{"name" : "item_lesser_crit"},{"name" : "item_demon_edge"},{"name" : "item_recipe"}],
-		"CreatedTo": [],
 		"Lore": "A weapon of incredible power that is difficult for even the strongest of warriors to control."
 	},
 	"item_basher": {
@@ -1744,14 +1628,13 @@
 		"Image": "item_143",
 		"Name": "Skull Basher",
 		"Group": "Weapons",
-		"Cost": "2700",
+		"Cost": "3050",
 		"Cooldown": "2",
 		"ManaCost": "",
 		"MainDescription": "Passive: Bash - Grants melee heroes a 25% chance on hit to stun the target for 1.4 seconds and deal 100 bonus damage.  Bash pierces evasion. Bash chance for ranged heroes is 10%.",
 		"AlternateDescription": "Does not stack with other sources of Bash,however it will stack with Mini-Bash (e.g. Monkey King Bar). \n The following heroes cannot trigger Bash on this item: Spirit Breaker,Faceless Void,Slardar,and Troll Warlord.",
-		"ExtraAttribute": "+ 10 Strength",
-		"CreatedFrom": [{"name" : "item_javelin"},{"name" : "item_belt_of_strength"},{"name" : "item_recipe"}],
-		"CreatedTo": [{"name" : "item_abyssal_blade"}],
+		"ExtraAttribute": "+ 10 Strength \n + 25 Attack Damage",
+		"CreatedFrom": [{"name" : "item_mithril_hammer"},{"name" : "item_belt_of_strength"},{"name" : "item_recipe"}],
 		"Lore": "A feared weapon in the right hands,this maul's ability to shatter the defenses of its opponents should not be underestimated."
 	},
 	"item_bfury": {
@@ -1759,14 +1642,13 @@
 		"Image": "item_145",
 		"Name": "Battle Fury",
 		"Group": "Weapons",
-		"Cost": "4100",
+		"Cost": "4400",
 		"Cooldown": "4",
 		"ManaCost": "",
 		"MainDescription": "Active: Chop Tree/Ward - Destroy a target tree or ward. Tree Cast Range: 350 Ward Cast Range: 450 \n Passive: Quell - Increases attack damage against non-hero units by 60% for melee heroes, and 25% for ranged.\n Passive: Cleave - Deals 40% of attack damage in a cone up to 625 around the target. (Melee Only)",
 		"AlternateDescription": "Cleave damage is reduced by armor type but not by armor value. \n Cleave damage goes through spell immunity. \n If multiple sources of Cleave are present,each Cleave's damage is applied separately. \n Chop can be used to destroy Techies' Land Mines and Remote Mines.",
 		"ExtraAttribute": "+ 45 Damage \n + 6 HP Regeneration \n + 2.25 Mana Regeneration",
 		"CreatedFrom": [{"name" : "item_demon_edge"},{"name" : "item_pers"},{"name" : "item_quelling_blade"}],
-		"CreatedTo": [],
 		"Lore": "The bearer of this mighty axe gains the ability to cut down swaths of enemies at once."
 	},
 	"item_manta": {
@@ -1774,14 +1656,13 @@
 		"Image": "item_147",
 		"Name": "Manta Style",
 		"Group": "Armor",
-		"Cost": "5000",
+		"Cost": "4800",
 		"Cooldown": "45",
 		"ManaCost": "125",
 		"MainDescription": "Active: Mirror Image - Creates 2 images of your hero that last 20 seconds. Melee heroes have a 30 second cooldown on this ability,while for Ranged heroes the cooldown is 45 seconds. \n Melee images deal 33% damage and take 350% damage,while Ranged images deal 28% and take 400% damage. \n Yasha-based movement speed bonuses from multiple item do not stack.",
 		"AlternateDescription": "Has a 0.1 second cast time during which you are invulnerable. \n Many effects are removed upon using Manta.",
-		"ExtraAttribute": "+ 10 Strength \n + 26 Agility \n + 10 Intelligence \n + 15 Attack Speed \n + 10% Movement Speed \n NUMBER OF IMAGES: 2 \n IMAGE DURATION: 20 \n MELEE IMAGE DAMAGE: 33% \n MELEE IMAGE DAMAGE TAKEN: 350% \n RANGED IMAGE DAMAGE: 28% \n RANGED IMAGE DAMAGE TAKEN: 400%",
+		"ExtraAttribute": "+ 10 Strength \n + 26 Agility \n + 10 Intelligence \n + 10 Attack Speed \n + 8% Movement Speed \n NUMBER OF IMAGES: 2 \n IMAGE DURATION: 20 \n MELEE IMAGE DAMAGE: 33% \n MELEE IMAGE DAMAGE TAKEN: 350% \n RANGED IMAGE DAMAGE: 28% \n RANGED IMAGE DAMAGE TAKEN: 400%",
 		"CreatedFrom": [{"name" : "item_ultimate_orb"},{"name" : "item_yasha"},{"name" : "item_recipe"}],
-		"CreatedTo": [],
 		"Lore": "An axe made of reflective materials that causes confusion amongst enemy ranks."
 	},
 	"item_lesser_crit": {
@@ -1789,14 +1670,13 @@
 		"Image": "item_149",
 		"Name": "Crystalys",
 		"Group": "Weapons",
-		"Cost": "2120",
+		"Cost": "2130",
 		"Cooldown": "",
 		"ManaCost": "",
 		"MainDescription": "Passive: Critical Strike - Grants each attack a chance to deal additional damage. Critical Strike does not work against buildings.",
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 30 Damage \n CRITICAL CHANCE: 20% \n CRITICAL DAMAGE: 175%",
 		"CreatedFrom": [{"name":"item_broadsword"},{"name":"item_blades_of_attack"},{"name":"item_recipe"}],
-		"CreatedTo": [{"name":"item_greater_crit"},{"name":"item_bloodthorn"}],
 		"Lore": "A blade forged from rare crystals,it seeks weak points in enemy armor."
 	},
 	"item_dragon_lance": {
@@ -1811,7 +1691,6 @@
 		"AlternateDescription": "Multiple instances do not stack.",
 		"ExtraAttribute": "+ 12 Agility \n + 12 Strength",
 		"CreatedFrom": [{"name":"item_ogre_axe"},{"name":"item_boots_of_elves"},{"name":"item_boots_of_elves"}],
-		"CreatedTo": [{"name":"item_hurricane_pike"}],
 		"Lore": "The forward charge of the wyvern host grants no quarter."
 	},
 	"item_armlet": {
@@ -1819,14 +1698,13 @@
 		"Image": "item_151",
 		"Name": "Armlet of Mordiggian",
 		"Group": "Weapons",
-		"Cost": "2370",
+		"Cost": "2380",
 		"Cooldown": "",
 		"ManaCost": "",
-		"MainDescription": "Active: Toggle Unholy Strength - When active,Unholy Strength grants +31 damage and +25 strength,but drains 45 health per second.  You cannot die from the health drain when Unholy Strength is activated,nor from the strength loss when Unholy Strength is deactivated.",
+		"MainDescription": "Active: Toggle Unholy Strength - When active,Unholy Strength grants +31 damage and +25 strength +4 armor,but drains 54 health per second.  You cannot die from the health drain when Unholy Strength is activated,nor from the strength loss when Unholy Strength is deactivated.",
 		"AlternateDescription": "The strength change will affect both maximum and current HP,but you cannot die from the change. \n The strength change occurs over 0.6 seconds. \n Activating or deactiving Unholy Strength does not interrupt channeling.",
-		"ExtraAttribute": "+ 9 Damage \n + 25 Attack Speed \n + 5 Armor \n + 7 HP Regeneration",
+		"ExtraAttribute": "+ 9 Damage \n + 25 Attack Speed \n + 5 Armor \n + 4 HP Regeneration",
 		"CreatedFrom": [{"name" : "item_blades_of_attack"},{"name": "item_helm_of_iron_will"} ,{"name" : "item_gloves"},{"name" : "item_recipe"}],
-		"CreatedTo": [],
 		"Lore": "Weapon of choice among brutes,the bearer sacrifices his life energy to gain immense strength and power."
 	},
 	"item_invis_sword": {
@@ -1834,14 +1712,13 @@
 		"Image": "item_152",
 		"Name": "Shadow blade",
 		"Group": "Weapons",
-		"Cost": "2700",
+		"Cost": "2800",
 		"Cooldown": "28",
 		"ManaCost": "75",
 		"MainDescription": "Active: Shadow Walk - Makes you invisible until the duration ends,or until you attack or cast a spell.  While Shadow Walk is active,you move 20% faster and can move through units.  If attacking to end the invisibility,you gain 175 bonus damage on that attack.  Lasts 14.0 seconds.",
 		"AlternateDescription": "Has a 0.3 second fade time. \n If the invisibility ends without attacking,the bonus damage is lost.",
 		"ExtraAttribute": "+ 22 Damage \n + 30 Attack Speed \n SHADOW WALK DURATION: 14 \n SHADOW WALK DAMAGE: 175",
 		"CreatedFrom": [{"name" : "item_claymore"},{"name": "item_shadow_amulet"}],
-		"CreatedTo": [{"name": "item_silver_edge"}],
 		"Lore": "The blade of a fallen king,it allows you to move unseen and strike from the shadows."
 	},
 	"item_silver_edge": {
@@ -1850,13 +1727,12 @@
 		"Name": "Silver Edge",
 		"Group": "Weapons",
 		"Cost": "5550",
-		"Cooldown": "24",
+		"Cooldown": "22",
 		"ManaCost": "75",
-		"MainDescription": "Active: Shadow Walk - Makes you invisible for 14 seconds, or until you attack or cast a spell.  While invisible, you move 25% faster and can move through units. Attacking to end the invisibility will deal 175 bonus damage to the target, and for 5 seconds, disable their passive abilities.",
+		"MainDescription": "Active: Shadow Walk - Makes you invisible for 14 seconds, or until you attack or cast a spell.  While invisible, you move 25% faster and can move through units. Attacking to end the invisibility will deal 175 bonus damage to the target, and for 4 seconds, disable their passive abilities.",
 		"AlternateDescription": "Backstab cannot miss. \n Backstab does not pierce spell immunity.",
 		"ExtraAttribute": "+ 30 Damage \n + 30 Attack Speed \n + 15 All Attributes",
 		"CreatedFrom": [{"name": "item_invis_sword"} ,{"name" : "item_ultimate_orb"},{"name" : "item_recipe"}],
-		"CreatedTo": [],
 		"Lore": "Once used to slay an unjust king,only to have the kingdom erupt into civil war in the aftermath."
 	},
 	"item_sange_and_yasha": {
@@ -1864,14 +1740,13 @@
 		"Image": "item_154",
 		"Name": "Sange and Yasha",
 		"Group": "Artifacts",
-		"Cost": "3900",
+		"Cost": "4300",
 		"Cooldown": "",
 		"ManaCost": "",
-		"MainDescription": "Passive: Greater Maim</h1>Each attack has a 40% chance to reduce enemy hero movement speed by 26% and attack speed by 26 when used by a melee hero. Reduces enemy hero movement by 13% and attack speed by 13 when used by a ranged hero. Effect lasts 5 seconds.",
+		"MainDescription": "Passive: Maim</h1>Each attack has a 40% chance to reduce enemy hero movement speed by 26% and attack speed by 26 when used by a melee hero. Reduces enemy hero movement by 13% and attack speed by 13 when used by a ranged hero. Effect lasts 5 seconds.",
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 16 Damage \n + 16 Strength \n + 16 Agility \n + 16 Attack Speed \n + 16 Movement Speed",
 		"CreatedFrom": [{"name": "item_sange"} ,{"name" : "item_yasha"}],
-		"CreatedTo": [],
 		"Lore": "Sange and Yasha,when attuned by the moonlight and used together,become a very powerful combination."
 	},
 	"item_satanic": {
@@ -1886,7 +1761,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 50 Damage \n + 25 Strength",
 		"CreatedFrom": [{"name": "item_reaver"} ,{"name" : "item_lifesteal"},{"name" : "item_claymore"}],
-		"CreatedTo": [],
 		"Lore": "Immense power at the cost of your soul."
 	},
 	"item_mjollnir": {
@@ -1894,14 +1768,13 @@
 		"Image": "item_158",
 		"Name": "Mjollnir",
 		"Group": "Artifacts",
-		"Cost": "5700",
+		"Cost": "5600",
 		"Cooldown": "35",
 		"ManaCost": "50",
-		"MainDescription": "Active: Static Charge - Places a charged shield on a target unit for 15 seconds which has a 20% chance to release a 200 damage shocking bolt at a nearby attacker and 4 additional enemies.<br><br>Range: 800 \n Passive: Chain Lightning - Grants a 25% chance on attack to release a bolt of electricity that leaps between 12 targets within a 900 radius, dealing 150 magical damage to each",
+		"MainDescription": "Active: Static Charge - Places a charged shield on a target unit for 15 seconds which has a 20% chance to release a 200 damage shocking bolt at a nearby attacker and 4 additional enemies.<br><br>Range: 800 \n Passive: Chain Lightning - Grants a 25% chance on attack to release a bolt of electricity that leaps between 12 targets within a 900 radius, dealing 170 magical damage to each",
 		"AlternateDescription": "Static Charge cannot trigger more than once per second. \n Static Charge's shock deals magical damage centered on hero with the Static Charge. Static Charge's targets cannot be more than 900 range away. \n Static Charge procs will not bounce to heroes that are invisible or hidden by Fog of War.",
-		"ExtraAttribute": "+ 24 Damage \n + 80 Attack Speed",
+		"ExtraAttribute": "+ 24 Damage \n + 75 Attack Speed",
 		"CreatedFrom": [{"name": "item_hyperstone"} ,{"name" : "item_maelstrom"},{"name" : "item_recipe"}],
-		"CreatedTo": [],
 		"Lore": "Thor's magical hammer,made for him by the dwarves Brok and Eitri."
 	},
 	"item_skadi": {
@@ -1916,7 +1789,6 @@
 		"AlternateDescription": "Lasts 5 seconds with melee Eye of Skadi,2.5 seconds with ranged Eye of Skadi.",
 		"ExtraAttribute": "+ 25 All Attributes \n + 225 Health \n + 250 Mana ",
 		"CreatedFrom": [{"name": "item_ultimate_orb"} ,{"name" : "item_ultimate_orb"},{"name": "item_point_booster"}],
-		"CreatedTo": [],
 		"Lore": "Extremely rare artifact,guarded by the azure dragons."
 	},
 	"item_sange": {
@@ -1924,14 +1796,13 @@
 		"Image": "item_162",
 		"Name": "Sange",
 		"Group": "Artifacts",
-		"Cost": "1950",
+		"Cost": "2150",
 		"Cooldown": "",
 		"ManaCost": "",
-		"MainDescription": "Passive: Lesser Maim - Each attack has a 30% chance to reduce enemy hero movement speed by 20% and attack speed by 20 when used by a melee hero. Reduces enemy hero movement by 10% and attack speed by 10 when used by a ranged hero. Effect lasts 5 seconds.",
+		"MainDescription": "Passive: Maim - Each attack has a 40% chance to reduce enemy hero movement speed by 26% and attack speed by 26 when used by a melee hero. Reduces enemy hero movement by 13% and attack speed by 13 when used by a ranged hero. Effect lasts 5 seconds.",
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 10 Damage \n + 16 Strength",
 		"CreatedFrom": [{"name": "item_ogre_axe"} ,{"name" : "item_belt_of_strength"},{"name": "item_recipe"}],
-		"CreatedTo": [{"name": "item_sange_and_yasha"} ,{"name" : "item_heavens_halberd"}],
 		"Lore": "Sange is an unusually accurate weapon,seeking weak points automatically."
 	},
 	"item_helm_of_the_dominator": {
@@ -1942,11 +1813,10 @@
 		"Cost": "2000",
 		"Cooldown": "60",
 		"ManaCost": "",
-		"MainDescription": "Active: Dominate - Takes control of one neutral, non-ancient target unit and sets its movement speed to 425 and max health to a minimum of 1500. Dominated units with a max health of greater than 1500 retain their original max health.  Dominated unit's bounty is set to 125 gold.<br><br>Range: 700 \n Passive: Dominator Aura - Increases nearby allies' attack speed by 20 and health regen by 8. Radius: 900",
+		"MainDescription": "Active: Dominate - Takes control of one neutral, non-ancient target unit and sets its movement speed to 425 and max health to a minimum of 1500. Dominated units with a max health of greater than 1500 retain their original max health.  Dominated unit's bounty is set to 125 gold.<br><br>Range: 700 \n Passive: Dominator Aura - Increases nearby allies' attack speed by 20 and health regen by 7. Radius: 900",
 		"AlternateDescription": "Cannot dominate more than one unit at a time.  If a new unit is dominated,the old one will die. \n Selling or upgrading Helm of the Dominator will cause dominated units to die.",
 		"ExtraAttribute": "+ 2 All Attributes \n + 5 Attack Speed",
 		"CreatedFrom": [{"name": "item_gloves"} ,{"name" : "item_headdress"}, {"name" : "item_ring_of_health"}],
-		"CreatedTo": [],
 		"Lore": "The powerful headpiece of a dead necromancer."
 	},
 	"item_maelstrom": {
@@ -1954,14 +1824,13 @@
 		"Image": "item_166",
 		"Name": "Maelstrom",
 		"Group": "Artifacts",
-		"Cost": "2800",
+		"Cost": "2700",
 		"Cooldown": "",
 		"ManaCost": "",
-		"MainDescription": "Passive: Chain Lightning - Grants a 25% chance on attack to release a bolt of electricity that leaps between 4 targets within a 900 radius, dealing 120 magical damage to each.",
+		"MainDescription": "Passive: Chain Lightning - Grants a 25% chance on attack to release a bolt of electricity that leaps between 4 targets within a 900 radius, dealing 160 magical damage to each.",
 		"AlternateDescription": "",
-		"ExtraAttribute": "+ 24 Damage \n + 25 Attack Speed",
-		"CreatedFrom": [{"name": "item_mithril_hammer"} ,{"name" : "item_gloves"},{"name": "item_recipe"}],
-		"CreatedTo": [{"name": "item_mjollnir"}],
+		"ExtraAttribute": "+ 24 Damage",
+		"CreatedFrom": [{"name": "item_mithril_hammer"} ,{"name" : "item_javelin"}],
 		"Lore": "A hammer forged for the gods themselves,Maelstrom allows its user to harness the power of lightning."
 	},
 	"item_desolator": {
@@ -1976,7 +1845,6 @@
 		"AlternateDescription": "Armor reduction works on buildings.",
 		"ExtraAttribute": "+ 50 Damage",
 		"CreatedFrom": [{"name": "item_mithril_hammer"} ,{"name" : "item_mithril_hammer"},{"name": "item_blight_stone"}],
-		"CreatedTo": [],
 		"Lore": "A wicked weapon,used in torturing political criminals."
 	},
 	"item_yasha": {
@@ -1984,14 +1852,13 @@
 		"Image": "item_170",
 		"Name": "Yasha",
 		"Group": "Artifacts",
-		"Cost": "1950",
+		"Cost": "2150",
 		"Cooldown": "",
 		"ManaCost": "",
 		"MainDescription": "Yasha-based movement speed bonuses from multiple item do not stack.",
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 16 Agility \n + 10 Attack Speed \n + 8% Movement Speed",
 		"CreatedFrom": [{"name": "item_blade_of_alacrity"} ,{"name" : "item_boots_of_elves"},{"name": "item_recipe"}],
-		"CreatedTo": [{"name": "item_sange_and_yasha"} ,{"name" : "item_manta"}],
 		"Lore": "Yasha is regarded as the swiftest weapon ever created."
 	},
 	"item_mask_of_madness": {
@@ -2006,7 +1873,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 20 Damage \n + 10 Attack Speed",
 		"CreatedFrom": [{"name": "item_lifesteal"} ,{"name" : "item_quarterstaff"}],
-		"CreatedTo": [],
 		"Lore": "Once this mask is worn,its bearer becomes an uncontrollable aggressive force."
 	},
 	"item_diffusal_blade": {
@@ -2021,7 +1887,6 @@
 		"AlternateDescription": "Does not stack with other manabreak abilities.",
 		"ExtraAttribute": "+ 20 Agility \n + 10 Intelligence",
 		"CreatedFrom": [{"name": "item_blade_of_alacrity"} ,{"name" : "item_blade_of_alacrity"},{"name": "item_robe"} ,{"name" : "item_recipe"}],
-		"CreatedTo": [],
 		"Lore": "An enchanted blade that allows the user to cut straight into the enemy's soul."
 	},
 	"item_ethereal_blade": {
@@ -2036,7 +1901,6 @@
 		"AlternateDescription": "Shares cooldown with Ghost Scepter. \n Ethereal units take 40% bonus magic damage. \n Lasts an extra second on Self or Allied cast.",
 		"ExtraAttribute": "+ 40 Agility \n + 10 Strength \n + 10 Intelligence",
 		"CreatedFrom": [{"name": "item_eagle"} ,{"name" : "item_ghost"}],
-		"CreatedTo": [],
 		"Lore": "A flickering blade of a ghastly nature,it is capable of dealing damage in both magical and physical planes."
 	},
 	"item_soul_ring": {
@@ -2044,14 +1908,13 @@
 		"Image": "item_178",
 		"Name": "Soul Ring",
 		"Group": "Common",
-		"Cost": "755",
+		"Cost": "770",
 		"Cooldown": "25",
 		"ManaCost": "",
 		"MainDescription": "Active: Sacrifice - Consume 150 health to temporarily gain 150 mana.  Lasts 10 seconds.",
 		"AlternateDescription": "If the mana gain cannot fit in your mana pool,it creates a buffer of mana that will be used before your mana pool.  If this mana is not used before the duration ends,the extra mana is lost.",
 		"ExtraAttribute": "+ 2 HP Regeneration \n + 6 Strength",
 		"CreatedFrom": [{"name": "item_ring_of_regen"} ,{"name" : "item_gauntlets"},{"name" : "item_gauntlets"},{"name": "item_recipe"}],
-		"CreatedTo": [{"name": "item_bloodstone"}],
 		"Lore": "A ring that feeds on the souls of those who wear it."
 	},
 	"item_arcane_boots": {
@@ -2059,14 +1922,13 @@
 		"Image": "item_180",
 		"Name": "Arcane Boots",
 		"Group": "Support",
-		"Cost": "1300",
+		"Cost": "1400",
 		"Cooldown": "55",
 		"ManaCost": "",
 		"MainDescription": "Active: Replenish Mana - Restores mana to all allies in a 900 area around the hero. \n Flat movement speed bonuses from multiple pairs of boots do not stack.",
 		"AlternateDescription": "Does not work on Meepo clones.",
 		"ExtraAttribute": "+ 50 Movement Speed \n + 250 Mana \n REPLENISH MANA RESTORE: 135 \n REPLENISH CAST RADIUS: 900",
 		"CreatedFrom": [{"name": "item_bloodstone"} ,{"name" : "item_energy_booster"}],
-		"CreatedTo": [{"name": "item_guardian_greaves"}],
 		"Lore": "Magi equipped with these boots are valued in battle."
 	},
 	"item_octarine_core": {
@@ -2081,7 +1943,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 25 Intelligence \n + 425 Health \n + 425 Mana",
 		"CreatedFrom": [{"name": "item_mystic_staff"} ,{"name" : "item_soul_booster"}],
-		"CreatedTo": [],
 		"Lore": "At the core of spellcraft are spectrums only the very gifted can sense."
 	},
 	"item_orb_of_venom": {
@@ -2096,7 +1957,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "",
 		"CreatedFrom": [],
-		"CreatedTo": [],
 		"Lore": "Envenoms your veapon with the venom of a venomous viper."
 	},
 	"item_blight_stone": {
@@ -2111,7 +1971,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "ARMOR REDUCTION: 2 \n DURATION: 8",
 		"CreatedFrom": [{"name": "item_desolator"} ,{"name" : "item_medallion_of_courage"}],
-		"CreatedTo": [],
 		"Lore": "An unnerving stone unearthed beneath the Fields of Endless Carnage."
 	},
 	"item_ancient_janggo": {
@@ -2141,7 +2000,6 @@
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 7 Armor \n + 0.5 Mana Regeneration",
 		"CreatedFrom": [{"name": "item_chainmail"} ,{"name" : "item_sobi_mask"},{"name": "item_blight_stone"}],
-		"CreatedTo": [{"name": "item_solar_crest"}],
 		"Lore": "The bearer has no fear of combat."
 	},
 	"item_solar_crest": {
@@ -2149,14 +2007,13 @@
 		"Image": "item_229",
 		"Name": "Solar Crest",
 		"Group": "Caster",
-		"Cost": "2625",
+		"Cost": "2575",
 		"Cooldown": "7",
 		"ManaCost": "",
 		"MainDescription": "Active: Shine - When cast on an ally, grants them 10 armor and 20% evasion. When cast on an enemy, removes 10 of their armor and grants your allies 40% Accuracy on the target.Removes the armor and evasion from the caster when used. Cannot target magic immune enemies.Range: 1000",
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 10 Armor \n + 1 Mana Regeneration \n + 20% Evasion",
 		"CreatedFrom": [{"name": "item_medallion_of_courage"} ,{"name" : "item_talisman_of_evasion"}],
-		"CreatedTo": [],
 		"Lore": "A talisman forged to honor the daytime sky."
 	},
 	"item_smoke_of_deceit": {
@@ -2164,14 +2021,13 @@
 		"Image": "item_188",
 		"Name": "Smoke of Deceit",
 		"Group": "Consumables",
-		"Cost": "50",
+		"Cost": "80",
 		"Cooldown": "1",
 		"ManaCost": "",
 		"MainDescription": "Use: Upon activation,the user and all nearby allied player-controlled units gain invisibility and bonus movement speed for a brief time.  Minimap icons will also be hidden.  Attacking,or moving within 1025 range of an enemy hero or tower,will break the invisibility.",
 		"AlternateDescription": "",
 		"ExtraAttribute": "BONUS SPEED: 15% \n DURATION: 35",
 		"CreatedFrom": [],
-		"CreatedTo": [],
 		"Lore": "The charlatan wizard Myrddin's only true contribution to the arcane arts."
 	},
 	"item_tome_of_knowledge": {
@@ -2182,11 +2038,10 @@
 		"Cost": "150",
 		"Cooldown": "",
 		"ManaCost": "",
-		"MainDescription": "Use: Enlighten - Grants you 500 experience plus 135 per tome consumed by your team",
+		"MainDescription": "Use: Enlighten - Grants you 700 experience plus 135 per tome consumed by your team",
 		"AlternateDescription": "",
-		"ExtraAttribute": "XP BONUS: 425",
+		"ExtraAttribute": "",
 		"CreatedFrom": [],
-		"CreatedTo": [],
 		"Lore": "That which raises beast to man and man to god."
 	},
 	"item_veil_of_discord": {
@@ -2201,7 +2056,6 @@
 		"AlternateDescription": "Can be dispelled.",
 		"ExtraAttribute": "+ 5 HP Regeneration \n + 6 Armor \n + 6 Agility \n + 6 Strength \n + 14 Intelligence",
 		"CreatedFrom": [{"name": "item_helm_of_iron_will"} ,{"name" : "item_null_talisman"},{"name": "item_null_talisman"} ,{"name" : "item_recipe"}],
-		"CreatedTo": [],
 		"Lore": "The headwear of corrupt magi."
 	},
 	"item_guardian_greaves": {
@@ -2209,14 +2063,13 @@
 		"Image": "item_231",
 		"Name": "Guardian Greaves",
 		"Group": "Support",
-		"Cost": "5350",
+		"Cost": "5450",
 		"Cooldown": "40",
 		"ManaCost": "",
 		"MainDescription": "Active: Mend - Restores 250 health and 160 mana to nearby allies, and removes most negative effects from the caster.Radius: 900. Dispel Type: Basic Dispel \n Passive: Guardian Aura - Provides nearby allies with 3.5 health regeneration and 2 bonus armor. If an allied hero's health falls below 20%, they receive 12 health regeneration and 15 armor. \n Flat movement speed bonuses from multiple pairs of boots do not stack",
 		"AlternateDescription": "The aura boost only applies to heroes.",
 		"ExtraAttribute": "+ 55 Movement Speed \n + 250 Mana \n + 5 All Attributes \n + 5 Armor",
 		"CreatedFrom": [{"name": "item_mekansm"} ,{"name" : "item_arcane_boots"},{"name": "item_recipe"}],
-		"CreatedTo": [],
 		"Lore": "One of many holy instruments constructed to honor the Omniscience."
 	},
 	"item_rod_of_atos": {
@@ -2224,14 +2077,13 @@
 		"Image": "item_206",
 		"Name": "Rod of Atos",
 		"Group": "Caster",
-		"Cost": "3030",
+		"Cost": "2930",
 		"Cooldown": "16",
 		"ManaCost": "50",
 		"MainDescription": "Active: Cripple</h1>Roots the target for 2 seconds. Range: 1150",
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 20 Intelligence \n + 15 Strength \n + 6 Agility",
 		"CreatedFrom": [{"name": "item_bracer"} ,{"name" : "item_bracer"},{"name": "item_staff_of_wizardry"}, {"name": "item_recipe"}],
-		"CreatedTo": [],
 		"Lore": "Atos,the Lord of Blight,has his essence stored in this deceptively simple wand."
 	},
 	"item_iron_talon": {
@@ -2246,7 +2098,6 @@
 		"AlternateDescription": "Has a 4 second cooldown on Trees. \n Cannot target ancients.",
 		"ExtraAttribute": "QUELL MELEE DAMAGE: 140% \n QUELL RANGED DAMAGE: 115% \n CAST RANGE: 350 \n CAST RANGE ON WARDS: 450 \n +2 Armor",
 		"CreatedFrom": [{"name": "item_quelling_blade"} ,{"name" : "item_ring_of_protection"},{"name": "item_recipe"}],
-		"CreatedTo": [],
 		"Lore": "A simple but effective weapon devised to quell a great Hellbear uprising."
 	},
 	"item_abyssal_blade": {
@@ -2254,14 +2105,13 @@
 		"Image": "item_208",
 		"Name": "Abyssal Blade",
 		"Group": "Weapons",
-		"Cost": "6400",
+		"Cost": "6750",
 		"Cooldown": "35",
 		"ManaCost": "75",
-		"MainDescription": "Active: Overwhelm - Stuns a target enemy unit for 2.0 seconds. Pierces Spell Immunity. \n Passive: Bash - Grants each attack a chance to stun the target for 1.4 seconds and deal 85 bonus damage,based on whether the equipped hero is ranged or melee. \n Passive: Damage Block - Makes the wielder block damage from each incoming attack based on whether the equipped hero is melee or ranged.",
+		"MainDescription": "Active: Overwhelm - Stuns a target enemy unit for 2.0 seconds. Pierces Spell Immunity. \n Passive: Bash - Grants each attack a chance to stun the target for 1.4 seconds and deal 100 bonus magical damage,based on whether the equipped hero is ranged or melee. \n Passive: Damage Block - Makes the wielder block damage from each incoming attack based on whether the equipped hero is melee or ranged.",
 		"AlternateDescription": "The stun is melee range. \n Doesn't stack with other bashes. \n The following heroes cannot trigger Bash on this item: Spirit Breaker,Faceless Void,Slardar,and Troll Warlord.",
-		"ExtraAttribute": "+ 250 Health \n + 15 HP Regeneration \n BLOCK DAMAGE MELEE: 40 \n BLOCK DAMAGE RANGED: 20 \n + 10 Damage \n + 10 Strength \n BASH MELEE CHANCE: 25% \n BASH RANGED CHANCE: 10% \n BASH STUN DURATION: 1.4 \n BASH BONUS DAMAGE: 85 \n OVERWHELM STUN DURATION: 2",
+		"ExtraAttribute": "+ 250 Health \n + 7 HP Regeneration \n BLOCK DAMAGE MELEE: 40 \n BLOCK DAMAGE RANGED: 20 \n + 25 Damage \n + 10 Strength \n BASH MELEE CHANCE: 25% \n BASH RANGED CHANCE: 10% \n BASH STUN DURATION: 1.4 \n BASH BONUS DAMAGE: 85 \n OVERWHELM STUN DURATION: 2",
 		"CreatedFrom": [{"name": "item_vanguard"} ,{"name" : "item_basher"},{"name": "item_recipe"}],
-		"CreatedTo": [],
 		"Lore": "The lost blade of the Commander of the Abyss,this edge cuts into an enemy's soul."
 	},
 	"item_heavens_halberd": {
@@ -2269,14 +2119,13 @@
 		"Image": "item_210",
 		"Name": "Heaven's Halberd",
 		"Group": "Artifacts",
-		"Cost": "3400",
-		"Cooldown": "30",
+		"Cost": "3550",
+		"Cooldown": "18",
 		"ManaCost": "100",
 		"MainDescription": "Active: Disarm - Prevents a target from attacking for 3 seconds on melee targets, and 5 seconds on ranged targets.Range: 600 \n Passive: Lesser Maim - Each attack has a 35% chance to reduce enemy hero movement speed by 20% and attack speed by 20 if the user is melee. Reduces enemy hero movement by 10% and attack speed by 10 if the user is ranged. Effect lasts 5 seconds.",
 		"AlternateDescription": "Disarm can only be removed with spell immunity.",
 		"ExtraAttribute": "+ 25% Evasion \n + 25 Damage \n + 20 Strength ",
 		"CreatedFrom": [{"name": "item_sange"} ,{"name" : "item_talisman_of_evasion"}],
-		"CreatedTo": [],
 		"Lore": "This halberd moves with the speed of a smaller weapon,allowing the bearer to win duels that a heavy edge would not."
 	},
 	"item_ring_of_aquila": {
@@ -2291,7 +2140,6 @@
 		"AlternateDescription": "Does not stack with armor auras from Ring of Basilius,Ring of Aquila,or Vladmir's Offering.",
 		"ExtraAttribute": "+ 10 Damage \n + 3 Strength \n + 9 Agility \n + 3 Intelligence",
 		"CreatedFrom": [{"name": "item_wraith_band"} ,{"name" : "item_ring_of_basilius"}],
-		"CreatedTo": [],
 		"Lore": "The ring of the fallen Warlord Aquila continues to support armies in battle."
 	},
 	"item_tranquil_boots": {
@@ -2299,14 +2147,13 @@
 		"Image": "item_214",
 		"Name": "Tranquil Boots",
 		"Group": "Support",
-		"Cost": "950",
+		"Cost": "1050",
 		"Cooldown": "13",
 		"ManaCost": "",
 		"MainDescription": "Passive: Break - Whenever you attack or are attacked, the bonus HP regen is lost and the movement speed bonus is reduced to 65 for 13 seconds. Flat movement speed bonuses from multiple pairs of boots do not stack.",
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 90 Movement Speed \n + 13 HP Regeneration	",
 		"CreatedFrom": [{"name": "item_boots"} ,{"name" : "item_wind_lace"},{"name": "item_ring_of_regen"}],
-		"CreatedTo": [],
 		"Lore": "While they increase the longevity of the wearer,this boot is not particularly reliable."
 	},
 	"item_shadow_amulet": {
@@ -2314,14 +2161,13 @@
 		"Image": "item_215",
 		"Name": "Shadow Amulet",
 		"Group": "Arcane",
-		"Cost": "1300",
-		"Cooldown": "10",
+		"Cost": "1400",
+		"Cooldown": "7",
 		"ManaCost": "",
 		"MainDescription": "Active: Fade - Grants invisibility to you or a target allied hero after a 1.5 second fade time. Moving breaks the invisibility. There is no cooldown when using this item on yourself.",
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 20 Attack Speed \n FADE TIME: 1.5",
 		"CreatedFrom": [],
-		"CreatedTo": [{"name": "item_glimmer_cape"} ,{"name" : "item_invis_sword"}],
 		"Lore": "A small talisman that clouds the senses of one's enemies when held perfectly still."
 	},
 	"item_glimmer_cape": {
@@ -2329,14 +2175,13 @@
 		"Image": "item_254",
 		"Name": "Glimmer Cape",
 		"Group": "Caster",
-		"Cost": "1850",
-		"Cooldown": "16",
+		"Cost": "1950",
+		"Cooldown": "14",
 		"ManaCost": "90",
 		"MainDescription": "Active: Glimmer - After a 0.6 second delay,grants invisibility and 45% magic resistance to you or a target allied unit. Can be cast while channelling.",
 		"AlternateDescription": "",
 		"ExtraAttribute": "+ 20 Attack Speed \n + 15% Magic Resistance",
 		"CreatedFrom": [{"name": "item_shadow_amulet"} ,{"name" : "item_cloak"}],
-		"CreatedTo": [],
 		"Lore": "The stolen cape of a master illusionist."
 	}
 }

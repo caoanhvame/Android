@@ -1,6 +1,6 @@
 package caoanh.multipanefragment;
 
-import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -12,14 +12,11 @@ import android.view.animation.Animation;
 import android.view.animation.Animation.AnimationListener;
 import android.view.animation.AnimationUtils;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
 public class LandingFragment extends Fragment {
 
 	private OnMenuItemClickListener listener;
 
-	private TextView item;
-	private LinearLayout layout;
 
 	public LandingFragment() {
 		// Required empty public constructor
@@ -27,15 +24,13 @@ public class LandingFragment extends Fragment {
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-		View v = inflater.inflate(R.layout.fragment_landing, null);
-		return v;
+		return inflater.inflate(R.layout.fragment_landing, container, false);
 	}
 
 	@Override
 	public void onActivityCreated(Bundle savedInstanceState) {
 		super.onActivityCreated(savedInstanceState);
-		item = (TextView) getActivity().findViewById(R.id.fragment_landing_item);
-		layout = (LinearLayout)getActivity().findViewById(R.id.fragment_landing_menu);
+		LinearLayout layout = (LinearLayout)getActivity().findViewById(R.id.fragment_landing_menu);
 		final int childCount = layout.getChildCount();
 		for(int i = 0 ;i< childCount ; i++){
 			final LinearLayout outerLayout = (LinearLayout)layout.getChildAt(i);
@@ -91,7 +86,7 @@ public class LandingFragment extends Fragment {
 								}
 							});
 							//press & hold until animation completed and release
-							if (animationCompleted == true) {
+							if (animationCompleted) {
 								String tag = (String) v.getTag();
 								listener.onMenuClick(tag);
 							}
@@ -102,7 +97,7 @@ public class LandingFragment extends Fragment {
 				});
 			}
 		}
-		
+
 	}
 
 	public interface OnMenuItemClickListener {
@@ -110,7 +105,7 @@ public class LandingFragment extends Fragment {
 	}
 
 	@Override
-	public void onAttach(Activity context) {
+	public void onAttach(Context context) {
 		super.onAttach(context);
 		if (context instanceof OnMenuItemClickListener) {
 			listener = (OnMenuItemClickListener) context;

@@ -23,9 +23,11 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Set;
 
 import caoanh.multipanefragment.R;
+
+import static caoanh.multipanefragment.Constants.RECIPE_ITEM;
+
 @SuppressWarnings("ConstantConditions, unchecked")
 public class ItemExpandableListAdapter extends BaseExpandableListAdapter {
 
@@ -115,6 +117,7 @@ public class ItemExpandableListAdapter extends BaseExpandableListAdapter {
             }
             holder.lore.setText(item.getLore());
 
+            setCurrentItemImage(view, viewGroup, item);
             setUpgradeToImage(view, viewGroup, item);
             setUpgradeFromImage(view, viewGroup, item);
         } else {
@@ -200,58 +203,15 @@ public class ItemExpandableListAdapter extends BaseExpandableListAdapter {
         return true;
     }
 
-    private void setUpgradeToImage(View view, final ViewGroup viewGroup, final ItemObject item) {
-        TableRow tr = (TableRow) view.findViewById(R.id.fragment_item_list_item_upgrade);
+    private void setCurrentItemImage(View view, final ViewGroup viewGroup, ItemObject item) {
         TableRow tr2 = (TableRow) view.findViewById(R.id.currentItem);
-        tr.removeAllViews();
         tr2.removeAllViews();
-
         TableRow.LayoutParams imageViewParam = new TableRow.LayoutParams(
                 ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         imageViewParam.setMargins(0, 0, 30, 0);
         float scale = context.getResources().getDisplayMetrics().density;
         imageViewParam.height = (int) (35 * scale);
         imageViewParam.width = (int) (45 * scale);
-
-        for (String itemUpgrade : item.getCreatedTo()) {
-            imageViewParam.weight = 1 / item.getCreatedTo().size();
-            final ImageView itemUpgradeImageView = new ImageView(context);
-            int imageName = context.getResources().getIdentifier(fillAllItemsList(itemUpgrade).getImage(), "drawable",
-                    context.getPackageName());
-
-            itemUpgradeImageView.setImageResource(imageName);
-            itemUpgradeImageView.setLayoutParams(imageViewParam);
-            itemUpgradeImageView.setTag(itemUpgrade);
-
-            itemUpgradeImageView.setOnClickListener((View v) -> {
-                String s = (String) itemUpgradeImageView.getTag();
-                if (!s.equals("item_recipe")) {
-                    String name = (String) itemUpgradeImageView.getTag();
-                    Iterator<List<ItemObject>> it = expandableListDetail.values().iterator();
-                    int groupIndex = 0;
-                    while (it.hasNext()) {
-                        List<ItemObject> itemList = it.next();
-                        for (int i = 0; i < itemList.size(); i++) {
-                            if (itemList.get(i).getItemKey().equals(name)) {
-                                itemList.get(i).setExpand(!itemList.get(i).isExpand());
-                                ((ExpandableListView) viewGroup).expandGroup(groupIndex);
-                                long packedPosition = ExpandableListView.getPackedPositionForChild(
-                                        groupIndex, i);
-                                int flatPosition = ((ExpandableListView) viewGroup).getFlatListPosition(packedPosition);
-                                ((ExpandableListView) viewGroup).setSelectedChild(groupIndex,
-                                        i, true);
-                                ((ExpandableListView) viewGroup).smoothScrollToPosition(flatPosition);
-                            } else {
-                                itemList.get(i).setExpand(false);
-                            }
-                        }
-                        groupIndex++;
-                    }
-                    notifyDataSetChanged();
-                }
-            });
-            tr.addView(itemUpgradeImageView);
-        }
         if (item.getCreatedFrom().size() > 0 || item.getCreatedTo().size() > 0) {
             final ImageView itemUpgradeImageView = new ImageView(context);
             itemUpgradeImageView.setImageResource(context.getResources().getIdentifier(
@@ -261,9 +221,11 @@ public class ItemExpandableListAdapter extends BaseExpandableListAdapter {
         }
     }
 
-    private void setUpgradeFromImage(View view, final ViewGroup viewGroup, ItemObject item) {
-        TableRow tr = (TableRow) view.findViewById(R.id.fragment_item_list_item_components);
+    private void setUpgradeToImage(View view, final ViewGroup viewGroup, final ItemObject item) {
+        TableRow tr = (TableRow) view.findViewById(R.id.fragment_item_list_item_upgrade);
+
         tr.removeAllViews();
+
 
         TableRow.LayoutParams imageViewParam = new TableRow.LayoutParams(
                 ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
@@ -272,44 +234,43 @@ public class ItemExpandableListAdapter extends BaseExpandableListAdapter {
         imageViewParam.height = (int) (35 * scale);
         imageViewParam.width = (int) (45 * scale);
 
-        for (String itemCreateFrom : item.getCreatedFrom()) {
-            imageViewParam.weight = 1 / item.getCreatedFrom().size();
-            final ImageView itemFromImageView = new ImageView(context);
-
-            int imageName = context.getResources().getIdentifier(itemCreateFrom, "drawable",
-                    context.getPackageName());
-            itemFromImageView.setImageResource(imageName);
-            itemFromImageView.setLayoutParams(imageViewParam);
-            itemFromImageView.setTag(itemCreateFrom);
-            itemFromImageView.setOnClickListener((View v) -> {
-                if (!itemFromImageView.getTag().equals("item_recipe")) {
-                    String name = (String) itemFromImageView.getTag();
-                    Iterator<List<ItemObject>> it = expandableListDetail.values().iterator();
-                    int groupIndex = 0;
-                    while (it.hasNext()) {
-                        List<ItemObject> itemList = it.next();
-                        for (int i = 0; i < itemList.size(); i++) {
-                            if (itemList.get(i).getImage().equals(name)) {
-                                itemList.get(i).setExpand(!itemList.get(i).isExpand());
-                                ((ExpandableListView) viewGroup).expandGroup(groupIndex);
-                                long packedPosition = ExpandableListView.getPackedPositionForChild(
-                                        groupIndex, i);
-                                int flatPosition = ((ExpandableListView) viewGroup).getFlatListPosition(packedPosition);
-                                ((ExpandableListView) viewGroup).setSelectedChild(groupIndex,
-                                        i, true);
-                                ((ExpandableListView) viewGroup).smoothScrollToPosition(flatPosition);
-                            } else {
-                                itemList.get(i).setExpand(false);
-                            }
-                        }
-                        groupIndex++;
-                    }
-                    notifyDataSetChanged();
-                }
-
-            });
-            tr.addView(itemFromImageView);
+        for (String toItemKey : item.getCreatedTo()) {
+            imageViewParam.weight = 1 / item.getCreatedTo().size();
+            final ImageView toItemImage = createImageViewFromItemKey(imageViewParam, toItemKey, viewGroup);
+            toItemImage.setOnClickListener(v -> scrollToSelectedItem((ImageView) v, viewGroup));
+            tr.addView(toItemImage);
         }
+    }
+
+    private void setUpgradeFromImage(View view, final ViewGroup viewGroup, ItemObject item) {
+        TableRow tr = (TableRow) view.findViewById(R.id.fragment_item_list_item_components);
+        tr.removeAllViews();
+
+
+        TableRow.LayoutParams imageViewParam = new TableRow.LayoutParams(
+                ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+        imageViewParam.setMargins(0, 0, 30, 0);
+        float scale = context.getResources().getDisplayMetrics().density;
+        imageViewParam.height = (int) (35 * scale);
+        imageViewParam.width = (int) (45 * scale);
+        for (String fromItemKey : item.getCreatedFrom()) {
+            final ImageView fromItemImage = createImageViewFromItemKey(imageViewParam, fromItemKey, viewGroup);
+            fromItemImage.setOnClickListener(v -> scrollToSelectedItem((ImageView) v, viewGroup));
+            tr.addView(fromItemImage);
+        }
+    }
+
+    private ImageView createImageViewFromItemKey(TableRow.LayoutParams imageViewParam, String itemKey, ViewGroup viewGroup) {
+        final ImageView toItemImage = new ImageView(context);
+        int imageName = context.getResources().getIdentifier(getImageNameFromItemKey(itemKey), "drawable",
+                context.getPackageName());
+
+        toItemImage.setImageResource(imageName);
+        toItemImage.setLayoutParams(imageViewParam);
+        toItemImage.setTag(itemKey);
+
+        toItemImage.setOnClickListener(v -> scrollToSelectedItem((ImageView) v, viewGroup));
+        return toItemImage;
     }
 
     private void setViewHolderFull(ViewHolderFull holder, View view) {
@@ -415,10 +376,40 @@ public class ItemExpandableListAdapter extends BaseExpandableListAdapter {
         TextView mana;
     }
 
-    private ItemObject fillAllItemsList(String filter) {
+    private void scrollToSelectedItem(ImageView selectedImage, ViewGroup viewGroup) {
+        String itemKey = (String) selectedImage.getTag();
+        if (!itemKey.equals(RECIPE_ITEM)) {
+            Iterator<List<ItemObject>> it = expandableListDetail.values().iterator();
+            int groupIndex = 0;
+            while (it.hasNext()) {
+                List<ItemObject> itemList = it.next();
+                for (int i = 0; i < itemList.size(); i++) {
+                    if (itemList.get(i).getItemKey().equals(itemKey)) {
+                        itemList.get(i).setExpand(!itemList.get(i).isExpand());
+                        ((ExpandableListView) viewGroup).expandGroup(groupIndex);
+                        long packedPosition = ExpandableListView.getPackedPositionForChild(
+                                groupIndex, i);
+                        int flatPosition = ((ExpandableListView) viewGroup).getFlatListPosition(packedPosition);
+                        ((ExpandableListView) viewGroup).setSelectedChild(groupIndex,
+                                i, true);
+                        ((ExpandableListView) viewGroup).smoothScrollToPosition(flatPosition);
+                    } else {
+                        itemList.get(i).setExpand(false);
+                    }
+                }
+                groupIndex++;
+            }
+            notifyDataSetChanged();
+        }
+    }
+
+    private String getImageNameFromItemKey(String filter) {
+        if (filter.equals(RECIPE_ITEM)) {
+            return RECIPE_ITEM;
+        }
         for (ItemObject object : allItems) {
             if (object.getItemKey().equals(filter)) {
-                return object;
+                return object.getImage();
             }
         }
         return null;
