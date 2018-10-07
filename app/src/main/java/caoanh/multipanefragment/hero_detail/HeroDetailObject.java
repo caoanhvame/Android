@@ -24,7 +24,8 @@ public class HeroDetailObject extends HeroObject {
     private double turnRate;
     private int attackRange;
     private double baseAttackTime;
-    private List<Ability> arrayList = new ArrayList<Ability>();
+    private List<Ability> abilities = new ArrayList<>();
+    private List<Skill> talents = new ArrayList<>();
 
     public int getSpeed() {
         return speed;
@@ -34,115 +35,123 @@ public class HeroDetailObject extends HeroObject {
         this.speed = speed;
     }
 
-    public int getAttackMinIni() {
+    int getAttackMinIni() {
         return attackMinIni;
     }
 
-    public void setAttackMinIni(int attackMinIni) {
+    void setAttackMinIni(int attackMinIni) {
         this.attackMinIni = attackMinIni;
     }
 
-    public int getAttackMaxIni() {
+    int getAttackMaxIni() {
         return attackMaxIni;
     }
 
-    public void setAttackMaxIni(int attackMaxIni) {
+    void setAttackMaxIni(int attackMaxIni) {
         this.attackMaxIni = attackMaxIni;
     }
 
-    public int getDefenseIni() {
+    int getDefenseIni() {
         return defenseIni;
     }
 
-    public void setDefenseIni(int defenseIni) {
+    void setDefenseIni(int defenseIni) {
         this.defenseIni = defenseIni;
     }
 
-    public int getStrengthIni() {
+    int getStrengthIni() {
         return strengthIni;
     }
 
-    public void setStrengthIni(int strengthIni) {
+    void setStrengthIni(int strengthIni) {
         this.strengthIni = strengthIni;
     }
 
-    public int getAgilityIni() {
+    int getAgilityIni() {
         return agilityIni;
     }
 
-    public void setAgilityIni(int agilityIni) {
+    void setAgilityIni(int agilityIni) {
         this.agilityIni = agilityIni;
     }
 
-    public int getIntelligenceIni() {
+    int getIntelligenceIni() {
         return intelligenceIni;
     }
 
-    public void setIntelligenceIni(int intelligenceIni) {
+    void setIntelligenceIni(int intelligenceIni) {
         this.intelligenceIni = intelligenceIni;
     }
 
-    public double getStrengthGain() {
+    double getStrengthGain() {
         return strengthGain;
     }
 
-    public void setStrengthGain(double strengthGain) {
+    void setStrengthGain(double strengthGain) {
         this.strengthGain = strengthGain;
     }
 
-    public double getAgilityGain() {
+    double getAgilityGain() {
         return agilityGain;
     }
 
-    public void setAgilityGain(double agilityGain) {
+    void setAgilityGain(double agilityGain) {
         this.agilityGain = agilityGain;
     }
 
-    public double getIntelligenceGain() {
+    double getIntelligenceGain() {
         return intelligenceGain;
     }
 
-    public void setIntelligenceGain(double intelligenceGain) {
+    void setIntelligenceGain(double intelligenceGain) {
         this.intelligenceGain = intelligenceGain;
     }
 
-    public String getBio() {
+    String getBio() {
         return bio;
     }
 
-    public void setBio(String bio) {
+    void setBio(String bio) {
         this.bio = bio;
     }
 
-    public double getTurnRate() {
+    double getTurnRate() {
         return turnRate;
     }
 
-    public void setTurnRate(double turnRate) {
+    void setTurnRate(double turnRate) {
         this.turnRate = turnRate;
     }
 
-    public int getAttackRange() {
+    int getAttackRange() {
         return attackRange;
     }
 
-    public void setAttackRange(int attackRange) {
+    void setAttackRange(int attackRange) {
         this.attackRange = attackRange;
     }
 
-    public double getBaseAttackTime() {
+    double getBaseAttackTime() {
         return baseAttackTime;
     }
 
-    public void setBaseAttackTime(double baseAttackTime) {
+    void setBaseAttackTime(double baseAttackTime) {
         this.baseAttackTime = baseAttackTime;
     }
 
-    public List<Ability> getAbilityList() {
-        return arrayList;
+    List<Ability> getAbilities() {
+        return abilities;
     }
 
-    public void setArrayList(List<Ability> arrayList) {
-        this.arrayList = arrayList;
+    void setAbilities(List<Ability> abilities) {
+        this.abilities = abilities;
+    }
+
+    List<Skill> getTalents() {
+        return talents;
+    }
+
+    void setTalents(List<Skill> talents) {
+        this.talents = talents;
     }
 }

@@ -28,10 +28,15 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 import java.io.StringWriter;
 import java.io.Writer;
+import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
 
 import caoanh.multipanefragment.R;
+
+import static caoanh.multipanefragment.Constants.ONE_DECIMAL_FORMAT;
+import static java.lang.String.format;
+import static java.util.Locale.getDefault;
 
 
 public class HeroBioFragment extends Fragment {
@@ -59,9 +64,6 @@ public class HeroBioFragment extends Fragment {
     private ImageView skill4;
     private int id;
     private Context context;
-    private ProgressBar hp;
-    private ProgressBar mana;
-    private SeekBar levelSeekbar;
     private HeroDetailObject heroDetail;
     private int level;
     private static final int HP_BASE = 200;
@@ -70,8 +72,7 @@ public class HeroBioFragment extends Fragment {
     private static final int MANA_GAIN_PER_INTELLIGENCE = 11;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_hero_bio, null);
-        return v;
+        return inflater.inflate(R.layout.fragment_hero_bio, container ,false);
     }
 
 
@@ -123,15 +124,15 @@ public class HeroBioFragment extends Fragment {
         skill2 = (ImageView) activity.findViewById(R.id.fragment_hero_bio_skill_2);
         skill3 = (ImageView) activity.findViewById(R.id.fragment_hero_bio_skill_3);
         skill4 = (ImageView) activity.findViewById(R.id.fragment_hero_bio_skill_4);
-        hp = (ProgressBar) activity.findViewById(R.id.activity_hero_bio_hp);
-        mana = (ProgressBar) activity.findViewById(R.id.activity_hero_bio_mana);
-        levelSeekbar = (SeekBar) activity.findViewById(R.id.fragment_hero_bio_level);
+        ProgressBar hp = (ProgressBar) activity.findViewById(R.id.activity_hero_bio_hp);
+        ProgressBar mana = (ProgressBar) activity.findViewById(R.id.activity_hero_bio_mana);
+        SeekBar levelSeekbar = (SeekBar) activity.findViewById(R.id.fragment_hero_bio_level);
         levelSeekbar.setOnSeekBarChangeListener(new levelBarListener());
         hp.getProgressDrawable().setColorFilter(
                 Color.RED, android.graphics.PorterDuff.Mode.SRC_IN);
         mana.getProgressDrawable().setColorFilter(Color.BLUE, PorterDuff.Mode.SRC_IN);
 
-        new ParseItem().execute();
+        new ParseItem(this).execute();
     }
 
 
@@ -140,11 +141,11 @@ public class HeroBioFragment extends Fragment {
         @Override
         public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
             level = progress + 1;
-            hpText.setText(calculateHP() + " hp");
-            manaText.setText(calculateMana() + " mp");
+            hpText.setText(format(getResources().getString(R.string.hp), calculateHP()));
+            manaText.setText(format(getResources().getString(R.string.mp), calculateMana()));
             int[] attackValue = calculateAttackBaseOnPrimaryAttribute();
-            attack.setText(attackValue[0] + " - " + attackValue[1]);
-            defense.setText(calculateDefense() + "");
+            attack.setText(format(getResources().getString(R.string.damage_range), attackValue[0], attackValue[1]));
+            defense.setText(format(getDefault(),"%1d", calculateDefense()));
         }
 
         @Override
@@ -159,9 +160,14 @@ public class HeroBioFragment extends Fragment {
     }
 
     private class ParseItem extends AsyncTask<Void, Void, Void> {
+        private WeakReference<HeroBioFragment> fragmentWeakReference;
+        public ParseItem(HeroBioFragment heroBioFragment) {
+            fragmentWeakReference = new WeakReference<>(heroBioFragment);
+        }
 
         @Override
         protected Void doInBackground(Void... params) {
+            fragmentWeakReference.get();
             int imageRes = context.getResources().getIdentifier("hero_" + id
                     , "raw", context.getPackageName());
 
@@ -175,6 +181,7 @@ public class HeroBioFragment extends Fragment {
                     writer.write(buffer, 0, n);
                 }
             } catch (Exception e) {
+                Log.e("ERROR", e.getMessage());
             } finally {
                 try {
                     is.close();
@@ -228,8 +235,15 @@ public class HeroBioFragment extends Fragment {
                 ability.setAttributes(abilityJson.getString("attribute"));
                 ability.setCmb(abilityJson.getString("cmb"));
                 ability.setLore(abilityJson.getString("lore"));
-                ability.setMainSkill(abilityJson.getInt("mainSkill") == 0 ? false : true);
-                heroDetail.getAbilityList().add(ability);
+                ability.setMainSkill(abilityJson.getInt("mainSkill") != 0);
+                heroDetail.getAbilities().add(ability);
+            }
+            JSONArray taletns = jsonObject.getJSONArray("Talents");
+            for (int i = 0; i < taletns.length() ; i++) {
+                JSONObject talent = taletns.getJSONObject(i);
+                Skill s = new Skill();
+                s.setId(talent.getInt("id"));
+                s.setDesc(talent.getString("desc"));
             }
         }
 
@@ -240,23 +254,23 @@ public class HeroBioFragment extends Fragment {
             level = 1;
             lore.setText(heroDetail.getBio());
             avatar.setImageResource(context.getResources().getIdentifier("hero_" + heroDetail.getId(), "drawable", context.getPackageName()));
-            hpText.setText(calculateHP() + " hp");
-            manaText.setText(calculateMana() + " mp");
-            strength.setText(heroDetail.getStrengthIni() + "");
-            agility.setText(heroDetail.getAgilityIni() + "");
-            intelligence.setText(heroDetail.getIntelligenceIni() + "");
-            moveSpeed.setText(heroDetail.getSpeed() + "");
+            hpText.setText(format(getResources().getString(R.string.hp), calculateHP()));
+            manaText.setText(format(getResources().getString(R.string.mp), calculateMana()));
+            strength.setText(format(getDefault(),"%1d", heroDetail.getStrengthIni()));
+            agility.setText(format(getDefault(),"%1d", heroDetail.getAgilityIni()));
+            intelligence.setText(format(getDefault(),"%1d", heroDetail.getIntelligenceIni()));
+            moveSpeed.setText(format(getDefault(), "%1d", heroDetail.getSpeed()));
             int[] attackValue = calculateAttackBaseOnPrimaryAttribute();
-            attack.setText(attackValue[0] + " - " + attackValue[1]);
-            defense.setText(calculateDefense() + "");
-            strengthGain.setText("STR+: " + heroDetail.getStrengthGain());
-            agilityGain.setText("AGI+: " + heroDetail.getAgilityGain());
-            intelligenceGain.setText("INT+: " + heroDetail.getIntelligenceGain());
-            turnRate.setText("Turn rate: " + heroDetail.getTurnRate());
-            attackRange.setText("Range: " + heroDetail.getAttackRange());
-            bat.setText("BAT: " + heroDetail.getBaseAttackTime());
+            attack.setText(format(getResources().getString(R.string.damage_range), attackValue[0], attackValue[1]));
+            defense.setText(format(getDefault(), ONE_DECIMAL_FORMAT, calculateDefense()));
+            strengthGain.setText(format(getResources().getString(R.string.strength_gain), Double.toString(heroDetail.getStrengthGain())));
+            agilityGain.setText(format(getResources().getString(R.string.agility_gain), Double.toString(heroDetail.getAgilityGain())));
+            intelligenceGain.setText(format(getResources().getString(R.string.intelligence_gain), Double.toString(heroDetail.getIntelligenceGain())));
+            turnRate.setText(format(getResources().getString(R.string.turnrate), Double.toString(heroDetail.getTurnRate())));
+            attackRange.setText(format(getResources().getString(R.string.range), heroDetail.getAttackRange()));
+            bat.setText(format(getResources().getString(R.string.bat), Double.toString(heroDetail.getBaseAttackTime())));
             List<Ability> abilitiesList = new ArrayList<>();
-            for (Ability ability: heroDetail.getAbilityList()) {
+            for (Ability ability: heroDetail.getAbilities()) {
                 if(ability.isMainSkill()){
                     abilitiesList.add(ability);
                 }
@@ -319,7 +333,7 @@ public class HeroBioFragment extends Fragment {
     }
 
     public interface OnSkillClickCallBack {
-        public void onSkillClicked(Integer id);
+        void onSkillClicked(Integer id);
     }
     private class OnSkillClickListener implements View.OnClickListener{
         @Override

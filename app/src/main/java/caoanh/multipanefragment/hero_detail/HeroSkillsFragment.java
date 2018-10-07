@@ -56,7 +56,7 @@ public class HeroSkillsFragment extends Fragment {
         if (bundle != null) {
             skillClicked = bundle.getInt("Skill_Name", 0);
         }
-        for (final Ability ability : heroDetail.getAbilityList()) {
+        for (final Ability ability : heroDetail.getAbilities()) {
             final RelativeLayout upperLayout = new RelativeLayout(activity);
             RelativeLayout.LayoutParams LLParams = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
             upperLayout.setLayoutParams(LLParams);

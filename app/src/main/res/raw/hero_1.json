@@ -18,13 +18,13 @@
   "TurnRate": 0.5,
   "AttackRange": 150,
   "BAT": 1.45,
-  "Abilities" : [
+  "Abilities": [
     {
       "id": 5003,
       "dname": "Mana Break",
       "affects": "ABILITY: <span >Passive</span><br />DAMAGE TYPE: <span ><font color=\"#71a9ea\">Physical</font></span><br />PIERCES SPELL IMMUNITY: <span >No</span><br />",
       "desc": "Burns an opponent's mana on each attack.  Mana Break deals 60% of the mana burned as damage to the target.\r\n\r\nMana Break is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.",
-      "notes": 	"Mana Burn is blocked by spell immunity.<br />You can lifeleech the damage dealt by this skill with a Lifesteal aura.",
+      "notes": "Mana Burn is blocked by spell immunity.<br />You can lifeleech the damage dealt by this skill with a Lifesteal aura.",
       "dmg": "",
       "attribute": "MANA BURNED PER HIT: <span >28 / 40 / 52 / 64</span><br/>",
       "cmb": "",
@@ -37,7 +37,7 @@
       "dname": "Blink",
       "affects": "ABILITY: <span >Point Target</span><br />",
       "desc": "Short distance teleportation that allows Anti-Mage to move in and out of combat.",
-      "notes": 	"You can use Blink to dodge incoming projectiles.",
+      "notes": "You can use Blink to dodge incoming projectiles.",
       "dmg": "",
       "attribute": "RANGE: <span >925 / 1000 / 1075 / 1150</span><br/>",
       "cmb": "<img src=\"mana\" /> 60 &emsp <img src=\"cooldown\"/> 12/9/7/5",
@@ -49,7 +49,7 @@
       "id": 5005,
       "dname": "Spell Shield",
       "affects": "ABILITY: <span >Passive</span><br />",
-      "desc": 	"Increases Anti-Mage's resistance to magic damage.\nUpgradable by Aghanim's Scepter.",
+      "desc": "Increases Anti-Mage's resistance to magic damage.\nUpgradable by Aghanim's Scepter.",
       "notes": "Stacks multiplicatively with other spell resistance sources.",
       "dmg": "",
       "attribute": "RESISTANCE: <span >26% / 34% / 42% / 50%</span><br/>",
@@ -65,17 +65,45 @@
       "desc": "For each point of mana missing by the target unit, damage is dealt to it and surrounding enemies.  The main target is also mini-stunned.",
       "notes": "The stun passes through spell immunity.<br />Damage is calculated based on the primary target's mana, but applied to all enemies within the area of effect.",
       "dmg": "",
-      "attribute":"DAMAGE: <span >0.6 / 0.85 / 1.1</span><br />\nSTUN DURATION: <span >0.3</span><br />\nRADIUS: <span >500</span><br/>",
+      "attribute": "DAMAGE: <span >0.6 / 0.85 / 1.1</span><br />\nSTUN DURATION: <span >0.3</span><br />\nRADIUS: <span >500</span><br/>",
       "cmb": "<img src=\"mana\"/> 125/200/275 &emsp <img src=\"cooldown\"/> 70",
       "lore": "After bringing enemies to their knees, Anti-Mage punishes them for their use of the arcane arts.",
       "image": "skill_5006",
       "mainSkill": 1
     }
   ],
-  "Talent": [
+  "Talents": [
     {
-      "id": 1,
-      "Description": "sad"
+      "id": 6137,
+      "desc": "+10 Strength"
+    },
+    {
+      "id": 5906,
+      "desc": "+20 Attack Speed"
+    },
+    {
+      "id": 6606,
+      "desc": "+400 Blink Cast Range"
+    },
+    {
+      "id": 5929,
+      "desc": "+15 Agility"
+    },
+    {
+      "id": 6800,
+      "desc": "Blink Uncontrollable Illusion"
+    },
+    {
+      "id": 6012,
+      "desc": "-2.5s Blink Cooldown"
+    },
+    {
+      "id": 6607,
+      "desc": "+25% Spell Shield"
+    },
+    {
+      "id": 6353,
+      "desc": "-50s Mana Void Cooldown"
     }
   ]
 }

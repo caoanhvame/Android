@@ -4,11 +4,11 @@ package caoanh.multipanefragment.hero_detail;
  * Created by anhhpc on 6/27/2017.
  */
 
-public class Ability {
-    private int id;
+public class Ability extends Skill {
+
     private String dname;
     private String affects;
-    private String desc;
+
     private String notes;
     private String dmg;
     private String attributes;
@@ -17,13 +17,6 @@ public class Ability {
     private String image;
     private boolean isMainSkill;
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getDname() {
         return dname;
@@ -39,14 +32,6 @@ public class Ability {
 
     public void setAffects(String affects) {
         this.affects = affects;
-    }
-
-    public String getDesc() {
-        return desc;
-    }
-
-    public void setDesc(String desc) {
-        this.desc = desc;
     }
 
     public String getNotes() {
