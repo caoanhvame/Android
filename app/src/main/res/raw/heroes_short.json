@@ -791,10 +791,28 @@
             "Name": "Monkey king",
             "Fraction": "Radiant",
             "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_120",
+            "Id": 120,
+            "Name": "Pangolier",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Agility"
+        },
+        {
+            "Image": "hero_119",
+            "Id": 119,
+            "Name": "Dark willow",
+            "Fraction": "Radiant",
+            "PrimaryAttribute": "Intelligence"
+        },
+        {
+            "Image": "hero_121",
+            "Id": 121,
+            "Name": "Grim stroke",
+            "Fraction": "Dire",
+            "PrimaryAttribute": "Intelligence"
         }
-  //5723: Jingu Mastery
-  //5716: Boundless Strike
-  //5723:
-  //5716: Wukong's Command
+
     ]
 }

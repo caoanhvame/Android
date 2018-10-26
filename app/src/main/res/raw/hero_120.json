@@ -1,0 +1,108 @@
+{
+  "Id": 120,
+  "Name": "Pangolier",
+  "Fraction": "Radiant",
+  "PrimaryAttribute": "Agility",
+  "Bio": "The men and women that make up the Nivan Gallants live a life of swordplay, chandelier swinging, and tawdry romance. And while all adhere to their creed that “A life of adventure is the only life worth living,” the exploits of Donté Panlin still manage to raise the eyebrows of even the most hedonistic of swordsmen. There is no monster he won’t slay. No creature he won’t woo. No tyrant he won’t stand against. And no noble immune to his silver tongue. ",
+  "StrengthIni": 17,
+  "AgilityIni": 18,
+  "IntelligenceIni": 16,
+  "StrengthGain": 2.5,
+  "AgilityGain": 2.8,
+  "IntelligenceGain": 1.9,
+  "Speed": 305,
+  "AttackMinIni": 29,
+  "AttackMaxIni": 35,
+  "DefenseIni": 1,
+  "TurnRate": 1,
+  "AttackRange": 150,
+  "BAT": 1.7,
+  "Abilities": [
+    {
+      "id": 6344,
+      "dname": "Swashbuckle",
+      "affects": "ABILITY: <span>Point Target</span><br />DAMAGE TYPE: <span><font color=\"#71a9ea\">Physical</font></span><br />PIERCES SPELL IMMUNITY: <span><font color=\"#70EA72\">Yes</font></span><br />",
+      "desc": "Vector Targeted. Pangolier dashes along the target line, then slashes all enemies in the drawn direction with several quick swipes.\r\n\r\nHeartpiercer has a chance to activate from this damage.",
+      "notes": "Attack modifiers have a chance to proc on Swashbuckle attacks.<br />Casting Swashbuckle during Rolling Thunder ends Rolling Thunder.",
+      "dmg": "",
+      "attribute": "DASH RANGE: <span>1000</span><br />\nSLASH RANGE: <span>900</span><br />\nSLASH WIDTH: <span>125</span><br />\nSTRIKES: <span>4</span>",
+      "cmb": "<img src=\"mana\"/> 80/90/100/110 &emsp <img src=\"cooldown\"/> 20/16/12/8",
+      "lore": "The Pangolier's blade is even nimbler than his tongue.",
+      "image": "skill_6344",
+      "mainSkill": 1
+    },
+    {
+      "id": 6461,
+      "dname": "Shield Crash",
+      "affects": "ABILITY: <span>No Target</span><br />DAMAGE TYPE: <span>Magical</span><br />PIERCES SPELL IMMUNITY: <span>No</span><br />",
+      "desc": "Pangolier jumps in the air and slams back to the ground, damaging all enemies in a radius. For each enemy hero hit, he gains a percentage of incoming damage reduction for a short time.\r\n\r\nForward movement is maintained if Shield Crash is used while Rolling Thunder is active, and allows Rolling Thunder to clear walls or cliffs.",
+      "notes": "You can use Blink to dodge incoming projectiles.",
+      "dmg": "",
+      "attribute": "DAMAGE: <span>75 / 150 / 225 / 300</span><br />\nREDUCTION PER HERO: <span>9% / 12% / 15% / 18%</span><br />\nREDUCTION DURATION: <span>10</span>",
+      "cmb": "<img src=\"mana\"/> 90/100/110/120 &emsp <img src=\"cooldown\"/> 19/17/15/13",
+      "lore": "Only in the midst of his enemies does the Pangolier truly thrive.",
+      "image": "skill_6461",
+      "mainSkill": 1
+    },
+    {
+      "id": 6346,
+      "dname": "Heartpiercer",
+      "affects": "ABILITY: <span>Passive</span><br />PIERCES SPELL IMMUNITY: <span>No</span><br />",
+      "desc": "Pangolier reads his enemies perfectly, deftly slipping his blade past defenses. Each attack has a chance to negate enemy armor and slow the target for a duration, activating after a short delay.",
+      "notes": "Does not proc when attacking Roshan or buildings.",
+      "dmg": "",
+      "attribute": "PIERCE CHANCE: <span>15%</span><br />\nDURATION: <span>2 / 3 / 4 / 5</span><br />\nMOVE SLOW: <span>35 / 40 / 45 / 50</span><br />\nDEBUFF DELAY: <span>2</span>",
+      "cmb": "",
+      "lore": "These fools know nothing of real armor...",
+      "image": "skill_6346",
+      "mainSkill": 1
+    },
+    {
+      "id": 6343,
+      "dname": "Rolling Thunder",
+      "affects": "ABILITY: <span>No Target</span><br />DAMAGE TYPE: <span>Magical</span><br />PIERCES SPELL IMMUNITY: <span>No</span><br />",
+      "desc": "Pangolier curls into a magic-immune ball and rolls out. When rolling, he moves at an increased speed and can move through trees, but has a decreased ability to turn. Striking enemies knocks them back, inflicting damage and stunning them when they land. \r\n\r\nColliding with walls or cliffs will cause a temporary pause while Pangolier reverses in direction.\r\n\r\nDISPEL TYPE: Basic Dispel",
+      "notes": "Enemies can be stunned multiple times per use, but cannot be affected a subsequent time until the previous stun duration ends.",
+      "dmg": "DAMAGE: <span>200 / 275 / 350</span><br />",
+      "attribute": "TRANSFORM TIME: <span>1.2</span><br />\nROLL SPEED: <span>600</span><br />\nRADIUS: <span>150</span><br />\nSTUN DURATION: <span>1 / 1.25 / 1.5</span><br />\nKNOCKBACK DISTANCE: <span>150</span>",
+      "cmb": "<img src=\"mana\"/> 100 &emsp <img src=\"cooldown\"/> 70",
+      "lore": "Where his ancestors sought only refuge, the Pangolier saw opportunity...",
+      "image": "skill_6343",
+      "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 7132,
+      "desc": "+1.5 Mana Regen"
+    },
+    {
+      "id": 5919,
+      "desc": "+25 Movement Speed"
+    },
+    {
+      "id": 6463,
+      "desc": "2s Shield Crash CD in Ball "
+    },
+    {
+      "id": 9135,
+      "desc": "+2s Rolling Thunder Duration"
+    },
+    {
+      "id": 9060,
+      "desc": "+40 Swashbuckle Damage"
+    },
+    {
+      "id": 6080,
+      "desc": "+20 Strength"
+    },
+    {
+      "id": 9061,
+      "desc": "-3s Swashbuckle Cooldown"
+    },
+    {
+      "id": 9062,
+      "desc": "-35s Rolling Thunder Cooldown"
+    }
+  ]
+}

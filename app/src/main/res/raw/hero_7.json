@@ -14,7 +14,7 @@
   "Speed": 310,
   "AttackMinIni": 24,
   "AttackMaxIni": 34,
-  "DefenseIni": 1,
+  "DefenseIni": 0,
   "TurnRate": 0.9,
   "AttackRange": 150,
   "BAT": 1.7,

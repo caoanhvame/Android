@@ -2,6 +2,7 @@ package caoanh.multipanefragment.hero_detail;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.res.Resources;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.os.AsyncTask;
@@ -41,7 +42,7 @@ import static java.util.Locale.getDefault;
 
 public class HeroBioFragment extends Fragment {
 
-    private OnSkillClickCallBack callBack;
+    private static OnSkillClickCallBack callBack;
     private TextView lore;
     private TextView hpText;
     private TextView manaText;
@@ -63,7 +64,6 @@ public class HeroBioFragment extends Fragment {
     private ImageView skill3;
     private ImageView skill4;
     private int id;
-    private Context context;
     private HeroDetailObject heroDetail;
     private int level;
     private static final int HP_BASE = 200;
@@ -96,8 +96,6 @@ public class HeroBioFragment extends Fragment {
 
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-
-        context = getActivity();
         Bundle bundle = this.getArguments();
         if (bundle != null) {
             id = bundle.getInt("Id", 0);
@@ -132,7 +130,7 @@ public class HeroBioFragment extends Fragment {
                 Color.RED, android.graphics.PorterDuff.Mode.SRC_IN);
         mana.getProgressDrawable().setColorFilter(Color.BLUE, PorterDuff.Mode.SRC_IN);
 
-        new ParseItem(this).execute();
+        new ParseItem(this, getResources()).execute();
     }
 
 
@@ -159,19 +157,22 @@ public class HeroBioFragment extends Fragment {
         }
     }
 
-    private class ParseItem extends AsyncTask<Void, Void, Void> {
+    private static class ParseItem extends AsyncTask<Void, Void, Void> {
         private WeakReference<HeroBioFragment> fragmentWeakReference;
-        public ParseItem(HeroBioFragment heroBioFragment) {
+        private HeroBioFragment fragment;
+        private Resources resources;
+        ParseItem(HeroBioFragment heroBioFragment, Resources resources) {
             fragmentWeakReference = new WeakReference<>(heroBioFragment);
+            fragment = fragmentWeakReference.get();
+            this.resources = resources;
         }
 
         @Override
         protected Void doInBackground(Void... params) {
-            fragmentWeakReference.get();
-            int imageRes = context.getResources().getIdentifier("hero_" + id
-                    , "raw", context.getPackageName());
+            int imageRes = fragment.getResources().getIdentifier("hero_" + fragment.id
+                    , "raw", fragment.getContext().getPackageName());
 
-            InputStream is = getResources().openRawResource(imageRes);
+            InputStream is = resources.openRawResource(imageRes);
             Writer writer = new StringWriter();
             char[] buffer = new char[1024];
             try {
@@ -203,24 +204,23 @@ public class HeroBioFragment extends Fragment {
 
         private void parseJson(String jsonString) throws JSONException {
             JSONObject jsonObject = new JSONObject(jsonString);
-            heroDetail = new HeroDetailObject();
-            heroDetail.setId(jsonObject.getInt("Id"));
-            heroDetail.setBio(jsonObject.getString("Bio"));
-            heroDetail.setPrimaryAttribute(jsonObject.getString("PrimaryAttribute"));
-            heroDetail.setImage(jsonObject.getString("Image"));
-            heroDetail.setStrengthIni(jsonObject.getInt("StrengthIni"));
-            heroDetail.setStrengthGain(jsonObject.getDouble("StrengthGain"));
-            heroDetail.setAgilityIni(jsonObject.getInt("AgilityIni"));
-            heroDetail.setAgilityGain(jsonObject.getDouble("AgilityGain"));
-            heroDetail.setIntelligenceIni(jsonObject.getInt("IntelligenceIni"));
-            heroDetail.setIntelligenceGain(jsonObject.getDouble("IntelligenceGain"));
-            heroDetail.setSpeed(jsonObject.getInt("Speed"));
-            heroDetail.setAttackMinIni(jsonObject.getInt("AttackMinIni"));
-            heroDetail.setAttackMaxIni(jsonObject.getInt("AttackMaxIni"));
-            heroDetail.setDefenseIni(jsonObject.getInt("DefenseIni"));
-            heroDetail.setTurnRate(jsonObject.getDouble("TurnRate"));
-            heroDetail.setAttackRange(jsonObject.getInt("AttackRange"));
-            heroDetail.setBaseAttackTime(jsonObject.getDouble("BAT"));
+            fragment.heroDetail = new HeroDetailObject();
+            fragment.heroDetail.setId(jsonObject.getInt("Id"));
+            fragment.heroDetail.setBio(jsonObject.getString("Bio"));
+            fragment.heroDetail.setPrimaryAttribute(jsonObject.getString("PrimaryAttribute"));
+            fragment.heroDetail.setStrengthIni(jsonObject.getInt("StrengthIni"));
+            fragment.heroDetail.setStrengthGain(jsonObject.getDouble("StrengthGain"));
+            fragment.heroDetail.setAgilityIni(jsonObject.getInt("AgilityIni"));
+            fragment.heroDetail.setAgilityGain(jsonObject.getDouble("AgilityGain"));
+            fragment.heroDetail.setIntelligenceIni(jsonObject.getInt("IntelligenceIni"));
+            fragment.heroDetail.setIntelligenceGain(jsonObject.getDouble("IntelligenceGain"));
+            fragment.heroDetail.setSpeed(jsonObject.getInt("Speed"));
+            fragment.heroDetail.setAttackMinIni(jsonObject.getInt("AttackMinIni"));
+            fragment.heroDetail.setAttackMaxIni(jsonObject.getInt("AttackMaxIni"));
+            fragment.heroDetail.setDefenseIni(jsonObject.getInt("DefenseIni"));
+            fragment.heroDetail.setTurnRate(jsonObject.getDouble("TurnRate"));
+            fragment.heroDetail.setAttackRange(jsonObject.getInt("AttackRange"));
+            fragment.heroDetail.setBaseAttackTime(jsonObject.getDouble("BAT"));
             JSONArray abilities = jsonObject.getJSONArray("Abilities");
             for (int i = 0; i < abilities.length(); i++) {
                 JSONObject abilityJson = abilities.getJSONObject(i);
@@ -236,7 +236,7 @@ public class HeroBioFragment extends Fragment {
                 ability.setCmb(abilityJson.getString("cmb"));
                 ability.setLore(abilityJson.getString("lore"));
                 ability.setMainSkill(abilityJson.getInt("mainSkill") != 0);
-                heroDetail.getAbilities().add(ability);
+                fragment.heroDetail.getAbilities().add(ability);
             }
             JSONArray taletns = jsonObject.getJSONArray("Talents");
             for (int i = 0; i < taletns.length() ; i++) {
@@ -250,47 +250,54 @@ public class HeroBioFragment extends Fragment {
         @Override
         protected void onPostExecute(Void aVoid) {
             super.onPostExecute(aVoid);
-            ((HeroDetailActivity)getActivity()).heroDetail = heroDetail;
-            level = 1;
-            lore.setText(heroDetail.getBio());
-            avatar.setImageResource(context.getResources().getIdentifier("hero_" + heroDetail.getId(), "drawable", context.getPackageName()));
-            hpText.setText(format(getResources().getString(R.string.hp), calculateHP()));
-            manaText.setText(format(getResources().getString(R.string.mp), calculateMana()));
-            strength.setText(format(getDefault(),"%1d", heroDetail.getStrengthIni()));
-            agility.setText(format(getDefault(),"%1d", heroDetail.getAgilityIni()));
-            intelligence.setText(format(getDefault(),"%1d", heroDetail.getIntelligenceIni()));
-            moveSpeed.setText(format(getDefault(), "%1d", heroDetail.getSpeed()));
-            int[] attackValue = calculateAttackBaseOnPrimaryAttribute();
-            attack.setText(format(getResources().getString(R.string.damage_range), attackValue[0], attackValue[1]));
-            defense.setText(format(getDefault(), ONE_DECIMAL_FORMAT, calculateDefense()));
-            strengthGain.setText(format(getResources().getString(R.string.strength_gain), Double.toString(heroDetail.getStrengthGain())));
-            agilityGain.setText(format(getResources().getString(R.string.agility_gain), Double.toString(heroDetail.getAgilityGain())));
-            intelligenceGain.setText(format(getResources().getString(R.string.intelligence_gain), Double.toString(heroDetail.getIntelligenceGain())));
-            turnRate.setText(format(getResources().getString(R.string.turnrate), Double.toString(heroDetail.getTurnRate())));
-            attackRange.setText(format(getResources().getString(R.string.range), heroDetail.getAttackRange()));
-            bat.setText(format(getResources().getString(R.string.bat), Double.toString(heroDetail.getBaseAttackTime())));
+            ((HeroDetailActivity)fragment.getActivity()).heroDetail = fragment.heroDetail;
+            fragment.level = 1;
+            fragment.lore.setText(fragment.heroDetail.getBio());
+            fragment.avatar.setImageResource(fragment.getResources().getIdentifier("hero_" + fragment.heroDetail.getId(), "drawable", fragment.getContext().getPackageName()));
+            fragment.hpText.setText(format(resources.getString(R.string.hp), fragment.calculateHP()));
+            fragment.manaText.setText(format(resources.getString(R.string.mp), fragment.calculateMana()));
+            fragment.strength.setText(format(getDefault(),"%1d", fragment.heroDetail.getStrengthIni()));
+            fragment.agility.setText(format(getDefault(),"%1d", fragment.heroDetail.getAgilityIni()));
+            fragment.intelligence.setText(format(getDefault(),"%1d", fragment.heroDetail.getIntelligenceIni()));
+            fragment. moveSpeed.setText(format(getDefault(), "%1d", fragment.heroDetail.getSpeed()));
+            int[] attackValue = fragment.calculateAttackBaseOnPrimaryAttribute();
+            fragment.attack.setText(format(resources.getString(R.string.damage_range), attackValue[0], attackValue[1]));
+            fragment.defense.setText(format(getDefault(), ONE_DECIMAL_FORMAT, fragment.calculateDefense()));
+            fragment.strengthGain.setText(format(resources.getString(R.string.strength_gain), Double.toString(fragment.heroDetail.getStrengthGain())));
+            fragment.agilityGain.setText(format(resources.getString(R.string.agility_gain), Double.toString(fragment.heroDetail.getAgilityGain())));
+            fragment.intelligenceGain.setText(format(resources.getString(R.string.intelligence_gain), Double.toString(fragment.heroDetail.getIntelligenceGain())));
+            fragment.turnRate.setText(format(resources.getString(R.string.turnrate), Double.toString(fragment.heroDetail.getTurnRate())));
+            fragment.attackRange.setText(format(resources.getString(R.string.range), fragment.heroDetail.getAttackRange()));
+            fragment.bat.setText(format(resources.getString(R.string.bat), Double.toString(fragment.heroDetail.getBaseAttackTime())));
             List<Ability> abilitiesList = new ArrayList<>();
-            for (Ability ability: heroDetail.getAbilities()) {
+            for (Ability ability: fragment.heroDetail.getAbilities()) {
                 if(ability.isMainSkill()){
                     abilitiesList.add(ability);
                 }
             }
             OnSkillClickListener skillClickListener = new OnSkillClickListener();
-            skill1.setImageResource(context.getResources().getIdentifier(abilitiesList.get(0).getImage(), "drawable", context.getPackageName()));
-            skill1.setTag(abilitiesList.get(0).getId());
-            skill1.setOnClickListener (skillClickListener);
 
-            skill2.setImageResource(context.getResources().getIdentifier(abilitiesList.get(1).getImage(), "drawable", context.getPackageName()));
-            skill2.setOnClickListener (skillClickListener);
-            skill2.setTag(abilitiesList.get(1).getId());
+            fragment.skill1.setImageResource(fragment.getResources().getIdentifier(abilitiesList.get(0).getImage(), "drawable", fragment.getContext().getPackageName()));
+            fragment.skill1.setTag(abilitiesList.get(0).getId());
+            fragment.skill1.setOnClickListener (skillClickListener);
 
-            skill3.setImageResource(context.getResources().getIdentifier(abilitiesList.get(2).getImage(), "drawable", context.getPackageName()));
-            skill3.setOnClickListener (skillClickListener);
-            skill3.setTag(abilitiesList.get(2).getId());
+            fragment.skill2.setImageResource(fragment.getResources().getIdentifier(abilitiesList.get(1).getImage(), "drawable", fragment.getContext().getPackageName()));
+            fragment.skill2.setOnClickListener (skillClickListener);
+            fragment.skill2.setTag(abilitiesList.get(1).getId());
 
-            skill4.setImageResource(context.getResources().getIdentifier(abilitiesList.get(3).getImage(), "drawable", context.getPackageName()));
-            skill4.setOnClickListener (skillClickListener);
-            skill4.setTag(abilitiesList.get(3).getId());
+            fragment.skill3.setImageResource(fragment.getResources().getIdentifier(abilitiesList.get(2).getImage(), "drawable", fragment.getContext().getPackageName()));
+            fragment.skill3.setOnClickListener (skillClickListener);
+            fragment.skill3.setTag(abilitiesList.get(2).getId());
+
+            fragment.skill4.setImageResource(fragment.getResources().getIdentifier(abilitiesList.get(3).getImage(), "drawable", fragment.getContext().getPackageName()));
+            fragment.skill4.setOnClickListener (skillClickListener);
+            fragment.skill4.setTag(abilitiesList.get(3).getId());
+        }
+        private class OnSkillClickListener implements View.OnClickListener{
+            @Override
+            public void onClick(View v) {
+                callBack.onSkillClicked((Integer)v.getTag());
+            }
         }
     }
 
@@ -335,10 +342,5 @@ public class HeroBioFragment extends Fragment {
     public interface OnSkillClickCallBack {
         void onSkillClicked(Integer id);
     }
-    private class OnSkillClickListener implements View.OnClickListener{
-        @Override
-        public void onClick(View v) {
-            callBack.onSkillClicked((Integer)v.getTag());
-        }
-    }
+
 }

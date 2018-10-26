@@ -33,8 +33,8 @@ public class HeroSkillsFragment extends Fragment {
     private Context context;
     private Integer skillClicked;
     private static final int PADDING_LEFT = 20;
-    private static final String PREFIX= "<font size=3 color=#1E90FF>";
-    private static final String AFFFIX= "</font>";
+    private static final String PREFIX= "<br/><font size=3 color=#1E90FF>";
+    private static final String AFFIX = "</font>";
     public HeroSkillsFragment() {
     }
 
@@ -113,10 +113,14 @@ public class HeroSkillsFragment extends Fragment {
             dmgAndAttrParam.addRule(RelativeLayout.BELOW, R.id.skil_cd_mana);
             dmgAndAttr.setId(R.id.skill_damage_and_attr);
             dmgAndAttr.setPadding(PADDING_LEFT ,0,0,0);
+            String dmgAndAttrs = ability.getDmg() + ability.getAttributes() + ability.getAffects();
+            if (!ability.getNotes().equals("")) {
+                dmgAndAttrs += PREFIX +ability.getNotes() + AFFIX;
+            }
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-                dmgAndAttr.setText(Html.fromHtml(ability.getDmg() + ability.getAttributes() + ability.getAffects() + PREFIX +ability.getNotes() + AFFFIX, Html.FROM_HTML_MODE_COMPACT));
+                dmgAndAttr.setText(Html.fromHtml(dmgAndAttrs , Html.FROM_HTML_MODE_COMPACT));
             } else {
-                dmgAndAttr.setText(Html.fromHtml(ability.getDmg() + ability.getAttributes() + ability.getAffects()+ PREFIX +ability.getNotes() + AFFFIX));
+                dmgAndAttr.setText(Html.fromHtml(dmgAndAttrs));
             }
             dmgAndAttr.setLayoutParams(dmgAndAttrParam);
             /*---*/
