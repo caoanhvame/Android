@@ -1,5 +1,4 @@
 {
-  "Image": "hero_arc_warden",
   "Id": 113,
   "Name": "Arc Warden",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "Warped by the power of its peers, Arc Warden becomes what it despises most: disharmony.",
       "image": "skill_5683",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5950,
+      "desc": "8% Cooldown Reduction"
+    },
+    {
+      "id": 6016,
+      "desc": "+25 Attack Speed"
+    },
+    {
+      "id": 6195,
+      "desc": "+350 Health"
+    },
+    {
+      "id": 7120,
+      "desc": "+400 Flux Cast Range"
+    },
+    {
+      "id": 7104,
+      "desc": "-1.5s Spark Wraith Cooldown"
+    },
+    {
+      "id": 5944,
+      "desc": "+125 Attack Range"
+    },
+    {
+      "id": 6121,
+      "desc": "30% Lifesteal"
+    },
+    {
+      "id": 6287,
+      "desc": "+350 Spark Wraith Damage"
     }
   ]
 }

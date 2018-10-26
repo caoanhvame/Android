@@ -1,5 +1,4 @@
 {
-  "Image": "hero_monkey_king",
   "Id": 114,
   "Name": "Monkey king",
   "Fraction": "Radiant",
@@ -109,6 +108,40 @@
       "lore": "Monkey King rips out a tuft of fur to blow at his enemies, charging each strand to transform into a copy of himself.",
       "image": "skill_5725",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 7024,
+      "desc": "300 Tree Dance Vision AoE"
+    },
+    {
+      "id": 5906,
+      "desc": "+20 Attack Speed"
+    },
+    {
+      "id": 7038,
+      "desc": "+600 Tree Dance Cast Range"
+    },
+    {
+      "id": 6421,
+      "desc": "+75 Jingu Mastery Damage"
+    },
+    {
+      "id": 6303,
+      "desc": "+50% Boundless Strike Crit"
+    },
+    {
+      "id": 6696,
+      "desc": "+400 Primal Spring Damage"
+    },
+    {
+      "id": 6697,
+      "desc": "+100 Armor Wukong's Command"
+    },
+    {
+      "id": 7025,
+      "desc": "+1 Wukong's Command Ring"
     }
   ]
 }

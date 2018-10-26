@@ -1,5 +1,4 @@
 {
-  "Image": "hero_abyssal_underlord",
   "Id": 108,
   "Name": "Abyssal Underlord",
   "Fraction": "Dire",
@@ -83,6 +82,40 @@
       "lore": "",
       "image": "skill_5617",
       "mainSkill": 0
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6967,
+      "desc": "+18 Firestorm Wave Damage"
+    },
+    {
+      "id": 6141,
+      "desc": "+30 Movement Speed"
+    },
+    {
+      "id": 6003,
+      "desc": "+100 Cast Range"
+    },
+    {
+      "id": 6968,
+      "desc": "+15 Atrophy Attack Bonus Damage From Heroes"
+    },
+    {
+      "id": 6444,
+      "desc": "+70 Attack Speed"
+    },
+    {
+      "id": 6079,
+      "desc": "+20 Health Regen"
+    },
+    {
+      "id": 6019,
+      "desc": "+0.8s Pit of Malice Root"
+    },
+    {
+      "id": 6969,
+      "desc": "25% Firestorm Building Damage"
     }
   ]
 }

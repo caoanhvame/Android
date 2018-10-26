@@ -1,5 +1,4 @@
 {
-  "Image": "hero_morphling",
   "Id": 10,
   "Name": "Morphling",
   "Fraction": "Radiant",
@@ -109,6 +108,40 @@
       "lore": "",
       "image": "skill_5674",
       "mainSkill": 0
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6029,
+      "desc": "+10 Agility"
+    },
+    {
+      "id": 6062,
+      "desc": "+350 Waveform Range"
+    },
+    {
+      "id": 7060,
+      "desc": "+15s Morph Duration"
+    },
+    {
+      "id": 5907,
+      "desc": "+30 Attack Speed"
+    },
+    {
+      "id": 6927,
+      "desc": "Morph Targets Allies"
+    },
+    {
+      "id": 6840,
+      "desc": "Waveform Attacks Targets"
+    },
+    {
+      "id": 7052,
+      "desc": "2 Waveform Charges"
+    },
+    {
+      "id": 6698,
+      "desc": "+3 Multishot Adaptive Strike"
     }
   ]
 }

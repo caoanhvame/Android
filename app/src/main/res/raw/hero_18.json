@@ -1,5 +1,4 @@
 {
-  "Image": "hero_sven",
   "Id": 18,
   "Name": "Sven",
   "Fraction": "Radiant",
@@ -70,6 +69,40 @@
       "lore": "With the strength that shattered the Sacred Helm, the Rogue Knight stands unopposed in melee combat.",
       "image": "skill_5097",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5982,
+      "desc": "+8 Strength"
+    },
+    {
+      "id": 5961,
+      "desc": "+2 Mana Regen"
+    },
+    {
+      "id": 6141,
+      "desc": "+30 Movement Speed"
+    },
+    {
+      "id": 5976,
+      "desc": "+400 Health"
+    },
+    {
+      "id": 6176,
+      "desc": "+0.5s Electric Vortex"
+    },
+    {
+      "id": 5907,
+      "desc": "+30 Attack Speed"
+    },
+    {
+      "id": 6907,
+      "desc": "Overload Pierces Immunity"
+    },
+    {
+      "id": 6908,
+      "desc": "500 Distance Auto Remnant in Ball Lightning"
     }
   ]
 }

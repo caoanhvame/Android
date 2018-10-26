@@ -1,5 +1,4 @@
 {
-  "Image": "hero_phantom_lancer",
   "Id": 12,
   "Name": "Phantom Lancer",
   "Fraction": "Radiant",
@@ -70,6 +69,40 @@
       "lore": "Each of Azwraith's lance attacks feels like two from a normal warrior; or three; or four...",
       "image": "skill_5067",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5971,
+      "desc": "10% Evasion"
+    },
+    {
+      "id": 5906,
+      "desc": "+20 Attack Speed"
+    },
+    {
+      "id": 5903,
+      "desc": "+250 Health"
+    },
+    {
+      "id": 6400,
+      "desc": "+125 Spirit Lance Damage"
+    },
+    {
+      "id": 6146,
+      "desc": "+500 Phantom Rush Range"
+    },
+    {
+      "id": 6696,
+      "desc": "+4 Max Juxtapose Illusions"
+    },
+    {
+      "id": 6850,
+      "desc": "-7s Doppelganger CD"
+    },
+    {
+      "id": 6851,
+      "desc": "+30% Critical Strike (2x)"
     }
   ]
 }

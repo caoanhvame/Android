@@ -1,5 +1,4 @@
 {
-  "Image": "hero_tusk",
   "Id": 100,
   "Name": "Tusk",
   "Fraction": "Radiant",
@@ -96,6 +95,40 @@
       "cmb": "<img src=\"mana\"/> 100 &emsp <img src=\"cooldown\"/> 8",
       "image": "skill_5672",
       "mainSkill": 0
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6647,
+      "desc": "+40% XP Gain"
+    },
+    {
+      "id": 6007,
+      "desc": "+90 Gold/Min"
+    },
+    {
+      "id": 6195,
+      "desc": "+350 Health"
+    },
+    {
+      "id": 6411,
+      "desc": "+150 Snowball Damage"
+    },
+    {
+      "id": 6961,
+      "desc": "+300 Snowball Speed"
+    },
+    {
+      "id": 6194,
+      "desc": "+100% Walrus Punch Crit"
+    },
+    {
+      "id": 6962,
+      "desc": "12% Chance Walrus Punch"
+    },
+    {
+      "id": 6963,
+      "desc": "-6s Ice Shards Cooldown"
     }
   ]
 }

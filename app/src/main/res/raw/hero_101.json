@@ -1,5 +1,4 @@
 {
-  "Image": "hero_skywrath_mage",
   "Id": 101,
   "Name": "Skywrath Mage",
   "Fraction": "Radiant",
@@ -70,6 +69,40 @@
       "lore": "Only the most practiced of Skywrath sorcerers could hope to shape the skies into such a storm.",
       "image": "skill_5584",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5919,
+      "desc": "+25 Movement Speed"
+    },
+    {
+      "id": 5925,
+      "desc": "+8 Intelligence"
+    },
+    {
+      "id": 6181,
+      "desc": "-8s Ancient Seal Cooldown"
+    },
+    {
+      "id": 6884,
+      "desc": "+1 Arcane Bolt Per Cast"
+    },
+    {
+      "id": 6886,
+      "desc": "Global Concussive Shot"
+    },
+    {
+      "id": 6885,
+      "desc": "+15% Ancient Seal Magic Resistance Reduction"
+    },
+    {
+      "id": 6318,
+      "desc": "+300 Gold/Min"
+    },
+    {
+      "id": 6921,
+      "desc": "+600 Mystic Flare Damage"
     }
   ]
 }

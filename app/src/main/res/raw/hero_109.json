@@ -1,5 +1,4 @@
 {
-  "Image": "hero_terrorblade",
   "Id": 109,
   "Name": "Terrorblade",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "You didn't need that life, did you?  The demon marauder steals that which you hold most dear.",
       "image": "skill_5622",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5918,
+      "desc": "+20 Movement Speed"
+    },
+    {
+      "id": 5971,
+      "desc": "10% Evasion"
+    },
+    {
+      "id": 5903,
+      "desc": "+250 Health"
+    },
+    {
+      "id": 6016,
+      "desc": "+25 Attack Speed"
+    },
+    {
+      "id": 6168,
+      "desc": "+10 All Stats"
+    },
+    {
+      "id": 6942,
+      "desc": "-10s Reflection Cooldown"
+    },
+    {
+      "id": 6107,
+      "desc": "-35s Sunder Cooldown"
+    },
+    {
+      "id": 6943,
+      "desc": "+300 Metamorphosis Attack Range"
     }
   ]
 }

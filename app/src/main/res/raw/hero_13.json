@@ -1,5 +1,4 @@
 {
-  "Image": "hero_puck",
   "Id": 13,
   "Name": "Puck",
   "Fraction": "Radiant",
@@ -83,6 +82,40 @@
       "lore": "The Faerie Dragon sows confusion by forcing its enemies to vividly dream about their own mortality.",
       "image": "skill_5073",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5965,
+      "desc": "+10 Intelligence"
+    },
+    {
+      "id": 5932,
+      "desc": "+5 Armor"
+    },
+    {
+      "id": 5949,
+      "desc": "+8% Spell Amplification"
+    },
+    {
+      "id": 5941,
+      "desc": "+50 Damage"
+    },
+    {
+      "id": 6402,
+      "desc": "-8s Waning Rift Cooldown"
+    },
+    {
+      "id": 6219,
+      "desc": "+40% Illusory Orb Distance/Speed"
+    },
+    {
+      "id": 6446,
+      "desc": "+420 Gold/Min"
+    },
+    {
+      "id": 6855,
+      "desc": "Dream Coil Rapid Fire"
     }
   ]
 }

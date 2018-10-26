@@ -1,5 +1,4 @@
 {
-  "Image": "hero_sand_king",
   "Id": 16,
   "Name": "Sand King",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "Many an explorer was lost to the quicksands of the Scintillant Waste.",
       "image": "skill_5105",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5919,
+      "desc": "+25 Movement Speed"
+    },
+    {
+      "id": 5959,
+      "desc": "+200 Health"
+    },
+    {
+      "id": 6409,
+      "desc": "+50 Sand Storm DPS"
+    },
+    {
+      "id": 6530,
+      "desc": "-50 Epicenter Attack Slow"
+    },
+    {
+      "id": 6004,
+      "desc": "+10 Armor"
+    },
+    {
+      "id": 6207,
+      "desc": "+4 Epicenter Pulses"
+    },
+    {
+      "id": 8351,
+      "desc": "+35 Health Regen"
+    },
+    {
+      "id": 6872,
+      "desc": "50% Sand Storm Slow and Blind"
     }
   ]
 }

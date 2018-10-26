@@ -1,5 +1,4 @@
 {
-  "Image": "hero_winter_wyvern",
   "Id": 112,
   "Name": "Winter Wyvern",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "The oldest of the bookwurm’s spells, this curse lends truth to the old saw: sometimes the enemy of my enemy is my enemy still.",
       "image": "skill_5654",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6007,
+      "desc": "+90 Gold/Min"
+    },
+    {
+      "id": 6366,
+      "desc": "+60 Damage"
+    },
+    {
+      "id": 6195,
+      "desc": "+350 Health"
+    },
+    {
+      "id": 7022,
+      "desc": "+500 Night Vision"
+    },
+    {
+      "id": 6106,
+      "desc": "+15% Arctic Burn Slow"
+    },
+    {
+      "id": 6297,
+      "desc": "-5s Cold Embrace Cooldown"
+    },
+    {
+      "id": 6523,
+      "desc": "+1.5s Winter's Curse Duration"
+    },
+    {
+      "id": 6994,
+      "desc": "Splinter Blast 2s Stun"
     }
   ]
 }

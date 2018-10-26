@@ -1,5 +1,4 @@
 {
-  "Image": "hero_oracle",
   "Id": 111,
   "Name": "Oracle",
   "Fraction": "Radiant",
@@ -70,6 +69,40 @@
       "lore": "Foes and false prophets oft make lies of men's fates.",
       "image": "skill_5640",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6540,
+      "desc": "+1s Fortune's End Max Duration"
+    },
+    {
+      "id": 5987,
+      "desc": "+25% XP Gain"
+    },
+    {
+      "id": 6056,
+      "desc": "+150 Cast Range"
+    },
+    {
+      "id": 6008,
+      "desc": "+120 Gold/Min"
+    },
+    {
+      "id": 7130,
+      "desc": "+65 Movement Speed"
+    },
+    {
+      "id": 6970,
+      "desc": "False Promise Invisibility"
+    },
+    {
+      "id": 6710,
+      "desc": "-5s Fate's Edict Cooldown"
+    },
+    {
+      "id": 6206,
+      "desc": "+2 False Promise Duration"
     }
   ]
 }

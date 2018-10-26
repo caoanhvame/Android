@@ -1,5 +1,4 @@
 {
-  "Image": "hero_ember_spirit",
   "Id": 106,
   "Name": "Ember Spirit",
   "Fraction": "Radiant",
@@ -83,6 +82,40 @@
       "lore": "By the spirit's power are Xin's teachings spread anew.",
       "image": "skill_5607",
       "mainSkill": 0
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6009,
+      "desc": "+25 Damage"
+    },
+    {
+      "id": 6172,
+      "desc": "+200 Flame Guard Absorption"
+    },
+    {
+      "id": 6647,
+      "desc": "+50 Flame Guard DPS"
+    },
+    {
+      "id": 6176,
+      "desc": "+1s Searing Chains"
+    },
+    {
+      "id": 5989,
+      "desc": "+10% Spell Amplification"
+    },
+    {
+      "id": 6922,
+      "desc": "True Strike"
+    },
+    {
+      "id": 7050,
+      "desc": "2 Sleight of Fist Charges"
+    },
+    {
+      "id": 7051,
+      "desc": "-25 Remnant Charge Restore Time"
     }
   ]
 }

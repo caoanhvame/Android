@@ -1,5 +1,4 @@
 {
-  "Image": "hero_elder_titan",
   "Id": 103,
   "Name": "Elder Titan",
   "Fraction": "Radiant",
@@ -83,6 +82,40 @@
       "lore": 	"That which he created, the titan tears asunder.",
       "image": "skill_5594",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5919,
+      "desc": "+25 Movement Speed"
+    },
+    {
+      "id": 5959,
+      "desc": "+200 Health"
+    },
+    {
+      "id": 6138,
+      "desc": "+15% Magic Resistance"
+    },
+    {
+      "id": 6171,
+      "desc": "+30 Astral Spirit Hero Attack"
+    },
+    {
+      "id": 6444,
+      "desc": "+70 Attack Speed"
+    },
+    {
+      "id": 6378,
+      "desc": "+100 Echo Stomp Damage"
+    },
+    {
+      "id": 6720,
+      "desc": "-75 Earth Splitter Cooldown"
+    },
+    {
+      "id": 6721,
+      "desc": "100% Lifesteal"
     }
   ]
 }

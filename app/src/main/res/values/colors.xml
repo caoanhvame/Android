@@ -8,9 +8,10 @@
     <color name="blueRadiant">#92A525</color>
 
     <!--<color name="colorPrimaryLight">#84FF19</color>-->
-    <color name="colorWhite">#ffffff</color>
-    <color name="colorBlack">#000000</color>
-    <color name="colorDivider">#2FE897</color>
-    <color name="colorBorder">#a7a4a4</color>
+    <color name="black">#000000</color>
+    <color name="transperantBlack">#33000000</color>
+    <color name="lightGreen">#2FE897</color>
+    <color name="lightGrey">#a7a4a4</color>
+    <color name="darkGray">#727070</color>
     <color name="colorExtra">#fffac1</color>
 </resources>

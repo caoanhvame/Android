@@ -1,5 +1,4 @@
 {
-  "Image": "hero_nevermore",
   "Id": 11,
   "Name": "Shadow Fiend",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "The captured souls of those past slain are released to ravage their former allies.",
       "image": "skill_5064",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5949,
+      "desc": "+8% Spell Amplification"
+    },
+    {
+      "id": 5906,
+      "desc": "+20 Attack Speed"
+    },
+    {
+      "id": 6875,
+      "desc": "Presence Aura Affects Building"
+    },
+    {
+      "id": 6141,
+      "desc": "+30 Movement Speed"
+    },
+    {
+      "id": 6670,
+      "desc": "+2 Damage Per Soul"
+    },
+    {
+      "id": 6070,
+      "desc": "+150 Shadowraze Damage"
+    },
+    {
+      "id": 6912,
+      "desc": "-5 Presence Aura Armor"
+    },
+    {
+      "id": 6445,
+      "desc": "40% Cooldown Reduction"
     }
   ]
 }

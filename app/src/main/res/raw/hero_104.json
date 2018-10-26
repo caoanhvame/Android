@@ -1,5 +1,4 @@
 {
-  "Image": "hero_legion_commander",
   "Id": 104,
   "Name": "Legion Commander",
   "Fraction": "Radiant",
@@ -70,6 +69,40 @@
       "cmb": "<img src=\"mana\"/> 75 &emsp <img src=\"cooldown\"/> 50",
       "image": "skill_5598",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5982,
+      "desc": "+8 Strength"
+    },
+    {
+      "id": 5987,
+      "desc": "+25% XP Gain"
+    },
+    {
+      "id": 5907,
+      "desc": "+30 Attack Speed"
+    },
+    {
+      "id": 6671,
+      "desc": "+50 Overwhelming Odds Hero Damage"
+    },
+    {
+      "id": 6036,
+      "desc": "+50 Movement Speed"
+    },
+    {
+      "id": 6526,
+      "desc": "+10% Moment Proc Chance"
+    },
+    {
+      "id": 6218,
+      "desc": "+40 Duel Damage Bonus"
+    },
+    {
+      "id": 6449,
+      "desc": "-10s Press The Attack Cooldown"
     }
   ]
 }

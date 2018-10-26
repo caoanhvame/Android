@@ -1,5 +1,4 @@
 {
-  "Image": "hero_techies",
   "Id": 105,
   "Name": "Techies",
   "Fraction": "Radiant",
@@ -96,6 +95,40 @@
       "lore": "The downfall of Dredger's Bight!",
       "image": "skill_5602",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6317,
+      "desc": "+30% XP Gain"
+    },
+    {
+      "id": 6997,
+      "desc": "-4s Proximity Mines Cooldown"
+    },
+    {
+      "id": 6282,
+      "desc": "+300 Blast Off Damage"
+    },
+    {
+      "id": 5916,
+      "desc": "+4 Mana Regen"
+    },
+    {
+      "id": 6373,
+      "desc": "+60 Movement Speed"
+    },
+    {
+      "id": 5957,
+      "desc": "+150 Gold/Min"
+    },
+    {
+      "id": 7039,
+      "desc": "+251 Damage"
+    },
+    {
+      "id": 6998,
+      "desc": "+25 Mines Movement Speed"
     }
   ]
 }

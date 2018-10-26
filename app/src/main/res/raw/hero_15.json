@@ -1,5 +1,4 @@
 {
-  "Image": "hero_razor",
   "Id": 15,
   "Name": "Razor",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "Ride the lightning.",
       "image": "skill_5085",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5959,
+      "desc": "+200 Health"
+    },
+    {
+      "id": 5929,
+      "desc": "+15 Agility"
+    },
+    {
+      "id": 6028,
+      "desc": "+7 Static Link Damage Steal"
+    },
+    {
+      "id": 6860,
+      "desc": "+4% Unstable Current Movement Speed"
+    },
+    {
+      "id": 6004,
+      "desc": "+10 Armor"
+    },
+    {
+      "id": 6408,
+      "desc": "-0.1 Eye of the Storm Strike Interval"
+    },
+    {
+      "id": 6037,
+      "desc": "+100 Attack Speed"
+    },
+    {
+      "id": 6861,
+      "desc": "-3s Unstable Current Interval"
     }
   ]
 }

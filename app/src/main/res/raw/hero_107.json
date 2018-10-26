@@ -1,5 +1,4 @@
 {
-  "Image": "hero_earth_spirit",
   "Id": 107,
   "Name": "Earth Spirit",
   "Fraction": "Radiant",
@@ -96,6 +95,40 @@
       "lore": "At the Earth Spirit's call, the minerals in the blood and bones of his enemies rebel against the bodies they find themselves in.",
       "image": "skill_5612",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5965,
+      "desc": "+10 Intelligence"
+    },
+    {
+      "id": 5940,
+      "desc": "+40 Damage"
+    },
+    {
+      "id": 5970,
+      "desc": "+7 Armor"
+    },
+    {
+      "id": 6203,
+      "desc": "+200 Rolling Boulder Damage"
+    },
+    {
+      "id": 6055,
+      "desc": "+15% Spell Amplification"
+    },
+    {
+      "id": 5957,
+      "desc": "+150 Gold/Min"
+    },
+    {
+      "id": 6514,
+      "desc": "Geomagnetic Grip Targets Allies"
+    },
+    {
+      "id": 6640,
+      "desc": "+1.0s Boulder Smash Stun Duration"
     }
   ]
 }
