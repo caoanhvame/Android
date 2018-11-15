@@ -26,11 +26,8 @@ import caoanh.multipanefragment.R;
  */
 @SuppressWarnings("deprecation")
 public class HeroSkillsFragment extends Fragment {
-
-    private HeroDetailObject heroDetail;
-    private LinearLayout bigLayout;
+    private FragmentActivity activity;
     private ScrollView scrollView;
-    private Context context;
     private Integer skillClicked;
     private static final int PADDING_LEFT = 20;
     private static final String PREFIX= "<br/><font size=3 color=#1E90FF>";
@@ -46,16 +43,17 @@ public class HeroSkillsFragment extends Fragment {
 
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        FragmentActivity activity = getActivity();
-        context = getActivity();
-        heroDetail = ((HeroDetailActivity) activity).heroDetail;
-        bigLayout = (LinearLayout) activity.findViewById(R.id.fragment_hero_skill_big_layout);
+        activity = getActivity();
+        Context context = getActivity();
+        HeroDetailObject heroDetail = ((HeroDetailActivity) activity).getHeroDetail();
+        LinearLayout bigLayout = (LinearLayout) activity.findViewById(R.id.fragment_hero_skill_big_layout);
         scrollView = (ScrollView) activity.findViewById(R.id.fragment_hero_skill_scroll_view);
         Bundle bundle = this.getArguments();
 
         if (bundle != null) {
             skillClicked = bundle.getInt("Skill_Name", 0);
         }
+        setTalents(heroDetail);
         for (final Ability ability : heroDetail.getAbilities()) {
             final RelativeLayout upperLayout = new RelativeLayout(activity);
             RelativeLayout.LayoutParams LLParams = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
@@ -146,15 +144,19 @@ public class HeroSkillsFragment extends Fragment {
             lowerLayout.addView(lore);
             bigLayout.addView(upperLayout);
             bigLayout.addView(lowerLayout);
-            scrollView.post(new Runnable() {
-                @Override
-                public void run() {
-                    if(ability.getId() == skillClicked) {
-                        scrollView.scrollTo(0, upperLayout.getTop());
-                    }
+            scrollView.post(() -> {
+                if(ability.getId() == skillClicked) {
+                    scrollView.scrollTo(0, upperLayout.getTop());
                 }
             });
         }
+    }
+
+    private void setTalents(HeroDetailObject heroDetail) {
+        TextView left10 = (TextView)activity.findViewById(R.id.talent_left_10);
+        left10.setText(heroDetail.getTalents().get(0).getDesc());
+        TextView right10 = (TextView)activity.findViewById(R.id.talent_right_10);
+
     }
 
     private class ImageGetter implements Html.ImageGetter {

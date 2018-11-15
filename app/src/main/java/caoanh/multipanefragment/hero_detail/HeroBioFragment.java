@@ -238,9 +238,9 @@ public class HeroBioFragment extends Fragment {
                 ability.setMainSkill(abilityJson.getInt("mainSkill") != 0);
                 fragment.heroDetail.getAbilities().add(ability);
             }
-            JSONArray taletns = jsonObject.getJSONArray("Talents");
-            for (int i = 0; i < taletns.length() ; i++) {
-                JSONObject talent = taletns.getJSONObject(i);
+            JSONArray talents = jsonObject.getJSONArray("Talents");
+            for (int i = 0; i < talents.length() ; i++) {
+                JSONObject talent = talents.getJSONObject(i);
                 Skill s = new Skill();
                 s.setId(talent.getInt("id"));
                 s.setDesc(talent.getString("desc"));
@@ -250,7 +250,7 @@ public class HeroBioFragment extends Fragment {
         @Override
         protected void onPostExecute(Void aVoid) {
             super.onPostExecute(aVoid);
-            ((HeroDetailActivity)fragment.getActivity()).heroDetail = fragment.heroDetail;
+            ((HeroDetailActivity)fragment.getActivity()).setHeroDetail(fragment.heroDetail);
             fragment.level = 1;
             fragment.lore.setText(fragment.heroDetail.getBio());
             fragment.avatar.setImageResource(fragment.getResources().getIdentifier("hero_" + fragment.heroDetail.getId(), "drawable", fragment.getContext().getPackageName()));

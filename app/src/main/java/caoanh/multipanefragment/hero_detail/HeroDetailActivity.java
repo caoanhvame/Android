@@ -1,22 +1,18 @@
 package caoanh.multipanefragment.hero_detail;
 
 import android.content.Intent;
-import android.support.annotation.NonNull;
+import android.os.Bundle;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.MenuItem;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import caoanh.multipanefragment.R;
-import caoanh.multipanefragment.hero_detail.HeroBioFragment;
-import caoanh.multipanefragment.hero_detail.HeroDetailObject;
-import caoanh.multipanefragment.hero_detail.HeroSkillsFragment;
 
 
 public class HeroDetailActivity extends AppCompatActivity implements  HeroBioFragment.OnSkillClickCallBack{
@@ -24,10 +20,10 @@ public class HeroDetailActivity extends AppCompatActivity implements  HeroBioFra
     private Fragment fragment;
     private FragmentManager fragmentManager;
     private int id;
-    public HeroDetailObject heroDetail;
+    private HeroDetailObject heroDetail;
     private Integer skillIdClick=0;
     private FragmentTransaction transaction;
-    private Map<Integer, Integer> bottomMenuOrderMap = new HashMap<Integer, Integer>();
+    private Map<Integer, Integer> bottomMenuOrderMap = new HashMap<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,36 +38,33 @@ public class HeroDetailActivity extends AppCompatActivity implements  HeroBioFra
         //set the order of bottom menu for calculating transition animation
         bottomMenuOrderMap.put(R.id.hero_bio, 1);
         bottomMenuOrderMap.put(R.id.hero_skill, 2);
-        bottomNavigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                int menuId = item.getItemId();
-                Bundle bundle = new Bundle();
-                if(bottomNavigation.getSelectedItemId() != menuId) {
-                    switch (menuId) {
-                        case R.id.hero_bio:
-                            fragment = new HeroBioFragment();
-                            bundle.putInt("Id", id);
-                            fragment.setArguments(bundle);
-                            break;
-                        case R.id.hero_skill:
-                            fragment = new HeroSkillsFragment();
-                            bundle = new Bundle();
-                            bundle.putInt("Id", id);
-                            bundle.putInt("Skill_Name", skillIdClick);
-                            skillIdClick = 0;
-                            fragment.setArguments(bundle);
-                            break;
+        bottomNavigation.setOnNavigationItemSelectedListener(item -> {
+            int menuId = item.getItemId();
+            Bundle bundle = new Bundle();
+            if(bottomNavigation.getSelectedItemId() != menuId) {
+                switch (menuId) {
+                    case R.id.hero_bio:
+                        fragment = new HeroBioFragment();
+                        bundle.putInt("Id", id);
+                        fragment.setArguments(bundle);
+                        break;
+                    case R.id.hero_skill:
+                        fragment = new HeroSkillsFragment();
+                        bundle = new Bundle();
+                        bundle.putInt("Id", id);
+                        bundle.putInt("Skill_Name", skillIdClick);
+                        skillIdClick = 0;
+                        fragment.setArguments(bundle);
+                        break;
 //                    case R.id.action_hot_deals:
 //                        fragment = new DealsFragment();
 //                        break;
-                    }
-                    transaction = fragmentManager.beginTransaction();
-                    setAnimation(bottomMenuOrderMap.get(bottomNavigation.getSelectedItemId()), bottomMenuOrderMap.get(menuId));
-                    transaction.replace(R.id.main_container, fragment).commit();
                 }
-                return true;
+                transaction = fragmentManager.beginTransaction();
+                setAnimation(bottomMenuOrderMap.get(bottomNavigation.getSelectedItemId()), bottomMenuOrderMap.get(menuId));
+                transaction.replace(R.id.main_container, fragment).commit();
             }
+            return true;
         });
         transaction = fragmentManager.beginTransaction();
         fragment = new HeroBioFragment();
@@ -103,5 +96,13 @@ public class HeroDetailActivity extends AppCompatActivity implements  HeroBioFra
         }else{
             transaction.setCustomAnimations(R.anim.fragment_slide_left_enter, R.anim.fragment_slide_left_exist, R.anim.fragment_slide_right_enter, R.anim.fragment_slide_right_exit);
         }
+    }
+
+    public HeroDetailObject getHeroDetail() {
+        return heroDetail;
+    }
+
+    public void setHeroDetail(HeroDetailObject heroDetail) {
+        this.heroDetail = heroDetail;
     }
 }
