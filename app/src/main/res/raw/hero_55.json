@@ -1,5 +1,4 @@
 {
-  "Image": "hero_dark_seer",
   "Id": 55,
   "Name": "Dark Seer",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "The Dark Seer, while unable to return to his natural realm, can channel part of the prismatic wall with powerful strength of mind, sowing confusion amongst enemy ranks.",
       "image": "skill_5258",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6239,
+      "desc": "12% Evasion"
+    },
+    {
+      "id": 5968,
+      "desc": "+90 Damage"
+    },
+    {
+      "id": 6730,
+      "desc": "+12 Health Regen"
+    },
+    {
+      "id": 6365,
+      "desc": "+75 Vacuum AoE"
+    },
+    {
+      "id": 5951,
+      "desc": "15% Cooldown Reduction"
+    },
+    {
+      "id": 6624,
+      "desc": "400 AoE Surge"
+    },
+    {
+      "id": 7046,
+      "desc": "Parallel Wall"
+    },
+    {
+      "id": 6047,
+      "desc": "+150 Ion Shell Damage"
     }
   ]
 }

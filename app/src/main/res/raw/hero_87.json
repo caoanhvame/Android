@@ -1,5 +1,4 @@
 {
-  "Image": "hero_disruptor",
   "Id": 87,
   "Name": "Disruptor",
   "Fraction": "Radiant",
@@ -70,6 +69,40 @@
       "lore": "A summer squall in Druud is a hardship that only an Oglodi can survive.",
       "image": "skill_5461",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5959,
+      "desc": "+200 Health"
+    },
+    {
+      "id": 6536,
+      "desc": "+40 Thunder Strike Damage"
+    },
+    {
+      "id": 6056,
+      "desc": "+150 Cast Range"
+    },
+    {
+      "id": 6368,
+      "desc": "-3s Kinetic Field Cooldown"
+    },
+    {
+      "id": 6026,
+      "desc": "+180 Gold/Min"
+    },
+    {
+      "id": 6215,
+      "desc": "+4 Thunder Strike Hits"
+    },
+    {
+      "id": 6630,
+      "desc": "-10s Glimpse Cooldown"
+    },
+    {
+      "id": 6812,
+      "desc": "+4s Kinetic Field Duration"
     }
   ]
 }

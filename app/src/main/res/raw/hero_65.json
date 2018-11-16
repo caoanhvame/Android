@@ -1,5 +1,4 @@
 {
-  "Image": "hero_batrider",
   "Id": 65,
   "Name": "Batrider",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "Few dare to ask to ride on the bat, as Batrider gives them free of charge.",
       "image": "skill_5323",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5996,
+      "desc": "+6% Spell Amplification"
+    },
+    {
+      "id": 5932,
+      "desc": "+5 Armor"
+    },
+    {
+      "id": 6610,
+      "desc": "+2s Flamebreak Burn Duration"
+    },
+    {
+      "id": 5993,
+      "desc": "+300 Health"
+    },
+    {
+      "id": 5951,
+      "desc": "15% Cooldown Reduction"
+    },
+    {
+      "id": 6306,
+      "desc": "+50 Movement Speed"
+    },
+    {
+      "id": 6087,
+      "desc": "+8s Firefly Duration"
+    },
+    {
+      "id": 6229,
+      "desc": "-13s Flamebreak Cooldown"
     }
   ]
 }

@@ -1,5 +1,4 @@
 {
-  "Image": "hero_windrunner",
   "Id": 21,
   "Name": "Windranger",
   "Fraction": "Radiant",
@@ -70,6 +69,40 @@
       "lore": "Lyralei's ability to bombard opponents with a flurry of arrows is unparalleled - even at the expense of accuracy.",
       "image": "skill_5133",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6926,
+      "desc": "+1.75 Mana Regen"
+    },
+    {
+      "id": 6413,
+      "desc": "+30% Windrun Slow"
+    },
+    {
+      "id": 6562,
+      "desc": "+100 Powershot Damage"
+    },
+    {
+      "id": 5943,
+      "desc": "+100 Attack Range"
+    },
+    {
+      "id": 7062,
+      "desc": "+1s Shackleshot Duration"
+    },
+    {
+      "id": 6144,
+      "desc": "Windrun Grants Invisibility"
+    },
+    {
+      "id": 6992,
+      "desc": "+35% Ministun Focus Fire"
+    },
+    {
+      "id": 6561,
+      "desc": "30% Cooldown Reduction"
     }
   ]
 }

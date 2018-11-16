@@ -1,5 +1,4 @@
 {
-  "Image": "hero_shadow_shaman",
   "Id": 27,
   "Name": "Shadow Shaman",
   "Fraction": "Radiant",
@@ -70,6 +69,40 @@
       "lore": "Snake charming was a big part of the Shadow Shaman's act; now Rhasta can empower the snakes to do his bidding.",
       "image": "skill_5081",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5959,
+      "desc": "+200 Health"
+    },
+    {
+      "id": 6017,
+      "desc": "+20% XP Gain"
+    },
+    {
+      "id": 6197,
+      "desc": "+125 Cast Range"
+    },
+    {
+      "id": 6877,
+      "desc": "-5s Hex Cooldown"
+    },
+    {
+      "id": 6295,
+      "desc": "+3s Shackles Duration"
+    },
+    {
+      "id": 6052,
+      "desc": "+1 Serpent Wards Max HP"
+    },
+    {
+      "id": 6502,
+      "desc": "+400 Ether Shock Damage"
+    },
+    {
+      "id": 6521,
+      "desc": "+50 Wards Attack Damage"
     }
   ]
 }

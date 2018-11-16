@@ -71,5 +71,39 @@
       "image": "skill_5292",
       "mainSkill": 1
     }
+  ],
+  "Talents": [
+    {
+      "id": 6115,
+      "desc": "+7 Strength"
+    },
+    {
+      "id": 6372,
+      "desc": "+35% XP Gain"
+    },
+    {
+      "id": 6987,
+      "desc": "+20 Mana Break"
+    },
+    {
+      "id": 6200,
+      "desc": "+75 Shukuchi Damage"
+    },
+    {
+      "id": 6988,
+      "desc": "+0.5 Swarm Armor Reduction"
+    },
+    {
+      "id": 6989,
+      "desc": "+2 Swarm Attacks to Kill"
+    },
+    {
+      "id": 6131,
+      "desc": "+200 Shukuchi Movement Speed"
+    },
+    {
+      "id": 6990,
+      "desc": "+1 Geminate Attack"
+    }
   ]
 }

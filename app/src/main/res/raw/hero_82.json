@@ -1,5 +1,4 @@
 {
-  "Image": "hero_meepo",
   "Id": 82,
   "Name": "Meepo",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "Do I know you?",
       "image": "skill_5433",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6115,
+      "desc": "+7 Strength"
+    },
+    {
+      "id": 5960,
+      "desc": "+20 Damage"
+    },
+    {
+      "id": 6158,
+      "desc": "10% Lifesteal"
+    },
+    {
+      "id": 6689,
+      "desc": "+40 Poof Damage"
+    },
+    {
+      "id": 7027,
+      "desc": "-4s Earthbind Cooldown"
+    },
+    {
+      "id": 5972,
+      "desc": "15% Evasion"
+    },
+    {
+      "id": 6377,
+      "desc": "+600 Health"
+    },
+    {
+      "id": 6288,
+      "desc": "-5s Poof Cooldown"
     }
   ]
 }

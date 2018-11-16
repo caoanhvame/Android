@@ -1,5 +1,4 @@
 {
-  "Image": "hero_huskar",
   "Id": 59,
   "Name": "Huskar",
   "Fraction": "Radiant",
@@ -70,6 +69,40 @@
       "cmb": "<img src=\"mana\"/> 0 &emsp <img src=\"cooldown\"/> 12",
       "image": "skill_5274",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6405,
+      "desc": "+225 Health"
+    },
+    {
+      "id": 5960,
+      "desc": "+20 Damage"
+    },
+    {
+      "id": 6380,
+      "desc": "+10 Burning Spears DPS"
+    },
+    {
+      "id": 6289,
+      "desc": "15% Lifesteal"
+    },
+    {
+      "id": 6145,
+      "desc": "+15 Strength"
+    },
+    {
+      "id": 6204,
+      "desc": "+400 Life Break Cast Range"
+    },
+    {
+      "id": 5963,
+      "desc": "+150 Attack Range"
+    },
+    {
+      "id": 7143,
+      "desc": "Burning Spears Pure Damage"
     }
   ]
 }

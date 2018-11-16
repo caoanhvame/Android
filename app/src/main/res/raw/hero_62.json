@@ -1,5 +1,4 @@
 {
-  "Image": "hero_bounty_hunter",
   "Id": 62,
   "Name": "Bounty Hunter",
   "Fraction": "Radiant",
@@ -70,6 +69,40 @@
       "lore": "Using his elevated senses of sight and smell, Gondar's hits have quite a good chance of success.",
       "image": "skill_5288",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5919,
+      "desc": "+25 Movement Speed"
+    },
+    {
+      "id": 5987,
+      "desc": "+25% XP Gain"
+    },
+    {
+      "id": 6020,
+      "desc": "+50 Attack Speed"
+    },
+    {
+      "id": 6195,
+      "desc": "+350 Health"
+    },
+    {
+      "id": 6358,
+      "desc": "+75 Shuriken Toss Damage"
+    },
+    {
+      "id": 6018,
+      "desc": "+125% Jinada Critical Strike"
+    },
+    {
+      "id": 6613,
+      "desc": "50% Evasion"
+    },
+    {
+      "id": 7040,
+      "desc": "+300 Track Gold"
     }
   ]
 }

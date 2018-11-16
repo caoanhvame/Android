@@ -1,5 +1,4 @@
 {
-  "Image": "hero_juggernaut",
   "Id": 8,
   "Name": "Juggernaut",
   "Fraction": "Radiant",
@@ -70,6 +69,40 @@
       "lore": 	"'The fruits of discipline; with practice comes strength.'",
       "image": "skill_5030",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5921,
+      "desc": "+5 All Stats"
+    },
+    {
+      "id": 5918,
+      "desc": "+20 Movement Speed"
+    },
+    {
+      "id": 6105,
+      "desc": "+1s Blade Fury"
+    },
+    {
+      "id": 6016,
+      "desc": "+25 Attack Speed"
+    },
+    {
+      "id": 6004,
+      "desc": "+10 Armor"
+    },
+    {
+      "id": 7021,
+      "desc": "+100 Blade Fury DPS"
+    },
+    {
+      "id": 6377,
+      "desc": "+600 Health"
+    },
+    {
+      "id": 6662,
+      "desc": "+5 Omnislash Strikes"
     }
   ]
 }

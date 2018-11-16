@@ -1,5 +1,4 @@
 {
-  "Image": "hero_life_stealer",
   "Id": 54,
   "Name": "Lifestealer",
   "Fraction": "Dire",
@@ -122,6 +121,40 @@
       "lore": "",
       "image": "skill_5253",
       "mainSkill": 0
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5959,
+      "desc": "+200 Health"
+    },
+    {
+      "id": 6906,
+      "desc": "+20 Attack Speed"
+    },
+    {
+      "id": 5939,
+      "desc": "+30 Damage"
+    },
+    {
+      "id": 6141,
+      "desc": "+30 Movement Speed"
+    },
+    {
+      "id": 5973,
+      "desc": "20% Evasion"
+    },
+    {
+      "id": 6676,
+      "desc": "+50% Open Wounds Lifesteal"
+    },
+    {
+      "id": 7012,
+      "desc": "+2% Feast Damage/Lifesteal"
+    },
+    {
+      "id": 6173,
+      "desc": "+2s Rage Duration"
     }
   ]
 }

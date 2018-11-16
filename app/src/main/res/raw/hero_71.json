@@ -1,5 +1,4 @@
 {
-  "Image": "hero_spirit_breaker",
   "Id": 71,
   "Name": "Spirit Breaker",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": 	"Barathrum temporarily returns to the realm from where he came, bringing with him the retribution of both worlds.",
       "image": "skill_5356",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 7019,
+      "desc": "+600 Night Vision"
+    },
+    {
+      "id": 5932,
+      "desc": "+5 Armor"
+    },
+    {
+      "id": 5912,
+      "desc": "+10 Health Regen"
+    },
+    {
+      "id": 5940,
+      "desc": "+40 Damage"
+    },
+    {
+      "id": 6543,
+      "desc": "+30% Greater Bash Damage"
+    },
+    {
+      "id": 6296,
+      "desc": "+400 Charge Speed"
+    },
+    {
+      "id": 6149,
+      "desc": "+25% Greater Bash Chance"
+    },
+    {
+      "id": 6905,
+      "desc": "+800 Health"
     }
   ]
 }

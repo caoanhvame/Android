@@ -45,4 +45,7 @@
     <string name="turnrate">Turn rate: %s</string>
     <string name="range">Range: %1$d</string>
     <string name="bat">BAT: %s</string>
+    <string name="win">Win</string>
+    <string name="loss">Loss</string>
+    <string name="kda">K/D/A: %d / %d / %d</string>
 </resources>

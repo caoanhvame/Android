@@ -1,5 +1,6 @@
 package caoanh.multipanefragment.list_history;
 
+import android.app.Activity;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.support.annotation.NonNull;
@@ -56,7 +57,7 @@ class HistoryListAdapter extends ArrayAdapter<History> {
         ViewHolder viewHolder;
         History history = data.get(position);
         if (convertView == null) {
-            LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            LayoutInflater inflater = ((Activity) context).getLayoutInflater();
             convertView = inflater.inflate(R.layout.fragment_history_list_cell, parent, false);
             viewHolder = new ViewHolder();
             setViewHolder(viewHolder, convertView);
@@ -81,7 +82,7 @@ class HistoryListAdapter extends ArrayAdapter<History> {
             String matchDetail = "https://api.steampowered.com/IDOTA2Match_570/GetMatchDetails/V001/?match_id=%s&key=" + Constants.API_KEY;
             new ParseMatchDetail(parent, viewHolder, position).executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, String.format(matchDetail, history.getMatchId()));
         } else {
-            viewHolder.duration.setText(convertSecondToHour(history.getDuration()));
+            setOwnerRelatedStatic(viewHolder, position);
             viewHolder.content.setAlpha(1);
             viewHolder.loadingMask.setAlpha(0);
         }
@@ -166,23 +167,7 @@ class HistoryListAdapter extends ArrayAdapter<History> {
         protected void onPostExecute(Void result) {
             super.onPostExecute(result);
             if (position >= parent.getFirstVisiblePosition() && position <= parent.getLastVisiblePosition()) {
-                History h = data.get(position);
-                for (Player player : h.getPlayers()) {
-                    if (player.getAccountId().equals(Constants.ACCOUNT_ID)) {
-                        if ((player.getPlayerSlot() < 128 && h.isRadiantWin()) ||
-                                (player.getPlayerSlot() > 128 && !h.isRadiantWin())) {
-                            mV.matchResult.setText("WIN");
-                            mV.matchResult.setTextColor(ResourcesCompat.getColor(context.getResources(),R.color.blueRadiant, null));
-                        } else {
-                            mV.matchResult.setText("LOSS");
-                            mV.matchResult.setTextColor(ResourcesCompat.getColor(context.getResources(),R.color.redDire, null));
-                        }
-                        mV.kda.setText("K/D/A: " + player.getKills() + "/" + player.getDeaths() + "/" + player.getAssists());
-                        mV.mode.setText(modeCodeToString(h.getGameMode()));
-                        break;
-                    }
-                }
-                mV.duration.setText(convertSecondToHour(h.getDuration()));
+                setOwnerRelatedStatic(mV, position);
                 Animation animationFadeIn = AnimationUtils.loadAnimation(context, R.anim.fade_in);
                 mV.content.startAnimation(animationFadeIn);
                 mV.content.setAlpha(1);
@@ -257,6 +242,27 @@ class HistoryListAdapter extends ArrayAdapter<History> {
         }
 
     }
+
+    private void setOwnerRelatedStatic(ViewHolder viewHolder,int position) {
+        History h = data.get(position);
+        for (Player player : h.getPlayers()) {
+            if (player.getAccountId().equals(Constants.ACCOUNT_ID)) {
+                if ((player.getPlayerSlot() < 128 && h.isRadiantWin()) ||
+                        (player.getPlayerSlot() > 128 && !h.isRadiantWin())) {
+                    viewHolder.matchResult.setText(context.getResources().getString(R.string.win));
+                    viewHolder.matchResult.setTextColor(ResourcesCompat.getColor(context.getResources(),R.color.blueRadiant, null));
+                } else {
+                    viewHolder.matchResult.setText(context.getResources().getString(R.string.loss));
+                    viewHolder.matchResult.setTextColor(ResourcesCompat.getColor(context.getResources(),R.color.redDire, null));
+                }
+                viewHolder.kda.setText(String.format(context.getResources().getString(R.string.kda), player.getKills(), player.getDeaths(), player.getAssists()));
+                viewHolder.mode.setText(modeCodeToString(h.getGameMode()));
+                break;
+            }
+        }
+        viewHolder.duration.setText(convertSecondToHour(h.getDuration()));
+    }
+
 
     private String modeCodeToString (int code){
         switch (code){

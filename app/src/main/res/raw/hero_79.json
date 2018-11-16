@@ -1,5 +1,4 @@
 {
-  "Image": "hero_shadow_demon",
   "Id": 79,
   "Name": "Shadow Demon",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "Once Shadow Demon no longer has any need for his collected cultist, he releases it from its subservience - and its life.",
       "image": "skill_5425",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 7061,
+      "desc": "Soul Catcher Creates Illusion On Death"
+    },
+    {
+      "id": 6317,
+      "desc": "+30% XP Gain"
+    },
+    {
+      "id": 6077,
+      "desc": "+35 Movement Speed"
+    },
+    {
+      "id": 6873,
+      "desc": "+25% Shadow Poison Damage"
+    },
+    {
+      "id": 6293,
+      "desc": "-6s Soul Catcher Cooldown"
+    },
+    {
+      "id": 6542,
+      "desc": "-1.5s Shadow Poison Cooldown"
+    },
+    {
+      "id": 6208,
+      "desc": "+500 Demonic Purge Damage"
+    },
+    {
+      "id": 7118,
+      "desc": "2 Charges of Disruption"
     }
   ]
 }

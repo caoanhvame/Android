@@ -1,5 +1,4 @@
 {
-  "Image": "hero_riki",
   "Id": 32,
   "Name": "Riki",
   "Fraction": "Radiant",
@@ -70,6 +69,40 @@
       "lore": "The Stealth Assassin is not afraid to fight dirty, and specializes in attacking his opponents from behind.",
       "image": "skill_5145",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5910,
+      "desc": "+5 Health Regen"
+    },
+    {
+      "id": 6014,
+      "desc": "+8 Agility"
+    },
+    {
+      "id": 7045,
+      "desc": "+20% Critical Strike (1.5x)"
+    },
+    {
+      "id": 6193,
+      "desc": "-7s Smoke Screen Cooldown"
+    },
+    {
+      "id": 6330,
+      "desc": "+0.20 Backstab Multiplier"
+    },
+    {
+      "id": 6865,
+      "desc": "+900 Blink Strike Cast Range"
+    },
+    {
+      "id": 6866,
+      "desc": "+400 Tricks of the Trade AoE"
+    },
+    {
+      "id": 6867,
+      "desc": "Cloak and Dagger Doesn't Reveal"
     }
   ]
 }

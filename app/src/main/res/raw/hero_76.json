@@ -1,5 +1,4 @@
 {
-  "Image": "hero_obsidian_destroyer",
   "Id": 76,
   "Name": "Outworld Devourer",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "When an Outworld crystal ruptures, cataclysmic energies are released, and the reverberations of this power are felt interdimensionally.",
       "image": "skill_5394",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5903,
+      "desc": "+250 Health"
+    },
+    {
+      "id": 5906,
+      "desc": "+20 Attack Speed"
+    },
+    {
+      "id": 6077,
+      "desc": "+35 Movement Speed"
+    },
+    {
+      "id": 6711,
+      "desc": "+15% Essence Aura Chance"
+    },
+    {
+      "id": 6080,
+      "desc": "+20 Strength"
+    },
+    {
+      "id": 6712,
+      "desc": "+2 Sanity's Eclipse Multiplier"
+    },
+    {
+      "id": 6241,
+      "desc": "+60s Arcane Orb Int Steal"
+    },
+    {
+      "id": 6550,
+      "desc": "15% Spell Lifesteal"
     }
   ]
 }

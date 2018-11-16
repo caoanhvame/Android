@@ -1,5 +1,4 @@
 {
-  "Image": "hero_witch_doctor",
   "Id": 30,
   "Name": "Witch Doctor",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "Witch Doctor performs a ritualistic dance, one that haunts the dreams of those who live to recount it.",
       "image": "skill_5141",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5942,
+      "desc": "+75 Damage"
+    },
+    {
+      "id": 5932,
+      "desc": "+5 Armor"
+    },
+    {
+      "id": 6524,
+      "desc": "+2 Cask Bounces"
+    },
+    {
+      "id": 6008,
+      "desc": "+120 Gold/Min"
+    },
+    {
+      "id": 5998,
+      "desc": "+125 Death Ward Attack Range"
+    },
+    {
+      "id": 6995,
+      "desc": "+1 Maledict Tick"
+    },
+    {
+      "id": 6298,
+      "desc": "+1.5% Max Health Voodoo Restoration"
+    },
+    {
+      "id": 6996,
+      "desc": "+75 Death Ward Damage"
     }
   ]
 }

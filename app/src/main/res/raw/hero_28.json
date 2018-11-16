@@ -1,5 +1,4 @@
 {
-  "Image": "hero_slardar",
   "Id": 28,
   "Name": "Slardar",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "Even the strongest armor counts for little when left to the brine of the sea.",
       "image": "skill_5117",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5910,
+      "desc": "+5 Health Regen"
+    },
+    {
+      "id": 6009,
+      "desc": "+25 Damage"
+    },
+    {
+      "id": 5993,
+      "desc": "+300 Health"
+    },
+    {
+      "id": 6889,
+      "desc": "+100 Bash Damage"
+    },
+    {
+      "id": 6020,
+      "desc": "+50 Attack Speed"
+    },
+    {
+      "id": 6888,
+      "desc": "+1000 Night Vision"
+    },
+    {
+      "id": 6211,
+      "desc": "+15% Bash Chance"
+    },
+    {
+      "id": 6890,
+      "desc": "Corrosive Haze Undispellable"
     }
   ]
 }

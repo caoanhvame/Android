@@ -1,5 +1,4 @@
 {
-  "Image": "hero_keeper_of_the_light",
   "Id": 90,
   "Name": "Keeper of the Light",
   "Fraction": "Radiant",
@@ -96,6 +95,40 @@
       "lore": "The Primordial light turns the tides of battle in favor of Ezalor and his allies.",
       "image": "skill_5476",
       "mainSkill": 0
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6565,
+      "desc": "8% Spell Lifesteal"
+    },
+    {
+      "id": 5919,
+      "desc": "+25 Movement Speed"
+    },
+    {
+      "id": 6447,
+      "desc": "+40% XP Gain"
+    },
+    {
+      "id": 6930,
+      "desc": "+350 Cast Range"
+    },
+    {
+      "id": 6663,
+      "desc": "+40% Magic Resistance"
+    },
+    {
+      "id": 6527,
+      "desc": "+300 Chakra Magic Mana"
+    },
+    {
+      "id": 6665,
+      "desc": "+2s Mana Leak Stun"
+    },
+    {
+      "id": 6217,
+      "desc": "+200 Illuminate Damage/Heal"
     }
   ]
 }

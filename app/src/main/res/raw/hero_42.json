@@ -1,5 +1,4 @@
 {
-  "Image": "hero_skeleton_king",
   "Id": 42,
   "Name": "Skeleton King",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "Conspirators against the Wraith King wonder why he never stays dead.",
       "image": "skill_5089",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 7107,
+      "desc": "+1.5s Wraithfire Blast Slow Duration"
+    },
+    {
+      "id": 5906,
+      "desc": "+20 Attack Speed"
+    },
+    {
+      "id": 6145,
+      "desc": "+15 Strength"
+    },
+    {
+      "id": 6822,
+      "desc": "+35 Skeletons Attack Damage"
+    },
+    {
+      "id": 6201,
+      "desc": "No Reincarnation Manacost"
+    },
+    {
+      "id": 7108,
+      "desc": "2x Skeletons Spawned"
+    },
+    {
+      "id": 6088,
+      "desc": "+25% Vampiric Aura Lifesteal"
+    },
+    {
+      "id": 6566,
+      "desc": "Reincarnation Casts Wraithfire Blast"
     }
   ]
 }

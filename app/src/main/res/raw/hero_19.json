@@ -1,5 +1,4 @@
 {
-  "Image": "hero_tiny",
   "Id": 19,
   "Name": "Tiny",
   "Fraction": "Radiant",
@@ -70,6 +69,40 @@
       "lore": "Watching a hill become a mountain is awe-inspiring - especially if the mountain begins laying waste to adversaries.",
       "image": "skill_5109",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6000,
+      "desc": "+20% Magic Resistance"
+    },
+    {
+      "id": 5939,
+      "desc": "+30 Damage"
+    },
+    {
+      "id": 6195,
+      "desc": "+350 Health"
+    },
+    {
+      "id": 6153,
+      "desc": "+125 Avalanche Damage"
+    },
+    {
+      "id": 6934,
+      "desc": "-7s Tree Grab CD"
+    },
+    {
+      "id": 7005,
+      "desc": "Toss Requires No Target"
+    },
+    {
+      "id": 6933,
+      "desc": "-12s Avalanche Cooldown"
+    },
+    {
+      "id": 6932,
+      "desc": "3 Toss Charges"
     }
   ]
 }

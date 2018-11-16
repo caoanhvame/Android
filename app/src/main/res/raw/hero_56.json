@@ -1,5 +1,4 @@
 {
-  "Image": "hero_clinkz",
   "Id": 56,
   "Name": "Clinkz",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "Sutherex' bond of life and death has become a part of Clinkz, and his old bones are refreshed with repetition of the pact on lesser beings.",
       "image": "skill_5262",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6299,
+      "desc": "+12% Magic Resistance"
+    },
+    {
+      "id": 5932,
+      "desc": "+5 Armor"
+    },
+    {
+      "id": 5973,
+      "desc": "20% Evasion"
+    },
+    {
+      "id": 6104,
+      "desc": "+30 Searing Arrows Damage"
+    },
+    {
+      "id": 5943,
+      "desc": "+100 Attack Range"
+    },
+    {
+      "id": 7188,
+      "desc": "+16 Health Regen"
+    },
+    {
+      "id": 6231,
+      "desc": "+4s Strafe Duration"
+    },
+    {
+      "id": 6620,
+      "desc": "Searing Arrows Multishot"
     }
   ]
 }

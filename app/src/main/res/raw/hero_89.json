@@ -1,5 +1,4 @@
 {
-  "Image": "hero_naga_siren",
   "Id": 89,
   "Name": "Naga Siren",
   "Fraction": "Radiant",
@@ -83,6 +82,40 @@
       "lore": "Slithice's powerful voice enchants leagues of opponents, while calling her Slithereen kin in a time of need.",
       "image": "skill_5478",
       "mainSkill": 0
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5919,
+      "desc": "+25 Movement Speed"
+    },
+    {
+      "id": 7029,
+      "desc": "+10% Mirror Image Damage"
+    },
+    {
+      "id": 5929,
+      "desc": "+15 Agility"
+    },
+    {
+      "id": 6281,
+      "desc": "+14 Strength"
+    },
+    {
+      "id": 6398,
+      "desc": "-5s Ensnare Cooldown"
+    },
+    {
+      "id": 6205,
+      "desc": "+1 Mirror Image Illusion"
+    },
+    {
+      "id": 6700,
+      "desc": "30% Evasion"
+    },
+    {
+      "id": 6701,
+      "desc": "-6 Rip Tide Armor"
     }
   ]
 }

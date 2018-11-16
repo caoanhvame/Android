@@ -1,5 +1,4 @@
 {
-  "Image": "hero_dragon_knight",
   "Id": 49,
   "Name": "Dragon Knight",
   "Fraction": "Radiant",
@@ -70,6 +69,40 @@
       "lore": "The dormant dragon power springs forth from within Davion, combining the powers of a legendary knight with a legendary Eldwurm.",
       "image": "skill_5229",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5961,
+      "desc": "+2 Mana Regen"
+    },
+    {
+      "id": 7113,
+      "desc": "-20% Breathe Fire Damage Reduction"
+    },
+    {
+      "id": 5939,
+      "desc": "+30 Damage"
+    },
+    {
+      "id": 5993,
+      "desc": "+300 Health"
+    },
+    {
+      "id": 5957,
+      "desc": "+150 Gold/Min"
+    },
+    {
+      "id": 6090,
+      "desc": "2x Dragon Blood HP Regen/Armor"
+    },
+    {
+      "id": 6633,
+      "desc": "+40 Strength"
+    },
+    {
+      "id": 6635,
+      "desc": "+1.75s Dragon Tail"
     }
   ]
 }

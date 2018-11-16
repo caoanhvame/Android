@@ -1,5 +1,4 @@
 {
-  "Image": "hero_luna",
   "Id": 48,
   "Name": "Luna",
   "Fraction": "Radiant",
@@ -70,6 +69,40 @@
       "lore": "In times of great need, Selemene herself descends into the world, blocking out the light and hope of the opposed.",
       "image": "skill_5225",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5906,
+      "desc": "+20 Attack Speed"
+    },
+    {
+      "id": 6114,
+      "desc": "+200 Cast Range"
+    },
+    {
+      "id": 6127,
+      "desc": "-4s Lucent Beam Cooldown"
+    },
+    {
+      "id": 6682,
+      "desc": "+24 Lunar Blessing Damage"
+    },
+    {
+      "id": 6168,
+      "desc": "+10 All Stats"
+    },
+    {
+      "id": 6180,
+      "desc": "+100 Lucent Beam Damage"
+    },
+    {
+      "id": 6111,
+      "desc": "25% Lifesteal"
+    },
+    {
+      "id": 7055,
+      "desc": "+0.25s Eclipse Lucent Ministun"
     }
   ]
 }

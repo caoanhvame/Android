@@ -1,5 +1,4 @@
 {
-  "Image": "hero_necrolyte",
   "Id": 36,
   "Name": "Necrophos",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "The amount of death and suffering in the air increases the power of Necrophos's plague magic.",
       "image": "skill_5161",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5939,
+      "desc": "+30 Damage"
+    },
+    {
+      "id": 6137,
+      "desc": "+10 Strength"
+    },
+    {
+      "id": 7110,
+      "desc": "+20% Ghost Shroud Slow"
+    },
+    {
+      "id": 7111,
+      "desc": "+40 Death Pulse Heal"
+    },
+    {
+      "id": 6000,
+      "desc": "+20% Magic Resistance"
+    },
+    {
+      "id": 6444,
+      "desc": "+70 Attack Speed"
+    },
+    {
+      "id": 6703,
+      "desc": "+0.8 Heartstopper Aura"
+    },
+    {
+      "id": 6010,
+      "desc": "-2.5s Death Pulse Cooldown"
     }
   ]
 }

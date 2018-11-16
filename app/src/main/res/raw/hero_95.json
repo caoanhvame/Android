@@ -1,5 +1,4 @@
 {
-  "Image": "hero_troll_warlord",
   "Id": 95,
   "Name": "Troll Warlord",
   "Fraction": "Radiant",
@@ -83,6 +82,40 @@
       "lore": "An adrenaline rush of pure hatred quickens your blades.",
       "image": "skill_5512",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6029,
+      "desc": "+10 Agility"
+    },
+    {
+      "id": 5903,
+      "desc": "+250 Health"
+    },
+    {
+      "id": 6958,
+      "desc": "+3 Max Fervor Stacks"
+    },
+    {
+      "id": 6959,
+      "desc": "+75 Whirling Axes Damage"
+    },
+    {
+      "id": 5973,
+      "desc": "20% Evasion"
+    },
+    {
+      "id": 5941,
+      "desc": "+50 Damage"
+    },
+    {
+      "id": 6154,
+      "desc": "-6s Whirling Axes Cooldown"
+    },
+    {
+      "id": 6960,
+      "desc": "Battle Trance Dispels"
     }
   ]
 }

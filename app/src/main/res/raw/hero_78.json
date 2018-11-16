@@ -1,5 +1,4 @@
 {
-  "Image": "hero_brewmaster",
   "Id": 78,
   "Name": "Brewmaster",
   "Fraction": "Radiant",
@@ -161,6 +160,40 @@
       "cmb": "",
       "image": "fire_permanent_immolation",
       "mainSkill": 0
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5939,
+      "desc": "+30 Damage"
+    },
+    {
+      "id": 5959,
+      "desc": "+200 Health"
+    },
+    {
+      "id": 6516,
+      "desc": "+3s Thunder Clap Slow"
+    },
+    {
+      "id": 6000,
+      "desc": "+20% Magic Resistance"
+    },
+    {
+      "id": 6082,
+      "desc": "+1500 Health to Primal Split Units"
+    },
+    {
+      "id": 6037,
+      "desc": "+100 Attack Speed"
+    },
+    {
+      "id": 6359,
+      "desc": "-65s Primal Split Cooldown"
+    },
+    {
+      "id": 6614,
+      "desc": "+15% Drunken Brawler Chance"
     }
   ]
 }

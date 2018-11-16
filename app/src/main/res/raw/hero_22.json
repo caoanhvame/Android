@@ -1,5 +1,4 @@
 {
-  "Image": "hero_zuus",
   "Id": 22,
   "Name": "Zeus",
   "Fraction": "Radiant",
@@ -83,6 +82,40 @@
       "lore": "The Lord of Heaven smites all who oppose him, near or far.",
       "image": "skill_6325",
       "mainSkill": 0
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5933,
+      "desc": "+6 Armor"
+    },
+    {
+      "id": 5987,
+      "desc": "+25% XP Gain"
+    },
+    {
+      "id": 6141,
+      "desc": "+30 Movement Speed"
+    },
+    {
+      "id": 6157,
+      "desc": "+1.5% Static Field Damage"
+    },
+    {
+      "id": 5951,
+      "desc": "15% Cooldown Reduction"
+    },
+    {
+      "id": 6518,
+      "desc": "+0.5s Lightning Bolt Ministun"
+    },
+    {
+      "id": 7117,
+      "desc": "+275 Cast Range"
+    },
+    {
+      "id": 6501,
+      "desc": "+170 Arc Lightning Damage"
     }
   ]
 }

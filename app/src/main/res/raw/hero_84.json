@@ -1,5 +1,4 @@
 {
-  "Image": "hero_ogre_magi",
   "Id": 84,
   "Name": "Ogre Magi",
   "Fraction": "Radiant",
@@ -83,6 +82,40 @@
       "lore": "Despite being largely incapacitated by his IQ, the Ogre Magi's success in battle is attributed to pure skill.",
       "image": "skill_5441",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6007,
+      "desc": "+90 Gold/Min"
+    },
+    {
+      "id": 6003,
+      "desc": "+100 Cast Range"
+    },
+    {
+      "id": 5968,
+      "desc": "+90 Damage"
+    },
+    {
+      "id": 5993,
+      "desc": "+300 Health"
+    },
+    {
+      "id": 6633,
+      "desc": "+40 Strength"
+    },
+    {
+      "id": 6183,
+      "desc": "+40 Bloodlust AS"
+    },
+    {
+      "id": 6706,
+      "desc": "+90 Movement Speed"
+    },
+    {
+      "id": 6707,
+      "desc": "+275 Fireblast Damage"
     }
   ]
 }

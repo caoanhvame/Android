@@ -1,5 +1,4 @@
 {
-  "Image": "hero_dazzle",
   "Id": 50,
   "Name": "Dazzle",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "His ethereal journey into the Nothl realm has allowed Dazzle to mend together the powers of light and dark, creating shifting waves of enchantments.",
       "image": "skill_5236",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5942,
+      "desc": "+75 Damage"
+    },
+    {
+      "id": 5959,
+      "desc": "+200 Health"
+    },
+    {
+      "id": 6197,
+      "desc": "+125 Cast Range"
+    },
+    {
+      "id": 6232,
+      "desc": "+20 Shadow Wave Heal / Damage"
+    },
+    {
+      "id": 6306,
+      "desc": "+50 Movement Speed"
+    },
+    {
+      "id": 6528,
+      "desc": "+45 Poison Touch DPS"
+    },
+    {
+      "id": 6049,
+      "desc": "-4s Shadow Wave Cooldown"
+    },
+    {
+      "id": 6626,
+      "desc": "+0.5 Weave Armor Per Second"
     }
   ]
 }

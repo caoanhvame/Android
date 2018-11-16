@@ -143,15 +143,23 @@ public class HeroDetailObject extends HeroObject {
         return abilities;
     }
 
-    void setAbilities(List<Ability> abilities) {
+    public void setAbilities(List<Ability> abilities) {
         this.abilities = abilities;
+    }
+
+    public void addAbility(Ability ability) {
+        abilities.add(ability);
     }
 
     List<Skill> getTalents() {
         return talents;
     }
 
-    void setTalents(List<Skill> talents) {
+    public void setTalents(List<Skill> talents) {
         this.talents = talents;
+    }
+
+    public void addTalents(Skill talent) {
+        talents.add(talent);
     }
 }

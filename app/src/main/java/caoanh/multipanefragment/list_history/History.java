@@ -2,6 +2,7 @@ package caoanh.multipanefragment.list_history;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by anhhpc on 9/21/2017.
@@ -13,7 +14,7 @@ public class History implements Serializable{
     private String startTime;
     private int duration;
     private boolean radiantWin;
-    private ArrayList<Player> players = new ArrayList<>();
+    private List<Player> players = new ArrayList<>();
     private int gameMode;
     private int radiantScore;
     private int direScore;
@@ -42,7 +43,7 @@ public class History implements Serializable{
         this.gameMode = gameMode;
     }
 
-    public ArrayList<Player> getPlayers() {
+    public List<Player> getPlayers() {
         return players;
     }
 

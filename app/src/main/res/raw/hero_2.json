@@ -1,5 +1,4 @@
 {
-  "Image": "hero_axe",
   "Id": 2,
   "Name": "Axe",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "cmb": "<img src=\"mana\"/> 60/120/180 &emsp <img src=\"cooldown\"/> 75/65/55",
       "image": "skill_5010",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5982,
+      "desc": "+8 Strength"
+    },
+    {
+      "id": 6210,
+      "desc": "+40 Attack Speed"
+    },
+    {
+      "id": 6160,
+      "desc": "+3 Mana Regen"
+    },
+    {
+      "id": 6093,
+      "desc": "+40 Movement Speed"
+    },
+    {
+      "id": 6079,
+      "desc": "+20 Health Regen"
+    },
+    {
+      "id": 6815,
+      "desc": "Attacking Procs Counter Helix"
+    },
+    {
+      "id": 6608,
+      "desc": "+100 Berserker's Call AoE"
+    },
+    {
+      "id": 6102,
+      "desc": "+120 Battle Hunger DPS"
     }
   ]
 }

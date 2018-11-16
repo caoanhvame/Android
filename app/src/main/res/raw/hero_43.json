@@ -1,5 +1,4 @@
 {
-  "Image": "hero_death_prophet",
   "Id": 43,
   "Name": "Death Prophet",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "Over time, the banshee remnants of her previous lives return to haunt the present.",
       "image": "skill_5093",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5940,
+      "desc": "+40 Damage"
+    },
+    {
+      "id": 6299,
+      "desc": "+12% Magic Resistance"
+    },
+    {
+      "id": 6628,
+      "desc": "+1% Max Health Spirit Siphon"
+    },
+    {
+      "id": 6056,
+      "desc": "+150 Cast Range"
+    },
+    {
+      "id": 6235,
+      "desc": "+500 Health"
+    },
+    {
+      "id": 6367,
+      "desc": "-2s Crypt Swarm Cooldown"
+    },
+    {
+      "id": 6805,
+      "desc": "Exorcism Grants Haste"
+    },
+    {
+      "id": 6191,
+      "desc": "+8 Exorcism Spirits"
     }
   ]
 }

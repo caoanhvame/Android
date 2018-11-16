@@ -1,5 +1,4 @@
 {
-  "Image": "hero_bristleback",
   "Id": 99,
   "Name": "Bristleback",
   "Fraction": "Radiant",
@@ -70,6 +69,40 @@
       "cmb": "",
       "image": "skill_5551",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5918,
+      "desc": "+20 Movement Speed"
+    },
+    {
+      "id": 5961,
+      "desc": "+2 Mana Regen"
+    },
+    {
+      "id": 5903,
+      "desc": "+250 Health"
+    },
+    {
+      "id": 6083,
+      "desc": "+6 Max Goo Stacks"
+    },
+    {
+      "id": 6079,
+      "desc": "+20 Health Regen"
+    },
+    {
+      "id": 6360,
+      "desc": "+25 Quill Stack Damage"
+    },
+    {
+      "id": 6550,
+      "desc": "15% Spell Lifesteal"
+    },
+    {
+      "id": 6615,
+      "desc": "+30 Warpath Damage Per Stack"
     }
   ]
 }

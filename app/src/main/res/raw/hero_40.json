@@ -1,5 +1,4 @@
 {
-  "Image": "hero_venomancer",
   "Id": 40,
   "Name": "Venomancer",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "In the Acid Jungles, creatures releasing noxious poison to their attackers is common; Venomancer spreads this plague beyond the Jidi Isle.",
       "image": "skill_5181",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6979,
+      "desc": "-8 Venomous Gale CD"
+    },
+    {
+      "id": 6007,
+      "desc": "+90 Gold/Min"
+    },
+    {
+      "id": 6114,
+      "desc": "+200 Cast Range"
+    },
+    {
+      "id": 6532,
+      "desc": "+6% Poison Sting Slow"
+    },
+    {
+      "id": 6980,
+      "desc": "+7s Poison Nova Duration"
+    },
+    {
+      "id": 6981,
+      "desc": "Gale Hero Impact Summons 2 Wards"
+    },
+    {
+      "id": 6999,
+      "desc": "+800 Poison Nova AoE"
+    },
+    {
+      "id": 6058,
+      "desc": "3x Plague Ward HP/Damage"
     }
   ]
 }

@@ -1,5 +1,4 @@
 {
-  "Image": "hero_night_stalker",
   "Id": 60,
   "Name": "Night Stalker",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "It is a humbling sight to see when the mightiest of warriors become afraid of the dark.",
       "image": "skill_5278",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5959,
+      "desc": "+200 Health"
+    },
+    {
+      "id": 6094,
+      "desc": "+200 Mana"
+    },
+    {
+      "id": 6145,
+      "desc": "+15 Strength"
+    },
+    {
+      "id": 6056,
+      "desc": "+150 Cast Range"
+    },
+    {
+      "id": 6249,
+      "desc": "+45 Movement Speed"
+    },
+    {
+      "id": 5941,
+      "desc": "+50 Damage"
+    },
+    {
+      "id": 6704,
+      "desc": "+140 Hunter In The Night Attack Speed"
+    },
+    {
+      "id": 6129,
+      "desc": "-8s Crippling Fear Cooldown"
     }
   ]
 }

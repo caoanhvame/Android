@@ -1,5 +1,4 @@
 {
-  "Image": "hero_slark",
   "Id": 93,
   "Name": "Slark",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "The hidden Thirteenth is a slippery foe.",
       "image": "skill_5497",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6137,
+      "desc": "+10 Strength"
+    },
+    {
+      "id": 6014,
+      "desc": "+8 Agility"
+    },
+    {
+      "id": 5907,
+      "desc": "+30 Attack Speed"
+    },
+    {
+      "id": 6078,
+      "desc": "20% Lifesteal"
+    },
+    {
+      "id": 6892,
+      "desc": "+150 Dark Pact Damage"
+    },
+    {
+      "id": 6147,
+      "desc": "+3s Pounce Leash"
+    },
+    {
+      "id": 6893,
+      "desc": "+1s Shadow Dance Duration"
+    },
+    {
+      "id": 6894,
+      "desc": "+120s Essence Shift Duration"
     }
   ]
 }

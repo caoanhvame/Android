@@ -1,5 +1,4 @@
 {
-  "Image": "hero_medusa",
   "Id": 94,
   "Name": "Medusa",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "The beauty of Medusa is legendary.",
       "image": "skill_5507",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5960,
+      "desc": "+20 Damage"
+    },
+    {
+      "id": 5972,
+      "desc": "15% Evasion"
+    },
+    {
+      "id": 5907,
+      "desc": "+30 Attack Speed"
+    },
+    {
+      "id": 6687,
+      "desc": "+20% Mystic Snake Mana Steal"
+    },
+    {
+      "id": 7059,
+      "desc": "+700 Mana"
+    },
+    {
+      "id": 6182,
+      "desc": "+2.5s Stone Gaze Duration"
+    },
+    {
+      "id": 6392,
+      "desc": "+7 Split Shot Targets"
+    },
+    {
+      "id": 6803,
+      "desc": "Split Shot Uses Modifiers"
     }
   ]
 }

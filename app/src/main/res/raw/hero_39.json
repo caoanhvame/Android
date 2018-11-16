@@ -1,5 +1,4 @@
 {
-  "Image": "hero_queenofpain",
   "Id": 39,
   "Name": "Queen of Pain",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "Her most exquisite of all of torments, Akasha's Sonic Wave puts her poor foes out of their misery.",
       "image": "skill_5176",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6099,
+      "desc": "+25 Damage"
+    },
+    {
+      "id": 6137,
+      "desc": "+10 Strength"
+    },
+    {
+      "id": 6190,
+      "desc": "12% Cooldown Reduction"
+    },
+    {
+      "id": 6210,
+      "desc": "+40 Attack Speed"
+    },
+    {
+      "id": 6513,
+      "desc": "30% Spell Lifesteal"
+    },
+    {
+      "id": 6407,
+      "desc": "650 AoE Shadow Strike"
+    },
+    {
+      "id": 6856,
+      "desc": "Scream of Pain 1.5s Fear"
+    },
+    {
+      "id": 7034,
+      "desc": "15s Spell Block"
     }
   ]
 }

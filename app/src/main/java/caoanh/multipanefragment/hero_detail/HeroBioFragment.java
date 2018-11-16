@@ -236,14 +236,15 @@ public class HeroBioFragment extends Fragment {
                 ability.setCmb(abilityJson.getString("cmb"));
                 ability.setLore(abilityJson.getString("lore"));
                 ability.setMainSkill(abilityJson.getInt("mainSkill") != 0);
-                fragment.heroDetail.getAbilities().add(ability);
+                fragment.heroDetail.addAbility(ability);
             }
             JSONArray talents = jsonObject.getJSONArray("Talents");
             for (int i = 0; i < talents.length() ; i++) {
-                JSONObject talent = talents.getJSONObject(i);
-                Skill s = new Skill();
-                s.setId(talent.getInt("id"));
-                s.setDesc(talent.getString("desc"));
+                JSONObject talentJson = talents.getJSONObject(i);
+                Skill talent = new Skill();
+                talent.setId(talentJson.getInt("id"));
+                talent.setDesc(talentJson.getString("desc"));
+                fragment.heroDetail.addTalents(talent);
             }
         }
 

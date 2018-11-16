@@ -1,5 +1,4 @@
 {
-  "Image": "hero_viper",
   "Id": 47,
   "Name": "Viper",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "Once used to slay his sadistic summoner, the most powerful of Netherdrake infections spreads through the veins of those foolish enough to cross Viper.",
       "image": "skill_5221",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5906,
+      "desc": "+20 Attack Speed"
+    },
+    {
+      "id": 6565,
+      "desc": "8% Spell Lifesteal"
+    },
+    {
+      "id": 5943,
+      "desc": "+100 Attack Range"
+    },
+    {
+      "id": 6156,
+      "desc": "+6 Corrosive Skin Stats"
+    },
+    {
+      "id": 6165,
+      "desc": "+100 Viper Strike DPS"
+    },
+    {
+      "id": 6820,
+      "desc": "Poison Attack Affects Buildings"
+    },
+    {
+      "id": 6819,
+      "desc": "Nethertoxin Silences"
+    },
+    {
+      "id": 6112,
+      "desc": "+120 Damage"
     }
   ]
 }

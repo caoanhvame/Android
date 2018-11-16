@@ -1,5 +1,4 @@
 {
-  "Image": "hero_earthshaker",
   "Id": 7,
   "Name": "Earthshaker",
   "Fraction": "Radiant",
@@ -70,6 +69,40 @@
       "lore": "Tectonic plates crack, mountains fold, and foes are crushed by the Echo Slam.",
       "image": "skill_5026",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5939,
+      "desc": "+30 Damage"
+    },
+    {
+      "id": 6006,
+      "desc": "+250 Mana"
+    },
+    {
+      "id": 6141,
+      "desc": "+30 Movement Speed"
+    },
+    {
+      "id": 5970,
+      "desc": "+7 Armor"
+    },
+    {
+      "id": 6425,
+      "desc": "+50 Echo Damage"
+    },
+    {
+      "id": 6511,
+      "desc": "+400 Fissure Range"
+    },
+    {
+      "id": 6641,
+      "desc": "+50% Magic Resistance"
+    },
+    {
+      "id": 6035,
+      "desc": "-2s Enchant Totem Cooldown"
     }
   ]
 }

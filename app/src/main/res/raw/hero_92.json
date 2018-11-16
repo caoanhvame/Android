@@ -1,5 +1,4 @@
 {
-  "Image": "hero_visage",
   "Id": 92,
   "Name": "Visage",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "Guardians of the Narrow Maze, Necro'lic's Familiars stand watch over his domain.",
       "image": "skill_5483",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6197,
+      "desc": "+125 Cast Range"
+    },
+    {
+      "id": 5939,
+      "desc": "+30 Damage"
+    },
+    {
+      "id": 6447,
+      "desc": "+40% XP Gain"
+    },
+    {
+      "id": 6522,
+      "desc": "Soul Assumption Hits 2 Targets"
+    },
+    {
+      "id": 6983,
+      "desc": "+15 Soul Assumption Damage Per Charge"
+    },
+    {
+      "id": 6320,
+      "desc": "+80 Familiars Movement Speed"
+    },
+    {
+      "id": 6984,
+      "desc": "-2s Gravekeeper's Cloak"
+    },
+    {
+      "id": 6985,
+      "desc": "+1 Familiar"
     }
   ]
 }

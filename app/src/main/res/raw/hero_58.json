@@ -1,5 +1,4 @@
 {
-  "Image": "hero_enchantress",
   "Id": 58,
   "Name": "Enchantress",
   "Fraction": "Radiant",
@@ -70,6 +69,40 @@
       "lore": "While Aiushtha favors peaceful means, she is capable of a magical onslaught from a distance, her spears gaining energy from the natural life around her.",
       "image": "skill_5270",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6138,
+      "desc": "+15% Magic Resistance"
+    },
+    {
+      "id": 5919,
+      "desc": "+25 Movement Speed"
+    },
+    {
+      "id": 5941,
+      "desc": "+50 Damage"
+    },
+    {
+      "id": 6086,
+      "desc": "+8 Nature's Attendants Wisps"
+    },
+    {
+      "id": 6379,
+      "desc": "+100 Untouchable Slow"
+    },
+    {
+      "id": 6331,
+      "desc": "Enchant Affects Ancients"
+    },
+    {
+      "id": 6515,
+      "desc": "+8% Impetus Damage"
+    },
+    {
+      "id": 6648,
+      "desc": "+25 Nature's Attendants Heal"
     }
   ]
 }

@@ -1,5 +1,4 @@
 {
-  "Image": "hero_templar_assassin",
   "Id": 46,
   "Name": "Templar Assassin",
   "Fraction": "Radiant",
@@ -83,6 +82,40 @@
       "lore": "Calling upon the reach of the Hidden Temple, none escape the eye of the Templar.",
       "image": "skill_5197",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6016,
+      "desc": "+25 Attack Speed"
+    },
+    {
+      "id": 7058,
+      "desc": "+3 Psionic Traps"
+    },
+    {
+      "id": 5970,
+      "desc": "+7 Armor"
+    },
+    {
+      "id": 6938,
+      "desc": "+200 Psionic Trap Damage"
+    },
+    {
+      "id": 6939,
+      "desc": "Refraction Dispels"
+    },
+    {
+      "id": 6545,
+      "desc": "-4 Meld Armor Reduction"
+    },
+    {
+      "id": 6940,
+      "desc": "Psi Blades Spill Paralyzes"
+    },
+    {
+      "id": 6071,
+      "desc": "+4 Refraction Instances"
     }
   ]
 }

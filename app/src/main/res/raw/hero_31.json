@@ -1,5 +1,4 @@
 {
-  "Image": "hero_lich",
   "Id": 31,
   "Name": "Lich",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "Almost universally considered the ultimate in frost magic, Ethreain's orb of frozen death strikes fear into those who dare stand against him.",
       "image": "skill_5137",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5959,
+      "desc": "+200 Health"
+    },
+    {
+      "id": 5919,
+      "desc": "+25 Movement Speed"
+    },
+    {
+      "id": 6112,
+      "desc": "+120 Damage"
+    },
+    {
+      "id": 6387,
+      "desc": "-4s Frost Blast Cooldown"
+    },
+    {
+      "id": 6120,
+      "desc": "+175 Cast Range"
+    },
+    {
+      "id": 6026,
+      "desc": "+180 Gold/Min"
+    },
+    {
+      "id": 6039,
+      "desc": "Ice Armor Provides +30 HP Regen"
+    },
+    {
+      "id": 6292,
+      "desc": "Attacks Apply 40% MS and AS Slow"
     }
   ]
 }

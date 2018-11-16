@@ -1,5 +1,4 @@
 {
-  "Image": "hero_pugna",
   "Id": 45,
   "Name": "Pugna",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "Pugna has truly become more powerful than even the grandmaster of Oblivion.",
       "image": "skill_5189",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5919,
+      "desc": "+25 Movement Speed"
+    },
+    {
+      "id": 6405,
+      "desc": "+225 Health"
+    },
+    {
+      "id": 6448,
+      "desc": "-1s Netherblast Cooldown"
+    },
+    {
+      "id": 6859,
+      "desc": "+3 Nether Ward Health"
+    },
+    {
+      "id": 6220,
+      "desc": "+25% Life Drain Heal"
+    },
+    {
+      "id": 6541,
+      "desc": "+2s Decrepify Duration"
+    },
+    {
+      "id": 6238,
+      "desc": "+200 Nether Blast Damage"
+    },
+    {
+      "id": 6403,
+      "desc": "+1.75 Netherward Damage Per Mana"
     }
   ]
 }

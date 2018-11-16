@@ -1,5 +1,4 @@
 {
-  "Image": "hero_phantom_assassin",
   "Id": 44,
   "Name": "Phantom Assassin",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "A divine phantom_assassin_coup_de_grace, Mortred honors her opponent by choosing them for death.",
       "image": "skill_5193",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5902,
+      "desc": "+150 Health"
+    },
+    {
+      "id": 5938,
+      "desc": "+15 Damage"
+    },
+    {
+      "id": 7011,
+      "desc": "-4 Armor Corruption"
+    },
+    {
+      "id": 6603,
+      "desc": "+20% Cleave"
+    },
+    {
+      "id": 6078,
+      "desc": "20% Lifesteal"
+    },
+    {
+      "id": 6192,
+      "desc": "Triple Strike Stifling Dagger"
+    },
+    {
+      "id": 6847,
+      "desc": "+5% Coup de Grace"
+    },
+    {
+      "id": 6848,
+      "desc": "+25% Blur Evasion"
     }
   ]
 }

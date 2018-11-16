@@ -1,5 +1,4 @@
 {
-  "Image": "hero_ancient_apparition",
   "Id": 68,
   "Name": "Ancient Apparition",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "Ice storms from ages past flow through Kaldr's frosty limbs, crashing into the world and turning its inhabitants into monuments to his eternal power.",
       "image": "skill_5348",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6007,
+      "desc": "+90 Gold/Min"
+    },
+    {
+      "id": 5989,
+      "desc": "+10% Spell Amplification"
+    },
+    {
+      "id": 6352,
+      "desc": "-2.5s Ice Vortex Cooldown"
+    },
+    {
+      "id": 6079,
+      "desc": "+20 Health Regen"
+    },
+    {
+      "id": 6534,
+      "desc": "+8% Ice Vortex Slow/Resistance"
+    },
+    {
+      "id": 6291,
+      "desc": "+80 Chilling Touch Damag"
+    },
+    {
+      "id": 7106,
+      "desc": "900 AoE Cold Feet"
+    },
+    {
+      "id": 6810,
+      "desc": "+4% Ice Blast Kill Threshold"
     }
   ]
 }

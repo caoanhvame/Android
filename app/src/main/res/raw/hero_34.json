@@ -1,5 +1,4 @@
 {
-  "Image": "hero_tinker",
   "Id": 34,
   "Name": "Tinker",
   "Fraction": "Radiant",
@@ -70,6 +69,40 @@
       "lore": "A new battery here, another set of rockets there, Boush continually improves on existing technology.",
       "image": "skill_5153",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5996,
+      "desc": "+6% Spell Amplification"
+    },
+    {
+      "id": 5947,
+      "desc": "+75 Cast Range"
+    },
+    {
+      "id": 6093,
+      "desc": "+40 Movement Speed"
+    },
+    {
+      "id": 6594,
+      "desc": "10% Spell Lifesteal"
+    },
+    {
+      "id": 6004,
+      "desc": "+10 Armor"
+    },
+    {
+      "id": 6952,
+      "desc": "+8 March of the Machines Damage"
+    },
+    {
+      "id": 6152,
+      "desc": "+100 Laser Damage"
+    },
+    {
+      "id": 6953,
+      "desc": "+0.3s Heat-Seeking Missile Ministun"
     }
   ]
 }

@@ -1,5 +1,4 @@
 {
-  "Image": "hero_centaur",
   "Id": 96,
   "Name": "Centaur Warrunner",
   "Fraction": "Radiant",
@@ -70,6 +69,40 @@
       "cmb": "<img src=\"mana\"/> 100 &emsp <img src=\"cooldown\"/> 90/75/60",
       "image": "skill_5517",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5971,
+      "desc": "10% Evasion"
+    },
+    {
+      "id": 5937,
+      "desc": "+10% Magic Resistance"
+    },
+    {
+      "id": 5942,
+      "desc": "+75 Damage"
+    },
+    {
+      "id": 6616,
+      "desc": "+15% Return Strength Damage"
+    },
+    {
+      "id": 6617,
+      "desc": "+300 Double Edge Damage"
+    },
+    {
+      "id": 6080,
+      "desc": "+20 Strength"
+    },
+    {
+      "id": 6322,
+      "desc": "Gains Return Aura"
+    },
+    {
+      "id": 5988,
+      "desc": "+1.5s Hoof Stomp Duration"
     }
   ]
 }

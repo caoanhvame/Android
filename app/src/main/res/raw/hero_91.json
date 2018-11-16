@@ -1,5 +1,4 @@
 {
-  "Image": "hero_wisp",
   "Id": 91,
   "Name": "Wisp",
   "Fraction": "Radiant",
@@ -109,6 +108,40 @@
       "lore": "Io is the embodiment of the mystery of the universe.",
       "image": "skill_5488",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6017,
+      "desc": "+20% XP Gain"
+    },
+    {
+      "id": 6523,
+      "desc": "+45 Damage"
+    },
+    {
+      "id": 6265,
+      "desc": "+75 Spirits Hero Damage"
+    },
+    {
+      "id": 6924,
+      "desc": "Tether Grants Scepter Bonus"
+    },
+    {
+      "id": 5957,
+      "desc": "+150 Gold/Min"
+    },
+    {
+      "id": 5914,
+      "desc": "+15 Health Regen"
+    },
+    {
+      "id": 7070,
+      "desc": "-60s Relocate Cooldown"
+    },
+    {
+      "id": 6808,
+      "desc": "Attack Tethered Ally's Target"
     }
   ]
 }

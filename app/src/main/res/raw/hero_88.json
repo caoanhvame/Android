@@ -1,5 +1,4 @@
 {
-  "Image": "hero_nyx_assassin",
   "Id": 88,
   "Name": "Nyx Assassin",
   "Fraction": "Dire",
@@ -94,6 +93,40 @@
       "lore": "Some castes of zealot scarab are known to create small burrows to lie in wait, ready to ambush their prey.",
       "image": "skill_5673",
       "mainSkill": 0
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5996,
+      "desc": "+6% Spell Amplification"
+    },
+    {
+      "id": 5956,
+      "desc": "+60 Gold/Min"
+    },
+    {
+      "id": 6423,
+      "desc": "+325 Health"
+    },
+    {
+      "id": 6077,
+      "desc": "+35 Movement Speed"
+    },
+    {
+      "id": 6130,
+      "desc": "+75% Spiked Carapace Damage"
+    },
+    {
+      "id": 6399,
+      "desc": "+175 Impale Damage"
+    },
+    {
+      "id": 6705,
+      "desc": "+100 Agility"
+    },
+    {
+      "id": 6814,
+      "desc": "Vendetta Unobstructed Pathing"
     }
   ]
 }

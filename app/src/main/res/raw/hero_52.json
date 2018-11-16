@@ -1,5 +1,4 @@
 {
-  "Image": "hero_leshrac",
   "Id": 52,
   "Name": "Leshrac",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "If necessary, the Tormented Soul can manipulate space time itself, ravaging lesser beings.",
       "image": "skill_5244",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5932,
+      "desc": "+5 Armor"
+    },
+    {
+      "id": 6006,
+      "desc": "+250 Mana"
+    },
+    {
+      "id": 6145,
+      "desc": "+15 Strength"
+    },
+    {
+      "id": 6141,
+      "desc": "+30 Movement Speed"
+    },
+    {
+      "id": 5974,
+      "desc": "25% Evasion"
+    },
+    {
+      "id": 6672,
+      "desc": "+50 Pulse Nova Damage"
+    },
+    {
+      "id": 6063,
+      "desc": "+50 Diabolic Edict Explosions"
+    },
+    {
+      "id": 6240,
+      "desc": "+3s Lightning Storm Slow Duration"
     }
   ]
 }

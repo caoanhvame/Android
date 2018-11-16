@@ -11,8 +11,9 @@ import java.util.Locale;
 import java.util.Map;
 
 import caoanh.multipanefragment.R;
+
+import android.app.Activity;
 import android.content.Context;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,7 +29,7 @@ public class HeroAdapter extends BaseExpandableListAdapter {
 	private Map<String, List<HeroObject>> data;
 	private ExpandableListView aa;
 	
-	public HeroAdapter(Context context, List<String> title, Map<String, List<HeroObject>> data) {
+	HeroAdapter(Context context, List<String> title, Map<String, List<HeroObject>> data) {
 		this.context = context;
 		this.title = title;
 		this.data = data;
@@ -46,7 +47,7 @@ public class HeroAdapter extends BaseExpandableListAdapter {
 
 	@Override
 	public View getChildView(int groupPosition, int childPosition, boolean isLastChild, View view, ViewGroup viewGroup) {
-		ViewHolder viewHolder = null;
+		ViewHolder viewHolder;
 		HeroObject item = (HeroObject) getChild(groupPosition, childPosition);
 		if(view == null){
 			LayoutInflater inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -85,7 +86,7 @@ public class HeroAdapter extends BaseExpandableListAdapter {
 	@Override
 	public View getGroupView(int listPosition, boolean isExpand, View view, ViewGroup viewGroup) {
 		if(view == null){
-			LayoutInflater inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+			LayoutInflater inflater = ((Activity) context).getLayoutInflater();
 			view = inflater.inflate(R.layout.fragment_hero_list_header, null);
 		}
 

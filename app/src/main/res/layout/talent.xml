@@ -17,15 +17,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="3sp"
+        android:id="@+id/lvl_25"
         android:background="@color/lightGrey">
 
         <TextView
             android:id="@+id/talent_left_25"
-            android:layout_width="wrap_content"
+            android:layout_width="150sp"
             android:layout_height="wrap_content"
             android:padding="5sp"
-            android:text="lalala"
             android:textColor="@color/white"
+            android:gravity="center"
             android:textSize="13sp" />
 
         <TextView
@@ -41,11 +42,11 @@
 
         <TextView
             android:id="@+id/talent_right_25"
-            android:layout_width="wrap_content"
+            android:layout_width="150sp"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/talent_lvl_25"
             android:padding="5sp"
-            android:text="hoho"
+            android:gravity="center"
             android:textColor="@color/white"
             android:textSize="13sp" />
     </RelativeLayout>
@@ -54,14 +55,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="3sp"
+        android:id="@+id/lvl_20"
         android:background="@color/darkGray">
 
         <TextView
             android:id="@+id/talent_left_20"
-            android:layout_width="wrap_content"
+            android:layout_width="150sp"
             android:layout_height="wrap_content"
             android:padding="5sp"
-            android:text="lalala"
             android:textColor="@color/white"
             android:textSize="13sp" />
 
@@ -78,11 +79,11 @@
 
         <TextView
             android:id="@+id/talent_right_20"
-            android:layout_width="wrap_content"
+            android:layout_width="150sp"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/talent_lvl_20"
             android:padding="5sp"
-            android:text="hoho"
+            android:gravity="center"
             android:textColor="@color/white"
             android:textSize="13sp" />
     </RelativeLayout>
@@ -91,14 +92,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="3sp"
+        android:id="@+id/lvl_15"
         android:background="@color/lightGrey">
 
         <TextView
             android:id="@+id/talent_left_15"
-            android:layout_width="wrap_content"
+            android:layout_width="150sp"
             android:layout_height="wrap_content"
             android:padding="5sp"
-            android:text="lalala"
+            android:gravity="center"
             android:textColor="@color/white"
             android:textSize="13sp" />
 
@@ -115,11 +117,11 @@
 
         <TextView
             android:id="@+id/talent_right_15"
-            android:layout_width="wrap_content"
+            android:layout_width="150sp"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/talent_lvl_15"
             android:padding="5sp"
-            android:text="hoho"
+            android:gravity="center"
             android:textColor="@color/white"
             android:textSize="13sp" />
     </RelativeLayout>
@@ -128,14 +130,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="3sp"
+        android:id="@+id/lvl_10"
         android:background="@color/darkGray">
 
         <TextView
             android:id="@+id/talent_left_10"
-            android:layout_width="wrap_content"
+            android:layout_width="150sp"
             android:layout_height="wrap_content"
             android:padding="5sp"
-            android:text="lalala"
+            android:gravity="center"
             android:textColor="@color/white"
             android:textSize="13sp" />
 
@@ -152,11 +155,11 @@
 
         <TextView
             android:id="@+id/talent_right_10"
-            android:layout_width="wrap_content"
+            android:layout_width="150sp"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/talent_lvl_10"
             android:padding="5sp"
-            android:text="hoho"
+            android:gravity="center"
             android:textColor="@color/white"
             android:textSize="13sp" />
     </RelativeLayout>

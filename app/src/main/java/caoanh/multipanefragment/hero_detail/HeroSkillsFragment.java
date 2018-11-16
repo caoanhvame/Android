@@ -18,6 +18,10 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
+import java.util.List;
+
 import caoanh.multipanefragment.R;
 
 
@@ -153,10 +157,23 @@ public class HeroSkillsFragment extends Fragment {
     }
 
     private void setTalents(HeroDetailObject heroDetail) {
+        List<Skill> talents = heroDetail.getTalents();
         TextView left10 = (TextView)activity.findViewById(R.id.talent_left_10);
-        left10.setText(heroDetail.getTalents().get(0).getDesc());
+        left10.setText(talents.get(0).getDesc());
         TextView right10 = (TextView)activity.findViewById(R.id.talent_right_10);
-
+        right10.setText(talents.get(1).getDesc());
+        TextView left15 = (TextView)activity.findViewById(R.id.talent_left_15);
+        left15.setText(talents.get(2).getDesc());
+        TextView right15 = (TextView)activity.findViewById(R.id.talent_right_15);
+        right15.setText(talents.get(3).getDesc());
+        TextView left20 = (TextView)activity.findViewById(R.id.talent_left_20);
+        left20.setText(talents.get(4).getDesc());
+        TextView right20 = (TextView)activity.findViewById(R.id.talent_right_20);
+        right20.setText(talents.get(5).getDesc());
+        TextView left25 = (TextView)activity.findViewById(R.id.talent_left_25);
+        left25.setText(talents.get(6).getDesc());
+        TextView right25 = (TextView)activity.findViewById(R.id.talent_right_25);
+        right25.setText(talents.get(7).getDesc());
     }
 
     private class ImageGetter implements Html.ImageGetter {

@@ -1,5 +1,4 @@
 {
-  "Image": "hero_treant",
   "Id": 83,
   "Name": "Treant Protector",
   "Fraction": "Radiant",
@@ -83,6 +82,40 @@
       "cmb": "<img src=\"mana\"/> 150/175/200 &emsp <img src=\"cooldown\"/> 100/85/70",
       "image": "skill_5437",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6024,
+      "desc": "+2 Living Armor Block Instances"
+    },
+    {
+      "id": 6021,
+      "desc": "10% Cooldown Reduction"
+    },
+    {
+      "id": 5968,
+      "desc": "+90 Damage"
+    },
+    {
+      "id": 6955,
+      "desc": "2s Tree Respawn Time"
+    },
+    {
+      "id": 6956,
+      "desc": "+2s Nature's Guise Root"
+    },
+    {
+      "id": 6531,
+      "desc": "+40 Leech Seed Damage/Heal"
+    },
+    {
+      "id": 6597,
+      "desc": "+350 Eyes and Overgrowth AoE"
+    },
+    {
+      "id": 7115,
+      "desc": "700 AoE Living Armor"
     }
   ]
 }

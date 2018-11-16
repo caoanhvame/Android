@@ -1,5 +1,4 @@
 {
-  "Image": "hero_warlock",
   "Id": 37,
   "Name": "Warlock",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "Demnok unleashes the captive spirit in his Dreadwood staff, causing destruction in enemy ranks.",
       "image": "skill_5165",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6982,
+      "desc": "+5% Fatal Bonds Damage"
+    },
+    {
+      "id": 6056,
+      "desc": "+150 Cast Range"
+    },
+    {
+      "id": 7125,
+      "desc": "+60% XP Gain"
+    },
+    {
+      "id": 6412,
+      "desc": "-7s Shadow Word Cooldown"
+    },
+    {
+      "id": 6505,
+      "desc": "Summons a Golem on death"
+    },
+    {
+      "id": 6986,
+      "desc": "300 Shadow Word AoE"
+    },
+    {
+      "id": 6054,
+      "desc": "+20 Chaotic Offering Golems Armor"
+    },
+    {
+      "id": 6053,
+      "desc": "Magic Immunity for Chaotic Offering Golems"
     }
   ]
 }

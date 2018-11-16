@@ -1,5 +1,4 @@
 {
-  "Image": "hero_chaos_knight",
   "Id": 81,
   "Name": "Chaos Knight",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "Drawing on his battles fought across many worlds and many times, phantasms of the Chaos Knight rise up to quell all who oppose him.",
       "image": "skill_5429",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5921,
+      "desc": "+5 All Stats"
+    },
+    {
+      "id": 5918,
+      "desc": "+20 Movement Speed"
+    },
+    {
+      "id": 6145,
+      "desc": "+15 Strength"
+    },
+    {
+      "id": 6190,
+      "desc": "12% Cooldown Reduction"
+    },
+    {
+      "id": 5957,
+      "desc": "+150 Gold/Min"
+    },
+    {
+      "id": 6133,
+      "desc": "Reality Rift Pierces Spell Immune"
+    },
+    {
+      "id": 6618,
+      "desc": "-7 Reality Rift Armor Reduction"
+    },
+    {
+      "id": 6619,
+      "desc": "+2 Max Chaos Bolt Duration"
     }
   ]
 }

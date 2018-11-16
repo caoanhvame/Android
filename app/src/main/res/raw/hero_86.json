@@ -1,5 +1,4 @@
 {
-  "Image": "hero_rubick",
   "Id": 86,
   "Name": "Rubick",
   "Fraction": "Radiant",
@@ -83,6 +82,40 @@
       "lore": "...but even their lesser magics can be a source of much utility.",
       "image": "skill_5452",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5959,
+      "desc": "+200 Health"
+    },
+    {
+      "id": 6366,
+      "desc": "+60 Damage"
+    },
+    {
+      "id": 6003,
+      "desc": "+100 Cast Range"
+    },
+    {
+      "id": 6862,
+      "desc": "-45 Fade Bolt Hero Attack"
+    },
+    {
+      "id": 6863,
+      "desc": "+5% Null Field"
+    },
+    {
+      "id": 6041,
+      "desc": "+300 Telekinesis Land Distance"
+    },
+    {
+      "id": 6864,
+      "desc": "-15s Telekinesis Cooldown"
+    },
+    {
+      "id": 6870,
+      "desc": "+75% Spell Amp For Stolen Spells"
     }
   ]
 }

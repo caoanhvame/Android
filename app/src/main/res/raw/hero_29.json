@@ -1,5 +1,4 @@
 {
-  "Image": "hero_tidehunter",
   "Id": 29,
   "Name": "TIdehunter",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "Calling to the abyssal god Maelrawn has resulted in entire armadas being lost at sea.",
       "image": "skill_5121",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5919,
+      "desc": "+25 Movement Speed"
+    },
+    {
+      "id": 6945,
+      "desc": "+80 Gush Damage"
+    },
+    {
+      "id": 6647,
+      "desc": "+40% XP Gain"
+    },
+    {
+      "id": 6946,
+      "desc": "+25% Anchor Smash Damage Reduction"
+    },
+    {
+      "id": 6947,
+      "desc": "+30 Kraken Shell Damage Block"
+    },
+    {
+      "id": 6151,
+      "desc": "-5 Gush Armor"
+    },
+    {
+      "id": 6222,
+      "desc": "25% Cooldown Reduction"
+    },
+    {
+      "id": 6556,
+      "desc": "+250 Damage"
     }
   ]
 }

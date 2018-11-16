@@ -1,5 +1,4 @@
 {
-  "Image": "hero_lion",
   "Id": 26,
   "Name": "Lion",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "Lion's disfigured hand is also the source of his greatest power, capable of flooding victims with malefic force.",
       "image": "skill_5047",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5947,
+      "desc": "+75 Cast Range"
+    },
+    {
+      "id": 5968,
+      "desc": "+90 Damage"
+    },
+    {
+      "id": 6600,
+      "desc": "+200 Finger of Death Damage"
+    },
+    {
+      "id": 6008,
+      "desc": "+120 Gold/Min"
+    },
+    {
+      "id": 6235,
+      "desc": "+500 Health"
+    },
+    {
+      "id": 6174,
+      "desc": "+2 Mana Drain Multi Target"
+    },
+    {
+      "id": 6389,
+      "desc": "+1000 Earth Spike Range"
+    },
+    {
+      "id": 6678,
+      "desc": "+325 AoE Hex"
     }
   ]
 }

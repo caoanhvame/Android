@@ -1,5 +1,4 @@
 {
-  "Image": "hero_undying",
   "Id": 85,
   "Name": "Undying",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "The flesh of the recently dead add to the power of Dirge's plague.",
       "image": "skill_5447",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6056,
+      "desc": "+150 Cast Range"
+    },
+    {
+      "id": 5911,
+      "desc": "+8 Health Regen"
+    },
+    {
+      "id": 6546,
+      "desc": "Tombstone On Death"
+    },
+    {
+      "id": 6971,
+      "desc": "+50 Decay Duration"
+    },
+    {
+      "id": 6155,
+      "desc": "+30 Tombstone Zombie Damage"
+    },
+    {
+      "id": 6972,
+      "desc": "+6 Tombstone Attacks to Destroy"
+    },
+    {
+      "id": 6677,
+      "desc": "Gains Reincarnation 200 CD"
+    },
+    {
+      "id": 6420,
+      "desc": "-2s Decay Cooldown"
     }
   ]
 }

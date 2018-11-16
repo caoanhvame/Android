@@ -1,5 +1,4 @@
 {
-  "Image": "hero_invoker",
   "Id": 74,
   "Name": "Invoker",
   "Fraction": "Dire",
@@ -200,6 +199,40 @@
       "lore": "Buluphont's Aureal Incapacitator.",
       "image": "skill_5390",
       "mainSkill": 0
+    }
+  ],
+  "Talents": [
+    {
+      "id": 7017,
+      "desc": "+1.25s Tornado Lift Time"
+    },
+    {
+      "id": 6811,
+      "desc": "+30 Chaos Meteor Contact Damage"
+    },
+    {
+      "id": 6097,
+      "desc": "+1 Forged Spirit Summoned"
+    },
+    {
+      "id": 7148,
+      "desc": "-12s Cold Snap Cooldown"
+    },
+    {
+      "id": 6656,
+      "desc": "Cataclysm"
+    },
+    {
+      "id": 6657,
+      "desc": "+35 Alacrity Damage/Speed"
+    },
+    {
+      "id": 6098,
+      "desc": "Radial Deafening Blast"
+    },
+    {
+      "id": 6099,
+      "desc": "-16s Tornado Cooldown"
     }
   ]
 }

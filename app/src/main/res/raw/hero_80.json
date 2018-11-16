@@ -1,5 +1,4 @@
 {
-  "Image": "hero_lone_druid",
   "Id": 80,
   "Name": "Lone DruId",
   "Fraction": "Radiant",
@@ -98,6 +97,40 @@
       "lore": "When Sylla cries in the forest, the reverberations are felt for a great distance.",
       "image": "skill_5417",
       "mainSkill": 0
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5903,
+      "desc": "+250 Health"
+    },
+    {
+      "id": 6186,
+      "desc": "+175 Attack Range"
+    },
+    {
+      "id": 6268,
+      "desc": "-12s Savage Roar Cooldown"
+    },
+    {
+      "id": 6262,
+      "desc": "+10 Spirit Bear Armor"
+    },
+    {
+      "id": 6806,
+      "desc": "-25s Battle Cry Cooldown"
+    },
+    {
+      "id": 6679,
+      "desc": "+40 Rabid Attack Speed"
+    },
+    {
+      "id": 7036,
+      "desc": "0 Entangle Cooldown"
+    },
+    {
+      "id": 6680,
+      "desc": "Battle Cry Grants Spell Immunity"
     }
   ]
 }

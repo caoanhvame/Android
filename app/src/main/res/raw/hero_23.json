@@ -1,5 +1,4 @@
 {
-  "Image": "hero_kunkka",
   "Id": 23,
   "Name": "Kunkka",
   "Fraction": "Radiant",
@@ -83,6 +82,40 @@
       "lore": "The final ship of the Claddish Navy is nothing but a phantom, but it is all too real to the enemies of the Admiral.",
       "image": "skill_5035",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5940,
+      "desc": "+40 Damage"
+    },
+    {
+      "id": 5933,
+      "desc": "+6 Armor"
+    },
+    {
+      "id": 5912,
+      "desc": "+10 Health Regen"
+    },
+    {
+      "id": 6385,
+      "desc": "+120 Torrent Damage"
+    },
+    {
+      "id": 6089,
+      "desc": "+100 Torrent AoE"
+    },
+    {
+      "id": 5984,
+      "desc": "+25 Strength"
+    },
+    {
+      "id": 6666,
+      "desc": "Ghostship Fleet"
+    },
+    {
+      "id": 7131,
+      "desc": "-1.5s Tidebringer Cooldown"
     }
   ]
 }

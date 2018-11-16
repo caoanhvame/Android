@@ -1,5 +1,4 @@
 {
-  "Image": "hero_magnataur",
   "Id": 97,
   "Name": "Magnus",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "Magnus fights with the fury of the erupting Mt. Joerlak.",
       "image": "skill_5521",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6016,
+      "desc": "+25 Attack Speed"
+    },
+    {
+      "id": 5959,
+      "desc": "+200 Health"
+    },
+    {
+      "id": 6145,
+      "desc": "+15 Strength"
+    },
+    {
+      "id": 6690,
+      "desc": "+75 Shockwave Damage"
+    },
+    {
+      "id": 6286,
+      "desc": "+12 Armor"
+    },
+    {
+      "id": 6507,
+      "desc": "+500 Skewer Range"
+    },
+    {
+      "id": 6390,
+      "desc": "+20% Empower Damage/Cleave"
+    },
+    {
+      "id": 6691,
+      "desc": "+1s Reverse Polarity Stun Duration"
     }
   ]
 }

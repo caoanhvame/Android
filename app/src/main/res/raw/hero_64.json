@@ -1,5 +1,4 @@
 {
-  "Image": "hero_jakiro",
   "Id": 64,
   "Name": "Jakiro",
   "Fraction": "Radiant",
@@ -70,6 +69,40 @@
       "lore": "Ice and fire combine to rip the battlefield to shreds with extreme temperatures.",
       "image": "skill_5300",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6317,
+      "desc": "+30% XP Gain"
+    },
+    {
+      "id": 5949,
+      "desc": "+8% Spell Amplification"
+    },
+    {
+      "id": 6051,
+      "desc": "+300 Attack Range"
+    },
+    {
+      "id": 6381,
+      "desc": "+40 Dual Breath Burn Damage"
+    },
+    {
+      "id": 6661,
+      "desc": "-60 Liquid Fire Attack Speed"
+    },
+    {
+      "id": 5957,
+      "desc": "+150 Gold/Min"
+    },
+    {
+      "id": 6538,
+      "desc": "Macropyre Pure and Pierces Immunity"
+    },
+    {
+      "id": 6064,
+      "desc": "+1.25s Ice Path Duration"
     }
   ]
 }

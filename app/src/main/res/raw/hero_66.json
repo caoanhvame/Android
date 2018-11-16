@@ -1,5 +1,4 @@
 {
-  "Image": "hero_chen",
   "Id": 66,
   "Name": "Chen",
   "Fraction": "Radiant",
@@ -83,6 +82,40 @@
       "lore": "Using the mental link with his thralls, Chen calls down restoration and well-being to those who share his fanaticism.",
       "image": "skill_5331",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6372,
+      "desc": "+35% XP Gain"
+    },
+    {
+      "id": 6114,
+      "desc": "+200 Cast Range"
+    },
+    {
+      "id": 5970,
+      "desc": "+7 Armor"
+    },
+    {
+      "id": 6363,
+      "desc": "-10s Test of Faith Cooldown"
+    },
+    {
+      "id": 6026,
+      "desc": "+180 Gold/Min"
+    },
+    {
+      "id": 6535,
+      "desc": "+1000 Holy Persuasion Minimum Health"
+    },
+    {
+      "id": 6259,
+      "desc": "+4 Holy Persuasion Max Units"
+    },
+    {
+      "id": 6260,
+      "desc": "+400 Hand of God Heal"
     }
   ]
 }

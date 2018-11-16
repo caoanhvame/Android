@@ -1,5 +1,4 @@
 {
-  "Image": "hero_rattletrap",
   "Id": 51,
   "Name": "Clockwerk",
   "Fraction": "Radiant",
@@ -70,6 +69,40 @@
       "cmb": "<img src=\"mana\"/> 150 &emsp <img src=\"cooldown\"/> 70/55/40</div>",
       "image": "skill_5240",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5932,
+      "desc": "+5 Armor"
+    },
+    {
+      "id": 5918,
+      "desc": "+20 Movement Speed"
+    },
+    {
+      "id": 6145,
+      "desc": "+15 Strength"
+    },
+    {
+      "id": 6512,
+      "desc": "+30 Battery Assault Damage"
+    },
+    {
+      "id": 6000,
+      "desc": "+20% Magic Resistance"
+    },
+    {
+      "id": 6364,
+      "desc": "+125 Rocket Flare Damage"
+    },
+    {
+      "id": 7028,
+      "desc": "Rocket Flare True Sight"
+    },
+    {
+      "id": 5977,
+      "desc": "-0.3s Battery Assault Interval"
     }
   ]
 }

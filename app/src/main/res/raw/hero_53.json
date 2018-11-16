@@ -1,5 +1,4 @@
 {
-  "Image": "hero_furion",
   "Id": 53,
   "Name": "Nature's Prophet",
   "Fraction": "Radiant",
@@ -70,6 +69,40 @@
       "lore": "Nature's Prophet calls Verodicia's fury to strike down those who might ravage the wilderness.",
       "image": "skill_5248",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5939,
+      "desc": "+30 Damage"
+    },
+    {
+      "id": 6077,
+      "desc": "+35 Movement Speed"
+    },
+    {
+      "id": 6004,
+      "desc": "+10 Armor"
+    },
+    {
+      "id": 6500,
+      "desc": "+4 Treants Summoned"
+    },
+    {
+      "id": 6210,
+      "desc": "+40 Attack Speed"
+    },
+    {
+      "id": 6702,
+      "desc": "-4s Sprout Cooldown"
+    },
+    {
+      "id": 6539,
+      "desc": "Removed Teleportation Cooldown"
+    },
+    {
+      "id": 6084,
+      "desc": "2x Treant HP/Damage"
     }
   ]
 }

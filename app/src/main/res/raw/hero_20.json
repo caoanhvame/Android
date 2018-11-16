@@ -1,5 +1,4 @@
 {
-  "Image": "hero_vengefulspirit",
   "Id": 20,
   "Name": "Vengeful Spirit",
   "Fraction": "Radiant",
@@ -70,6 +69,40 @@
       "lore": 	"Martyrdom is a small price to pay for vengeance.",
       "image": "skill_5125",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6138,
+      "desc": "+15% Magic Resistance"
+    },
+    {
+      "id": 6977,
+      "desc": "-1 Wave of Terror Armor"
+    },
+    {
+      "id": 5929,
+      "desc": "+15 Agility"
+    },
+    {
+      "id": 7018,
+      "desc": "-6s Wave of Terror Cooldown"
+    },
+    {
+      "id": 6978,
+      "desc": "-5s Magic Missile Cooldown"
+    },
+    {
+      "id": 6237,
+      "desc": "+15% Vengeance Aura Damage"
+    },
+    {
+      "id": 6310,
+      "desc": "+400 Magic Missile Damage"
+    },
+    {
+      "id": 6057,
+      "desc": "Magic Missile Pierces Spell Immunity"
     }
   ]
 }

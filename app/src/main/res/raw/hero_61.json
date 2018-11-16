@@ -1,5 +1,4 @@
 {
-  "Image": "hero_broodmother",
   "Id": 61,
   "Name": "Broodmother",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "While most of her prey is wrapped in silken cocoons and saved for her young, the Broodmother herself has a taste for wandering heroes.",
       "image": "skill_5282",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6361,
+      "desc": "+75 Spawn Spiderlings Damage"
+    },
+    {
+      "id": 5959,
+      "desc": "+200 Health"
+    },
+    {
+      "id": 5952,
+      "desc": "20% Cooldown Reduction"
+    },
+    {
+      "id": 6372,
+      "desc": "+35% XP Gain"
+    },
+    {
+      "id": 6362,
+      "desc": "+20 Spiders Attack Damage"
+    },
+    {
+      "id": 6020,
+      "desc": "+50 Attack Speed"
+    },
+    {
+      "id": 6257,
+      "desc": "+60 Insatiable Hunger Damage/Lifesteal"
+    },
+    {
+      "id": 6258,
+      "desc": "+350 Spiders Health"
     }
   ]
 }

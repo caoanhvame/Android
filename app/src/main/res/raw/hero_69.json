@@ -1,5 +1,4 @@
 {
-  "Image": "hero_doom_bringer",
   "Id": 69,
   "Name": "Doom",
   "Fraction": "Dire",
@@ -70,6 +69,40 @@
       "lore": "When a name is tolled from the bell of Vashundol, doom is sure to follow.",
       "image": "skill_5342",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6370,
+      "desc": "+10 Scorched Earth Damage/Heal"
+    },
+    {
+      "id": 7123,
+      "desc": "+16% Scorched Earth Movement Speed"
+    },
+    {
+      "id": 5973,
+      "desc": "20% Evasion"
+    },
+    {
+      "id": 6369,
+      "desc": "+150 Devour Bonus Gold"
+    },
+    {
+      "id": 6371,
+      "desc": "+40 Doom DPS"
+    },
+    {
+      "id": 6314,
+      "desc": "Devour Can Target Ancients"
+    },
+    {
+      "id": 6073,
+      "desc": "+3% Infernal Blade Damage"
+    },
+    {
+      "id": 6827,
+      "desc": "+100% Cleave"
     }
   ]
 }

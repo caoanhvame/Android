@@ -1,5 +1,4 @@
 {
-  "Image": "hero_spectre",
   "Id": 67,
   "Name": "Spectre",
   "Fraction": "Dire",
@@ -83,6 +82,40 @@
       "lore": "The scattered shadows unite into the one true Spectre.",
       "image": "skill_5338",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5910,
+      "desc": "+5 Health Regen"
+    },
+    {
+      "id": 5920,
+      "desc": "+4 All Stats"
+    },
+    {
+      "id": 5900,
+      "desc": "+15 Desolate Damage"
+    },
+    {
+      "id": 6148,
+      "desc": "-10s Spectral Dagger Cooldown"
+    },
+    {
+      "id": 6235,
+      "desc": "+500 Health"
+    },
+    {
+      "id": 6901,
+      "desc": "+20% Spectral Dagger Slow/Bonus"
+    },
+    {
+      "id": 6902,
+      "desc": "+40% Haunt Illusion Damage"
+    },
+    {
+      "id": 6903,
+      "desc": "+8% Dispersion"
     }
   ]
 }

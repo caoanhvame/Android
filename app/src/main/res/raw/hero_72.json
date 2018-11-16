@@ -1,5 +1,4 @@
 {
-  "Image": "hero_gyrocopter",
   "Id": 72,
   "Name": "Gyrocopter",
   "Fraction": "Radiant",
@@ -70,6 +69,40 @@
       "lore": "'Bombs Away!'",
       "image": "skill_5364",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 5960,
+      "desc": "+20 Damage"
+    },
+    {
+      "id": 5959,
+      "desc": "+200 Health"
+    },
+    {
+      "id": 7141,
+      "desc": "+0.5s Homing Missile Stun Duration"
+    },
+    {
+      "id": 6652,
+      "desc": "+11 Rocket Barrage Damage"
+    },
+    {
+      "id": 6093,
+      "desc": "+40 Movement Speed"
+    },
+    {
+      "id": 6653,
+      "desc": "-25s Call Down Cooldown"
+    },
+    {
+      "id": 6216,
+      "desc": "3 Homing Missile Charges"
+    },
+    {
+      "id": 6654,
+      "desc": "Global Call Down"
     }
   ]
 }

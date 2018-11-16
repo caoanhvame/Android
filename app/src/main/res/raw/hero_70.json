@@ -1,5 +1,4 @@
 {
-  "Image": "hero_ursa",
   "Id": 70,
   "Name": "Ursa",
   "Fraction": "Radiant",
@@ -70,6 +69,40 @@
       "lore": "Ulfsaar succumbs to his ancient spirit, becoming the most ferocious creature on the battlefield.",
       "image": "skill_5360",
       "mainSkill": 1
+    }
+  ],
+  "Talents": [
+    {
+      "id": 6926,
+      "desc": "+1.75 Mana Regen"
+    },
+    {
+      "id": 5982,
+      "desc": "+8 Strength"
+    },
+    {
+      "id": 6169,
+      "desc": "+16 Agility"
+    },
+    {
+      "id": 6975,
+      "desc": "+25s Fury Swipes Reset Time"
+    },
+    {
+      "id": 6974,
+      "desc": "+1.5s Enrage Duration"
+    },
+    {
+      "id": 6132,
+      "desc": "+16 Fury Swipes Damage"
+    },
+    {
+      "id": 6976,
+      "desc": "+600 AoE Earthshock"
+    },
+    {
+      "id": 7133,
+      "desc": "Enrage gains 80% Status Resistance"
     }
   ]
 }
