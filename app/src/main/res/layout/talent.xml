@@ -7,13 +7,31 @@
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/talent"
-        android:textAlignment="center" />
+        android:orientation="vertical"
+        android:gravity="center">
 
-    <RelativeLayout
+        <ImageView
+            android:id="@+id/rr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/talent"
+            android:layout_alignBottom="@+id/talent"
+            android:layout_toRightOf="@id/talent"
+            android:src="@drawable/talent_tree" />
+
+        <TextView
+            android:id="@+id/talent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5sp"
+            android:text="@string/talent" />
+
+    </RelativeLayout>
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="3sp"
@@ -22,12 +40,14 @@
 
         <TextView
             android:id="@+id/talent_left_25"
-            android:layout_width="150sp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5sp"
             android:textColor="@color/white"
             android:gravity="center"
-            android:textSize="13sp" />
+            android:textSize="13sp"
+            android:layout_weight="1"
+            android:text="dsfdfsdfsdfsdsf dsdfsdsdfs  sddsfdfsdfs"/>
 
         <TextView
             android:id="@+id/talent_lvl_25"
@@ -42,16 +62,17 @@
 
         <TextView
             android:id="@+id/talent_right_25"
-            android:layout_width="150sp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/talent_lvl_25"
             android:padding="5sp"
             android:gravity="center"
             android:textColor="@color/white"
-            android:textSize="13sp" />
-    </RelativeLayout>
+            android:layout_weight="1"
+            android:textSize="13sp" android:text="dsfdfsdfsdfsdsf dsdfsdsdfs  sddsfdfsdfs"/>
+    </LinearLayout>
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="3sp"
@@ -60,10 +81,12 @@
 
         <TextView
             android:id="@+id/talent_left_20"
-            android:layout_width="150sp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5sp"
             android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_weight="1"
             android:textSize="13sp" />
 
         <TextView
@@ -79,16 +102,17 @@
 
         <TextView
             android:id="@+id/talent_right_20"
-            android:layout_width="150sp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/talent_lvl_20"
             android:padding="5sp"
             android:gravity="center"
             android:textColor="@color/white"
+            android:layout_weight="1"
             android:textSize="13sp" />
-    </RelativeLayout>
+    </LinearLayout>
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="3sp"
@@ -97,11 +121,12 @@
 
         <TextView
             android:id="@+id/talent_left_15"
-            android:layout_width="150sp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5sp"
             android:gravity="center"
             android:textColor="@color/white"
+            android:layout_weight="1"
             android:textSize="13sp" />
 
         <TextView
@@ -117,16 +142,17 @@
 
         <TextView
             android:id="@+id/talent_right_15"
-            android:layout_width="150sp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/talent_lvl_15"
             android:padding="5sp"
             android:gravity="center"
             android:textColor="@color/white"
+            android:layout_weight="1"
             android:textSize="13sp" />
-    </RelativeLayout>
+    </LinearLayout>
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="3sp"
@@ -135,7 +161,7 @@
 
         <TextView
             android:id="@+id/talent_left_10"
-            android:layout_width="150sp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5sp"
             android:gravity="center"
@@ -155,12 +181,13 @@
 
         <TextView
             android:id="@+id/talent_right_10"
-            android:layout_width="150sp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/talent_lvl_10"
             android:padding="5sp"
             android:gravity="center"
             android:textColor="@color/white"
+            android:layout_weight="1"
             android:textSize="13sp" />
-    </RelativeLayout>
+    </LinearLayout>
 </LinearLayout>
